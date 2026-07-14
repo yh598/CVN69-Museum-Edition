@@ -1,0 +1,1230 @@
+{
+  "generated_utc": "2026-07-14T21:05:53.026989+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Shape.check(True):Sponson_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Sponson_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Sponson_Aft_Port_CIWS",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Sponson_Aft_Port_RAM",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Sponson_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Boat_Access_Platform_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_01_Forward_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_01_Forward_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_01_Forward_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_01_Forward_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_02_Aft_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_02_Aft_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):CIWS_02_Aft_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_02_Aft_Port_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):RAM_02_Aft_Port_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_02_Aft_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_02_Aft_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):SeaSparrow_02_Aft_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_01_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_02_Mid_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_03_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_04_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_05_Mid_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):LifeRaft_Group_06_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Boat_01_Port_Utility",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Boat_01_Charcoal_Insert",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Boat_Cradle_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Boat_Davit_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Railing_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Railing_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):DeckEdge_Access_Ladder_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):DeckEdge_Access_Ladder_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Navigation_Light_Housings",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Emergency_Locker_Group_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Emergency_Locker_Group_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Weapon_Mount_Coupon_Male",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "Shape.check(True):Weapon_Mount_Coupon_Female",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "valid=True, closed=True, strict_messages=0"
+    },
+    {
+      "name": "approved overall length",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "476.000 mm"
+    },
+    {
+      "name": "minimum structural wall",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "wall=1.20, remaining platform skin=1.20 mm"
+    },
+    {
+      "name": "minimum raised detail",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.50 \u00d7 0.35 mm"
+    },
+    {
+      "name": "minimum fragile/barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "fragile=0.80, barrel=1.00 mm"
+    },
+    {
+      "name": "part count",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "43 production parts"
+    },
+    {
+      "name": "weapon counts",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "2 CIWS, 2 RAM, 2 SeaSparrow"
+    },
+    {
+      "name": "foundation envelope:CIWS_01_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(93.00, -24.00, 34.50) on Sponson_Forward_Port"
+    },
+    {
+      "name": "seating/lean:CIWS_01_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "foundation envelope:RAM_01_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(84.50, 25.00, 34.50) on Sponson_Forward_Starboard"
+    },
+    {
+      "name": "seating/lean:RAM_01_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "foundation envelope:SeaSparrow_01_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(111.00, 27.00, 34.50) on Sponson_Forward_Starboard"
+    },
+    {
+      "name": "seating/lean:SeaSparrow_01_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "foundation envelope:CIWS_02_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(431.00, -37.00, 34.50) on Sponson_Aft_Port_CIWS"
+    },
+    {
+      "name": "seating/lean:CIWS_02_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "foundation envelope:RAM_02_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(459.00, -37.00, 34.50) on Sponson_Aft_Port_RAM"
+    },
+    {
+      "name": "seating/lean:RAM_02_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "foundation envelope:SeaSparrow_02_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "(424.00, 40.00, 34.50) on Sponson_Aft_Starboard"
+    },
+    {
+      "name": "seating/lean:SeaSparrow_02_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "0.00 mm X/Y/Z seating error; 0.00\u00b0 lean by shared parametric datum"
+    },
+    {
+      "name": "print envelope/z0:Sponson_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(22.0, 9.9, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Sponson_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Sponson_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(47.0, 12.9, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Sponson_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Sponson_Aft_Port_CIWS",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(22.0, 8.8, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Sponson_Aft_Port_CIWS",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Sponson_Aft_Port_RAM",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(23.0, 11.0, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Sponson_Aft_Port_RAM",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Sponson_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(22.0, 9.0, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Sponson_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Boat_Access_Platform_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(19.0, 8.3, 2.4), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Boat_Access_Platform_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_01_Forward_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_01_Forward_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_01_Forward_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.4, 4.399, 5.0), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_01_Forward_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_01_Forward_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(2.9, 2.899, 2.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_01_Forward_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_01_Forward_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(1.2, 5.1, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_01_Forward_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.00 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.8, 4.199, 6.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.8, 0.95, 4.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.50 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_01_Forward_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 4.2, 5.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_01_Forward_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 0.95, 3.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_01_Forward_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.50 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_02_Aft_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.4, 4.399, 5.0), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_02_Aft_Port_Upper_Body",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_02_Aft_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(2.9, 2.899, 2.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_02_Aft_Port_Radar_Dome",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:CIWS_02_Aft_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(1.2, 5.1, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:CIWS_02_Aft_Port_Barrel",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.00 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_02_Aft_Port_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_02_Aft_Port_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.8, 4.199, 6.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_02_Aft_Port_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:RAM_02_Aft_Port_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.8, 0.95, 4.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:RAM_02_Aft_Port_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.50 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_02_Aft_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 5.4, 3.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_02_Aft_Starboard_Foundation",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_02_Aft_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 4.2, 5.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_02_Aft_Starboard_Launcher",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:SeaSparrow_02_Aft_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.4, 0.95, 3.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:SeaSparrow_02_Aft_Starboard_Launcher_Face",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.50 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_01_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_01_Forward_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_02_Mid_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_02_Mid_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_03_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_03_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_04_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_04_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_05_Mid_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_05_Mid_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:LifeRaft_Group_06_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(8.0, 3.7, 1.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:LifeRaft_Group_06_Aft_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Boat_01_Port_Utility",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(12.6, 3.5, 2.1), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Boat_01_Port_Utility",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Boat_01_Charcoal_Insert",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(4.8, 2.2, 0.6), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Boat_01_Charcoal_Insert",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.60 mm"
+    },
+    {
+      "name": "print envelope/z0:Boat_Cradle_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(12.2, 4.2, 1.0), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Boat_Cradle_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Boat_Davit_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(1.1, 4.95, 7.275), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Boat_Davit_01_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.80 mm"
+    },
+    {
+      "name": "print envelope/z0:Railing_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(45.7, 0.7, 2.55), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Railing_Forward_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.60 mm"
+    },
+    {
+      "name": "print envelope/z0:Railing_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(21.7, 0.7, 2.55), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Railing_Aft_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.60 mm"
+    },
+    {
+      "name": "print envelope/z0:DeckEdge_Access_Ladder_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(3.4, 0.6, 5.0), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:DeckEdge_Access_Ladder_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.60 mm"
+    },
+    {
+      "name": "print envelope/z0:DeckEdge_Access_Ladder_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(3.4, 0.6, 5.0), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:DeckEdge_Access_Ladder_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=0.60 mm"
+    },
+    {
+      "name": "print envelope/z0:Navigation_Light_Housings",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(1.6, 42.2, 2.35), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Navigation_Light_Housings",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Emergency_Locker_Group_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.3, 1.2, 2.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Emergency_Locker_Group_Port",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Emergency_Locker_Group_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(5.3, 1.2, 2.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Emergency_Locker_Group_Starboard",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Weapon_Mount_Coupon_Male",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(48.0, 24.0, 4.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Weapon_Mount_Coupon_Male",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "print envelope/z0:Weapon_Mount_Coupon_Female",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "size=(48.0, 24.0, 4.2), min_z=0.000000"
+    },
+    {
+      "name": "designed minimum:Weapon_Mount_Coupon_Female",
+      "category": "geometry",
+      "status": "PASS",
+      "evidence": "declared minimum=1.20 mm"
+    },
+    {
+      "name": "STEP round-trip:CVN69_Hull_Deck_Island_Weapons_Review.step",
+      "category": "step",
+      "status": "PASS",
+      "evidence": "solids=124, strict_messages=248, self_intersections=0"
+    },
+    {
+      "name": "STEP round-trip:CVN69_Weapon_Mount_Interface_Coupon.step",
+      "category": "step",
+      "status": "PASS",
+      "evidence": "solids=2, strict_messages=0, self_intersections=0"
+    },
+    {
+      "name": "STEP round-trip:CVN69_Weapons_DeckEdge_Assembly.step",
+      "category": "step",
+      "status": "PASS",
+      "evidence": "solids=44, strict_messages=141, self_intersections=0"
+    },
+    {
+      "name": "integrated interference",
+      "category": "interference",
+      "status": "PASS",
+      "evidence": "baseline_hits=1, pair_hits=4"
+    },
+    {
+      "name": "deterministic rebuild",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "54 deterministic files byte-matched"
+    },
+    {
+      "name": "required output:CVN69_Weapons_DeckEdge.FCStd",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "CAD/FreeCAD/CVN69_Weapons_DeckEdge.FCStd"
+    },
+    {
+      "name": "required output:CVN69_Weapons_DeckEdge_Assembly.step",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "STEP/CVN69_Weapons_DeckEdge_Assembly.step"
+    },
+    {
+      "name": "required output:CVN69_Weapon_Mount_Interface_Coupon.step",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "STEP/CVN69_Weapon_Mount_Interface_Coupon.step"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Review.step",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "STEP/CVN69_Hull_Deck_Island_Weapons_Review.step"
+    },
+    {
+      "name": "required output:CVN69_Weapons_DeckEdge_Assembly.obj",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "OBJ/CVN69_Weapons_DeckEdge_Assembly.obj"
+    },
+    {
+      "name": "required output:CVN69_Weapons_DeckEdge_Assembly.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/CVN69_Weapons_DeckEdge_Assembly.3mf"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Review.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/CVN69_Hull_Deck_Island_Weapons_Review.3mf"
+    },
+    {
+      "name": "required output:Print_Plate_01_Major_Weapons.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/Print_Plate_01_Major_Weapons.3mf"
+    },
+    {
+      "name": "required output:Print_Plate_02_Sponsons_Foundations.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/Print_Plate_02_Sponsons_Foundations.3mf"
+    },
+    {
+      "name": "required output:Print_Plate_03_LifeRafts_Boats.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/Print_Plate_03_LifeRafts_Boats.3mf"
+    },
+    {
+      "name": "required output:Print_Plate_04_DeckEdge_Details.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/Print_Plate_04_DeckEdge_Details.3mf"
+    },
+    {
+      "name": "required output:Weapon_Mount_Interface_Test_Coupon.3mf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "3MF/Weapon_Mount_Interface_Test_Coupon.3mf"
+    },
+    {
+      "name": "required output:Configuration_Audit.md",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "References/Configuration_Audit.md"
+    },
+    {
+      "name": "required output:README.md",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "README.md"
+    },
+    {
+      "name": "required output:Glue_Only_Weapons_Assembly.md",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Assembly/Glue_Only_Weapons_Assembly.md"
+    },
+    {
+      "name": "required output:Weapons_DeckEdge_Drawings.pdf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Docs/Weapons_DeckEdge_Drawings.pdf"
+    },
+    {
+      "name": "required output:Weapons_DeckEdge_Printing_Guide.pdf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Docs/Weapons_DeckEdge_Printing_Guide.pdf"
+    },
+    {
+      "name": "required output:Weapons_DeckEdge_Project_Plan.pdf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Docs/Weapons_DeckEdge_Project_Plan.pdf"
+    },
+    {
+      "name": "required output:Weapon_Mount_Coupon_Instructions.pdf",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Docs/Weapon_Mount_Coupon_Instructions.pdf"
+    },
+    {
+      "name": "required output:BambuStudio_Validation.json",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "QA/BambuStudio_Validation.json"
+    },
+    {
+      "name": "required output:CIWS_Assembly_Closeup.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CIWS_Assembly_Closeup.png"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Bow_Isometric.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CVN69_Hull_Deck_Island_Weapons_Bow_Isometric.png"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Port.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CVN69_Hull_Deck_Island_Weapons_Port.png"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Starboard.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CVN69_Hull_Deck_Island_Weapons_Starboard.png"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Stern_Isometric.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CVN69_Hull_Deck_Island_Weapons_Stern_Isometric.png"
+    },
+    {
+      "name": "required output:CVN69_Hull_Deck_Island_Weapons_Top.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/CVN69_Hull_Deck_Island_Weapons_Top.png"
+    },
+    {
+      "name": "required output:LifeRaft_Boat_Area_Closeup.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/LifeRaft_Boat_Area_Closeup.png"
+    },
+    {
+      "name": "required output:Print_Plate_01_Overview.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Print_Plate_01_Overview.png"
+    },
+    {
+      "name": "required output:Print_Plate_02_Overview.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Print_Plate_02_Overview.png"
+    },
+    {
+      "name": "required output:Print_Plate_03_Overview.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Print_Plate_03_Overview.png"
+    },
+    {
+      "name": "required output:Print_Plate_04_Overview.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Print_Plate_04_Overview.png"
+    },
+    {
+      "name": "required output:RAM_Assembly_Closeup.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/RAM_Assembly_Closeup.png"
+    },
+    {
+      "name": "required output:SeaSparrow_Assembly_Closeup.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/SeaSparrow_Assembly_Closeup.png"
+    },
+    {
+      "name": "required output:Weapon_Area_Aft_Port.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapon_Area_Aft_Port.png"
+    },
+    {
+      "name": "required output:Weapon_Area_Aft_Starboard.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapon_Area_Aft_Starboard.png"
+    },
+    {
+      "name": "required output:Weapon_Area_Forward_Port.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapon_Area_Forward_Port.png"
+    },
+    {
+      "name": "required output:Weapon_Area_Forward_Starboard.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapon_Area_Forward_Starboard.png"
+    },
+    {
+      "name": "required output:Weapon_Interface_Family_Section.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapon_Interface_Family_Section.png"
+    },
+    {
+      "name": "required output:Weapons_DeckEdge_Exploded.png",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "Render/Weapons_DeckEdge_Exploded.png"
+    },
+    {
+      "name": "PDF integrity:Weapon_Mount_Coupon_Instructions.pdf",
+      "category": "document",
+      "status": "PASS",
+      "evidence": "pages=2, bytes=127762"
+    },
+    {
+      "name": "PDF integrity:Weapons_DeckEdge_Drawings.pdf",
+      "category": "document",
+      "status": "PASS",
+      "evidence": "pages=7, bytes=1720700"
+    },
+    {
+      "name": "PDF integrity:Weapons_DeckEdge_Printing_Guide.pdf",
+      "category": "document",
+      "status": "PASS",
+      "evidence": "pages=4, bytes=513073"
+    },
+    {
+      "name": "PDF integrity:Weapons_DeckEdge_Project_Plan.pdf",
+      "category": "document",
+      "status": "PASS",
+      "evidence": "pages=3, bytes=385959"
+    },
+    {
+      "name": "all STL topology",
+      "category": "mesh",
+      "status": "PASS",
+      "evidence": "45/45 pass"
+    },
+    {
+      "name": "all 3MF packages",
+      "category": "package",
+      "status": "PASS",
+      "evidence": "7/7 pass"
+    },
+    {
+      "name": "Bambu Studio",
+      "category": "bambu",
+      "status": "PASS",
+      "evidence": "52 exports checked"
+    }
+  ]
+}

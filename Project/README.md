@@ -1,5 +1,7 @@
 # USS Dwight D. Eisenhower (CVN-69) — Museum Edition
 
+Milestone 4 defensive-systems and deck-edge reconstruction is available under [`WeaponsDeckEdge/`](WeaponsDeckEdge/README.md). It adds 43 new parametric, glue-only production objects for the frozen 2023–2024 visible fit—two CIWS, two RAM, two Mk 29/ESSM installations, their asymmetric keyed sponsons/foundations, life-raft groups, a generic public-photo-informed utility-boat set, and selected major deck-edge fittings—without altering approved Milestones 1–3. STEP/STL/OBJ/3MF exports, an actual-interface coupon, integrated review models, nineteen renders, drawings, and strict FreeCAD/STEP/mesh/interference/Bambu QA are included. No release tag is created.
+
 Milestone 3 island reconstruction and hull–deck integration review is available under [`Island/`](Island/README.md). It is a new parametric BRep reconstruction frozen to the 2023–2024 deployment fit, with a concealed glue-only deck interface, separate no-paint color objects, interface coupon, integrated review models, and strict validation. Approved Milestone 1–2 geometry remains immutable.
 
 Milestone 2 hull–flight-deck integration is available for review under [`Integration/`](Integration/README.md). It combines the approved hull and deck packages with a concealed printed-pad, glue-only interface; all mandatory geometry, interference, mesh, package, and Bambu Studio checks pass. It is intentionally untagged pending physical coupon and reviewer approval.

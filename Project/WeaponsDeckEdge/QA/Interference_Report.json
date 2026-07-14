@@ -1,0 +1,96 @@
+{
+  "generated_utc": "2026-07-14T21:05:53.024619+00:00",
+  "threshold_mm3": 0.1,
+  "baseline_objects_checked": 72,
+  "new_objects_checked": 43,
+  "baseline_intersections": [
+    {
+      "new_object": "Sponson_Forward_Starboard",
+      "approved_object": "Deck_Module_1_Bow",
+      "approved_role": "deck_module",
+      "overlap_mm3": 0.00342857,
+      "status": "PASS"
+    }
+  ],
+  "new_object_intersections": [
+    {
+      "left": "RAM_01_Forward_Starboard_Launcher",
+      "right": "RAM_01_Forward_Starboard_Launcher_Face",
+      "overlap_mm3": 0.04654094,
+      "status": "PASS"
+    },
+    {
+      "left": "SeaSparrow_01_Forward_Starboard_Launcher",
+      "right": "SeaSparrow_01_Forward_Starboard_Launcher_Face",
+      "overlap_mm3": 0.02196256,
+      "status": "PASS"
+    },
+    {
+      "left": "RAM_02_Aft_Port_Launcher",
+      "right": "RAM_02_Aft_Port_Launcher_Face",
+      "overlap_mm3": 0.04654094,
+      "status": "PASS"
+    },
+    {
+      "left": "SeaSparrow_02_Aft_Starboard_Launcher",
+      "right": "SeaSparrow_02_Aft_Starboard_Launcher_Face",
+      "overlap_mm3": 0.02196256,
+      "status": "PASS"
+    }
+  ],
+  "grouped_approved_overlap_mm3": {
+    "deck_module": 0.00342857
+  },
+  "seam_clearances": [
+    {
+      "installation": "CIWS_01_Forward_Port",
+      "nearest_hull_seam_mm": 65.66667,
+      "nearest_deck_seam_mm": 53.0,
+      "required_mm": 2.75,
+      "status": "PASS"
+    },
+    {
+      "installation": "RAM_01_Forward_Starboard",
+      "nearest_hull_seam_mm": 74.16667,
+      "nearest_deck_seam_mm": 61.5,
+      "required_mm": 2.75,
+      "status": "PASS"
+    },
+    {
+      "installation": "SeaSparrow_01_Forward_Starboard",
+      "nearest_hull_seam_mm": 47.66667,
+      "nearest_deck_seam_mm": 35.0,
+      "required_mm": 2.75,
+      "status": "PASS"
+    },
+    {
+      "installation": "CIWS_02_Aft_Port",
+      "nearest_hull_seam_mm": 113.66667,
+      "nearest_deck_seam_mm": 145.0,
+      "required_mm": 2.75,
+      "status": "PASS"
+    },
+    {
+      "installation": "RAM_02_Aft_Port",
+      "nearest_hull_seam_mm": 141.66667,
+      "nearest_deck_seam_mm": 173.0,
+      "required_mm": 2.75,
+      "status": "PASS"
+    },
+    {
+      "installation": "SeaSparrow_02_Aft_Starboard",
+      "nearest_hull_seam_mm": 106.66667,
+      "nearest_deck_seam_mm": 138.0,
+      "required_mm": 2.75,
+      "status": "PASS"
+    }
+  ],
+  "seating_error_mm": 0.0,
+  "lean_deg": 0.0,
+  "modeled_counts": {
+    "CIWS": 2,
+    "RAM": 2,
+    "SeaSparrow": 2
+  },
+  "overall_status": "PASS"
+}

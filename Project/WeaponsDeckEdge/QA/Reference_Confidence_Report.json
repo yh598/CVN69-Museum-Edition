@@ -1,0 +1,115 @@
+{
+  "generated_utc": "2026-07-14T21:01:22.756479+00:00",
+  "overall_status": "PASS",
+  "configuration_period": "2023-10-14 through 2024-07-14 deployment; June 2024 visible fit preferred",
+  "installation_count": 6,
+  "family_counts": {
+    "CIWS": 2,
+    "RAM": 2,
+    "SeaSparrow": 2
+  },
+  "public_urls": [
+    "https://www.dvidshub.net/image/8509325/uss-dwight-d-eisenhower-cvn-69-conducts-photox-with-uss-wasp",
+    "https://www.dvidshub.net/image/8528466/eisenhower-returns-home",
+    "https://www.navsea.navy.mil/Portals/103/2018YIR_Final_1-23-2019_Web.pdf",
+    "https://www.navy.mil/DesktopModules/ArticleCS/Print.aspx?Article=2239841&ModuleId=523&PortalId=1",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2167831/mk-15-phalanx-close-in-weapon-system-ciws/",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/",
+    "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+    "https://www.navy.mil/Resources/Photo-Gallery/igphoto/2003460881/",
+    "https://www.navy.mil/Resources/Photo-Gallery/igphoto/2003482361/",
+    "https://www.navy.mil/Resources/Photo-Gallery/igphoto/2003496438/",
+    "https://www.navy.mil/Resources/Photo-Gallery/igphoto/2003503382/"
+  ],
+  "checks": [
+    {
+      "check": "installation:CIWS_01_Forward_Port",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:CIWS_01_Forward_Port",
+      "status": "PASS",
+      "expected": "93.0 | -24.0 | 34.5"
+    },
+    {
+      "check": "installation:RAM_01_Forward_Starboard",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:RAM_01_Forward_Starboard",
+      "status": "PASS",
+      "expected": "84.5 | 25.0 | 34.5"
+    },
+    {
+      "check": "installation:SeaSparrow_01_Forward_Starboard",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:SeaSparrow_01_Forward_Starboard",
+      "status": "PASS",
+      "expected": "111.0 | 27.0 | 34.5"
+    },
+    {
+      "check": "installation:CIWS_02_Aft_Port",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:CIWS_02_Aft_Port",
+      "status": "PASS",
+      "expected": "431.0 | -37.0 | 34.5"
+    },
+    {
+      "check": "installation:RAM_02_Aft_Port",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:RAM_02_Aft_Port",
+      "status": "PASS",
+      "expected": "459.0 | -37.0 | 34.5"
+    },
+    {
+      "check": "installation:SeaSparrow_02_Aft_Starboard",
+      "status": "PASS"
+    },
+    {
+      "check": "coordinate:SeaSparrow_02_Aft_Starboard",
+      "status": "PASS",
+      "expected": "424.0 | 40.0 | 34.5"
+    },
+    {
+      "check": "frozen_period",
+      "status": "PASS"
+    },
+    {
+      "check": "access_date",
+      "status": "PASS"
+    },
+    {
+      "check": "public_url_count",
+      "status": "PASS",
+      "count": 11
+    },
+    {
+      "check": "official_domains",
+      "status": "PASS",
+      "domains": [
+        "www.dvidshub.net",
+        "www.navsea.navy.mil",
+        "www.navy.mil"
+      ]
+    },
+    {
+      "check": "model_counts",
+      "status": "PASS",
+      "counts": {
+        "CIWS": 2,
+        "RAM": 2,
+        "SeaSparrow": 2
+      }
+    },
+    {
+      "check": "honesty_labels",
+      "status": "PASS"
+    }
+  ]
+}

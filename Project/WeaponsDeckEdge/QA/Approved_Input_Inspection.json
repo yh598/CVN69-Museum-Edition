@@ -1,0 +1,76 @@
+{
+  "inspected_utc": "2026-07-14T21:05:33.277687+00:00",
+  "freecad_version": "1.1.1",
+  "coordinate_system": {
+    "x": "0 bow to 476 stern",
+    "y": "port negative / starboard positive",
+    "z": "keel datum"
+  },
+  "deck_base_z_mm": 31.5,
+  "deck_top_z_mm": 34.5,
+  "island_bounds_mm": [
+    325.0,
+    19.2,
+    355.0,
+    33.0
+  ],
+  "hull_seams_mm": [
+    158.66666666666666,
+    317.3333333333333
+  ],
+  "deck_seams_mm": [
+    146.0,
+    286.0
+  ],
+  "approved_files": {
+    "Project/CAD/FreeCAD/Hull.FCStd": {
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    "Project/CAD/Python/hull_parameters.py": {
+      "bytes": 4074,
+      "sha256": "220e1d6aaa757ee52a68da90941be370b0874c8f70a3c667331e5ca75c0e63d1"
+    },
+    "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": {
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    "Project/FlightDeck/CAD/Python/deck_parameters.py": {
+      "bytes": 3860,
+      "sha256": "ee2d10f44dd33f0349d24d32a9e8b3fb250fcefe896d065e7508ef39b6d581b0"
+    },
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/STEP/CVN69_Hull_Deck_Assembly.step": {
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    "Project/Island/CAD/FreeCAD/CVN69_Island.FCStd": {
+      "bytes": 109888,
+      "sha256": "2e29a179e1613e8b58b9dedd18d94a2fdb9598d4499359761b43e20efb9538ab"
+    },
+    "Project/Island/CAD/Python/island_parameters.py": {
+      "bytes": 7015,
+      "sha256": "5c6a77a82a0974110ed4a0380e861735b1f91176bed9613aeb5a6fbec63f8e9f"
+    },
+    "Project/Island/STEP/CVN69_Hull_Deck_Island_Review.step": {
+      "bytes": 5470270,
+      "sha256": "351dccf1382337876b2fa81e5bc5a954f0f3fc448c6853ced50eaee853ace222"
+    },
+    "Project/Island/References/Configuration_Audit.md": {
+      "bytes": 8352,
+      "sha256": "e54d391c5a2d5533150ca5592b2e721871e72df412a168cf60724005f215b2c2"
+    },
+    "Project/Island/QA/Reference_Confidence_Report.md": {
+      "bytes": 1463,
+      "sha256": "73fe1126a2aede7da512170d47375d79ed13ae34579d6646226bfaca2a4662fc"
+    }
+  },
+  "read_only_policy": "Approved Milestones 1\u20133 are opened read-only and are never overwritten."
+}

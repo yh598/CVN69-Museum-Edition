@@ -1,0 +1,44 @@
+object_name,material
+Boat_01_Charcoal_Insert,Bambu PLA Matte Charcoal
+Boat_01_Port_Utility,Bambu PLA Matte Ash Gray
+Boat_Access_Platform_Port,Bambu PLA Matte Ash Gray
+Boat_Cradle_01_Port,Bambu PLA Matte Ash Gray
+Boat_Davit_01_Port,Bambu PLA Matte Ash Gray
+CIWS_01_Forward_Port_Barrel,Bambu PLA Silk Silver
+CIWS_01_Forward_Port_Foundation,Bambu PLA Matte Ash Gray
+CIWS_01_Forward_Port_Radar_Dome,Bambu PLA Matte Ivory White
+CIWS_01_Forward_Port_Upper_Body,Bambu PLA Matte Ash Gray
+CIWS_02_Aft_Port_Barrel,Bambu PLA Silk Silver
+CIWS_02_Aft_Port_Foundation,Bambu PLA Matte Ash Gray
+CIWS_02_Aft_Port_Radar_Dome,Bambu PLA Matte Ivory White
+CIWS_02_Aft_Port_Upper_Body,Bambu PLA Matte Ash Gray
+DeckEdge_Access_Ladder_Port,Bambu PLA Matte Ash Gray
+DeckEdge_Access_Ladder_Starboard,Bambu PLA Matte Ash Gray
+Emergency_Locker_Group_Port,Bambu PLA Matte Ash Gray
+Emergency_Locker_Group_Starboard,Bambu PLA Matte Ash Gray
+LifeRaft_Group_01_Forward_Port,Bambu PLA Matte Ivory White
+LifeRaft_Group_02_Mid_Port,Bambu PLA Matte Ivory White
+LifeRaft_Group_03_Aft_Port,Bambu PLA Matte Ivory White
+LifeRaft_Group_04_Forward_Starboard,Bambu PLA Matte Ivory White
+LifeRaft_Group_05_Mid_Starboard,Bambu PLA Matte Ivory White
+LifeRaft_Group_06_Aft_Starboard,Bambu PLA Matte Ivory White
+Navigation_Light_Housings,Bambu PLA Basic Black
+RAM_01_Forward_Starboard_Foundation,Bambu PLA Matte Ash Gray
+RAM_01_Forward_Starboard_Launcher,Bambu PLA Matte Ash Gray
+RAM_01_Forward_Starboard_Launcher_Face,Bambu PLA Matte Charcoal
+RAM_02_Aft_Port_Foundation,Bambu PLA Matte Ash Gray
+RAM_02_Aft_Port_Launcher,Bambu PLA Matte Ash Gray
+RAM_02_Aft_Port_Launcher_Face,Bambu PLA Matte Charcoal
+Railing_Aft_Port,Bambu PLA Matte Ash Gray
+Railing_Forward_Starboard,Bambu PLA Matte Ash Gray
+SeaSparrow_01_Forward_Starboard_Foundation,Bambu PLA Matte Ash Gray
+SeaSparrow_01_Forward_Starboard_Launcher,Bambu PLA Matte Ash Gray
+SeaSparrow_01_Forward_Starboard_Launcher_Face,Bambu PLA Matte Charcoal
+SeaSparrow_02_Aft_Starboard_Foundation,Bambu PLA Matte Ash Gray
+SeaSparrow_02_Aft_Starboard_Launcher,Bambu PLA Matte Ash Gray
+SeaSparrow_02_Aft_Starboard_Launcher_Face,Bambu PLA Matte Charcoal
+Sponson_Aft_Port_CIWS,Bambu PLA Matte Ash Gray
+Sponson_Aft_Port_RAM,Bambu PLA Matte Ash Gray
+Sponson_Aft_Starboard,Bambu PLA Matte Ash Gray
+Sponson_Forward_Port,Bambu PLA Matte Ash Gray
+Sponson_Forward_Starboard,Bambu PLA Matte Ash Gray

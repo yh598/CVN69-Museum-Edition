@@ -2,6 +2,38 @@
 
 All released changes use semantic versioning. Release artifacts are never overwritten after tagging.
 
+## Unreleased — Milestone 4 defensive systems and deck-edge equipment
+
+### Added
+
+- New deterministic parametric FreeCAD BReps for the public 2023–2024 visible defensive fit; no source STL is opened by the production builder and no source triangles are reused.
+- Public configuration audit fixing two Mk 15 Phalanx CIWS, two Mk 49 RAM, and two Mk 29 Sea Sparrow/ESSM installations, with exact modeled coordinates, evidence URLs/dates, confidence, and unresolved uncertainty.
+- Forty-three named production objects: six additive platforms/sponsons, six weapons separated into foundations/bodies/faces/domes/barrels, six life-raft groups, a generic utility-boat/cradle/davit set, and selected major railings, ladders, lights, and lockers.
+- One common asymmetric printed mount interface with 0.25 mm clearance per side, 1.20 mm seating depth, 1.20 mm remaining platform skin, hidden open glue channel, and a two-part physical coupon.
+- Editable FreeCAD source; weapons/coupon/review STEP; 45 production/coupon STLs; assembly OBJ; seven named-object 3MF packages; and a non-production integrated hull–deck–island–weapons review model.
+- Nineteen high-resolution full-ship, weapon-area, family, exploded, interface-section, and print-plate renders.
+- Drawings, printing guide, project plan, coupon instructions, glue-only assembly guide, dimensional/topology/interference/reference/Bambu reports, material mapping, and SHA-256 build manifest.
+
+### Accuracy boundary
+
+- The approved coordinate system, deck datum, seams, and island bounds are dimensionally verified imports.
+- System identities are supported by official public Navy/NAVSEA evidence; exact counts and placements are cross-image-derived and are not described as shipyard-accurate.
+- Launcher grids, CIWS barrels, life-raft canisters, railings, ladders, lights, and selected fittings are deliberately simplified or enlarged for 0.4 mm-nozzle FDM and are labeled accordingly.
+- The utility boat is intentionally generic; public evidence did not establish a reliable subtype.
+
+### Validation
+
+- 204/204 native BRep, dimensional, interface, STEP round-trip, output, document, topology, interference, deterministic-rebuild, and Bambu checks pass.
+- 45/45 STL files are watertight/manifold with zero boundary or non-manifold edges, zero degenerate triangles, consistent normals, and documented z=0 print orientation.
+- 7/7 3MF packages pass ZIP, CRC, XML, relationship, content-type, object-name, material, index, and build-item validation; 3/3 STEP exports re-import as closed valid solids with zero self-intersections.
+- Full integrated checks report zero unintended overlap above 0.10 mm³ against approved hull/deck modules, elevators, catapults, arresting wires, markings, twelve landing pads, island structures, seams, and neighboring Milestone 4 objects.
+- The second full FreeCAD rebuild byte-matches all 54 deterministic STL/OBJ/3MF outputs; Bambu Studio 02.07.01.62 independently imports all 52 STL/3MF exports and reports them manifold.
+
+### Scope
+
+- Aircraft, deck vehicles, ammunition, internal/functional weapon mechanisms, ocean base, display stand, electronics, and final full-ship release remain excluded.
+- No v1.0 or other release tag is created; physical coupons remain separate real-world gates.
+
 ## Unreleased — Milestone 3 island reconstruction and integration
 
 ### Added

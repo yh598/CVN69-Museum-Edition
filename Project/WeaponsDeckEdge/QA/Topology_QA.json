@@ -1,0 +1,1364 @@
+{
+  "generated_utc": "2026-07-14T21:05:53.027014+00:00",
+  "overall_status": "PASS",
+  "stl": [
+    {
+      "path": "STL/Boat_01_Charcoal_Insert.stl",
+      "facets": 12,
+      "bounds_mm": [
+        4.8,
+        2.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 6.336001,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Boat_01_Port_Utility.stl",
+      "facets": 18,
+      "bounds_mm": [
+        12.6,
+        3.5,
+        2.1
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 72.449997,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Boat_Access_Platform_Port.stl",
+      "facets": 28,
+      "bounds_mm": [
+        19.0,
+        8.3,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 374.91002,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Boat_Cradle_01_Port.stl",
+      "facets": 76,
+      "bounds_mm": [
+        12.2,
+        4.2,
+        1.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 12.656,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Boat_Davit_01_Port.stl",
+      "facets": 1626,
+      "bounds_mm": [
+        1.1,
+        4.949751,
+        7.275371
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 9.121852,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_01_Forward_Port_Barrel.stl",
+      "facets": 516,
+      "bounds_mm": [
+        1.2,
+        5.1,
+        1.2
+      ],
+      "minimum_mm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.396827,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_01_Forward_Port_Foundation.stl",
+      "facets": 554,
+      "bounds_mm": [
+        5.4,
+        5.399809,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676703,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_01_Forward_Port_Radar_Dome.stl",
+      "facets": 1760,
+      "bounds_mm": [
+        2.9,
+        2.899099,
+        2.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 8.166635,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_01_Forward_Port_Upper_Body.stl",
+      "facets": 1070,
+      "bounds_mm": [
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 50.802983,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_02_Aft_Port_Barrel.stl",
+      "facets": 516,
+      "bounds_mm": [
+        1.2,
+        5.1,
+        1.2
+      ],
+      "minimum_mm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.396827,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_02_Aft_Port_Foundation.stl",
+      "facets": 554,
+      "bounds_mm": [
+        5.4,
+        5.399809,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676703,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_02_Aft_Port_Radar_Dome.stl",
+      "facets": 1760,
+      "bounds_mm": [
+        2.9,
+        2.899099,
+        2.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 8.166635,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/CIWS_02_Aft_Port_Upper_Body.stl",
+      "facets": 1070,
+      "bounds_mm": [
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 50.802983,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/DeckEdge_Access_Ladder_Port.stl",
+      "facets": 92,
+      "bounds_mm": [
+        3.4,
+        0.6,
+        5.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 7.560001,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/DeckEdge_Access_Ladder_Starboard.stl",
+      "facets": 92,
+      "bounds_mm": [
+        3.4,
+        0.6,
+        5.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 7.560001,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Emergency_Locker_Group_Port.stl",
+      "facets": 12,
+      "bounds_mm": [
+        5.3,
+        1.2,
+        2.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 13.992001,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Emergency_Locker_Group_Starboard.stl",
+      "facets": 12,
+      "bounds_mm": [
+        5.3,
+        1.2,
+        2.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 13.992001,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_01_Forward_Port.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_02_Mid_Port.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_03_Aft_Port.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_04_Forward_Starboard.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_05_Mid_Starboard.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/LifeRaft_Group_06_Aft_Starboard.stl",
+      "facets": 3068,
+      "bounds_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 27.210182,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Navigation_Light_Housings.stl",
+      "facets": 1032,
+      "bounds_mm": [
+        1.6,
+        42.200001,
+        2.35
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 6.070592,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_01_Forward_Starboard_Foundation.stl",
+      "facets": 556,
+      "bounds_mm": [
+        5.4,
+        5.399975,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676632,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_01_Forward_Starboard_Launcher.stl",
+      "facets": 554,
+      "bounds_mm": [
+        4.8,
+        4.198761,
+        6.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 89.148342,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_01_Forward_Starboard_Launcher_Face.stl",
+      "facets": 284,
+      "bounds_mm": [
+        4.8,
+        0.95,
+        4.6
+      ],
+      "minimum_mm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 17.503,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_02_Aft_Port_Foundation.stl",
+      "facets": 554,
+      "bounds_mm": [
+        5.4,
+        5.399809,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676703,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_02_Aft_Port_Launcher.stl",
+      "facets": 550,
+      "bounds_mm": [
+        4.8,
+        4.198761,
+        6.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 89.148343,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/RAM_02_Aft_Port_Launcher_Face.stl",
+      "facets": 284,
+      "bounds_mm": [
+        4.8,
+        0.95,
+        4.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 17.503,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Railing_Aft_Port.stl",
+      "facets": 2428,
+      "bounds_mm": [
+        21.700001,
+        0.7,
+        2.55
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 11.12157,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Railing_Forward_Starboard.stl",
+      "facets": 4660,
+      "bounds_mm": [
+        45.700001,
+        0.7,
+        2.55
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 23.282988,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_01_Forward_Starboard_Foundation.stl",
+      "facets": 556,
+      "bounds_mm": [
+        5.4,
+        5.399975,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676632,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_01_Forward_Starboard_Launcher.stl",
+      "facets": 550,
+      "bounds_mm": [
+        5.4,
+        4.2,
+        5.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 90.737153,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_01_Forward_Starboard_Launcher_Face.stl",
+      "facets": 220,
+      "bounds_mm": [
+        5.4,
+        0.95,
+        3.6
+      ],
+      "minimum_mm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 15.2565,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_02_Aft_Starboard_Foundation.stl",
+      "facets": 556,
+      "bounds_mm": [
+        5.4,
+        5.399975,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 60.676632,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_02_Aft_Starboard_Launcher.stl",
+      "facets": 552,
+      "bounds_mm": [
+        5.4,
+        4.2,
+        5.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 90.737153,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/SeaSparrow_02_Aft_Starboard_Launcher_Face.stl",
+      "facets": 220,
+      "bounds_mm": [
+        5.4,
+        0.95,
+        3.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 15.2565,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Sponson_Aft_Port_CIWS.stl",
+      "facets": 48,
+      "bounds_mm": [
+        22.0,
+        8.8,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 431.356746,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Sponson_Aft_Port_RAM.stl",
+      "facets": 48,
+      "bounds_mm": [
+        23.0,
+        11.0,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 573.706741,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Sponson_Aft_Starboard.stl",
+      "facets": 48,
+      "bounds_mm": [
+        22.0,
+        9.0,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 441.91674,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Sponson_Forward_Port.stl",
+      "facets": 48,
+      "bounds_mm": [
+        22.0,
+        9.9,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 489.436729,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Sponson_Forward_Starboard.stl",
+      "facets": 68,
+      "bounds_mm": [
+        47.0,
+        12.9,
+        2.4
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1387.503461,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Weapon_Mount_Coupon_Female.stl",
+      "facets": 32,
+      "bounds_mm": [
+        48.0,
+        24.0,
+        4.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4809.793285,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/Weapon_Mount_Coupon_Male.stl",
+      "facets": 48,
+      "bounds_mm": [
+        48.0,
+        24.0,
+        4.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3477.593995,
+      "watertight": true,
+      "valid": true
+    }
+  ],
+  "3mf": [
+    {
+      "path": "3MF/CVN69_Hull_Deck_Island_Weapons_Review.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 115,
+      "object_names": [
+        "Approved_Hull_Module_1_Bow",
+        "Approved_Hull_Module_2_Midship",
+        "Approved_Hull_Module_3_Stern",
+        "Approved_Shaft_1",
+        "Approved_Propeller_1",
+        "Approved_Shaft_1_Strut_P",
+        "Approved_Shaft_1_Strut_S",
+        "Approved_Shaft_2",
+        "Approved_Propeller_2",
+        "Approved_Shaft_2_Strut_P",
+        "Approved_Shaft_2_Strut_S",
+        "Approved_Shaft_3",
+        "Approved_Propeller_3",
+        "Approved_Shaft_3_Strut_P",
+        "Approved_Shaft_3_Strut_S",
+        "Approved_Shaft_4",
+        "Approved_Propeller_4",
+        "Approved_Shaft_4_Strut_P",
+        "Approved_Shaft_4_Strut_S",
+        "Approved_Rudder_Port",
+        "Approved_Rudder_Starboard",
+        "Approved_Deck_Module_1_Bow",
+        "Approved_Deck_Module_2_Midship",
+        "Approved_Deck_Module_3_Stern",
+        "Approved_Arresting_Wire_1",
+        "Approved_Arresting_Wire_2",
+        "Approved_Arresting_Wire_3",
+        "Approved_Arresting_Wire_4",
+        "Approved_Catapult_1_Bow_Port",
+        "Approved_Catapult_2_Bow_Starboard",
+        "Approved_Catapult_3_Waist_Inner",
+        "Approved_Catapult_4_Waist_Outer",
+        "Approved_Elevator_1_Port",
+        "Approved_Elevator_2_Starboard",
+        "Approved_Elevator_3_Starboard",
+        "Approved_Elevator_4_Starboard",
+        "Approved_Raised_Marking_Bow_Centerline",
+        "Approved_Raised_Marking_Elevator_1_Port",
+        "Approved_Raised_Marking_Elevator_2_Starboard",
+        "Approved_Raised_Marking_Elevator_3_Starboard",
+        "Approved_Raised_Marking_Elevator_4_Starboard",
+        "Approved_Raised_Marking_Landing_Aft",
+        "Approved_Raised_Marking_Landing_Forward",
+        "Approved_Interface_Pad_01_Port",
+        "Approved_Interface_Pad_01_Starboard",
+        "Approved_Interface_Pad_02_Port",
+        "Approved_Interface_Pad_02_Starboard",
+        "Approved_Interface_Pad_03_Port",
+        "Approved_Interface_Pad_03_Starboard",
+        "Approved_Interface_Pad_04_Port",
+        "Approved_Interface_Pad_04_Starboard",
+        "Approved_Interface_Pad_05_Port",
+        "Approved_Interface_Pad_05_Starboard",
+        "Approved_Interface_Pad_06_Port",
+        "Approved_Interface_Pad_06_Starboard",
+        "Approved_Foundation_Lower_Island",
+        "Approved_Navigation_Bridge",
+        "Approved_Primary_Flight_Control",
+        "Approved_Exhaust_Uptake",
+        "Approved_Main_Mast",
+        "Approved_Secondary_Mast",
+        "Approved_Main_Yardarm",
+        "Approved_Radar_AN_SPS48G_Array",
+        "Approved_Radar_AN_SPS49_Array",
+        "Approved_Radar_AN_SPN50_Array",
+        "Approved_Bridge_Window_Insert",
+        "Approved_PriFly_Window_Insert",
+        "Approved_Aft_Access_Ladder",
+        "Approved_Antenna_Detail_Set",
+        "Approved_Signal_Light_Housings",
+        "Approved_Marking_69_Port",
+        "Approved_Marking_69_Starboard",
+        "Sponson_Forward_Port",
+        "Sponson_Forward_Starboard",
+        "Sponson_Aft_Port_CIWS",
+        "Sponson_Aft_Port_RAM",
+        "Sponson_Aft_Starboard",
+        "Boat_Access_Platform_Port",
+        "CIWS_01_Forward_Port_Foundation",
+        "CIWS_01_Forward_Port_Upper_Body",
+        "CIWS_01_Forward_Port_Radar_Dome",
+        "CIWS_01_Forward_Port_Barrel",
+        "RAM_01_Forward_Starboard_Foundation",
+        "RAM_01_Forward_Starboard_Launcher",
+        "RAM_01_Forward_Starboard_Launcher_Face",
+        "SeaSparrow_01_Forward_Starboard_Foundation",
+        "SeaSparrow_01_Forward_Starboard_Launcher",
+        "SeaSparrow_01_Forward_Starboard_Launcher_Face",
+        "CIWS_02_Aft_Port_Foundation",
+        "CIWS_02_Aft_Port_Upper_Body",
+        "CIWS_02_Aft_Port_Radar_Dome",
+        "CIWS_02_Aft_Port_Barrel",
+        "RAM_02_Aft_Port_Foundation",
+        "RAM_02_Aft_Port_Launcher",
+        "RAM_02_Aft_Port_Launcher_Face",
+        "SeaSparrow_02_Aft_Starboard_Foundation",
+        "SeaSparrow_02_Aft_Starboard_Launcher",
+        "SeaSparrow_02_Aft_Starboard_Launcher_Face",
+        "LifeRaft_Group_01_Forward_Port",
+        "LifeRaft_Group_02_Mid_Port",
+        "LifeRaft_Group_03_Aft_Port",
+        "LifeRaft_Group_04_Forward_Starboard",
+        "LifeRaft_Group_05_Mid_Starboard",
+        "LifeRaft_Group_06_Aft_Starboard",
+        "Boat_01_Port_Utility",
+        "Boat_01_Charcoal_Insert",
+        "Boat_Cradle_01_Port",
+        "Boat_Davit_01_Port",
+        "Railing_Forward_Starboard",
+        "Railing_Aft_Port",
+        "DeckEdge_Access_Ladder_Port",
+        "DeckEdge_Access_Ladder_Starboard",
+        "Navigation_Light_Housings",
+        "Emergency_Locker_Group_Port",
+        "Emergency_Locker_Group_Starboard"
+      ],
+      "build_items": 115,
+      "vertices": 69030,
+      "triangles": 137708,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        476.0,
+        88.7,
+        84.365716
+      ],
+      "minimum_mm": [
+        0.0,
+        -43.7,
+        -6.365716
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/CVN69_Weapons_DeckEdge_Assembly.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 43,
+      "object_names": [
+        "Sponson_Forward_Port",
+        "Sponson_Forward_Starboard",
+        "Sponson_Aft_Port_CIWS",
+        "Sponson_Aft_Port_RAM",
+        "Sponson_Aft_Starboard",
+        "Boat_Access_Platform_Port",
+        "CIWS_01_Forward_Port_Foundation",
+        "CIWS_01_Forward_Port_Upper_Body",
+        "CIWS_01_Forward_Port_Radar_Dome",
+        "CIWS_01_Forward_Port_Barrel",
+        "RAM_01_Forward_Starboard_Foundation",
+        "RAM_01_Forward_Starboard_Launcher",
+        "RAM_01_Forward_Starboard_Launcher_Face",
+        "SeaSparrow_01_Forward_Starboard_Foundation",
+        "SeaSparrow_01_Forward_Starboard_Launcher",
+        "SeaSparrow_01_Forward_Starboard_Launcher_Face",
+        "CIWS_02_Aft_Port_Foundation",
+        "CIWS_02_Aft_Port_Upper_Body",
+        "CIWS_02_Aft_Port_Radar_Dome",
+        "CIWS_02_Aft_Port_Barrel",
+        "RAM_02_Aft_Port_Foundation",
+        "RAM_02_Aft_Port_Launcher",
+        "RAM_02_Aft_Port_Launcher_Face",
+        "SeaSparrow_02_Aft_Starboard_Foundation",
+        "SeaSparrow_02_Aft_Starboard_Launcher",
+        "SeaSparrow_02_Aft_Starboard_Launcher_Face",
+        "LifeRaft_Group_01_Forward_Port",
+        "LifeRaft_Group_02_Mid_Port",
+        "LifeRaft_Group_03_Aft_Port",
+        "LifeRaft_Group_04_Forward_Starboard",
+        "LifeRaft_Group_05_Mid_Starboard",
+        "LifeRaft_Group_06_Aft_Starboard",
+        "Boat_01_Port_Utility",
+        "Boat_01_Charcoal_Insert",
+        "Boat_Cradle_01_Port",
+        "Boat_Davit_01_Port",
+        "Railing_Forward_Starboard",
+        "Railing_Aft_Port",
+        "DeckEdge_Access_Ladder_Port",
+        "DeckEdge_Access_Ladder_Starboard",
+        "Navigation_Light_Housings",
+        "Emergency_Locker_Group_Port",
+        "Emergency_Locker_Group_Starboard"
+      ],
+      "build_items": 43,
+      "vertices": 21068,
+      "triangles": 41992,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        431.0,
+        88.7,
+        16.3
+      ],
+      "minimum_mm": [
+        41.0,
+        -43.7,
+        26.6
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/Print_Plate_01_Major_Weapons.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 14,
+      "object_names": [
+        "CIWS_01_Forward_Port_Upper_Body",
+        "CIWS_01_Forward_Port_Radar_Dome",
+        "CIWS_01_Forward_Port_Barrel",
+        "RAM_01_Forward_Starboard_Launcher",
+        "RAM_01_Forward_Starboard_Launcher_Face",
+        "SeaSparrow_01_Forward_Starboard_Launcher",
+        "SeaSparrow_01_Forward_Starboard_Launcher_Face",
+        "CIWS_02_Aft_Port_Upper_Body",
+        "CIWS_02_Aft_Port_Radar_Dome",
+        "CIWS_02_Aft_Port_Barrel",
+        "RAM_02_Aft_Port_Launcher",
+        "RAM_02_Aft_Port_Launcher_Face",
+        "SeaSparrow_02_Aft_Starboard_Launcher",
+        "SeaSparrow_02_Aft_Starboard_Launcher_Face"
+      ],
+      "build_items": 14,
+      "vertices": 4981,
+      "triangles": 9906,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        96.8,
+        5.1,
+        6.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/Print_Plate_02_Sponsons_Foundations.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 11,
+      "object_names": [
+        "Sponson_Forward_Port",
+        "Sponson_Forward_Starboard",
+        "Sponson_Aft_Port_CIWS",
+        "Sponson_Aft_Port_RAM",
+        "Sponson_Aft_Starboard",
+        "CIWS_01_Forward_Port_Foundation",
+        "RAM_01_Forward_Starboard_Foundation",
+        "SeaSparrow_01_Forward_Starboard_Foundation",
+        "CIWS_02_Aft_Port_Foundation",
+        "RAM_02_Aft_Port_Foundation",
+        "SeaSparrow_02_Aft_Starboard_Foundation"
+      ],
+      "build_items": 11,
+      "vertices": 1817,
+      "triangles": 3590,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        198.4,
+        12.9,
+        3.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/Print_Plate_03_LifeRafts_Boats.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 11,
+      "object_names": [
+        "Boat_Access_Platform_Port",
+        "LifeRaft_Group_01_Forward_Port",
+        "LifeRaft_Group_02_Mid_Port",
+        "LifeRaft_Group_03_Aft_Port",
+        "LifeRaft_Group_04_Forward_Starboard",
+        "LifeRaft_Group_05_Mid_Starboard",
+        "LifeRaft_Group_06_Aft_Starboard",
+        "Boat_01_Port_Utility",
+        "Boat_01_Charcoal_Insert",
+        "Boat_Cradle_01_Port",
+        "Boat_Davit_01_Port"
+      ],
+      "build_items": 11,
+      "vertices": 10106,
+      "triangles": 20168,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        127.7,
+        8.3,
+        7.275371
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/Print_Plate_04_DeckEdge_Details.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 7,
+      "object_names": [
+        "Railing_Forward_Starboard",
+        "Railing_Aft_Port",
+        "DeckEdge_Access_Ladder_Port",
+        "DeckEdge_Access_Ladder_Starboard",
+        "Navigation_Light_Housings",
+        "Emergency_Locker_Group_Port",
+        "Emergency_Locker_Group_Starboard"
+      ],
+      "build_items": 7,
+      "vertices": 4164,
+      "triangles": 8328,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        104.4,
+        42.2,
+        5.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid": true
+    },
+    {
+      "path": "3MF/Weapon_Mount_Interface_Test_Coupon.3mf",
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 2,
+      "object_names": [
+        "Weapon_Mount_Coupon_Male",
+        "Weapon_Mount_Coupon_Female"
+      ],
+      "build_items": 2,
+      "vertices": 44,
+      "triangles": 80,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "bounds_mm": [
+        48.0,
+        51.0,
+        4.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid": true
+    }
+  ],
+  "step_round_trip": [
+    {
+      "path": "STEP/CVN69_Hull_Deck_Island_Weapons_Review.step",
+      "solid_count": 124,
+      "valid": true,
+      "closed": true,
+      "strict_message_count": 248,
+      "strict_message_types": [
+        "BOP check found the following errors:",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ],
+      "self_intersections": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "STEP/CVN69_Weapon_Mount_Interface_Coupon.step",
+      "solid_count": 2,
+      "valid": true,
+      "closed": true,
+      "strict_message_count": 0,
+      "strict_message_types": [],
+      "self_intersections": 0,
+      "status": "PASS"
+    },
+    {
+      "path": "STEP/CVN69_Weapons_DeckEdge_Assembly.step",
+      "solid_count": 44,
+      "valid": true,
+      "closed": true,
+      "strict_message_count": 141,
+      "strict_message_types": [
+        "BOP check found the following errors:",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ],
+      "self_intersections": 0,
+      "status": "PASS"
+    }
+  ]
+}

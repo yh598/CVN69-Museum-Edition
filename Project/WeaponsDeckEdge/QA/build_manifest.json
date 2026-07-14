@@ -1,0 +1,2308 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) 1:700 Museum Edition",
+  "milestone": "Milestone 4 \u2014 Defensive Systems and Deck-Edge Equipment",
+  "version": "0.4.0-review",
+  "generated_utc": "2026-07-14T21:05:36.175643+00:00",
+  "freecad_version": "1.1.1",
+  "configuration_period": "2023-10-14 through 2024-07-14 deployment; June 2024 visible fit preferred",
+  "coordinate_system": {
+    "x": "0 mm bow to 476 mm stern",
+    "y": "port negative / starboard positive",
+    "z": "vertical from keel datum"
+  },
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "deck_base_z": 31.5,
+    "deck_top_z": 34.5,
+    "interface_clearance_per_side": 0.25,
+    "key_depth": 1.2,
+    "platform_thickness": 2.4,
+    "remaining_platform_skin": 1.2,
+    "minimum_structural_wall": 1.2,
+    "minimum_fragile_diameter": 0.8,
+    "minimum_railing": 0.6,
+    "minimum_ladder": 0.6
+  },
+  "counts": {
+    "production_parts": 43,
+    "coupon_parts": 2,
+    "weapon_installations": 6,
+    "CIWS": 2,
+    "RAM": 2,
+    "SeaSparrow": 2
+  },
+  "installations": [
+    {
+      "name": "CIWS_01_Forward_Port",
+      "family": "CIWS",
+      "x": 93.0,
+      "y": -24.0,
+      "platform": "Sponson_Forward_Port",
+      "heading_deg": 180.0,
+      "evidence": "2024-06-30 DVIDS port-bow imagery; Phalanx silhouette visible",
+      "confidence": "high family / medium placement"
+    },
+    {
+      "name": "RAM_01_Forward_Starboard",
+      "family": "RAM",
+      "x": 84.5,
+      "y": 25.0,
+      "platform": "Sponson_Forward_Starboard",
+      "heading_deg": 0.0,
+      "evidence": "2024-06-30 DVIDS starboard-bow imagery; launcher silhouette",
+      "confidence": "medium-high"
+    },
+    {
+      "name": "SeaSparrow_01_Forward_Starboard",
+      "family": "SeaSparrow",
+      "x": 111.0,
+      "y": 27.0,
+      "platform": "Sponson_Forward_Starboard",
+      "heading_deg": 0.0,
+      "evidence": "2024 official starboard-bow imagery and NAVSEA CVN Mk 29 evidence",
+      "confidence": "medium-high"
+    },
+    {
+      "name": "CIWS_02_Aft_Port",
+      "family": "CIWS",
+      "x": 431.0,
+      "y": -37.0,
+      "platform": "Sponson_Aft_Port_CIWS",
+      "heading_deg": 180.0,
+      "evidence": "2024-07-14 official port-side imagery; Phalanx dome silhouette visible",
+      "confidence": "high family / medium placement"
+    },
+    {
+      "name": "RAM_02_Aft_Port",
+      "family": "RAM",
+      "x": 459.0,
+      "y": -37.0,
+      "platform": "Sponson_Aft_Port_RAM",
+      "heading_deg": 180.0,
+      "evidence": "2024-07-14 official port-side imagery; aft launcher silhouette",
+      "confidence": "medium-high"
+    },
+    {
+      "name": "SeaSparrow_02_Aft_Starboard",
+      "family": "SeaSparrow",
+      "x": 424.0,
+      "y": 40.0,
+      "platform": "Sponson_Aft_Starboard",
+      "heading_deg": 0.0,
+      "evidence": "2024 official aerial imagery and frozen-period system audit",
+      "confidence": "medium"
+    }
+  ],
+  "material_mapping": {
+    "Sponson_Forward_Port": "Bambu PLA Matte Ash Gray",
+    "Sponson_Forward_Starboard": "Bambu PLA Matte Ash Gray",
+    "Sponson_Aft_Port_CIWS": "Bambu PLA Matte Ash Gray",
+    "Sponson_Aft_Port_RAM": "Bambu PLA Matte Ash Gray",
+    "Sponson_Aft_Starboard": "Bambu PLA Matte Ash Gray",
+    "Boat_Access_Platform_Port": "Bambu PLA Matte Ash Gray",
+    "CIWS_01_Forward_Port_Foundation": "Bambu PLA Matte Ash Gray",
+    "CIWS_01_Forward_Port_Upper_Body": "Bambu PLA Matte Ash Gray",
+    "CIWS_01_Forward_Port_Radar_Dome": "Bambu PLA Matte Ivory White",
+    "CIWS_01_Forward_Port_Barrel": "Bambu PLA Silk Silver",
+    "RAM_01_Forward_Starboard_Foundation": "Bambu PLA Matte Ash Gray",
+    "RAM_01_Forward_Starboard_Launcher": "Bambu PLA Matte Ash Gray",
+    "RAM_01_Forward_Starboard_Launcher_Face": "Bambu PLA Matte Charcoal",
+    "SeaSparrow_01_Forward_Starboard_Foundation": "Bambu PLA Matte Ash Gray",
+    "SeaSparrow_01_Forward_Starboard_Launcher": "Bambu PLA Matte Ash Gray",
+    "SeaSparrow_01_Forward_Starboard_Launcher_Face": "Bambu PLA Matte Charcoal",
+    "CIWS_02_Aft_Port_Foundation": "Bambu PLA Matte Ash Gray",
+    "CIWS_02_Aft_Port_Upper_Body": "Bambu PLA Matte Ash Gray",
+    "CIWS_02_Aft_Port_Radar_Dome": "Bambu PLA Matte Ivory White",
+    "CIWS_02_Aft_Port_Barrel": "Bambu PLA Silk Silver",
+    "RAM_02_Aft_Port_Foundation": "Bambu PLA Matte Ash Gray",
+    "RAM_02_Aft_Port_Launcher": "Bambu PLA Matte Ash Gray",
+    "RAM_02_Aft_Port_Launcher_Face": "Bambu PLA Matte Charcoal",
+    "SeaSparrow_02_Aft_Starboard_Foundation": "Bambu PLA Matte Ash Gray",
+    "SeaSparrow_02_Aft_Starboard_Launcher": "Bambu PLA Matte Ash Gray",
+    "SeaSparrow_02_Aft_Starboard_Launcher_Face": "Bambu PLA Matte Charcoal",
+    "LifeRaft_Group_01_Forward_Port": "Bambu PLA Matte Ivory White",
+    "LifeRaft_Group_02_Mid_Port": "Bambu PLA Matte Ivory White",
+    "LifeRaft_Group_03_Aft_Port": "Bambu PLA Matte Ivory White",
+    "LifeRaft_Group_04_Forward_Starboard": "Bambu PLA Matte Ivory White",
+    "LifeRaft_Group_05_Mid_Starboard": "Bambu PLA Matte Ivory White",
+    "LifeRaft_Group_06_Aft_Starboard": "Bambu PLA Matte Ivory White",
+    "Boat_01_Port_Utility": "Bambu PLA Matte Ash Gray",
+    "Boat_01_Charcoal_Insert": "Bambu PLA Matte Charcoal",
+    "Boat_Cradle_01_Port": "Bambu PLA Matte Ash Gray",
+    "Boat_Davit_01_Port": "Bambu PLA Matte Ash Gray",
+    "Railing_Forward_Starboard": "Bambu PLA Matte Ash Gray",
+    "Railing_Aft_Port": "Bambu PLA Matte Ash Gray",
+    "DeckEdge_Access_Ladder_Port": "Bambu PLA Matte Ash Gray",
+    "DeckEdge_Access_Ladder_Starboard": "Bambu PLA Matte Ash Gray",
+    "Navigation_Light_Housings": "Bambu PLA Basic Black",
+    "Emergency_Locker_Group_Port": "Bambu PLA Matte Ash Gray",
+    "Emergency_Locker_Group_Starboard": "Bambu PLA Matte Ash Gray"
+  },
+  "parts": [
+    {
+      "name": "Sponson_Forward_Port",
+      "role": "weapon_sponson",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "official-photo-derived envelope",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 489.436725,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        82.0,
+        -30.0,
+        32.1,
+        104.0,
+        -20.1,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        22.0,
+        9.9,
+        2.4
+      ],
+      "print_size_mm": [
+        22.0,
+        9.9,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Sponson_Forward_Starboard",
+      "role": "weapon_sponson",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "official-photo-derived envelope",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1387.50345,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        75.0,
+        19.6,
+        32.1,
+        122.0,
+        32.5,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        47.0,
+        12.9,
+        2.4
+      ],
+      "print_size_mm": [
+        47.0,
+        12.9,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Sponson_Aft_Port_CIWS",
+      "role": "weapon_sponson",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "official-photo-derived envelope",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 431.356725,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        420.0,
+        -43.0,
+        32.1,
+        442.0,
+        -34.2,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        22.0,
+        8.8,
+        2.4
+      ],
+      "print_size_mm": [
+        22.0,
+        8.8,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Sponson_Aft_Port_RAM",
+      "role": "weapon_sponson",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "official-photo-derived envelope",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 573.706725,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        449.0,
+        -43.0,
+        32.1,
+        472.0,
+        -32.0,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        23.0,
+        11.0,
+        2.4
+      ],
+      "print_size_mm": [
+        23.0,
+        11.0,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Sponson_Aft_Starboard",
+      "role": "weapon_sponson",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "official-photo-derived envelope",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 441.916725,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        414.0,
+        36.0,
+        32.1,
+        436.0,
+        45.0,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        22.0,
+        9.0,
+        2.4
+      ],
+      "print_size_mm": [
+        22.0,
+        9.0,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Boat_Access_Platform_Port",
+      "role": "boat_access_platform",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 port-side photo-derived major access platform",
+      "accuracy_classification": "official-photo-derived / derived from approved deck datum",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 374.91,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        292.0,
+        -43.0,
+        26.6,
+        311.0,
+        -34.7,
+        29.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        19.0,
+        8.3,
+        2.4
+      ],
+      "print_size_mm": [
+        19.0,
+        8.3,
+        2.4
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_01_Forward_Port_Foundation",
+      "role": "weapon_foundation",
+      "installation": "CIWS_01_Forward_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-06-30 DVIDS port-bow imagery; Phalanx silhouette visible",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        90.3,
+        -26.69981,
+        33.3,
+        95.7,
+        -21.3,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_01_Forward_Port_Upper_Body",
+      "role": "ciws_upper_body",
+      "installation": "CIWS_01_Forward_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-06-30 DVIDS port-bow imagery; Phalanx silhouette visible",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 50.809955,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        90.8,
+        -26.19935,
+        35.7,
+        95.2,
+        -21.80065,
+        40.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "print_size_mm": [
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_01_Forward_Port_Radar_Dome",
+      "role": "ciws_radar_dome",
+      "installation": "CIWS_01_Forward_Port",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024-06-30 DVIDS port-bow imagery; Phalanx silhouette visible",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 8.174408,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        91.55,
+        -25.44955,
+        40.7,
+        94.45,
+        -22.55045,
+        42.9
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.9,
+        2.8991,
+        2.2
+      ],
+      "print_size_mm": [
+        2.9,
+        2.8991,
+        2.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_01_Forward_Port_Barrel",
+      "role": "ciws_barrel",
+      "installation": "CIWS_01_Forward_Port",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "2024-06-30 DVIDS port-bow imagery; Phalanx silhouette visible",
+      "accuracy_classification": "deliberately enlarged for FDM printability",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4.398292,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        92.4,
+        -30.7,
+        37.95,
+        93.6,
+        -25.6,
+        39.15
+      ],
+      "print_bounds_mm": [
+        -0.0,
+        0.0,
+        0.0,
+        1.2,
+        5.1,
+        1.2
+      ],
+      "print_size_mm": [
+        1.2,
+        5.1,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.0,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_01_Forward_Starboard_Foundation",
+      "role": "weapon_foundation",
+      "installation": "RAM_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-06-30 DVIDS starboard-bow imagery; launcher silhouette",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        81.8,
+        22.3,
+        33.3,
+        87.2,
+        27.69997,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_01_Forward_Starboard_Launcher",
+      "role": "ram_launcher",
+      "installation": "RAM_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-06-30 DVIDS starboard-bow imagery; launcher silhouette",
+      "accuracy_classification": "manufacturer-public-dimension-informed and photo-derived",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 89.1519,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        82.1,
+        22.90062,
+        35.7,
+        86.9,
+        27.09938,
+        42.3
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.8,
+        4.19876,
+        6.6
+      ],
+      "print_size_mm": [
+        4.8,
+        4.19876,
+        6.6
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_01_Forward_Starboard_Launcher_Face",
+      "role": "ram_launcher_face",
+      "installation": "RAM_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "2024-06-30 DVIDS starboard-bow imagery; launcher silhouette",
+      "accuracy_classification": "deliberately simplified/enlarged FDM-safe cell representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 17.503,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        82.1,
+        26.6,
+        37.25,
+        86.9,
+        27.55,
+        41.85
+      ],
+      "print_bounds_mm": [
+        0.0,
+        -0.0,
+        0.0,
+        4.8,
+        0.95,
+        4.6
+      ],
+      "print_size_mm": [
+        4.8,
+        0.95,
+        4.6
+      ],
+      "minimum_designed_feature_mm": 0.5,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_01_Forward_Starboard_Foundation",
+      "role": "weapon_foundation",
+      "installation": "SeaSparrow_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official starboard-bow imagery and NAVSEA CVN Mk 29 evidence",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        108.3,
+        24.3,
+        33.3,
+        113.7,
+        29.69997,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_01_Forward_Starboard_Launcher",
+      "role": "seasparrow_launcher",
+      "installation": "SeaSparrow_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official starboard-bow imagery and NAVSEA CVN Mk 29 evidence",
+      "accuracy_classification": "manufacturer-public-dimension-informed and photo-derived",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 90.740744,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        108.3,
+        24.9,
+        35.7,
+        113.7,
+        29.1,
+        41.3
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        4.2,
+        5.6
+      ],
+      "print_size_mm": [
+        5.4,
+        4.2,
+        5.6
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_01_Forward_Starboard_Launcher_Face",
+      "role": "seasparrow_launcher_face",
+      "installation": "SeaSparrow_01_Forward_Starboard",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "2024 official starboard-bow imagery and NAVSEA CVN Mk 29 evidence",
+      "accuracy_classification": "deliberately simplified/enlarged FDM-safe cell representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 15.2565,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        108.3,
+        28.8,
+        37.25,
+        113.7,
+        29.75,
+        40.85
+      ],
+      "print_bounds_mm": [
+        0.0,
+        -0.0,
+        0.0,
+        5.4,
+        0.95,
+        3.6
+      ],
+      "print_size_mm": [
+        5.4,
+        0.95,
+        3.6
+      ],
+      "minimum_designed_feature_mm": 0.5,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_02_Aft_Port_Foundation",
+      "role": "weapon_foundation",
+      "installation": "CIWS_02_Aft_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-07-14 official port-side imagery; Phalanx dome silhouette visible",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        428.3,
+        -39.69981,
+        33.3,
+        433.7,
+        -34.3,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_02_Aft_Port_Upper_Body",
+      "role": "ciws_upper_body",
+      "installation": "CIWS_02_Aft_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-07-14 official port-side imagery; Phalanx dome silhouette visible",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 50.809955,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        428.8,
+        -39.19935,
+        35.7,
+        433.2,
+        -34.80065,
+        40.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "print_size_mm": [
+        4.4,
+        4.39869,
+        5.0
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_02_Aft_Port_Radar_Dome",
+      "role": "ciws_radar_dome",
+      "installation": "CIWS_02_Aft_Port",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024-07-14 official port-side imagery; Phalanx dome silhouette visible",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 8.174408,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        429.55,
+        -38.44955,
+        40.7,
+        432.45,
+        -35.55045,
+        42.9
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.9,
+        2.8991,
+        2.2
+      ],
+      "print_size_mm": [
+        2.9,
+        2.8991,
+        2.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "CIWS_02_Aft_Port_Barrel",
+      "role": "ciws_barrel",
+      "installation": "CIWS_02_Aft_Port",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "2024-07-14 official port-side imagery; Phalanx dome silhouette visible",
+      "accuracy_classification": "deliberately enlarged for FDM printability",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4.398292,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        430.4,
+        -43.7,
+        37.95,
+        431.6,
+        -38.6,
+        39.15
+      ],
+      "print_bounds_mm": [
+        -0.0,
+        0.0,
+        0.0,
+        1.2,
+        5.1,
+        1.2
+      ],
+      "print_size_mm": [
+        1.2,
+        5.1,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.0,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_02_Aft_Port_Foundation",
+      "role": "weapon_foundation",
+      "installation": "RAM_02_Aft_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-07-14 official port-side imagery; aft launcher silhouette",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        456.3,
+        -39.69981,
+        33.3,
+        461.7,
+        -34.3,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39981,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_02_Aft_Port_Launcher",
+      "role": "ram_launcher",
+      "installation": "RAM_02_Aft_Port",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024-07-14 official port-side imagery; aft launcher silhouette",
+      "accuracy_classification": "manufacturer-public-dimension-informed and photo-derived",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 89.1519,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        456.6,
+        -39.09938,
+        35.7,
+        461.4,
+        -34.90062,
+        42.3
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.8,
+        4.19876,
+        6.6
+      ],
+      "print_size_mm": [
+        4.8,
+        4.19876,
+        6.6
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "RAM_02_Aft_Port_Launcher_Face",
+      "role": "ram_launcher_face",
+      "installation": "RAM_02_Aft_Port",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "2024-07-14 official port-side imagery; aft launcher silhouette",
+      "accuracy_classification": "deliberately simplified/enlarged FDM-safe cell representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 17.503,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        456.6,
+        -39.55,
+        37.25,
+        461.4,
+        -38.6,
+        41.85
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.8,
+        0.95,
+        4.6
+      ],
+      "print_size_mm": [
+        4.8,
+        0.95,
+        4.6
+      ],
+      "minimum_designed_feature_mm": 0.5,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_02_Aft_Starboard_Foundation",
+      "role": "weapon_foundation",
+      "installation": "SeaSparrow_02_Aft_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official aerial imagery and frozen-period system audit",
+      "accuracy_classification": "official-photo-derived placement; new parametric engineering interface",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 60.692239,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        421.3,
+        37.3,
+        33.3,
+        426.7,
+        42.69997,
+        36.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "print_size_mm": [
+        5.4,
+        5.39997,
+        3.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_02_Aft_Starboard_Launcher",
+      "role": "seasparrow_launcher",
+      "installation": "SeaSparrow_02_Aft_Starboard",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official aerial imagery and frozen-period system audit",
+      "accuracy_classification": "manufacturer-public-dimension-informed and photo-derived",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 90.740744,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        421.3,
+        37.9,
+        35.7,
+        426.7,
+        42.1,
+        41.3
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        4.2,
+        5.6
+      ],
+      "print_size_mm": [
+        5.4,
+        4.2,
+        5.6
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "SeaSparrow_02_Aft_Starboard_Launcher_Face",
+      "role": "seasparrow_launcher_face",
+      "installation": "SeaSparrow_02_Aft_Starboard",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "2024 official aerial imagery and frozen-period system audit",
+      "accuracy_classification": "deliberately simplified/enlarged FDM-safe cell representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 15.2565,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        421.3,
+        41.8,
+        37.25,
+        426.7,
+        42.75,
+        40.85
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        0.95,
+        3.6
+      ],
+      "print_size_mm": [
+        5.4,
+        0.95,
+        3.6
+      ],
+      "minimum_designed_feature_mm": 0.5,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_01_Forward_Port",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        128.0,
+        -38.4,
+        33.3,
+        136.0,
+        -34.7,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_02_Mid_Port",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        221.0,
+        -43.2,
+        33.3,
+        229.0,
+        -39.5,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_03_Aft_Port",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        372.0,
+        -41.2,
+        33.3,
+        380.0,
+        -37.5,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_04_Forward_Starboard",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        141.0,
+        38.5,
+        33.3,
+        149.0,
+        42.2,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_05_Mid_Starboard",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        251.0,
+        36.0,
+        33.3,
+        259.0,
+        39.7,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        -0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "LifeRaft_Group_06_Aft_Starboard",
+      "role": "liferaft_group",
+      "installation": "",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "2024 official port/starboard imagery",
+      "accuracy_classification": "official-photo-derived grouping; canisters enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 27.218228,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        379.0,
+        37.5,
+        33.3,
+        387.0,
+        41.2,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        -0.0,
+        0.0,
+        8.0,
+        3.7,
+        1.2
+      ],
+      "print_size_mm": [
+        8.0,
+        3.7,
+        1.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Boat_01_Port_Utility",
+      "role": "boat",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 port-side major-equipment envelope",
+      "accuracy_classification": "visually approximated external utility boat",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 72.4325,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        295.0,
+        -40.45,
+        30.0,
+        307.6,
+        -36.95,
+        32.1
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        12.6,
+        3.5,
+        2.1
+      ],
+      "print_size_mm": [
+        12.6,
+        3.5,
+        2.1
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Boat_01_Charcoal_Insert",
+      "role": "boat_insert",
+      "installation": "",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "no-paint material separation",
+      "accuracy_classification": "visually approximated",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 6.336,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        298.9,
+        -39.8,
+        32.1,
+        303.7,
+        -37.6,
+        32.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.8,
+        2.2,
+        0.6
+      ],
+      "print_size_mm": [
+        4.8,
+        2.2,
+        0.6
+      ],
+      "minimum_designed_feature_mm": 0.6,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Boat_Cradle_01_Port",
+      "role": "boat_cradle",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "derived from boat envelope",
+      "accuracy_classification": "new parametric engineering geometry",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 12.656,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        294.9,
+        -40.8,
+        29.0,
+        307.1,
+        -36.6,
+        30.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        12.2,
+        4.2,
+        1.0
+      ],
+      "print_size_mm": [
+        12.2,
+        4.2,
+        1.0
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Boat_Davit_01_Port",
+      "role": "boat_davit",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 photo-informed major handling gear",
+      "accuracy_classification": "visually approximated; deliberately enlarged for FDM",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 9.124518,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        308.45,
+        -39.99988,
+        29.0,
+        309.55,
+        -35.05012,
+        36.27537
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1.1,
+        4.94975,
+        7.27537
+      ],
+      "print_size_mm": [
+        1.1,
+        4.94975,
+        7.27537
+      ],
+      "minimum_designed_feature_mm": 0.8,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Railing_Forward_Starboard",
+      "role": "railing",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "printable major platform railing",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 23.29097,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        75.65,
+        31.8,
+        34.5,
+        121.35,
+        32.5,
+        37.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        45.7,
+        0.7,
+        2.55
+      ],
+      "print_size_mm": [
+        45.7,
+        0.7,
+        2.55
+      ],
+      "minimum_designed_feature_mm": 0.6,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Railing_Aft_Port",
+      "role": "railing",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "printable major platform railing",
+      "accuracy_classification": "photo-derived FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 11.125384,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        449.65,
+        -43.0,
+        34.5,
+        471.35,
+        -42.3,
+        37.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        21.7,
+        0.7,
+        2.55
+      ],
+      "print_size_mm": [
+        21.7,
+        0.7,
+        2.55
+      ],
+      "minimum_designed_feature_mm": 0.6,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "DeckEdge_Access_Ladder_Port",
+      "role": "ladder",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "major visible deck-edge access",
+      "accuracy_classification": "visually approximated FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 7.56,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        363.3,
+        -37.5,
+        29.5,
+        366.7,
+        -36.9,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        3.4,
+        0.6,
+        5.0
+      ],
+      "print_size_mm": [
+        3.4,
+        0.6,
+        5.0
+      ],
+      "minimum_designed_feature_mm": 0.6,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "DeckEdge_Access_Ladder_Starboard",
+      "role": "ladder",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "major visible deck-edge access",
+      "accuracy_classification": "visually approximated FDM-safe representation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 7.56,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        363.3,
+        37.5,
+        29.5,
+        366.7,
+        38.1,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        3.4,
+        0.6,
+        5.0
+      ],
+      "print_size_mm": [
+        3.4,
+        0.6,
+        5.0
+      ],
+      "minimum_designed_feature_mm": 0.6,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Navigation_Light_Housings",
+      "role": "navigation_lights",
+      "installation": "",
+      "material": "Bambu PLA Basic Black",
+      "evidence_basis": "public-photo-visible housings; lens colors not asserted",
+      "accuracy_classification": "visually approximated",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 2,
+      "volume_mm3": 6.071197,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        41.0,
+        -21.1,
+        34.5,
+        42.6,
+        21.1,
+        36.85
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1.6,
+        42.2,
+        2.35
+      ],
+      "print_size_mm": [
+        1.6,
+        42.2,
+        2.35
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Emergency_Locker_Group_Port",
+      "role": "emergency_lockers",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "major permanently mounted deck-edge boxes",
+      "accuracy_classification": "visually approximated",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 13.992,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        351.0,
+        -37.4,
+        32.3,
+        356.3,
+        -36.2,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.3,
+        1.2,
+        2.2
+      ],
+      "print_size_mm": [
+        5.3,
+        1.2,
+        2.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Emergency_Locker_Group_Starboard",
+      "role": "emergency_lockers",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "major permanently mounted deck-edge boxes",
+      "accuracy_classification": "visually approximated",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 13.992,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        351.0,
+        36.2,
+        32.3,
+        356.3,
+        37.4,
+        34.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.3,
+        1.2,
+        2.2
+      ],
+      "print_size_mm": [
+        5.3,
+        1.2,
+        2.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    }
+  ],
+  "coupon_parts": [
+    {
+      "name": "Weapon_Mount_Coupon_Male",
+      "role": "interface_coupon",
+      "installation": "",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "exact common production male key and glue channel",
+      "accuracy_classification": "new parametric engineering geometry",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3477.594,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        48.0,
+        24.0,
+        4.2
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        48.0,
+        24.0,
+        4.2
+      ],
+      "print_size_mm": [
+        48.0,
+        24.0,
+        4.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Weapon_Mount_Coupon_Female",
+      "role": "interface_coupon",
+      "installation": "",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "exact common production female socket at 0.25 mm/side",
+      "accuracy_classification": "new parametric engineering geometry",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4809.7935,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        48.0,
+        24.0,
+        4.2
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        48.0,
+        24.0,
+        4.2
+      ],
+      "print_size_mm": [
+        48.0,
+        24.0,
+        4.2
+      ],
+      "minimum_designed_feature_mm": 1.2,
+      "print_note": "Base down; exported STL minimum z = 0"
+    }
+  ],
+  "stl_facets": {
+    "Sponson_Forward_Port.stl": 48,
+    "Sponson_Forward_Starboard.stl": 68,
+    "Sponson_Aft_Port_CIWS.stl": 48,
+    "Sponson_Aft_Port_RAM.stl": 48,
+    "Sponson_Aft_Starboard.stl": 48,
+    "Boat_Access_Platform_Port.stl": 28,
+    "CIWS_01_Forward_Port_Foundation.stl": 554,
+    "CIWS_01_Forward_Port_Upper_Body.stl": 1070,
+    "CIWS_01_Forward_Port_Radar_Dome.stl": 1760,
+    "CIWS_01_Forward_Port_Barrel.stl": 516,
+    "RAM_01_Forward_Starboard_Foundation.stl": 556,
+    "RAM_01_Forward_Starboard_Launcher.stl": 554,
+    "RAM_01_Forward_Starboard_Launcher_Face.stl": 284,
+    "SeaSparrow_01_Forward_Starboard_Foundation.stl": 556,
+    "SeaSparrow_01_Forward_Starboard_Launcher.stl": 550,
+    "SeaSparrow_01_Forward_Starboard_Launcher_Face.stl": 220,
+    "CIWS_02_Aft_Port_Foundation.stl": 554,
+    "CIWS_02_Aft_Port_Upper_Body.stl": 1070,
+    "CIWS_02_Aft_Port_Radar_Dome.stl": 1760,
+    "CIWS_02_Aft_Port_Barrel.stl": 516,
+    "RAM_02_Aft_Port_Foundation.stl": 554,
+    "RAM_02_Aft_Port_Launcher.stl": 550,
+    "RAM_02_Aft_Port_Launcher_Face.stl": 284,
+    "SeaSparrow_02_Aft_Starboard_Foundation.stl": 556,
+    "SeaSparrow_02_Aft_Starboard_Launcher.stl": 552,
+    "SeaSparrow_02_Aft_Starboard_Launcher_Face.stl": 220,
+    "LifeRaft_Group_01_Forward_Port.stl": 3068,
+    "LifeRaft_Group_02_Mid_Port.stl": 3068,
+    "LifeRaft_Group_03_Aft_Port.stl": 3068,
+    "LifeRaft_Group_04_Forward_Starboard.stl": 3068,
+    "LifeRaft_Group_05_Mid_Starboard.stl": 3068,
+    "LifeRaft_Group_06_Aft_Starboard.stl": 3068,
+    "Boat_01_Port_Utility.stl": 18,
+    "Boat_01_Charcoal_Insert.stl": 12,
+    "Boat_Cradle_01_Port.stl": 76,
+    "Boat_Davit_01_Port.stl": 1626,
+    "Railing_Forward_Starboard.stl": 4660,
+    "Railing_Aft_Port.stl": 2428,
+    "DeckEdge_Access_Ladder_Port.stl": 92,
+    "DeckEdge_Access_Ladder_Starboard.stl": 92,
+    "Navigation_Light_Housings.stl": 1032,
+    "Emergency_Locker_Group_Port.stl": 12,
+    "Emergency_Locker_Group_Starboard.stl": 12,
+    "Weapon_Mount_Coupon_Male.stl": 48,
+    "Weapon_Mount_Coupon_Female.stl": 32
+  },
+  "approved_input_hashes": {
+    "Project/CAD/FreeCAD/Hull.FCStd": {
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    "Project/CAD/Python/hull_parameters.py": {
+      "bytes": 4074,
+      "sha256": "220e1d6aaa757ee52a68da90941be370b0874c8f70a3c667331e5ca75c0e63d1"
+    },
+    "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": {
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    "Project/FlightDeck/CAD/Python/deck_parameters.py": {
+      "bytes": 3860,
+      "sha256": "ee2d10f44dd33f0349d24d32a9e8b3fb250fcefe896d065e7508ef39b6d581b0"
+    },
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/STEP/CVN69_Hull_Deck_Assembly.step": {
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    "Project/Island/CAD/FreeCAD/CVN69_Island.FCStd": {
+      "bytes": 109888,
+      "sha256": "2e29a179e1613e8b58b9dedd18d94a2fdb9598d4499359761b43e20efb9538ab"
+    },
+    "Project/Island/CAD/Python/island_parameters.py": {
+      "bytes": 7015,
+      "sha256": "5c6a77a82a0974110ed4a0380e861735b1f91176bed9613aeb5a6fbec63f8e9f"
+    },
+    "Project/Island/STEP/CVN69_Hull_Deck_Island_Review.step": {
+      "bytes": 5470270,
+      "sha256": "351dccf1382337876b2fa81e5bc5a954f0f3fc448c6853ced50eaee853ace222"
+    },
+    "Project/Island/References/Configuration_Audit.md": {
+      "bytes": 8352,
+      "sha256": "e54d391c5a2d5533150ca5592b2e721871e72df412a168cf60724005f215b2c2"
+    },
+    "Project/Island/QA/Reference_Confidence_Report.md": {
+      "bytes": 1463,
+      "sha256": "73fe1126a2aede7da512170d47375d79ed13ae34579d6646226bfaca2a4662fc"
+    }
+  },
+  "deterministic_geometry_sha256": "ff5c64f57c288c7c891ce4f95e638baa3eaa149d2d3bf7b46e3d6d55259bf028",
+  "outputs": {
+    "3MF/CVN69_Hull_Deck_Island_Weapons_Review.3mf": {
+      "bytes": 1609278,
+      "sha256": "f0b5d2f96a99e1a4bf8454efce2865353f70d3b5abcef01fe2cf098c23d3f7ad"
+    },
+    "3MF/CVN69_Weapons_DeckEdge_Assembly.3mf": {
+      "bytes": 419931,
+      "sha256": "b63cd32dfc9af655436e6a7a10efba2cb8860547fd75bf0a79a1c03e630b5358"
+    },
+    "3MF/Print_Plate_01_Major_Weapons.3mf": {
+      "bytes": 102307,
+      "sha256": "231cb7d1076c10030a8a4291361da5c054a024b32ed77278a2261a6ddef40267"
+    },
+    "3MF/Print_Plate_02_Sponsons_Foundations.3mf": {
+      "bytes": 37662,
+      "sha256": "3db4a3b73e10ef06534f432babec71ee83650166f8b6cf545ce3867a4db0fe98"
+    },
+    "3MF/Print_Plate_03_LifeRafts_Boats.3mf": {
+      "bytes": 195291,
+      "sha256": "fcc581e831216d9f2ae2bfc6b2588894ac911a8550b85a7a4e5f741048678639"
+    },
+    "3MF/Print_Plate_04_DeckEdge_Details.3mf": {
+      "bytes": 86283,
+      "sha256": "5d45fa825df62fb36ad74d8b44da7c085699a95c8a3086618c9215c95717d39f"
+    },
+    "3MF/Weapon_Mount_Interface_Test_Coupon.3mf": {
+      "bytes": 1822,
+      "sha256": "7201b07dcb17446c5625511737e44066ff8eb2dde5433ec5612904e4c1fa71b2"
+    },
+    "Assembly/Glue_Only_Weapons_Assembly.md": {
+      "bytes": 2651,
+      "sha256": "642b8e068c9ab920f6efe1542e420e70fd807577d1a6c4bfbca69cf6a0e854f2"
+    },
+    "CAD/FreeCAD/CVN69_Weapons_DeckEdge.20260714-140429.FCBak": {
+      "bytes": 193942,
+      "sha256": "b6c456554fa6f8794a587847e646f3f62ac8c88e657231d02238b16e6f053b21"
+    },
+    "CAD/FreeCAD/CVN69_Weapons_DeckEdge.FCStd": {
+      "bytes": 193938,
+      "sha256": "0b3bd9861405253f410c39ca66c9d9c439403964adbee37decd4eab28abd8011"
+    },
+    "CAD/Python/weapons_deckedge_parameters.py": {
+      "bytes": 8024,
+      "sha256": "b19531e25d696fda00220420f96f72ad3f7c2329b348ab768505bf8af12a49ab"
+    },
+    "Docs/Weapon_Mount_Coupon_Instructions.pdf": {
+      "bytes": 127762,
+      "sha256": "9ba43512beb6459c247cf6c1f9bff5986ad4dbac0ddac2b8e72cfb9cfcc3fdc0"
+    },
+    "Docs/Weapons_DeckEdge_Drawings.pdf": {
+      "bytes": 1720700,
+      "sha256": "d1dbad42013bfe69002624886fbb5ea2943fc8f95af641690ac3b0d3ebaabb5b"
+    },
+    "Docs/Weapons_DeckEdge_Material_Mapping.csv": {
+      "bytes": 2424,
+      "sha256": "9162c4582f4d9ad05edfdf18703af3d4649ad67ee1f484642d5456b216b9fa00"
+    },
+    "Docs/Weapons_DeckEdge_Printing_Guide.pdf": {
+      "bytes": 513073,
+      "sha256": "3c38d1e869fde3ab7530a317b8e6f43038ff4109309cb7d13cb8df93f84de5d6"
+    },
+    "Docs/Weapons_DeckEdge_Project_Plan.pdf": {
+      "bytes": 385959,
+      "sha256": "a65e68ed94ccd967b35fd5ea851b8daa86c58b8e875ff16b0ee4a02d0cf04dc9"
+    },
+    "OBJ/CVN69_Weapons_DeckEdge_Assembly.mtl": {
+      "bytes": 376,
+      "sha256": "5515afc5bd69d5b9e06cc855b7aca8018183448099936f6d5d7c71c5eb9ab5b2"
+    },
+    "OBJ/CVN69_Weapons_DeckEdge_Assembly.obj": {
+      "bytes": 1478289,
+      "sha256": "a50a0e756b8fd6f5c846ebb01b9173e2596c1c762e760a1273df522136db06d0"
+    },
+    "QA/Approved_Input_Inspection.json": {
+      "bytes": 2653,
+      "sha256": "43afc8e26f8f2accd4bafa79eb482360a4f1d1cf774dbe80b268ae8362ed3ab1"
+    },
+    "QA/BambuStudio_Validation.json": {
+      "bytes": 105172,
+      "sha256": "7f2a26eb6adcf78ff9fefcad3d8ae77cf680065d20b417b5a1324de71badb680"
+    },
+    "QA/BambuStudio_Validation.md": {
+      "bytes": 5458,
+      "sha256": "38a4566c77e620d81518045dd1288390c6da75b29dca692cea6255e8d77a36fa"
+    },
+    "QA/Deterministic_Rebuild.json": {
+      "bytes": 15225,
+      "sha256": "0496b10eaa0471314cf5940bd7ca6d6f181e472497f8331060789263a3eaa369"
+    },
+    "QA/Dimensional_QA.json": {
+      "bytes": 38130,
+      "sha256": "55418935947c202f67fdb019137aefaced6c52c9613cd1d4460ff819e70fc8b2"
+    },
+    "QA/Dimensional_QA.md": {
+      "bytes": 19685,
+      "sha256": "7351bc8ec6474f46269781426e89ebae1f60540a351c00832b9e89c40b733d7f"
+    },
+    "QA/Interference_Report.json": {
+      "bytes": 2504,
+      "sha256": "5a5b979a64c2049033217c8fec6b15bcd1d48e1ca4bfaa2541577ab581779fe0"
+    },
+    "QA/Interference_Report.md": {
+      "bytes": 879,
+      "sha256": "bcc869dda17d9f50cedb17d914273827d17bd2020dee95543b0e98311c77b630"
+    },
+    "QA/Material_Map.md": {
+      "bytes": 868,
+      "sha256": "f9d9fa5dbbfccf0e8230658388e480e03c0ccf044a10864433d5160f356ad5e6"
+    },
+    "QA/Mesh_Validation.json": {
+      "bytes": 32360,
+      "sha256": "d9b8ebfa39a7409ec8c3d2778101144c81503a081d4f99c4627bdba8f3e416f5"
+    },
+    "QA/Mesh_Validation.md": {
+      "bytes": 5215,
+      "sha256": "7dc8e05e5700fe652fbbd97939a3b071f36a7d546d06c78082632c3172cb43ff"
+    },
+    "QA/Part_Material_Assignments.json": {
+      "bytes": 2870,
+      "sha256": "5a6ea37b25017eafbc53192306680c8492287a9d365e1f3ea61a7b061632e500"
+    },
+    "QA/Reference_Confidence_Report.json": {
+      "bytes": 3282,
+      "sha256": "973d7c5657052f8bd817b1886d007a24b738a631dc2dec58fe2650ce05d2fecc"
+    },
+    "QA/Reference_Confidence_Report.md": {
+      "bytes": 1607,
+      "sha256": "638425d3b8af5447bd20baa595aecbcbf43b94e190c5e6ac6ead8ebaf9b6ab17"
+    },
+    "QA/Topology_QA.json": {
+      "bytes": 32360,
+      "sha256": "d9b8ebfa39a7409ec8c3d2778101144c81503a081d4f99c4627bdba8f3e416f5"
+    },
+    "QA/Validation_Commands.md": {
+      "bytes": 1211,
+      "sha256": "235a8e5a4fa95865759f7f3af08d1260407643087350c36a3625a6f5bccc369d"
+    },
+    "README.md": {
+      "bytes": 3517,
+      "sha256": "e137b533be159e719025b0187cf7a142e790b4183fa8426b1d167e5c08b5f588"
+    },
+    "References/Configuration_Audit.md": {
+      "bytes": 9176,
+      "sha256": "7e342eebed1cc49bb882fd3a25a31ff49f4a59fa8c8cbc1abbd442f6c5e37ef1"
+    },
+    "Render/CIWS_Assembly_Closeup.png": {
+      "bytes": 132594,
+      "sha256": "86b586975b685b6756e06154b966d60e68c9b5fff48004ed34b12e25d6e1259f"
+    },
+    "Render/CVN69_Hull_Deck_Island_Weapons_Bow_Isometric.png": {
+      "bytes": 266811,
+      "sha256": "5705c79f93d7cde5b5f9f2b4e510ab828cf37c7a77c4373e76579cfea1569a54"
+    },
+    "Render/CVN69_Hull_Deck_Island_Weapons_Port.png": {
+      "bytes": 112495,
+      "sha256": "07e824ef81aa003c65e114e5ee8954cdb6b8a567579c1232a9126ed5992327eb"
+    },
+    "Render/CVN69_Hull_Deck_Island_Weapons_Starboard.png": {
+      "bytes": 116008,
+      "sha256": "0dd5b6cab4a37dec44275f01cf6aaf172f687d796fdd7809c12704357d23183f"
+    },
+    "Render/CVN69_Hull_Deck_Island_Weapons_Stern_Isometric.png": {
+      "bytes": 250259,
+      "sha256": "1b983a1d491a13792e99b4dc10c7d07021a4dc73e7539fa97bc0caf216830ee4"
+    },
+    "Render/CVN69_Hull_Deck_Island_Weapons_Top.png": {
+      "bytes": 122095,
+      "sha256": "856c118b2419920e0d37fb6782f14c84311708faac48d6d2062ac0eb63fe0a68"
+    },
+    "Render/LifeRaft_Boat_Area_Closeup.png": {
+      "bytes": 110792,
+      "sha256": "85c8b857a771eeeb48d7cb2197b0ba46b48363fb4360efa156af1ea0dad0f543"
+    },
+    "Render/Print_Plate_01_Overview.png": {
+      "bytes": 113710,
+      "sha256": "6735223aab9f37c84bfba651f8beb2dabf06cc5e46f7359814f015f46945156f"
+    },
+    "Render/Print_Plate_02_Overview.png": {
+      "bytes": 118004,
+      "sha256": "b938d55b548a998f536394664375d5001d2f6eb5f7b6317349bb25425c7e9930"
+    },
+    "Render/Print_Plate_03_Overview.png": {
+      "bytes": 111529,
+      "sha256": "55da2cc81f327e74128e3584c6f544d580aa2b19f5bf6241e70c5a01fe4a05fc"
+    },
+    "Render/Print_Plate_04_Overview.png": {
+      "bytes": 111658,
+      "sha256": "d3371553e32fe0724618e864851231a5b3cd60fae3a0f0dc8cf49505241ace96"
+    },
+    "Render/RAM_Assembly_Closeup.png": {
+      "bytes": 94674,
+      "sha256": "72c487189dc8731f92110ada846a684873263fa46f7250c51d50050afbbebf8c"
+    },
+    "Render/SeaSparrow_Assembly_Closeup.png": {
+      "bytes": 101302,
+      "sha256": "0d4e56a62627c822988a0d0db2f0e1c1669ff78331d2f43eb333cefa4a8fd980"
+    },
+    "Render/Weapon_Area_Aft_Port.png": {
+      "bytes": 107288,
+      "sha256": "ac790f92a861b9387a3d6311f639d82dc1c7af4ccd2266fd8fa5acf23bda5105"
+    },
+    "Render/Weapon_Area_Aft_Starboard.png": {
+      "bytes": 106963,
+      "sha256": "24dce94c7f1e9a3e5714b8ee2c7c267262d25399943f3a17aa2ad8c9be77f290"
+    },
+    "Render/Weapon_Area_Forward_Port.png": {
+      "bytes": 109273,
+      "sha256": "2f791df0b9f184d6ff19ad17a399684f7c5e06d0a20ec499ddbf705eefa30a65"
+    },
+    "Render/Weapon_Area_Forward_Starboard.png": {
+      "bytes": 112329,
+      "sha256": "6cb73b087ae59d281fdc11c08b54e39d6302f4dcc04d665a2d37fb0b42a104da"
+    },
+    "Render/Weapon_Interface_Family_Section.png": {
+      "bytes": 127095,
+      "sha256": "0a129b75c0f47bfb04c9d781d0627d35babc3912b949da8099c5a5157e70c89f"
+    },
+    "Render/Weapons_DeckEdge_Exploded.png": {
+      "bytes": 121018,
+      "sha256": "395cdd43c9b3b6648c4c61e595e010189375c0ff7f0d48ad9dcff2f87d11fc75"
+    },
+    "STEP/CVN69_Hull_Deck_Island_Weapons_Review.step": {
+      "bytes": 6669469,
+      "sha256": "a3690dfdc8e851d46d58885bd6474efe93d251afde8120cff3e6242edd5b4b7e"
+    },
+    "STEP/CVN69_Weapon_Mount_Interface_Coupon.step": {
+      "bytes": 30074,
+      "sha256": "369a14b30468ae173f1d77bcfc367b8dcd64e2d6bee96387c0dc7c91eefef64e"
+    },
+    "STEP/CVN69_Weapons_DeckEdge_Assembly.step": {
+      "bytes": 1159553,
+      "sha256": "9acc4e37a392122981a8b47537f77a3696114fbe84769c08067af944ae2eeb8a"
+    },
+    "STL/Boat_01_Charcoal_Insert.stl": {
+      "bytes": 684,
+      "sha256": "57f3600d1990d7ea52aba7b5f2ebf0dbdd16643f0f0b272bb0e6e2b2cd32b900"
+    },
+    "STL/Boat_01_Port_Utility.stl": {
+      "bytes": 984,
+      "sha256": "2f2570cb9d7353e872c077c4ad5e0418232287dc65ac99d4f0654b7321e9b651"
+    },
+    "STL/Boat_Access_Platform_Port.stl": {
+      "bytes": 1484,
+      "sha256": "1cf28e05db6ab9cad1504116cb3a153f94403773613565a2ebeab34468131040"
+    },
+    "STL/Boat_Cradle_01_Port.stl": {
+      "bytes": 3884,
+      "sha256": "e7e287dfec1e34728a706c1493ff8fd7cf9dda21432ba7a7c9975e7cb3f24a57"
+    },
+    "STL/Boat_Davit_01_Port.stl": {
+      "bytes": 81384,
+      "sha256": "51241933006b9056b8c68e1a25680e706933da78a5b8c9cc7ea687cebdc5eb49"
+    },
+    "STL/CIWS_01_Forward_Port_Barrel.stl": {
+      "bytes": 25884,
+      "sha256": "e04f11888a10b1dd9635e36071d872c0449d3201d51a3ddefccb49f99be1c2ac"
+    },
+    "STL/CIWS_01_Forward_Port_Foundation.stl": {
+      "bytes": 27784,
+      "sha256": "109d8d0527fa1a095ee11df5af24375d990cb30c466d442128b596b39e116143"
+    },
+    "STL/CIWS_01_Forward_Port_Radar_Dome.stl": {
+      "bytes": 88084,
+      "sha256": "d749a9176a69263d73ca05ecb66c01afa7018f9a03c106d17613cdb567aa5b85"
+    },
+    "STL/CIWS_01_Forward_Port_Upper_Body.stl": {
+      "bytes": 53584,
+      "sha256": "d4f133be13a60784eebbf2c87ee29fc3765ecb903990dcd203006b69b69573fa"
+    },
+    "STL/CIWS_02_Aft_Port_Barrel.stl": {
+      "bytes": 25884,
+      "sha256": "10b0d82b74cb2becd82ac2f97bdb2ef05a6dc33b7a812b45dbe6550a1a4038b8"
+    },
+    "STL/CIWS_02_Aft_Port_Foundation.stl": {
+      "bytes": 27784,
+      "sha256": "483da251b2a9a2baf5d12658177da92c45d9f5ae94563604d0ea8b9ed0be7844"
+    },
+    "STL/CIWS_02_Aft_Port_Radar_Dome.stl": {
+      "bytes": 88084,
+      "sha256": "f65bc0eccee2422a074dd4ac87654ae3d9dd70aedf2d4c54b5a00ceabb347a77"
+    },
+    "STL/CIWS_02_Aft_Port_Upper_Body.stl": {
+      "bytes": 53584,
+      "sha256": "ac6b3cb4a6068e41f880097936cf3211bdd68789993e04689cb6abad6d190bad"
+    },
+    "STL/DeckEdge_Access_Ladder_Port.stl": {
+      "bytes": 4684,
+      "sha256": "10479e8c78e4254cb7319519890265c958cb4f8a26968c7541d63f5dc2c14a72"
+    },
+    "STL/DeckEdge_Access_Ladder_Starboard.stl": {
+      "bytes": 4684,
+      "sha256": "b2e476a6c3f6aeebb27c47d46bd800fb3c2491ae602e9cb0345b9a9b25cfb8d2"
+    },
+    "STL/Emergency_Locker_Group_Port.stl": {
+      "bytes": 684,
+      "sha256": "10150c0a05265415d75c99f244a45a5a3d5b2231f3b15da185d3be2b2225c048"
+    },
+    "STL/Emergency_Locker_Group_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "e2c499bf5a3f6d1a00565c2870d6c5629896d13c741f47d8e9456b997acbb95d"
+    },
+    "STL/LifeRaft_Group_01_Forward_Port.stl": {
+      "bytes": 153484,
+      "sha256": "22e69db525f79aa797b04d7393eb83177cfcfd6cc4581db9679cd91494775415"
+    },
+    "STL/LifeRaft_Group_02_Mid_Port.stl": {
+      "bytes": 153484,
+      "sha256": "f8f00f1951c1ef1bdd5379d2eb9c83f60df3028b691029b3c8e3baa9bcecb0ed"
+    },
+    "STL/LifeRaft_Group_03_Aft_Port.stl": {
+      "bytes": 153484,
+      "sha256": "a82cca66a1c6e4f0bdcdd60b7214943d8cabd6dd044327c79d649ec4f3c3d82f"
+    },
+    "STL/LifeRaft_Group_04_Forward_Starboard.stl": {
+      "bytes": 153484,
+      "sha256": "15f65a7306772e9619d5af7e877a18b79cc20a95e44a00cbacad0b75bae4b007"
+    },
+    "STL/LifeRaft_Group_05_Mid_Starboard.stl": {
+      "bytes": 153484,
+      "sha256": "75c50a955fd9c96921344e0b8504ecf5a0d522fde619e26fce5914ff4f1147bb"
+    },
+    "STL/LifeRaft_Group_06_Aft_Starboard.stl": {
+      "bytes": 153484,
+      "sha256": "8c49904af43b5ad7606c7ee7dc12bd9e32242f0e16ba82f6c1b960a92a73bbc6"
+    },
+    "STL/Navigation_Light_Housings.stl": {
+      "bytes": 51684,
+      "sha256": "8d3bd88619ff5c0fdc76b7b108eeb39570fbd67f96e9729e50ed01407cd1a46a"
+    },
+    "STL/RAM_01_Forward_Starboard_Foundation.stl": {
+      "bytes": 27884,
+      "sha256": "a4cf28bf39a946e447ed532cf0f2ccfef61fa2bd2a2a8a4cc1b7a37d64293513"
+    },
+    "STL/RAM_01_Forward_Starboard_Launcher.stl": {
+      "bytes": 27784,
+      "sha256": "8c7549657841f9ef3c757cf9e17e972211368ed53569e18f586795b087e1ca14"
+    },
+    "STL/RAM_01_Forward_Starboard_Launcher_Face.stl": {
+      "bytes": 14284,
+      "sha256": "01718923bd162e988b06087ce965ecf4887399478d27943bcd47edb0b1fc6eac"
+    },
+    "STL/RAM_02_Aft_Port_Foundation.stl": {
+      "bytes": 27784,
+      "sha256": "1395d85e1a9aa21535bd296bc0a778db8bda5deafbf1cae410dc407c0ac9150a"
+    },
+    "STL/RAM_02_Aft_Port_Launcher.stl": {
+      "bytes": 27584,
+      "sha256": "8b0e42823c3d81134b91cc180df4f9ea7d7dd8cec0c877e9f1b8fe7bc0046943"
+    },
+    "STL/RAM_02_Aft_Port_Launcher_Face.stl": {
+      "bytes": 14284,
+      "sha256": "40dfa2e993e090854b726cb497f21e7f29feaae8e568aadbdac0065d4a1a9ad0"
+    },
+    "STL/Railing_Aft_Port.stl": {
+      "bytes": 121484,
+      "sha256": "1a62dc242db937132ddc626ff4e7b8e3b49df40434cd6f8fc81bda753f94f831"
+    },
+    "STL/Railing_Forward_Starboard.stl": {
+      "bytes": 233084,
+      "sha256": "bde25cfecfe6247002ea03273a13e76f2e38311cf437b955582a7e1a24aeff8a"
+    },
+    "STL/SeaSparrow_01_Forward_Starboard_Foundation.stl": {
+      "bytes": 27884,
+      "sha256": "23949d30a9133fdce6ed8d3b5f61307ab317abae3da8afb3b75e9232f6fc4270"
+    },
+    "STL/SeaSparrow_01_Forward_Starboard_Launcher.stl": {
+      "bytes": 27584,
+      "sha256": "c7e386ac065e5b54e604b1e0370ea0e215de44accf765bb74a77b5f2dbf1884e"
+    },
+    "STL/SeaSparrow_01_Forward_Starboard_Launcher_Face.stl": {
+      "bytes": 11084,
+      "sha256": "c2a1073df9ea459d8c601bde7f0a8b1d9deb2a67ac09e24416b722673e7a4e54"
+    },
+    "STL/SeaSparrow_02_Aft_Starboard_Foundation.stl": {
+      "bytes": 27884,
+      "sha256": "12f91e9aa01048eab15cd45ea515f7275a0d65c062c7201e575babc796863166"
+    },
+    "STL/SeaSparrow_02_Aft_Starboard_Launcher.stl": {
+      "bytes": 27684,
+      "sha256": "c38449bd4b2d12669640337c6d6af93ead6bae8d10e6d7ce7b205aff871d30bf"
+    },
+    "STL/SeaSparrow_02_Aft_Starboard_Launcher_Face.stl": {
+      "bytes": 11084,
+      "sha256": "fbf35dd252a850a04ec293e69e3a0116c356038b1ddc54e527ce23de0255830b"
+    },
+    "STL/Sponson_Aft_Port_CIWS.stl": {
+      "bytes": 2484,
+      "sha256": "a22e5a1d7c6c2e30ac0e529e2c75af606c274a71b2bfabb02f3cbbe10a03f6e5"
+    },
+    "STL/Sponson_Aft_Port_RAM.stl": {
+      "bytes": 2484,
+      "sha256": "014267053a8cb2f8d45fe652a3d23b71b3ecd186cb23f4ff0e619caabd8f700b"
+    },
+    "STL/Sponson_Aft_Starboard.stl": {
+      "bytes": 2484,
+      "sha256": "6c35e3624de4fb349adfbaacef38739f48c97e17f902b4b07187a024247e1678"
+    },
+    "STL/Sponson_Forward_Port.stl": {
+      "bytes": 2484,
+      "sha256": "bcdeb7dccf256559962c0556f7e39419941a161e01ee6b7ddf7ba44b0e75007d"
+    },
+    "STL/Sponson_Forward_Starboard.stl": {
+      "bytes": 3484,
+      "sha256": "0b71c455e18bbedbde57b6f93789ab672234e337f916aae9d9e8b77ec177db75"
+    },
+    "STL/Weapon_Mount_Coupon_Female.stl": {
+      "bytes": 1684,
+      "sha256": "747e941b913c076d972ab9fe8938e5b4b8c450cbf379e2b867bf42fd84dc7b13"
+    },
+    "STL/Weapon_Mount_Coupon_Male.stl": {
+      "bytes": 2484,
+      "sha256": "931f42811af656c9275d02488cacf7259bc8fc872c5f96ff27a5076b402aa363"
+    },
+    "Scripts/audit_weapons_references.py": {
+      "bytes": 2859,
+      "sha256": "4794e3eb698a5df286acb8189f574adea83b3fc33b1f6a906cf3c8826ee6b355"
+    },
+    "Scripts/build_weapons_deckedge.py": {
+      "bytes": 40846,
+      "sha256": "e91e003d4d2ab19d435ee2f045f14cf1151910fd9dc205e6e6f2fea051934b7c"
+    },
+    "Scripts/generate_weapons_documents.py": {
+      "bytes": 20322,
+      "sha256": "d2b46ebc1d3e7af83534dd61f11dece0eb829256339664ed008de1cb1a1530f7"
+    },
+    "Scripts/render_weapons_deckedge.py": {
+      "bytes": 12160,
+      "sha256": "8ad578bbe5da28ce9bde3778b22e35b47319686b3553929e2218a819ce0629eb"
+    },
+    "Scripts/run_bambu_weapons_checks.py": {
+      "bytes": 5220,
+      "sha256": "8a23e4238ed1ab262c4ecab016971eacc93cd0bac78ff52a4a71766fe9a3ad24"
+    },
+    "Scripts/validate_weapons_deckedge.py": {
+      "bytes": 26467,
+      "sha256": "8be94090cd4e02832492a081cda2912ccc358ac47cf799feb2a5baede78da8db"
+    }
+  },
+  "validated_utc": "2026-07-14T21:05:53.031288+00:00",
+  "validation_status": "PASS",
+  "deterministic_rebuild": {
+    "status": "PASS",
+    "files_compared": 54,
+    "report": "QA/Deterministic_Rebuild.json"
+  }
+}
