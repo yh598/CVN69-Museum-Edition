@@ -36,6 +36,7 @@ Deck seams transform to x = 146 and 286 mm. Hull seams remain x = 158.667 and 31
 |---|---|
 | Editable FreeCAD assembly | [`CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd`](CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd) |
 | Integration parameters | [`CAD/Python/integration_parameters.py`](CAD/Python/integration_parameters.py) |
+| Propeller parameters | [`CAD/Python/propeller_parameters.py`](CAD/Python/propeller_parameters.py) |
 | Deterministic build | [`Scripts/build_hull_deck_integration.py`](Scripts/build_hull_deck_integration.py) |
 | Assembly STEP | [`STEP/CVN69_Hull_Deck_Assembly.step`](STEP/CVN69_Hull_Deck_Assembly.step) |
 | Production STLs | [`STL/`](STL/) |
@@ -52,10 +53,17 @@ Deck seams transform to x = 146 and 286 mm. Hull seams remain x = 158.667 and 31
 
 ## Production organization
 
-- `Print_Plate_01_Hull.3mf`: three socketed hull modules and approved running gear
+- `Print_Plate_01_Hull.3mf`: three socketed hull modules, four shafts, eight struts, and two rudders; 17 explicitly named objects and no propellers
 - `Print_Plate_02_Deck.3mf`: three underside-socketed deck modules
 - `Print_Plate_03_Details.3mf`: approved deck details plus twelve interface pads
+- `Print_Plate_04_Propellers.3mf`: four explicitly named, flat-oriented five-blade propellers
 - `Interface_Test_Coupon.3mf`: one male and one female interface sample
+
+## Propeller print correction
+
+The legacy hull plate stored 21 disconnected components in one 3MF object. Its ordered component metadata and source bounds verify Bambu object IDs 5, 9, 13, and 17 as `Propeller_1` through `Propeller_4`. Those 0.58 mm blades were centered above the hub bed face and produced floating-region and empty-layer warnings.
+
+The four replacements are clean parametric solids with the original 7.26 mm overall diameter, five 0.60 mm blades, a 0.60 mm hub wall, a 0.60 mm blind-bore back wall, and a common flat bed-side face. No scale enlargement was applied. A removable sprue was not required; a 3 mm brim is recommended. Bambu Studio completed real slicing of both corrected plates at 0.12 and 0.16 mm with three walls, all named objects and blade lobes retained, and no floating-region, empty-layer, or faulty-mesh result. See [`QA/BambuStudio_Validation.md`](QA/BambuStudio_Validation.md).
 
 Material assignments are object-based and do not depend on AMS slot numbers:
 

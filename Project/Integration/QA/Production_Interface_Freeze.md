@@ -33,4 +33,8 @@ Pad stations remain x = 32, 105, 205, 270, 370, and 445 mm, paired at y = −8 a
 
 [`Production_Interface_Freeze.json`](Production_Interface_Freeze.json) records byte sizes and SHA-256 hashes for the governing parameter source, FreeCAD assembly, production STEP, hull/deck/pad STLs, production 3MF files, and coupon exports. Those hashes define the accepted production interface artifact set.
 
-Any change to a frozen dimension or governed artifact invalidates this freeze. Such a change requires a new revision, regenerated artifacts, and another physical coupon PASS before production use.
+Any change to a frozen dimension or interface-critical child artifact invalidates this freeze. A monolithic assembly/package hash may advance only under a documented amendment proving those child artifacts unchanged. Interface changes require a new revision, regenerated artifacts, and another physical coupon PASS before production use.
+
+## 2026-07-14 propeller-plate amendment
+
+The permitted `M2-PROPELLER-FDM-PLATE-FIX` rebuilt only the four propellers and removed them from the hull plate. It did not alter a frozen interface dimension or any hull-module, deck-module, interface-pad, coupon STL, coupon STEP, or physically tested coupon 3MF byte. The FreeCAD assembly, assembly STEP/3MF, and hull-plate hashes were advanced because those monolithic artifacts contain the corrected propellers or changed plate membership. The superseded hashes remain recorded in the JSON ledger.

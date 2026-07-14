@@ -29,9 +29,11 @@ PHYSICAL_RESULT_PATH = QA / "Physical_Coupon_Result.json"
 INTERFACE_FREEZE_PATH = QA / "Production_Interface_Freeze.json"
 sys.path.insert(0, str(INTEGRATION / "CAD" / "Python"))
 from integration_parameters import make_parameters  # noqa: E402
+from propeller_parameters import make_parameters as make_propeller_parameters  # noqa: E402
 
 
 P = make_parameters()
+PROP = make_propeller_parameters()
 MANIFEST = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
@@ -245,6 +247,26 @@ def validate_fcstd(path: Path):
         deck_modules = [obj for obj in production if obj.IntegrationRole == "deck_module"]
         pads = [obj for obj in production if obj.IntegrationRole == "interface_pad"]
         elevators = [obj for obj in production if obj.IntegrationRole == "elevator"]
+        propellers = [obj for obj in production if obj.IntegrationRole == "propeller"]
+
+        profile_y = sum(point[0] for point in PROP.blade_profile) / len(PROP.blade_profile)
+        profile_z = sum(point[1] for point in PROP.blade_profile) / len(PROP.blade_profile)
+        blade_samples_inside = 0
+        for propeller in propellers:
+            index = int(propeller.Name.rsplit("_", 1)[1])
+            lateral = (-0.250, -0.125, 0.125, 0.250)
+            center_y = lateral[index - 1] * P.hull.maximum_hull_beam
+            inner = abs(center_y) < 0.20 * P.hull.maximum_hull_beam
+            center_x = P.overall_length * (0.943 if inner else 0.925) + max(1.7, 2.3 * P.hull.scale_factor)
+            center_z = -max(1.8, (2.2 if inner else 2.6) * P.hull.scale_factor) - max(0.15, 0.25 * P.hull.scale_factor)
+            sample_x = propeller.Shape.BoundBox.XMax - PROP.blade_thickness / 2.0
+            for blade_index in range(PROP.blade_count):
+                angle = math.radians(blade_index * 360.0 / PROP.blade_count)
+                local_y = PROP.profile_radius * profile_y
+                local_z = PROP.profile_radius * profile_z
+                sample_y = center_y + math.cos(angle) * local_y - math.sin(angle) * local_z
+                sample_z = center_z + math.sin(angle) * local_y + math.cos(angle) * local_z
+                blade_samples_inside += int(propeller.Shape.isInside(App.Vector(sample_x, sample_y, sample_z), 1.0e-5, True))
 
         hull_deck_overlap = sum(hull.Shape.common(deck.Shape).Volume for hull in hull_modules for deck in deck_modules)
         pad_hull_overlap = sum(pad.Shape.common(hull.Shape).Volume for pad in pads for hull in hull_modules)
@@ -298,6 +320,7 @@ def validate_fcstd(path: Path):
             "hull_socket_size_mm": hull_socket_sizes[0],
             "deck_socket_size_mm": deck_socket_sizes[0],
             "measured_clearance_per_side_mm": float(measured_clearance),
+            "propeller_blade_samples_inside": blade_samples_inside,
         }
     finally:
         App.closeDocument(doc.Name)
@@ -406,11 +429,46 @@ def main():
     )
 
     bambu = json.loads((QA / "BambuStudio_Validation.json").read_text(encoding="utf-8"))
+    expected_bambu_files = len(stl_results) + len(three_mf_results)
+    bambu_slice_pass = (
+        bambu.get("slice_cases") == 4
+        and all(record.get("status") == "PASS" for record in bambu.get("slice_records", []))
+        and bambu.get("plate_separation_pass") is True
+        and bambu.get("propeller_geometry_pass") is True
+        and bambu.get("propeller_object_mapping_pass") is True
+    )
     add_check(
         mesh_checks,
-        "Bambu Studio independent import/manifold check",
-        bambu["overall_status"] == "PASS" and bambu["files_checked"] == 62,
-        f"Bambu Studio 02.07.01.62 loaded {bambu['files_checked']} STL/3MF exports; all reported manifold",
+        "Bambu Studio import/manifold and actual slicing checks",
+        bambu["overall_status"] == "PASS" and bambu["files_checked"] == expected_bambu_files and bambu_slice_pass,
+        f"Bambu Studio 02.07.01.62 loaded {bambu['files_checked']} STL/3MF exports and completed 4 real 0.12/0.16 mm slice runs with zero floating, empty-layer, or faulty-mesh warnings",
+    )
+
+    propeller_records = [record for record in fcstd_records if record["name"].startswith("Propeller_")]
+    propeller_stl_ok = all(
+        abs(max(stl_results[f"Propeller_{index}.stl"]["bounds_mm"][:2]) - PROP.overall_diameter) <= 0.01
+        and abs(stl_results[f"Propeller_{index}.stl"]["bounds_mm"][2] - PROP.hub_length) <= 0.01
+        and stl_results[f"Propeller_{index}.stl"]["watertight"]
+        and stl_results[f"Propeller_{index}.stl"]["manifold"]
+        for index in range(1, 5)
+    )
+    propeller_plate = three_mf_results["Print_Plate_04_Propellers.3mf"]
+    hull_plate = three_mf_results["Print_Plate_01_Hull.3mf"]
+    add_check(
+        mesh_checks,
+        "Parametric FDM propellers and plate separation",
+        len(propeller_records) == 4
+        and all(record["valid"] and record["closed"] and record["solids"] == 1 for record in propeller_records)
+        and PROP.blade_count == 5
+        and PROP.blade_thickness >= 0.60
+        and PROP.scale_enlargement == 1.0
+        and context["propeller_blade_samples_inside"] == 20
+        and propeller_stl_ok
+        and propeller_plate["objects"] == 4
+        and propeller_plate["build_items"] == 4
+        and hull_plate["objects"] == 17
+        and hull_plate["build_items"] == 17,
+        f"4 five-blade solids; 20/20 blade-lobe samples retained; diameter {PROP.overall_diameter:.2f} mm; blade {PROP.blade_thickness:.2f} mm; hull plate 17 named non-propeller objects; propeller plate 4 named objects",
     )
 
     required_production = [
@@ -421,6 +479,7 @@ def main():
         "3MF/Print_Plate_01_Hull.3mf",
         "3MF/Print_Plate_02_Deck.3mf",
         "3MF/Print_Plate_03_Details.3mf",
+        "3MF/Print_Plate_04_Propellers.3mf",
         "3MF/Interface_Test_Coupon.3mf",
         "Docs/Hull_Deck_Integration_Drawings.pdf",
         "Docs/Hull_Deck_Printing_Guide.pdf",
@@ -433,6 +492,10 @@ def main():
         "QA/Production_Interface_Freeze.json",
         "QA/Production_Interface_Freeze.md",
         "CAD/Python/integration_parameters.py",
+        "CAD/Python/propeller_parameters.py",
+        "QA/Bambu_Profiles/CVN69_A1_0p4_Machine_Validation.json",
+        "QA/Bambu_Profiles/CVN69_A1_0p12_Propeller_Validation.json",
+        "QA/Bambu_Profiles/CVN69_A1_0p16_Propeller_Validation.json",
         "Scripts/build_hull_deck_integration.py",
         "Scripts/render_hull_deck_integration.py",
         "Scripts/run_bambu_integration_checks.py",
@@ -640,7 +703,7 @@ def main():
                 "",
                 "## Checks run",
                 "",
-                "Binary STL structure, two-edge incidence, connected components, degenerates, normals, signed volume, print z=0, 240 mm envelope, 3MF ZIP/XML/CRC/index checks, FreeCAD Shape.check(True), strict BOPCheck, STEP round-trip, PDF/PNG structure, approved-input hashes, production-output hashes, and Bambu Studio import/manifold checks.",
+                "Binary STL structure, two-edge incidence, connected components, degenerates, normals, signed volume, print z=0, 240 mm envelope, 3MF ZIP/XML/CRC/index/name checks, FreeCAD Shape.check(True), strict BOPCheck, STEP round-trip, PDF/PNG structure, approved-input hashes, production-output hashes, Bambu Studio import/manifold checks, and four actual 0.12/0.16 mm Bambu slicing runs.",
             ],
         ),
         encoding="utf-8",
@@ -669,7 +732,7 @@ def main():
         "",
         f"Generated UTC: {generated}",
         f"FreeCAD: {'.'.join(App.Version()[:3])}",
-        "Bambu Studio: 02.07.01.62",
+        "Bambu Studio: 02.07.01.62 (`--info` plus actual `--slice` at 0.12 and 0.16 mm)",
         "",
         "```sh",
         "/Applications/FreeCAD.app/Contents/Resources/bin/FreeCADCmd -c \"globals()['__file__']='Project/Integration/Scripts/build_hull_deck_integration.py'; exec(compile(open(__file__, encoding='utf-8').read(), __file__, 'exec'))\"",

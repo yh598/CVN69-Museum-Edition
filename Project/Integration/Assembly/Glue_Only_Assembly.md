@@ -8,10 +8,11 @@ If the printer, material, slicer behavior, or compensation differs materially fr
 
 ## Print sequence
 
-1. Print `Print_Plate_01_Hull.3mf` in Bambu PLA Matte Ash Gray, with optional Silk Silver for metallic running gear.
+1. Print `Print_Plate_01_Hull.3mf` in Bambu PLA Matte Ash Gray, with optional Silk Silver for shafts. This corrected plate contains no propellers.
 2. Print `Print_Plate_02_Deck.3mf` in Bambu PLA Matte Charcoal.
 3. Print `Print_Plate_03_Details.3mf`; assign Ivory White to raised markings, Silk Silver to metallic details, Ash Gray to interface pads, and Charcoal to elevators.
-4. Confirm every object is at 100% scale and rests on z = 0. Do not auto-scale a plate to fit.
+4. Print `Print_Plate_04_Propellers.3mf` in Silk Silver at 100% scale. Use 0.12 or 0.16 mm layers, three walls, and a 3 mm brim; supports and a sprue are not required.
+5. Confirm every object is at 100% scale and rests on z = 0. Do not auto-scale a plate to fit.
 
 ## Hull preparation
 

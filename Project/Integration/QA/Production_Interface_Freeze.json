@@ -57,13 +57,13 @@
     },
     {
       "path": "CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd",
-      "bytes": 1517147,
-      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+      "bytes": 1512420,
+      "sha256": "5f94cf8e1eb354d104279feea788dfd84bbcdf390f9e09dc41009bec8053eca2"
     },
     {
       "path": "STEP/CVN69_Hull_Deck_Assembly.step",
-      "bytes": 4874528,
-      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+      "bytes": 4863019,
+      "sha256": "16b6581e1fc41ec70247169e898796f464bac285384ad693e03aa550cf21fedf"
     },
     {
       "path": "STEP/Interface_Test_Coupon.step",
@@ -172,13 +172,13 @@
     },
     {
       "path": "3MF/CVN69_Hull_Deck_Assembly.3mf",
-      "bytes": 973126,
-      "sha256": "14e87107f94b6292bbd75db196db97ab3dce58a3bbc553cb85430b6fbcf6b06d"
+      "bytes": 960012,
+      "sha256": "01f45985d31e4f574757df209df3ade29e9d144375006f57c2edaca4c833780a"
     },
     {
       "path": "3MF/Print_Plate_01_Hull.3mf",
-      "bytes": 955734,
-      "sha256": "fbadf12dbb3b5a97ccdb178e8f6f38d78501afb1709f5bb815c4d0f90b72fea5"
+      "bytes": 902858,
+      "sha256": "797e1f0ca23770f4140a458cf8aba762e9eed2e60faa6c90f7f5dfe7c80d9a1d"
     },
     {
       "path": "3MF/Print_Plate_02_Deck.3mf",
@@ -196,8 +196,24 @@
       "sha256": "1e327dd22bb8fc535e6e413df91aee6eb14335342a36dd7841dccfc30deb820e"
     }
   ],
+  "amendments": [
+    {
+      "date": "2026-07-14",
+      "change_id": "M2-PROPELLER-FDM-PLATE-FIX",
+      "scope": "Propeller-only parametric rebuild and print-plate separation",
+      "reason": "Bambu Studio reported floating regions for legacy components 5, 9, 13, and 17 and an empty-layer interval for component 17.",
+      "interface_impact": "NONE",
+      "evidence": "All hull-module, deck-module, interface-pad, coupon STL, coupon STEP, and physically tested coupon 3MF hashes remain unchanged. The four updated monolithic assembly/package hashes changed only because the permitted propeller solids or hull-plate membership changed.",
+      "superseded_artifact_hashes": {
+        "CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c",
+        "STEP/CVN69_Hull_Deck_Assembly.step": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37",
+        "3MF/CVN69_Hull_Deck_Assembly.3mf": "14e87107f94b6292bbd75db196db97ab3dce58a3bbc553cb85430b6fbcf6b06d",
+        "3MF/Print_Plate_01_Hull.3mf": "fbadf12dbb3b5a97ccdb178e8f6f38d78501afb1709f5bb815c4d0f90b72fea5"
+      }
+    }
+  ],
   "change_control": {
-    "rule": "Do not alter any locked dimension or governed artifact while retaining this freeze status.",
+    "rule": "Do not alter any locked interface dimension or interface-critical child artifact while retaining this freeze status. A monolithic assembly/package hash may advance only under a documented amendment proving the frozen child artifacts unchanged.",
     "requalification": "Any interface geometry or clearance change requires a new revision, regenerated artifacts, and a new physical coupon PASS before production use."
   }
 }

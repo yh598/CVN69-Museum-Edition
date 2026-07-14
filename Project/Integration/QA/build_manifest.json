@@ -2,7 +2,7 @@
   "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
   "milestone": "Milestone 2 \u2014 Hull\u2013Flight-Deck Integration",
   "version": "0.2.0-review",
-  "generated_utc": "2026-07-14T17:29:05.353265+00:00",
+  "generated_utc": "2026-07-14T21:27:30.190451+00:00",
   "freecad_version": "1.1.1",
   "coordinate_system": {
     "x": "0 bow to 476 stern",
@@ -44,6 +44,20 @@
     "deck_top_skin_over_socket": 1.55,
     "vertical_pad_tip_clearance": 0.25,
     "nominal_seating_gap": 0.0
+  },
+  "propeller_parameters_mm": {
+    "overall_diameter": 7.26,
+    "blade_count": 5,
+    "blade_thickness": 0.6,
+    "hub_length": 2.075,
+    "hub_radius": 1.63,
+    "shaft_bore_radius": 1.03,
+    "shaft_bore_depth": 1.475,
+    "hub_wall_thickness": 0.6,
+    "hub_back_wall_thickness": 0.6,
+    "scale_enlargement": 1.0,
+    "removable_sprue_required": false,
+    "recommended_brim_width": 3.0
   },
   "counts": {
     "hull_modules": 3,
@@ -232,28 +246,28 @@
       "name": "Propeller_1",
       "kind": "propeller",
       "material": "Bambu PLA Silk Silver",
-      "source": "Propeller_1",
+      "source": "Propeller_1 dimensional reference; CAD/Python/propeller_parameters.py",
       "valid": true,
       "closed": true,
       "solid_count": 1,
-      "volume_mm3": 9.94413,
+      "volume_mm3": 18.46674,
       "bounds_mm": {
         "x": [
           441.5625,
           443.6375
         ],
         "y": [
-          -17.88336,
-          -10.757
+          -17.88233,
+          -10.75819
         ],
         "z": [
-          -6.36572,
-          0.89655
+          -6.36462,
+          0.89538
         ],
         "size": [
           2.075,
-          7.12636,
-          7.26227
+          7.12414,
+          7.26
         ]
       }
     },
@@ -348,28 +362,28 @@
       "name": "Propeller_2",
       "kind": "propeller",
       "material": "Bambu PLA Silk Silver",
-      "source": "Propeller_2",
+      "source": "Propeller_2 dimensional reference; CAD/Python/propeller_parameters.py",
       "valid": true,
       "closed": true,
       "solid_count": 1,
-      "volume_mm3": 9.94413,
+      "volume_mm3": 18.46674,
       "bounds_mm": {
         "x": [
           450.1305,
           452.2055
         ],
         "y": [
-          -10.59586,
-          -3.4695
+          -10.59483,
+          -3.47069
         ],
         "z": [
-          -5.96572,
-          1.29655
+          -5.96462,
+          1.29538
         ],
         "size": [
           2.075,
-          7.12636,
-          7.26227
+          7.12414,
+          7.26
         ]
       }
     },
@@ -464,28 +478,28 @@
       "name": "Propeller_3",
       "kind": "propeller",
       "material": "Bambu PLA Silk Silver",
-      "source": "Propeller_3",
+      "source": "Propeller_3 dimensional reference; CAD/Python/propeller_parameters.py",
       "valid": true,
       "closed": true,
       "solid_count": 1,
-      "volume_mm3": 9.94413,
+      "volume_mm3": 18.46674,
       "bounds_mm": {
         "x": [
           450.1305,
           452.2055
         ],
         "y": [
-          3.97914,
-          11.1055
+          3.98017,
+          11.10431
         ],
         "z": [
-          -5.96572,
-          1.29655
+          -5.96462,
+          1.29538
         ],
         "size": [
           2.075,
-          7.12636,
-          7.26227
+          7.12414,
+          7.26
         ]
       }
     },
@@ -580,28 +594,28 @@
       "name": "Propeller_4",
       "kind": "propeller",
       "material": "Bambu PLA Silk Silver",
-      "source": "Propeller_4",
+      "source": "Propeller_4 dimensional reference; CAD/Python/propeller_parameters.py",
       "valid": true,
       "closed": true,
       "solid_count": 1,
-      "volume_mm3": 9.94413,
+      "volume_mm3": 18.46674,
       "bounds_mm": {
         "x": [
           441.5625,
           443.6375
         ],
         "y": [
-          11.26664,
-          18.393
+          11.26767,
+          18.39181
         ],
         "z": [
-          -6.36572,
-          0.89655
+          -6.36462,
+          0.89538
         ],
         "size": [
           2.075,
-          7.12636,
-          7.26227
+          7.12414,
+          7.26
         ]
       }
     },
@@ -1773,19 +1787,19 @@
     "Hull_Module_2_Midship.stl": 15008,
     "Hull_Module_3_Stern.stl": 11676,
     "Shaft_1.stl": 20,
-    "Propeller_1.stl": 1444,
+    "Propeller_1.stl": 1082,
     "Shaft_1_Strut_P.stl": 20,
     "Shaft_1_Strut_S.stl": 20,
     "Shaft_2.stl": 20,
-    "Propeller_2.stl": 1444,
+    "Propeller_2.stl": 1082,
     "Shaft_2_Strut_P.stl": 20,
     "Shaft_2_Strut_S.stl": 20,
     "Shaft_3.stl": 20,
-    "Propeller_3.stl": 1444,
+    "Propeller_3.stl": 1082,
     "Shaft_3_Strut_P.stl": 20,
     "Shaft_3_Strut_S.stl": 20,
     "Shaft_4.stl": 20,
-    "Propeller_4.stl": 1444,
+    "Propeller_4.stl": 1082,
     "Shaft_4_Strut_P.stl": 20,
     "Shaft_4_Strut_S.stl": 20,
     "Rudder_Port.stl": 32,
@@ -1838,35 +1852,35 @@
   "outputs": {
     "QA/Approved_Input_Inspection.json": {
       "bytes": 1786,
-      "sha256": "70dafa94e97fa62afeeb1dba1a65d093005f488ca934cc15f033db2e510922f4"
+      "sha256": "809e1c8e69fede49b928a8adbee20e164729f881958762bfe40774dd87516f5d"
     },
     "CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
-      "bytes": 1517147,
-      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+      "bytes": 1512420,
+      "sha256": "5f94cf8e1eb354d104279feea788dfd84bbcdf390f9e09dc41009bec8053eca2"
     },
     "STEP/CVN69_Hull_Deck_Assembly.step": {
-      "bytes": 4874528,
-      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+      "bytes": 4863019,
+      "sha256": "16b6581e1fc41ec70247169e898796f464bac285384ad693e03aa550cf21fedf"
     },
     "STEP/Interface_Test_Coupon.step": {
       "bytes": 22566,
       "sha256": "c34c15f823fd641c27a9ab95bdf08b73c5dc897e5537ed4a6689a9a8b9b3ce68"
     },
     "OBJ/CVN69_Hull_Deck_Assembly.obj": {
-      "bytes": 2678917,
-      "sha256": "c269f4b33ab1ff2c1c237c35f667a32a7ecd4c550e48394fdbd05eef9627699b"
+      "bytes": 2626065,
+      "sha256": "32b0bdd8ac1eaab345225bcd5eb0bc9163af5fe31cfc1ed82d0f23cb497c4885"
     },
     "OBJ/CVN69_Hull_Deck_Assembly.mtl": {
       "bytes": 307,
       "sha256": "1105cdeee7993cda6ba2c9c492580adb883424a20c81a68188badfdd1c385dec"
     },
     "3MF/CVN69_Hull_Deck_Assembly.3mf": {
-      "bytes": 973126,
-      "sha256": "14e87107f94b6292bbd75db196db97ab3dce58a3bbc553cb85430b6fbcf6b06d"
+      "bytes": 960012,
+      "sha256": "01f45985d31e4f574757df209df3ade29e9d144375006f57c2edaca4c833780a"
     },
     "3MF/Print_Plate_01_Hull.3mf": {
-      "bytes": 955734,
-      "sha256": "fbadf12dbb3b5a97ccdb178e8f6f38d78501afb1709f5bb815c4d0f90b72fea5"
+      "bytes": 902858,
+      "sha256": "797e1f0ca23770f4140a458cf8aba762e9eed2e60faa6c90f7f5dfe7c80d9a1d"
     },
     "3MF/Print_Plate_02_Deck.3mf": {
       "bytes": 6889,
@@ -1875,6 +1889,10 @@
     "3MF/Print_Plate_03_Details.3mf": {
       "bytes": 10811,
       "sha256": "e5ac5c90a8513d8607868874c2a463650d17cd2a86330f792eeae12adb571ccc"
+    },
+    "3MF/Print_Plate_04_Propellers.3mf": {
+      "bytes": 45571,
+      "sha256": "c4620db99240c690e8cf0a64bdf87737b682d303f4717e05eaeb483ccb60f558"
     },
     "3MF/Interface_Test_Coupon.3mf": {
       "bytes": 1598,
@@ -1897,8 +1915,8 @@
       "sha256": "e2bf236e6d9dc1e7dfc22f7bf494bc3f140bf777cb3115c3acdece095d2e73b1"
     },
     "STL/Propeller_1.stl": {
-      "bytes": 72284,
-      "sha256": "085e358599e16a243505c6681ce95e132de7446ad79029d0e5c6c39b390fe164"
+      "bytes": 54184,
+      "sha256": "83d0d6c1cd57dc5e4f8fef852730703f04c7b18bcc0384ed0efccfa829a54e84"
     },
     "STL/Shaft_1_Strut_P.stl": {
       "bytes": 1084,
@@ -1913,8 +1931,8 @@
       "sha256": "4c4aad890244cd79a395ddc4c275581475a5da5059a6d321945486f0441ce9c4"
     },
     "STL/Propeller_2.stl": {
-      "bytes": 72284,
-      "sha256": "2b60d3fc8938afa531efbf186d7a5c3ecaf25b5c011f345698ec782a4b0847b6"
+      "bytes": 54184,
+      "sha256": "f5df34beb7062beb0c5b593ddbcc39a0dc04a98df2f68c844fee7f77827e4167"
     },
     "STL/Shaft_2_Strut_P.stl": {
       "bytes": 1084,
@@ -1929,8 +1947,8 @@
       "sha256": "6bd95cd190e6f9c4a50d0068c7fd61f15856fc73f4eb751f90bd5d0351fc50ef"
     },
     "STL/Propeller_3.stl": {
-      "bytes": 72284,
-      "sha256": "1d6cb5ebbd3500a27dd330d82aebdcecc12e1ee97ce10636e297febbdf015f5e"
+      "bytes": 54184,
+      "sha256": "ded56acd892916bd6c308e379bc769678d36d147c525ba8af7344e5664aa51ce"
     },
     "STL/Shaft_3_Strut_P.stl": {
       "bytes": 1084,
@@ -1945,8 +1963,8 @@
       "sha256": "85f935770df4ee681d3b90fd92141058729ab7c663463cb474f647bee3d16a5c"
     },
     "STL/Propeller_4.stl": {
-      "bytes": 72284,
-      "sha256": "0526b7f5307dd3d44b531653a2d3034b37d9c098e4672882f92b5d23bbac7741"
+      "bytes": 54184,
+      "sha256": "4e143adb6dae828022f7f9ca8ffb59ecf7725b0b5c9c980cd0f5e5a8b67df06a"
     },
     "STL/Shaft_4_Strut_P.stl": {
       "bytes": 1084,
@@ -2109,28 +2127,28 @@
       "sha256": "05d27bfa8890f19d6a54657b06067089eef07da51ac2730ec9bf0ea3d1ddcf36"
     },
     "Render/CVN69_Hull_Deck_Top.png": {
-      "bytes": 260949,
-      "sha256": "1771995408dac5576ea064ce84507edc2678924eec9788708add23a77ef97e9e"
+      "bytes": 264804,
+      "sha256": "c566b4e6e81d106daeec161d7e2d6c34f19c4d3f2fdea56d9fa43e8f80863bd9"
     },
     "Render/CVN69_Hull_Deck_Port.png": {
-      "bytes": 309269,
-      "sha256": "dbfd4d5fd1910e722d2ccf7b06dc3e68a1225239641748cf8bee10320469481a"
+      "bytes": 309395,
+      "sha256": "66d2dd14184626f7fc2374eec31fa3b0ac4dd41498fa9b1559bd7665a3a91f29"
     },
     "Render/CVN69_Hull_Deck_Starboard.png": {
-      "bytes": 312541,
-      "sha256": "d0e9df94ceac987e17ba8c9214b784044b2a1065f0eddb1d874f934e70411983"
+      "bytes": 312610,
+      "sha256": "d5e5a6d1db4bace1460d1c2a49a80c4a0c149e5835dcaaa8b665d71af739e405"
     },
     "Render/CVN69_Hull_Deck_Bow_Isometric.png": {
-      "bytes": 203009,
-      "sha256": "25253e0828dbef110b877bc2e422dcb32fd6b85be2242c3318c3f6b2953a3b70"
+      "bytes": 203764,
+      "sha256": "03037df33bb029c7d4e6d771aa6b5697375ce0e60c697d3da0b69d49097ef34f"
     },
     "Render/CVN69_Hull_Deck_Stern_Isometric.png": {
       "bytes": 186345,
-      "sha256": "93bc1d858a2ca0198c36a1b11e88f2e23e3c29499eaeb5fd7c536a0785a83029"
+      "sha256": "6174e51045bde7c16c10905d6e6ab5b93a946205cb3d6f4d093ac553e53757e0"
     },
     "Render/CVN69_Hull_Deck_Exploded.png": {
-      "bytes": 225550,
-      "sha256": "a97d8d924ae10945a28d55e04dafca2c5dee58e2db840ecb752db28fbde17246"
+      "bytes": 225953,
+      "sha256": "d27016f7d4b3478bd5a7a49df137593b5432514badaa44912b82eb8e1ff88448"
     },
     "Render/Section_Keyed_Landing_Pad.png": {
       "bytes": 81426,
@@ -2141,52 +2159,28 @@
       "sha256": "a8064975265a4d58939ee1f1439d06814ae164bc572083be70bc9139ed53bc29"
     },
     "Docs/Hull_Deck_Integration_Drawings.pdf": {
-      "bytes": 684740,
-      "sha256": "713797e8e3a7e1171781d7d8ffd12442a28a32203eae8cbae3fcd3fb66dc2630"
+      "bytes": 690033,
+      "sha256": "25877aa3e82f2ffc586b0fe60b395cbf5f90a6720603684a8ccfca3ea913b49f"
     },
     "Docs/Hull_Deck_Printing_Guide.pdf": {
-      "bytes": 485585,
-      "sha256": "a5e7007760698b27179c34400e0a9637d5ed903279ab291f0e5dab5aaa6019b4"
+      "bytes": 487594,
+      "sha256": "dfa44c13756f0fe61520b440a4ab039efc5eca421753f98cd9a532f5cafd1ee5"
     },
     "Docs/Interface_Test_Coupon_Instructions.pdf": {
       "bytes": 79923,
-      "sha256": "09176ebeb544c549ab47eaf05a0f60608ad44b7c08577321a7498499a0626185"
+      "sha256": "51ae8c9714d4814a9f2de311afc944017969816f7f2256af587bc1316ea63c25"
     },
     "Docs/Material_Mapping.csv": {
       "bytes": 2541,
       "sha256": "5a5fee03c43d7cb308f944efbc6ec3725a27ecfaf2b08152f7178224869e876a"
     },
     "README.md": {
-      "bytes": 4941,
-      "sha256": "7e8e0e53df1303c76d6fb43144c57e90ea1198b4ea7f03ded0e80991b7be1b66"
+      "bytes": 6122,
+      "sha256": "b11e695236127e56f6710bcce7df0276a372f3614e2f5c2aeb66129b4b758d6d"
     },
     "Assembly/Glue_Only_Assembly.md": {
-      "bytes": 3270,
-      "sha256": "fedb0c1d95cc3350708cc2fd417e931de273477175544aeebe06303a3a6e7831"
-    },
-    "CAD/Python/integration_parameters.py": {
-      "bytes": 4798,
-      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
-    },
-    "Scripts/build_hull_deck_integration.py": {
-      "bytes": 32790,
-      "sha256": "309013b1c203e147a5c518142706f3c31bcd969218897dc76050aaa92d5a702c"
-    },
-    "Scripts/render_hull_deck_integration.py": {
-      "bytes": 14387,
-      "sha256": "2845263951cda95ea0724602f4d22548251b769b828b91b8393bbdfeace1ccda"
-    },
-    "Scripts/run_bambu_integration_checks.py": {
-      "bytes": 4351,
-      "sha256": "48f13953145b8dbca2155b391fdd8460654a70becbc2338cfe220e670264a101"
-    },
-    "Scripts/generate_integration_documents.py": {
-      "bytes": 16405,
-      "sha256": "d135c80d829aca7272c5963f7bea5f1e23523bb80145f67a81a1b0c12989770c"
-    },
-    "Scripts/validate_hull_deck_integration.py": {
-      "bytes": 35637,
-      "sha256": "8ad13ab7012f918fa835520c5e84e51b9a9a25d2f537889b10399be7818104c2"
+      "bytes": 3468,
+      "sha256": "90a3746d8102bf0e51f2b236258b1291353d632e1a2916ab00dd8bc5b61954ed"
     },
     "QA/Physical_Coupon_Result.json": {
       "bytes": 1195,
@@ -2197,12 +2191,52 @@
       "sha256": "b48650840fc9810466ad8b53ae4ed5b6d649aad71b2ec1369c7070a3e345baef"
     },
     "QA/Production_Interface_Freeze.json": {
-      "bytes": 6723,
-      "sha256": "c177e38ff8058eaf97fa934a8ba8bff7eb7640d1e04754cb99514140f220c893"
+      "bytes": 8034,
+      "sha256": "7a06c4c9cb8640f9cbeb3ce16307a197627057e76c69d4b726f48cd7edee50fe"
     },
     "QA/Production_Interface_Freeze.md": {
-      "bytes": 1783,
-      "sha256": "3d48f6f4dd370010695297e99f2e722fe710344b0ee57b42f9d4c053413a6ea5"
+      "bytes": 2469,
+      "sha256": "c0ba4247cdd9ae3785b389ef9d42b6656286f5b9faaffe9618f8c98bfda2abbd"
+    },
+    "CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "CAD/Python/propeller_parameters.py": {
+      "bytes": 2404,
+      "sha256": "b579e77737e5b3c9c5d20b61c83dc01db04b610d6c58e230a9cf5e7e3d51ff97"
+    },
+    "QA/Bambu_Profiles/CVN69_A1_0p4_Machine_Validation.json": {
+      "bytes": 518,
+      "sha256": "6b948f60657969cbac3e8bde04fe8f7b7aaede72253c81cd37f75c0443d68a8a"
+    },
+    "QA/Bambu_Profiles/CVN69_A1_0p12_Propeller_Validation.json": {
+      "bytes": 305,
+      "sha256": "faca7d53ebd32a487ff1e1742bd700ad93044518a18697bc7fd2deabc009161d"
+    },
+    "QA/Bambu_Profiles/CVN69_A1_0p16_Propeller_Validation.json": {
+      "bytes": 308,
+      "sha256": "c1696556d6109a001312dba97efa098c2fce579a3a5fc0256b990bb71f95221c"
+    },
+    "Scripts/build_hull_deck_integration.py": {
+      "bytes": 38020,
+      "sha256": "b655e79d53735b1c80c2ed496bf457aebb36b6b64021f126c5fed63cea29451f"
+    },
+    "Scripts/render_hull_deck_integration.py": {
+      "bytes": 14387,
+      "sha256": "2845263951cda95ea0724602f4d22548251b769b828b91b8393bbdfeace1ccda"
+    },
+    "Scripts/run_bambu_integration_checks.py": {
+      "bytes": 17074,
+      "sha256": "e6fcf2b52a86214f8e4d9ad91bea44ea13a280d21508ec415e688dee620214d0"
+    },
+    "Scripts/generate_integration_documents.py": {
+      "bytes": 17059,
+      "sha256": "13fec6f08784f3a37db5e46e7b3c32415c660304375707cb4208fd030b47296e"
+    },
+    "Scripts/validate_hull_deck_integration.py": {
+      "bytes": 39705,
+      "sha256": "3a2a832b9cd0ceb05dadcff29bb21434df0aca89371d6cdb40c8947e51bdfaa3"
     }
   }
 }

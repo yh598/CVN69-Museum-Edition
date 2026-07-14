@@ -36,10 +36,10 @@ Overall status: **PASS**
 | STL — Interface_Pad_06_Starboard.stl | PASS | 12 facets; 1 component; 0 bad edges; bounds [6.0, 6.0, 2.4] mm; min z 0.00000 |
 | STL — Interface_Test_Coupon_Female.stl | PASS | 28 facets; 1 component; 0 bad edges; bounds [25.0, 20.0, 3.0] mm; min z 0.00000 |
 | STL — Interface_Test_Coupon_Male.stl | PASS | 28 facets; 1 component; 0 bad edges; bounds [25.0, 20.0, 5.2] mm; min z 0.00000 |
-| STL — Propeller_1.stl | PASS | 1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000 |
-| STL — Propeller_2.stl | PASS | 1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000 |
-| STL — Propeller_3.stl | PASS | 1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000 |
-| STL — Propeller_4.stl | PASS | 1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000 |
+| STL — Propeller_1.stl | PASS | 1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000 |
+| STL — Propeller_2.stl | PASS | 1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000 |
+| STL — Propeller_3.stl | PASS | 1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000 |
+| STL — Propeller_4.stl | PASS | 1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000 |
 | STL — Raised_Marking_Bow_Centerline.stl | PASS | 140 facets; 1 component; 0 bad edges; bounds [133.0, 5.6, 0.35] mm; min z 0.00000 |
 | STL — Raised_Marking_Elevator_1_Port.stl | PASS | 64 facets; 1 component; 0 bad edges; bounds [24.8, 11.6, 0.35] mm; min z 0.00000 |
 | STL — Raised_Marking_Elevator_2_Starboard.stl | PASS | 64 facets; 1 component; 0 bad edges; bounds [20.8, 12.6, 0.35] mm; min z 0.00000 |
@@ -61,21 +61,23 @@ Overall status: **PASS**
 | STL — Shaft_4.stl | PASS | 20 facets; 1 component; 0 bad edges; bounds [50.35874, 1.56, 1.351] mm; min z 0.00000 |
 | STL — Shaft_4_Strut_P.stl | PASS | 20 facets; 1 component; 0 bad edges; bounds [5.86003, 1.24, 1.07387] mm; min z 0.00000 |
 | STL — Shaft_4_Strut_S.stl | PASS | 20 facets; 1 component; 0 bad edges; bounds [5.86003, 1.24, 1.07387] mm; min z 0.00000 |
-| 3MF — CVN69_Hull_Deck_Assembly.3mf | PASS | CRC=True; 75946 triangles; bounds [476.0, 73.7, 41.26572] mm; assembly reference |
+| 3MF — CVN69_Hull_Deck_Assembly.3mf | PASS | CRC=True; 74498 triangles; bounds [476.0, 73.7, 41.26462] mm; assembly reference |
 | 3MF — Interface_Test_Coupon.3mf | PASS | CRC=True; 56 triangles; bounds [53.0, 20.0, 5.2] mm; printable envelope |
-| 3MF — Print_Plate_01_Hull.3mf | PASS | CRC=True; 74060 triangles; bounds [220.0562, 177.28943, 31.43096] mm; printable envelope |
+| 3MF — Print_Plate_01_Hull.3mf | PASS | CRC=True; 68284 triangles; bounds [220.0562, 177.28943, 31.43096] mm; printable envelope |
 | 3MF — Print_Plate_02_Deck.3mf | PASS | CRC=True; 664 triangles; bounds [197.0, 217.94949, 3.0] mm; printable envelope |
 | 3MF — Print_Plate_03_Details.3mf | PASS | CRC=True; 1100 triangles; bounds [216.8, 171.58801, 2.4] mm; printable envelope |
+| 3MF — Print_Plate_04_Propellers.3mf | PASS | CRC=True; 4328 triangles; bounds [38.04, 7.12414, 2.075] mm; printable envelope |
 | FreeCAD Shape.check(True) / strict BOPCheck | PASS | 57 production/coupon BReps checked; zero self-intersections |
 | Assembly STEP round-trip | PASS | 55 closed solids; 0 self-intersections; 107 OCC diagnostics |
 | Coupon STEP round-trip | PASS | 2 closed solids; 0 self-intersections |
-| Bambu Studio independent import/manifold check | PASS | Bambu Studio 02.07.01.62 loaded 62 STL/3MF exports; all reported manifold |
-| Required production outputs exist | PASS | 89 required outputs; missing=[] |
-| Build-manifest production hashes | PASS | 89 byte-size/SHA-256 records match |
+| Bambu Studio import/manifold and actual slicing checks | PASS | Bambu Studio 02.07.01.62 loaded 63 STL/3MF exports and completed 4 real 0.12/0.16 mm slice runs with zero floating, empty-layer, or faulty-mesh warnings |
+| Parametric FDM propellers and plate separation | PASS | 4 five-blade solids; 20/20 blade-lobe samples retained; diameter 7.26 mm; blade 0.60 mm; hull plate 17 named non-propeller objects; propeller plate 4 named objects |
+| Required production outputs exist | PASS | 94 required outputs; missing=[] |
+| Build-manifest production hashes | PASS | 94 byte-size/SHA-256 records match |
 | Approved inputs unchanged | PASS | Hull v0.1.0 and FlightDeck review hashes match build inputs |
-| PDF documentation structure | PASS | {'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485585, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}} |
+| PDF documentation structure | PASS | {'drawings': {'bytes': 690033, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 487594, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}} |
 | All required renders | PASS | {'Render/CVN69_Hull_Deck_Top.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Port.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Starboard.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Bow_Isometric.png': (3570, 1721), 'Render/CVN69_Hull_Deck_Stern_Isometric.png': (3570, 1721), 'Render/CVN69_Hull_Deck_Exploded.png': (3570, 1721), 'Render/Section_Keyed_Landing_Pad.png': (2100, 1680), 'Render/Section_Direct_Support.png': (2100, 1470)} |
 
 ## Checks run
 
-Binary STL structure, two-edge incidence, connected components, degenerates, normals, signed volume, print z=0, 240 mm envelope, 3MF ZIP/XML/CRC/index checks, FreeCAD Shape.check(True), strict BOPCheck, STEP round-trip, PDF/PNG structure, approved-input hashes, production-output hashes, and Bambu Studio import/manifold checks.
+Binary STL structure, two-edge incidence, connected components, degenerates, normals, signed volume, print z=0, 240 mm envelope, 3MF ZIP/XML/CRC/index/name checks, FreeCAD Shape.check(True), strict BOPCheck, STEP round-trip, PDF/PNG structure, approved-input hashes, production-output hashes, Bambu Studio import/manifold checks, and four actual 0.12/0.16 mm Bambu slicing runs.

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build Milestone 2 hull/flight-deck integration with FreeCAD.
 
-Approved hull and flight-deck BReps are imported from their FCStd files.  Only
-concealed socket cuts and new printed interface pads are introduced.
+Approved hull and flight-deck BReps are imported from their FCStd files.  The
+integration adds concealed sockets/pads and replaces only the four legacy
+propellers with print-qualified parametric solids.
 """
 
 from __future__ import annotations
@@ -28,9 +29,11 @@ PROJECT = INTEGRATION.parent
 REPO = PROJECT.parent
 sys.path.insert(0, str(INTEGRATION / "CAD" / "Python"))
 from integration_parameters import make_parameters  # noqa: E402
+from propeller_parameters import make_parameters as make_propeller_parameters  # noqa: E402
 
 
 P = make_parameters()
+PROP = make_propeller_parameters()
 
 DIRS = {
     "freecad": INTEGRATION / "CAD" / "FreeCAD",
@@ -202,9 +205,67 @@ def integrate_deck_parts(deck_parts, deck_socket_tools):
     return result
 
 
+def propeller_center(index: int):
+    """Return the approved assembled propeller center for shaft line index."""
+    lateral = (-0.250, -0.125, 0.125, 0.250)
+    y_center = lateral[index - 1] * P.hull.maximum_hull_beam
+    inner = abs(y_center) < 0.20 * P.hull.maximum_hull_beam
+    end_x = P.overall_length * (0.943 if inner else 0.925)
+    end_z = -max(1.8, (2.2 if inner else 2.6) * P.hull.scale_factor)
+    return v(
+        end_x + max(1.7, 2.3 * P.hull.scale_factor),
+        y_center,
+        end_z - max(0.15, 0.25 * P.hull.scale_factor),
+    )
+
+
+def make_printable_propeller(index: int):
+    """Create one clean five-blade solid with a common print-bed face."""
+    center = propeller_center(index)
+    x_min = center.x - PROP.hub_length / 2.0
+    x_max = center.x + PROP.hub_length / 2.0
+    hub = Part.makeCylinder(PROP.hub_radius, PROP.hub_length, v(x_min, center.y, center.z), v(1, 0, 0))
+
+    # With the production +90 degree Y print rotation, maximum assembled X
+    # becomes z=0.  Align the hub and every blade at that common X face.
+    blade_x_min = x_max - PROP.blade_thickness
+    result = hub
+    for blade_index in range(PROP.blade_count):
+        polygon = [
+            v(
+                blade_x_min,
+                center.y + PROP.profile_radius * y_ratio,
+                center.z + PROP.profile_radius * z_ratio,
+            )
+            for y_ratio, z_ratio in PROP.blade_profile
+        ]
+        blade = Part.Face(Part.makePolygon(polygon + [polygon[0]])).extrude(v(PROP.blade_thickness, 0, 0))
+        blade.rotate(center, v(1, 0, 0), blade_index * (360.0 / PROP.blade_count))
+        result = result.fuse(blade)
+
+    bore = Part.makeCylinder(
+        PROP.shaft_bore_radius,
+        PROP.shaft_bore_depth,
+        v(x_min, center.y, center.z),
+        v(1, 0, 0),
+    )
+    result = result.removeSplitter().cut(bore).removeSplitter()
+    validate_solid(f"Propeller_{index}", result)
+    bounds = precise_bounds(result)
+    maximum_transverse_span = max(bounds[4] - bounds[1], bounds[5] - bounds[2])
+    if abs(maximum_transverse_span - PROP.overall_diameter) > 0.01:
+        raise RuntimeError(f"Propeller_{index} diameter is {maximum_transverse_span:.5f} mm")
+    return result
+
+
 def classify_hull_accessories(hull_accessories):
     result = []
     for name, shape in hull_accessories:
+        source = name
+        if name.startswith("Propeller_"):
+            index = int(name.rsplit("_", 1)[1])
+            shape = make_printable_propeller(index)
+            source = f"{name} dimensional reference; CAD/Python/propeller_parameters.py"
         validate_solid(name, shape)
         if name.startswith(("Shaft_", "Propeller_")) and "Strut" not in name:
             material = "silk_silver"
@@ -220,7 +281,7 @@ def classify_hull_accessories(hull_accessories):
             kind = "rudder"
         else:
             kind = "hull_accessory"
-        result.append((name, shape, material, kind, name))
+        result.append((name, shape, material, kind, source))
     return result
 
 
@@ -315,7 +376,7 @@ def write_binary_stl(path: Path, named_shapes):
     return len(facets)
 
 
-def write_3mf(path: Path, named_shapes, title: str):
+def write_3mf(path: Path, named_shapes, title: str, separate_objects: bool = False):
     ns = "http://schemas.microsoft.com/3dmanufacturing/core/2015/02"
     ET.register_namespace("", ns)
     model = ET.Element(f"{{{ns}}}model", {"unit": "millimeter", "xml:lang": "en-US"})
@@ -327,30 +388,47 @@ def write_3mf(path: Path, named_shapes, title: str):
     for index, (key, (name, color)) in enumerate(MATERIALS.items()):
         material_index[key] = index
         ET.SubElement(bases, f"{{{ns}}}base", {"name": name, "displaycolor": color})
-    obj = ET.SubElement(resources, f"{{{ns}}}object", {"id": "2", "type": "model", "name": title})
-    mesh = ET.SubElement(obj, f"{{{ns}}}mesh")
-    vertices_node = ET.SubElement(mesh, f"{{{ns}}}vertices")
-    triangles_node = ET.SubElement(mesh, f"{{{ns}}}triangles")
-    offset = 0
-    for _name, shape, material, _kind, _source in named_shapes:
-        vertices, triangles = triangulate(shape)
-        for x, y, z in vertices:
-            ET.SubElement(vertices_node, f"{{{ns}}}vertex", {"x": f"{x:.6f}", "y": f"{y:.6f}", "z": f"{z:.6f}"})
-        for a, b, c in triangles:
-            ET.SubElement(
-                triangles_node,
-                f"{{{ns}}}triangle",
-                {
-                    "v1": str(a + offset),
-                    "v2": str(b + offset),
-                    "v3": str(c + offset),
-                    "pid": "1",
-                    "p1": str(material_index[material]),
-                },
-            )
-        offset += len(vertices)
     build = ET.SubElement(model, f"{{{ns}}}build")
-    ET.SubElement(build, f"{{{ns}}}item", {"objectid": "2"})
+    if separate_objects:
+        for object_id, (name, shape, material, _kind, _source) in enumerate(named_shapes, 2):
+            obj = ET.SubElement(resources, f"{{{ns}}}object", {"id": str(object_id), "type": "model", "name": name})
+            mesh = ET.SubElement(obj, f"{{{ns}}}mesh")
+            vertices_node = ET.SubElement(mesh, f"{{{ns}}}vertices")
+            triangles_node = ET.SubElement(mesh, f"{{{ns}}}triangles")
+            vertices, triangles = triangulate(shape)
+            for x, y, z in vertices:
+                ET.SubElement(vertices_node, f"{{{ns}}}vertex", {"x": f"{x:.6f}", "y": f"{y:.6f}", "z": f"{z:.6f}"})
+            for a, b, c in triangles:
+                ET.SubElement(
+                    triangles_node,
+                    f"{{{ns}}}triangle",
+                    {"v1": str(a), "v2": str(b), "v3": str(c), "pid": "1", "p1": str(material_index[material])},
+                )
+            ET.SubElement(build, f"{{{ns}}}item", {"objectid": str(object_id)})
+    else:
+        obj = ET.SubElement(resources, f"{{{ns}}}object", {"id": "2", "type": "model", "name": title})
+        mesh = ET.SubElement(obj, f"{{{ns}}}mesh")
+        vertices_node = ET.SubElement(mesh, f"{{{ns}}}vertices")
+        triangles_node = ET.SubElement(mesh, f"{{{ns}}}triangles")
+        offset = 0
+        for _name, shape, material, _kind, _source in named_shapes:
+            vertices, triangles = triangulate(shape)
+            for x, y, z in vertices:
+                ET.SubElement(vertices_node, f"{{{ns}}}vertex", {"x": f"{x:.6f}", "y": f"{y:.6f}", "z": f"{z:.6f}"})
+            for a, b, c in triangles:
+                ET.SubElement(
+                    triangles_node,
+                    f"{{{ns}}}triangle",
+                    {
+                        "v1": str(a + offset),
+                        "v2": str(b + offset),
+                        "v3": str(c + offset),
+                        "pid": "1",
+                        "p1": str(material_index[material]),
+                    },
+                )
+            offset += len(vertices)
+        ET.SubElement(build, f"{{{ns}}}item", {"objectid": "2"})
     model_xml = ET.tostring(model, encoding="utf-8", xml_declaration=True)
     content_types = b'''<?xml version="1.0" encoding="UTF-8"?>\n<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="model" ContentType="application/vnd.ms-package.3dmanufacturing-3dmodel+xml"/></Types>'''
     rels = b'''<?xml version="1.0" encoding="UTF-8"?>\n<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Target="/3D/3dmodel.model" Id="rel0" Type="http://schemas.microsoft.com/3dmanufacturing/2013/01/3dmodel"/></Relationships>'''
@@ -390,15 +468,16 @@ def placed_on_bed(shape, rotation=None, target_x=0.0, target_y=0.0):
 
 def make_hull_plate(hull_parts):
     modules = [item for item in hull_parts if item[3] == "hull_module"]
-    accessories = [item for item in hull_parts if item[3] != "hull_module"]
+    accessories = [item for item in hull_parts if item[3] not in ("hull_module", "propeller")]
     layout = []
-    lane_y = 0.0
+    plate_margin = 15.0
+    lane_y = plate_margin
     for name, shape, material, kind, source in modules:
-        oriented = placed_on_bed(shape, App.Rotation(v(1, 0, 0), 180), 0.0, lane_y)
+        oriented = placed_on_bed(shape, App.Rotation(v(1, 0, 0), 180), plate_margin, lane_y)
         layout.append((name, oriented, material, kind, source))
         lane_y = precise_bounds(oriented)[4] + 1.5
     column_x = max(precise_bounds(item[1])[3] for item in layout) + 4.0
-    cursor_y = 0.0
+    cursor_y = plate_margin
     max_width = 0.0
     for name, shape, material, kind, source in accessories:
         rotation = App.Rotation(v(0, 1, 0), 90) if kind == "propeller" else App.Rotation(v(1, 0, 0), 90)
@@ -406,13 +485,23 @@ def make_hull_plate(hull_parts):
         bounds = precise_bounds(oriented)
         if bounds[4] > 232.0:
             column_x += max_width + 2.0
-            cursor_y = 0.0
+            cursor_y = plate_margin
             max_width = 0.0
             oriented = placed_on_bed(shape, rotation, column_x, cursor_y)
             bounds = precise_bounds(oriented)
         layout.append((name, oriented, material, kind, source))
         cursor_y = bounds[4] + 1.5
         max_width = max(max_width, bounds[3] - bounds[0])
+    return layout
+
+
+def make_propeller_plate(hull_parts):
+    layout = []
+    cursor_x = 10.0
+    for name, shape, material, kind, source in [item for item in hull_parts if item[3] == "propeller"]:
+        oriented = placed_on_bed(shape, App.Rotation(v(0, 1, 0), 90), cursor_x, 10.0)
+        layout.append((name, oriented, material, kind, source))
+        cursor_x = precise_bounds(oriented)[3] + 3.0
     return layout
 
 
@@ -653,6 +742,7 @@ def main():
     write_3mf(assembly_3mf, production_parts, "CVN-69 Hull and Flight Deck Assembly")
 
     hull_plate = make_hull_plate(hull_parts)
+    propeller_plate = make_propeller_plate(hull_parts)
     deck_plate = make_deck_plate(deck_parts)
     detail_parts = [item for item in deck_parts if item[3] != "deck_module"] + interface_pads
     details_plate = pack_plate(detail_parts)
@@ -660,10 +750,12 @@ def main():
         DIRS["3mf"] / "Print_Plate_01_Hull.3mf",
         DIRS["3mf"] / "Print_Plate_02_Deck.3mf",
         DIRS["3mf"] / "Print_Plate_03_Details.3mf",
+        DIRS["3mf"] / "Print_Plate_04_Propellers.3mf",
     ]
-    write_3mf(plate_paths[0], hull_plate, "CVN-69 Integration — Hull Plate")
+    write_3mf(plate_paths[0], hull_plate, "CVN-69 Integration — Hull Plate", separate_objects=True)
     write_3mf(plate_paths[1], deck_plate, "CVN-69 Integration — Flight Deck Plate")
     write_3mf(plate_paths[2], details_plate, "CVN-69 Integration — Detail and Interface Plate")
+    write_3mf(plate_paths[3], propeller_plate, "CVN-69 Integration — Propeller Plate", separate_objects=True)
 
     coupon_print = []
     cursor_x = 0.0
@@ -738,6 +830,20 @@ def main():
             "deck_top_skin_over_socket": P.deck_top_skin_over_socket,
             "vertical_pad_tip_clearance": P.vertical_pad_tip_clearance,
             "nominal_seating_gap": P.seating_gap,
+        },
+        "propeller_parameters_mm": {
+            "overall_diameter": PROP.overall_diameter,
+            "blade_count": PROP.blade_count,
+            "blade_thickness": PROP.blade_thickness,
+            "hub_length": PROP.hub_length,
+            "hub_radius": PROP.hub_radius,
+            "shaft_bore_radius": PROP.shaft_bore_radius,
+            "shaft_bore_depth": PROP.shaft_bore_depth,
+            "hub_wall_thickness": PROP.hub_wall_thickness,
+            "hub_back_wall_thickness": PROP.hub_back_wall_thickness,
+            "scale_enlargement": PROP.scale_enlargement,
+            "removable_sprue_required": PROP.removable_sprue_required,
+            "recommended_brim_width": PROP.recommended_brim_width,
         },
         "counts": {
             "hull_modules": len(hull_modules),

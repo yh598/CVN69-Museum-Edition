@@ -1,8 +1,8 @@
 # Milestone 2 Validation Commands
 
-Generated UTC: 2026-07-14T21:16:27.377937+00:00
+Generated UTC: 2026-07-14T21:40:02.395100+00:00
 FreeCAD: 1.1.1
-Bambu Studio: 02.07.01.62
+Bambu Studio: 02.07.01.62 (`--info` plus actual `--slice` at 0.12 and 0.16 mm)
 
 ```sh
 /Applications/FreeCAD.app/Contents/Resources/bin/FreeCADCmd -c "globals()['__file__']='Project/Integration/Scripts/build_hull_deck_integration.py'; exec(compile(open(__file__, encoding='utf-8').read(), __file__, 'exec'))"

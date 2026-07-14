@@ -1,0 +1,13 @@
+{
+  "type": "process",
+  "name": "CVN69 A1 0.16 mm Propeller Validation",
+  "inherits": "0.16mm Optimal @BBL A1",
+  "from": "user",
+  "instantiation": "true",
+  "layer_height": "0.16",
+  "wall_loops": "3",
+  "elefant_foot_compensation": "0.15",
+  "compatible_printers": [
+    "Bambu Lab A1 0.4 nozzle"
+  ]
+}

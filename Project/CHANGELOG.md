@@ -73,18 +73,20 @@ All released changes use semantic versioning. Release artifacts are never overwr
 - Deterministic FreeCAD integration assembly containing 55 production solids without rebuilding the approved hull or deck planform.
 - Twelve concealed 6 × 6 × 2.4 mm printed landing pads with 0.25 mm-per-side sockets, direct zero-gap hull-top seating, and 1.55 mm minimum deck skin above sockets.
 - Staggered deck seams at x = 146 and 286 mm against hull seams at x = 158.667 and 317.333 mm.
-- Assembly and coupon STEP, 57 individual production/coupon STLs, assembly/coupon 3MF, and three Bambu-ready print plates.
+- Assembly and coupon STEP, 57 individual production/coupon STLs, assembly/coupon 3MF, and four Bambu-ready print plates.
+- Corrected `Print_Plate_01_Hull.3mf` with all four legacy propeller components removed and 17 remaining parts promoted to explicit named 3MF objects.
+- Added `Print_Plate_04_Propellers.3mf` with four explicit named objects and clean parametric five-blade solids: 7.26 mm diameter, 0.60 mm blades, printable hub/bore walls, common bed face, no scale enlargement, and no required sprue.
 - Top, port, starboard, bow/stern isometric, exploded, keyed-section, and direct-support renders.
 - Integration drawings, printing guide, glue-only assembly guide, object-level material mapping, and one-page physical coupon procedure.
 
 ### Validation
 
-- 71/71 mesh/package/BRep/STEP/document checks pass.
+- 73/73 mesh/package/BRep/STEP/document/propeller checks pass.
 - Physical interface coupon PASS at 100% scale using a 0.40 mm nozzle, 0.16 mm layers, three walls, 0.00 mm XY compensation, and 0.15 mm elephant-foot compensation; the 0.25 mm-per-side parts assembled by hand and seated correctly.
 - Production deck-to-hull interface dimensions frozen under `Integration/QA/Production_Interface_Freeze.json` with SHA-256-governed CAD, STEP, STL, and 3MF artifacts.
 - 16/16 dimensional checks pass, including 476.000 mm length, zero centerline/datum error, 0.250 mm measured clearance per side, 0.000 mm nominal seating gap, the physical coupon gate, and the production-interface freeze gate.
 - 5/5 interference checks pass: zero unintended hull/deck, pad, elevator, and island-opening overlap.
-- Bambu Studio 02.07.01.62 independently reports all 62 STL/3MF exports manifold.
+- Bambu Studio 02.07.01.62 independently reports all 63 STL/3MF exports manifold and completes four actual 0.12/0.16 mm slice runs for the corrected hull and propeller plates with zero floating-region, empty-layer, or faulty-mesh warnings.
 
 ### Scope
 

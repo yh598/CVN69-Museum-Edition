@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14T21:16:27.377937+00:00",
+  "generated_utc": "2026-07-14T21:40:02.395100+00:00",
   "overall_status": "PASS",
   "freecad_version": "1.1.1",
   "checks": [
@@ -166,22 +166,22 @@
     {
       "name": "STL \u2014 Propeller_1.stl",
       "status": "PASS",
-      "evidence": "1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000"
+      "evidence": "1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000"
     },
     {
       "name": "STL \u2014 Propeller_2.stl",
       "status": "PASS",
-      "evidence": "1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000"
+      "evidence": "1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000"
     },
     {
       "name": "STL \u2014 Propeller_3.stl",
       "status": "PASS",
-      "evidence": "1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000"
+      "evidence": "1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000"
     },
     {
       "name": "STL \u2014 Propeller_4.stl",
       "status": "PASS",
-      "evidence": "1444 facets; 1 component; 0 bad edges; bounds [7.26227, 7.12636, 2.075] mm; min z 0.00000"
+      "evidence": "1082 facets; 1 component; 0 bad edges; bounds [7.26, 7.12414, 2.075] mm; min z 0.00000"
     },
     {
       "name": "STL \u2014 Raised_Marking_Bow_Centerline.stl",
@@ -291,7 +291,7 @@
     {
       "name": "3MF \u2014 CVN69_Hull_Deck_Assembly.3mf",
       "status": "PASS",
-      "evidence": "CRC=True; 75946 triangles; bounds [476.0, 73.7, 41.26572] mm; assembly reference"
+      "evidence": "CRC=True; 74498 triangles; bounds [476.0, 73.7, 41.26462] mm; assembly reference"
     },
     {
       "name": "3MF \u2014 Interface_Test_Coupon.3mf",
@@ -301,7 +301,7 @@
     {
       "name": "3MF \u2014 Print_Plate_01_Hull.3mf",
       "status": "PASS",
-      "evidence": "CRC=True; 74060 triangles; bounds [220.0562, 177.28943, 31.43096] mm; printable envelope"
+      "evidence": "CRC=True; 68284 triangles; bounds [220.0562, 177.28943, 31.43096] mm; printable envelope"
     },
     {
       "name": "3MF \u2014 Print_Plate_02_Deck.3mf",
@@ -312,6 +312,11 @@
       "name": "3MF \u2014 Print_Plate_03_Details.3mf",
       "status": "PASS",
       "evidence": "CRC=True; 1100 triangles; bounds [216.8, 171.58801, 2.4] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_04_Propellers.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 4328 triangles; bounds [38.04, 7.12414, 2.075] mm; printable envelope"
     },
     {
       "name": "FreeCAD Shape.check(True) / strict BOPCheck",
@@ -329,19 +334,24 @@
       "evidence": "2 closed solids; 0 self-intersections"
     },
     {
-      "name": "Bambu Studio independent import/manifold check",
+      "name": "Bambu Studio import/manifold and actual slicing checks",
       "status": "PASS",
-      "evidence": "Bambu Studio 02.07.01.62 loaded 62 STL/3MF exports; all reported manifold"
+      "evidence": "Bambu Studio 02.07.01.62 loaded 63 STL/3MF exports and completed 4 real 0.12/0.16 mm slice runs with zero floating, empty-layer, or faulty-mesh warnings"
+    },
+    {
+      "name": "Parametric FDM propellers and plate separation",
+      "status": "PASS",
+      "evidence": "4 five-blade solids; 20/20 blade-lobe samples retained; diameter 7.26 mm; blade 0.60 mm; hull plate 17 named non-propeller objects; propeller plate 4 named objects"
     },
     {
       "name": "Required production outputs exist",
       "status": "PASS",
-      "evidence": "89 required outputs; missing=[]"
+      "evidence": "94 required outputs; missing=[]"
     },
     {
       "name": "Build-manifest production hashes",
       "status": "PASS",
-      "evidence": "89 byte-size/SHA-256 records match"
+      "evidence": "94 byte-size/SHA-256 records match"
     },
     {
       "name": "Approved inputs unchanged",
@@ -351,7 +361,7 @@
     {
       "name": "PDF documentation structure",
       "status": "PASS",
-      "evidence": "{'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485585, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}}"
+      "evidence": "{'drawings': {'bytes': 690033, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 487594, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}}"
     },
     {
       "name": "All required renders",
@@ -1225,62 +1235,62 @@
       "normals_consistent": true
     },
     "Propeller_1.stl": {
-      "facets": 1444,
-      "vertices": 724,
+      "facets": 1082,
+      "vertices": 543,
       "components": 1,
       "min_mm": [
         0.0,
-        -0.0,
+        0.0,
         0.0
       ],
       "max_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "bounds_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "non_two_incident_edges": 0,
       "degenerate_facets": 0,
       "normal_mismatches": 0,
-      "signed_volume_mm3": 9.94399,
+      "signed_volume_mm3": 18.46391,
       "watertight": true,
       "manifold": true,
       "normals_consistent": true
     },
     "Propeller_2.stl": {
-      "facets": 1444,
-      "vertices": 724,
+      "facets": 1082,
+      "vertices": 543,
       "components": 1,
       "min_mm": [
         0.0,
-        -0.0,
+        0.0,
         0.0
       ],
       "max_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "bounds_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "non_two_incident_edges": 0,
       "degenerate_facets": 0,
       "normal_mismatches": 0,
-      "signed_volume_mm3": 9.94399,
+      "signed_volume_mm3": 18.46391,
       "watertight": true,
       "manifold": true,
       "normals_consistent": true
     },
     "Propeller_3.stl": {
-      "facets": 1444,
-      "vertices": 724,
+      "facets": 1082,
+      "vertices": 543,
       "components": 1,
       "min_mm": [
         0.0,
@@ -1288,26 +1298,26 @@
         0.0
       ],
       "max_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "bounds_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "non_two_incident_edges": 0,
       "degenerate_facets": 0,
       "normal_mismatches": 0,
-      "signed_volume_mm3": 9.94399,
+      "signed_volume_mm3": 18.46391,
       "watertight": true,
       "manifold": true,
       "normals_consistent": true
     },
     "Propeller_4.stl": {
-      "facets": 1444,
-      "vertices": 724,
+      "facets": 1082,
+      "vertices": 543,
       "components": 1,
       "min_mm": [
         0.0,
@@ -1315,19 +1325,19 @@
         0.0
       ],
       "max_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "bounds_mm": [
-        7.26227,
-        7.12636,
+        7.26,
+        7.12414,
         2.075
       ],
       "non_two_incident_edges": 0,
       "degenerate_facets": 0,
       "normal_mismatches": 0,
-      "signed_volume_mm3": 9.94399,
+      "signed_volume_mm3": 18.46391,
       "watertight": true,
       "manifold": true,
       "normals_consistent": true
@@ -1906,18 +1916,18 @@
       "missing_members": [],
       "objects": 1,
       "build_items": 1,
-      "vertices": 38053,
-      "triangles": 75946,
+      "vertices": 37329,
+      "triangles": 74498,
       "invalid_triangle_indices": 0,
       "min_mm": [
         0.0,
         -36.7,
-        -6.36572
+        -6.36462
       ],
       "bounds_mm": [
         476.0,
         73.7,
-        41.26572
+        41.26462
       ],
       "valid": true
     },
@@ -1944,14 +1954,14 @@
     "Print_Plate_01_Hull.3mf": {
       "zip_crc_ok": true,
       "missing_members": [],
-      "objects": 1,
-      "build_items": 1,
-      "vertices": 37072,
-      "triangles": 74060,
+      "objects": 17,
+      "build_items": 17,
+      "vertices": 34176,
+      "triangles": 68284,
       "invalid_triangle_indices": 0,
       "min_mm": [
-        0.0,
-        0.0,
+        15.0,
+        15.0,
         0.0
       ],
       "bounds_mm": [
@@ -1998,6 +2008,26 @@
         216.8,
         171.58801,
         2.4
+      ],
+      "valid": true
+    },
+    "Print_Plate_04_Propellers.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 4,
+      "build_items": 4,
+      "vertices": 2172,
+      "triangles": 4328,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        10.0,
+        10.0,
+        0.0
+      ],
+      "bounds_mm": [
+        38.04,
+        7.12414,
+        2.075
       ],
       "valid": true
     }
@@ -2541,13 +2571,13 @@
   },
   "pdfs": {
     "drawings": {
-      "bytes": 684740,
+      "bytes": 690033,
       "header_ok": true,
       "eof_ok": true,
       "pages": 4
     },
     "printing": {
-      "bytes": 485585,
+      "bytes": 487594,
       "header_ok": true,
       "eof_ok": true,
       "pages": 5

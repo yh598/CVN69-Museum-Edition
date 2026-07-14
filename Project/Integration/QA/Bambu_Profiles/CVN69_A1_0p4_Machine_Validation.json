@@ -1,0 +1,24 @@
+{
+  "type": "machine",
+  "name": "CVN69 Bambu Lab A1 0.4 nozzle validation",
+  "inherits": "Bambu Lab A1 0.4 nozzle",
+  "from": "user",
+  "instantiation": "true",
+  "nozzle_diameter": [
+    "0.4"
+  ],
+  "printer_model": "Bambu Lab A1",
+  "printer_variant": "0.4",
+  "printable_area": [
+    "0x0",
+    "256x0",
+    "256x256",
+    "0x256"
+  ],
+  "bed_exclude_area": [],
+  "printable_height": "256",
+  "default_filament_profile": [
+    "Bambu PLA Matte @BBL A1"
+  ],
+  "default_print_profile": "0.16mm Optimal @BBL A1"
+}
