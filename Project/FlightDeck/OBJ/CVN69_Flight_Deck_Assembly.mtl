@@ -1,0 +1,20 @@
+newmtl deck_charcoal
+# PLA Matte Charcoal
+Kd 0.203922 0.219608 0.235294
+
+newmtl elevator_gray
+# PLA Neutral Gray
+Kd 0.400000 0.427451 0.450980
+
+newmtl marking_white
+# PLA Basic White
+Kd 0.945098 0.945098 0.921569
+
+newmtl track_silver
+# PLA Silk Silver
+Kd 0.682353 0.705882 0.721569
+
+newmtl wire_yellow
+# PLA Signal Yellow
+Kd 0.839216 0.701961 0.164706
+

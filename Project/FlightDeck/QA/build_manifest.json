@@ -1,0 +1,834 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) 1:700 Flight Deck Reconstruction",
+  "version": "0.2.0-review",
+  "generated_utc": "2026-07-14T16:50:10.337223+00:00",
+  "freecad_version": "1.1.1",
+  "geometry_method": "scripted OpenCascade BRep; source meshes used only as numerical and visual references",
+  "scale": "1:700",
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "maximum_deck_width": 73.7,
+    "deck_thickness": 3.0,
+    "minimum_wall": 1.2,
+    "raised_detail_minimum": [
+      0.5,
+      0.35
+    ],
+    "fit_clearance_per_side": 0.25,
+    "module_seams_x": [
+      190.0,
+      330.0
+    ]
+  },
+  "counts": {
+    "main_deck_modules": 3,
+    "elevators": 4,
+    "raised_marking_parts": 7,
+    "catapult_tracks": 4,
+    "arresting_wires": 4,
+    "printable_parts": 22
+  },
+  "shapes": [
+    {
+      "name": "Main_Deck_Module_1",
+      "kind": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 33470.9479,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          197.0
+        ],
+        "y": [
+          -34.703,
+          35.1061
+        ],
+        "z": [
+          0.0,
+          3.0
+        ],
+        "size": [
+          197.0,
+          69.8091,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Main_Deck_Module_2",
+      "kind": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 29450.0783,
+      "bounds_mm": {
+        "x": [
+          190.0,
+          337.0
+        ],
+        "y": [
+          -36.7,
+          37.0
+        ],
+        "z": [
+          0.0,
+          3.0
+        ],
+        "size": [
+          147.0,
+          73.7,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Main_Deck_Module_3",
+      "kind": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 16757.0198,
+      "bounds_mm": {
+        "x": [
+          330.0,
+          476.0
+        ],
+        "y": [
+          -34.369,
+          35.0714
+        ],
+        "z": [
+          0.0,
+          3.0
+        ],
+        "size": [
+          146.0,
+          69.4404,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Elevator_1_Port",
+      "kind": "elevator",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 596.736,
+      "bounds_mm": {
+        "x": [
+          40.5,
+          66.5
+        ],
+        "y": [
+          -31.8,
+          -19.0
+        ],
+        "z": [
+          1.2,
+          3.0
+        ],
+        "size": [
+          26.0,
+          12.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_2_Starboard",
+      "kind": "elevator",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 544.176,
+      "bounds_mm": {
+        "x": [
+          46.0,
+          68.0
+        ],
+        "y": [
+          20.0,
+          33.8
+        ],
+        "z": [
+          1.2,
+          3.0
+        ],
+        "size": [
+          22.0,
+          13.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_3_Starboard",
+      "kind": "elevator",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 638.856,
+      "bounds_mm": {
+        "x": [
+          154.0,
+          180.0
+        ],
+        "y": [
+          20.1,
+          33.8
+        ],
+        "z": [
+          1.2,
+          3.0
+        ],
+        "size": [
+          26.0,
+          13.7,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_4_Starboard",
+      "kind": "elevator",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 677.016,
+      "bounds_mm": {
+        "x": [
+          228.5,
+          254.0
+        ],
+        "y": [
+          20.0,
+          34.8
+        ],
+        "z": [
+          1.2,
+          3.0
+        ],
+        "size": [
+          25.5,
+          14.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Landing_Aft",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 129.4204,
+      "bounds_mm": {
+        "x": [
+          9.1703,
+          189.3297
+        ],
+        "y": [
+          -24.0224,
+          11.2681
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          180.1595,
+          35.2904,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Landing_Forward",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 82.2954,
+      "bounds_mm": {
+        "x": [
+          190.6703,
+          302.8297
+        ],
+        "y": [
+          -32.7681,
+          -2.7174
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          112.1595,
+          30.0507,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Bow_Centerline",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 32.13,
+      "bounds_mm": {
+        "x": [
+          335.0,
+          468.0
+        ],
+        "y": [
+          -2.8,
+          2.8
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          133.0,
+          5.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_1_Port",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 14.658,
+      "bounds_mm": {
+        "x": [
+          41.1,
+          65.9
+        ],
+        "y": [
+          -31.2,
+          -19.6
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          24.8,
+          11.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_2_Starboard",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 13.398,
+      "bounds_mm": {
+        "x": [
+          46.6,
+          67.4
+        ],
+        "y": [
+          20.6,
+          33.2
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          20.8,
+          12.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_3_Starboard",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 15.036,
+      "bounds_mm": {
+        "x": [
+          154.6,
+          179.4
+        ],
+        "y": [
+          20.7,
+          33.2
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          24.8,
+          12.5,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_4_Starboard",
+      "kind": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 15.288,
+      "bounds_mm": {
+        "x": [
+          229.1,
+          253.4
+        ],
+        "y": [
+          20.6,
+          34.2
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          24.3,
+          13.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Catapult_1_Bow_Port",
+      "kind": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 41.2803,
+      "bounds_mm": {
+        "x": [
+          335.9984,
+          465.0016
+        ],
+        "y": [
+          -7.9,
+          -6.6
+        ],
+        "z": [
+          3.0,
+          3.4
+        ],
+        "size": [
+          129.0031,
+          1.3,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_2_Bow_Starboard",
+      "kind": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 40.9612,
+      "bounds_mm": {
+        "x": [
+          335.9969,
+          464.0031
+        ],
+        "y": [
+          6.6,
+          8.4
+        ],
+        "z": [
+          3.0,
+          3.4
+        ],
+        "size": [
+          128.0062,
+          1.8,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_3_Waist_Inner",
+      "kind": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 52.9897,
+      "bounds_mm": {
+        "x": [
+          149.9662,
+          315.0338
+        ],
+        "y": [
+          -22.8986,
+          -8.1014
+        ],
+        "z": [
+          3.0,
+          3.4
+        ],
+        "size": [
+          165.0676,
+          14.7971,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_4_Waist_Outer",
+      "kind": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 50.7056,
+      "bounds_mm": {
+        "x": [
+          143.9697,
+          302.0303
+        ],
+        "y": [
+          -32.3989,
+          -19.6011
+        ],
+        "z": [
+          3.0,
+          3.4
+        ],
+        "size": [
+          158.0606,
+          12.7977,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_1",
+      "kind": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          54.5983,
+          57.4017
+        ],
+        "y": [
+          -18.0194,
+          11.9304
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          2.8033,
+          29.9497,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_2",
+      "kind": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          66.5983,
+          69.4017
+        ],
+        "y": [
+          -18.9441,
+          11.0057
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          2.8033,
+          29.9497,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_3",
+      "kind": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          78.5983,
+          81.4017
+        ],
+        "y": [
+          -19.8687,
+          10.081
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          2.8033,
+          29.9497,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_4",
+      "kind": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          90.5983,
+          93.4017
+        ],
+        "y": [
+          -20.7934,
+          9.1564
+        ],
+        "z": [
+          3.0,
+          3.35
+        ],
+        "size": [
+          2.8033,
+          29.9497,
+          0.35
+        ]
+      }
+    }
+  ],
+  "individual_stl_facets": 1428,
+  "outputs": {
+    "CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": {
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    "STEP/CVN69_Flight_Deck_Assembly.step": {
+      "bytes": 529028,
+      "sha256": "eafea70f7374c85c3158177dc5df617e57498963e979aba963bef51861339b9f"
+    },
+    "3MF/CVN69_Flight_Deck_Assembly.3mf": {
+      "bytes": 13594,
+      "sha256": "8b36d6a0d9eb7891bf1d4fcd7b17beb79945f7582e6a8e65fcc43f55d647b328"
+    },
+    "OBJ/CVN69_Flight_Deck_Assembly.obj": {
+      "bytes": 43614,
+      "sha256": "22ba08fdaa87d834ba1a2d1b1b87ba015155e0b14f77e837a61218f87342299c"
+    },
+    "OBJ/CVN69_Flight_Deck_Assembly.mtl": {
+      "bytes": 353,
+      "sha256": "21b1615cd4b81e22ca8827d41bbf1cd9ca3727702cbbe8dc7213a2f0d87af295"
+    },
+    "STL/Main_Deck_Module_1.stl": {
+      "bytes": 12484,
+      "sha256": "ad9ea96b7df18fef848927378183646c9a30017b7ef0ea90caf5a0b7f92131c3"
+    },
+    "3MF/Individual/Main_Deck_Module_1.3mf": {
+      "bytes": 3289,
+      "sha256": "cba1d6fa8aab8ea777288b876368f901d042f53ffca76c17918d7aea4607d077"
+    },
+    "STL/Main_Deck_Module_2.stl": {
+      "bytes": 7084,
+      "sha256": "fbdafc46747570300aad30f078fc9af1ee8289dc95793f5c3dac14a42d567ae9"
+    },
+    "3MF/Individual/Main_Deck_Module_2.3mf": {
+      "bytes": 2320,
+      "sha256": "7d8124c9fffbd7b5b3c04f5152c6b0bf05f4afac02eec7f1bd16e0175a83e10d"
+    },
+    "STL/Main_Deck_Module_3.stl": {
+      "bytes": 4284,
+      "sha256": "83b5e48ca2a7387f06722256ad3a52512454f775fcc1bc1ed1cf8982e2cde8c1"
+    },
+    "3MF/Individual/Main_Deck_Module_3.3mf": {
+      "bytes": 1865,
+      "sha256": "030a657666bfddb4a6855acc821fb644f765ad88cf7307fdcc6a1963a8f23c3e"
+    },
+    "STL/Elevator_1_Port.stl": {
+      "bytes": 1484,
+      "sha256": "6741d73946a1f027fb512b19ef63b1c7ba0b2a0d7ab9dbc896be86447767ea4c"
+    },
+    "3MF/Individual/Elevator_1_Port.3mf": {
+      "bytes": 1361,
+      "sha256": "6fd1698afd4674c13494bc09f4eb6adff4aa318aa3f4fd0b7a2d5f05d8826e20"
+    },
+    "STL/Elevator_2_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "8734293a27023f7d62f2bdea2c485e18847d76ad0f99e930ee7eae8f5efb22c8"
+    },
+    "3MF/Individual/Elevator_2_Starboard.3mf": {
+      "bytes": 1366,
+      "sha256": "62635b236c9881f36c856a3ac30ea78d6adbc88fe48f7be58d8d47a98150d3c2"
+    },
+    "STL/Elevator_3_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "740d8d28978f2d057f72faa623a1ed67d5bed156369dcadbffac40a1b6c997ed"
+    },
+    "3MF/Individual/Elevator_3_Starboard.3mf": {
+      "bytes": 1368,
+      "sha256": "63e935934b80a589e492616ebc548be0de6c1d90ad4aa07461bd3c5a00214f80"
+    },
+    "STL/Elevator_4_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "4b342088b717fd6949bf3516ca414ae1d17c4c4667b03f30791330da1f0ec394"
+    },
+    "3MF/Individual/Elevator_4_Starboard.3mf": {
+      "bytes": 1364,
+      "sha256": "c4bd836ec9345d1071cae236f9913deda648d080b92f052f33d0162e132fc553"
+    },
+    "STL/Raised_Marking_Landing_Aft.stl": {
+      "bytes": 9884,
+      "sha256": "3aa74d2c2e237b1a366e851610a06036708e7ea4ec99288f68c0d4d7a5c7c948"
+    },
+    "3MF/Individual/Raised_Marking_Landing_Aft.3mf": {
+      "bytes": 2970,
+      "sha256": "54f81d03b7f85daddea09747f61ee18ac9e09d58f6027d60ed1d20e2f7b4a25f"
+    },
+    "STL/Raised_Marking_Landing_Forward.stl": {
+      "bytes": 7884,
+      "sha256": "253094f2902a56ef0e7f0ace7d111a0445629bc1e5177d7936c7e890327ff1c2"
+    },
+    "3MF/Individual/Raised_Marking_Landing_Forward.3mf": {
+      "bytes": 2617,
+      "sha256": "629fab20e5d37d38972c6dadcd3db489f205ff3f69e4a2210267997cce6e7595"
+    },
+    "STL/Raised_Marking_Bow_Centerline.stl": {
+      "bytes": 7084,
+      "sha256": "98bac6e2929e5d782616d40f2a24dabb07e41be73099d389e3108af3f5baaa16"
+    },
+    "3MF/Individual/Raised_Marking_Bow_Centerline.3mf": {
+      "bytes": 2236,
+      "sha256": "4b9d8a66cc2adc756aa17a73579afe98ba714e8d0ef8101a0541b052746545f9"
+    },
+    "STL/Raised_Marking_Elevator_1_Port.stl": {
+      "bytes": 3284,
+      "sha256": "60f6bbbc4685a59f10768858e8edac936fbeb589d637c42d2d5012e8db9d5a39"
+    },
+    "3MF/Individual/Raised_Marking_Elevator_1_Port.3mf": {
+      "bytes": 1642,
+      "sha256": "ee45b9b70ef7ffa04815c28d2e15bb468a1dc2b6bf3690d4ec84bc741c5c6a34"
+    },
+    "STL/Raised_Marking_Elevator_2_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "d0c859e750e23885481dec26cd4e7ee7cd9911c61440cd04c8b720942ce4dcac"
+    },
+    "3MF/Individual/Raised_Marking_Elevator_2_Starboard.3mf": {
+      "bytes": 1650,
+      "sha256": "80bd4ef14132d1b394ab39c7e6642fd080305420d7b3b5ebafd0dae233d022b6"
+    },
+    "STL/Raised_Marking_Elevator_3_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "43853913517ea3ec0592eff721c0b672621a1460de18cf7d61e59c50306c715b"
+    },
+    "3MF/Individual/Raised_Marking_Elevator_3_Starboard.3mf": {
+      "bytes": 1657,
+      "sha256": "e4d42f0bfb15009bc28075a23262d5a1c21f38eb7850d02baf58f61c1df0a2fb"
+    },
+    "STL/Raised_Marking_Elevator_4_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "aee3cd0b2b7b0b10fdda85db51f20e341b1798ccea7a5a52bf425352eaec7489"
+    },
+    "3MF/Individual/Raised_Marking_Elevator_4_Starboard.3mf": {
+      "bytes": 1658,
+      "sha256": "792ce3714f7a16054bef0116d9b257f92f1599739db62a9cc498326f2c376dbe"
+    },
+    "STL/Catapult_1_Bow_Port.stl": {
+      "bytes": 684,
+      "sha256": "326029331d933c3f4409f8eb5967c89f3467a871f4b578b9fb9badf636913824"
+    },
+    "3MF/Individual/Catapult_1_Bow_Port.3mf": {
+      "bytes": 1258,
+      "sha256": "34ac2cd3c88fb061f44270c4ddf228f3c1c9fd6958a3737e93ca58d64953f51e"
+    },
+    "STL/Catapult_2_Bow_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "157be53755ba68a4b2548e778e5546b35295f828cd641c6cc427c0f070ebe80e"
+    },
+    "3MF/Individual/Catapult_2_Bow_Starboard.3mf": {
+      "bytes": 1263,
+      "sha256": "fe1d92437e94083f763a849bcc9cd497f78db97fbebe2c741d72e38738dab338"
+    },
+    "STL/Catapult_3_Waist_Inner.stl": {
+      "bytes": 684,
+      "sha256": "13fe6bd3c456f833c64108a2050da3adb8bb9a88b7458737467843b9a77a1bb9"
+    },
+    "3MF/Individual/Catapult_3_Waist_Inner.3mf": {
+      "bytes": 1265,
+      "sha256": "363ac94299e84a7ff3d7095d0e9b7b974940209f430de9c46583b2f893e883e5"
+    },
+    "STL/Catapult_4_Waist_Outer.stl": {
+      "bytes": 684,
+      "sha256": "1a4ec173906a49ab12daa348535a636eb1463b53752b8d2e4cd97daef063a58e"
+    },
+    "3MF/Individual/Catapult_4_Waist_Outer.3mf": {
+      "bytes": 1262,
+      "sha256": "3cc3fd50fd8c2c8c0f9c8b1b45056791fed0615cfe17915bfa2665f10f6261e8"
+    },
+    "STL/Arresting_Wire_1.stl": {
+      "bytes": 684,
+      "sha256": "a8041524fd7b2c02bce7ce811fc4bd2c8d3ac4e1fcfcf0794825a732873a5ad0"
+    },
+    "3MF/Individual/Arresting_Wire_1.3mf": {
+      "bytes": 1274,
+      "sha256": "f9de06f8f054483e04ca033423d7d598c250f60ff87ababcef0730064bb1709e"
+    },
+    "STL/Arresting_Wire_2.stl": {
+      "bytes": 684,
+      "sha256": "d25063727447429266438fc07543482a7fc7b5446679fff257710b551df20df6"
+    },
+    "3MF/Individual/Arresting_Wire_2.3mf": {
+      "bytes": 1271,
+      "sha256": "15fbe32f04362b34e59455d7afbead2f24920304aa316b3636be06d4ded4b3e8"
+    },
+    "STL/Arresting_Wire_3.stl": {
+      "bytes": 684,
+      "sha256": "ee79f2a2a9aa6c4dc950b70ef4a51dcbd58e6a1d3a75c81d366a3936c5597a7b"
+    },
+    "3MF/Individual/Arresting_Wire_3.3mf": {
+      "bytes": 1271,
+      "sha256": "af3f5a6e02d36f3ba43231f00e333ef26c51c7f254a671144afafab520ae2b6c"
+    },
+    "STL/Arresting_Wire_4.stl": {
+      "bytes": 684,
+      "sha256": "d25063727447429266438fc07543482a7fc7b5446679fff257710b551df20df6"
+    },
+    "3MF/Individual/Arresting_Wire_4.3mf": {
+      "bytes": 1271,
+      "sha256": "d098e24f8927c723f2ba46ec9a307f6df06aa538b3fab7f3f1508d10777927a9"
+    },
+    "3MF/Print_Plate_01_Main_Deck.3mf": {
+      "bytes": 5307,
+      "sha256": "152e5b751a2f011ae42078b29cd9433dfcdc4c44b5d2be3d14da4544188880d1"
+    },
+    "3MF/Print_Plate_02_Details.3mf": {
+      "bytes": 9494,
+      "sha256": "cca862c310ea34833e4f79c42da24efeb8380234d87a6e46a7bbfd3c866278ca"
+    }
+  }
+}

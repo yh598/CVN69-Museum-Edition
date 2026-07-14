@@ -2,6 +2,20 @@
 
 All released changes use semantic versioning. Release artifacts are never overwritten after tagging.
 
+## Unreleased — Flight-deck reconstruction review
+
+### Added
+
+- Clean scripted FreeCAD/OpenCascade flight-deck BRep at the corrected 476 mm 1:700 length; no source mesh triangles are reused.
+- Three glue-keyed deck modules, four elevator inserts, seven raised-marking parts, four catapult tracks, and four arresting wires.
+- FreeCAD, STEP, individual STL/3MF, assembly 3MF, print-plate 3MF, OBJ, top-view, and isometric outputs.
+- Visual/numerical inventory of all 33 available source STLs and explicit preservation of source topology defects in the report.
+- Independent strict BRep/STEP checks, STL topology checks, 3MF package checks, dimensional QA, and Bambu Studio CLI inspection of 47 exports.
+
+### Scope
+
+- Island, weapons, aircraft, hull redesign, and ocean base remain excluded.
+
 ## 0.1.0 — 2026-07-13
 
 ### Added
@@ -24,4 +38,3 @@ All released changes use semantic versioning. Release artifacts are never overwr
 
 - Public shipyard lines were unavailable; hull stations and appendage placement remain a public-data, photo-informed reconstruction.
 - A physical first-article print and glue-fit coupon are still required before declaring production validation complete.
-

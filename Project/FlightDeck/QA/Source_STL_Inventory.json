@@ -1,0 +1,1003 @@
+{
+  "generated_utc": "2026-07-14T16:52:13.012075+00:00",
+  "optimized_archive": "/Users/Yun.Hu@blueshieldca.com/Downloads/CVN69_Optimized_v0_4_Glue_Only.zip",
+  "optimized_archive_sha256": "fb05095b123bec8f5d05cf6b688cfce6cb702e2ce5355cffc8d90115384041b2",
+  "inventory_count": 33,
+  "source_sets": {
+    "workspace_stl_package": 22,
+    "optimized_v0_4_archive": 11
+  },
+  "files": [
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Hull.stl",
+      "bytes": 3722384,
+      "sha256": "a1c886ab90c406ea59b1a1614444106c6195aeb3cd562c20ba20bda6dc467f7c",
+      "facets": 74446,
+      "unique_vertices": 37265,
+      "components": 21,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        220.0562,
+        177.29082,
+        31.43096
+      ],
+      "size_mm": [
+        220.0562,
+        177.29082,
+        31.43096
+      ],
+      "signed_volume_mm3": 711171.0371,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Hull_Module_1.stl",
+      "bytes": 2051684,
+      "sha256": "3583ba358a8489346024c55604689ed56e051a10b058aa90ac4d6c87caff6213",
+      "facets": 41032,
+      "unique_vertices": 20518,
+      "components": 1,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        164.66667,
+        58.14038,
+        31.43096
+      ],
+      "size_mm": [
+        164.66667,
+        58.14038,
+        31.43096
+      ],
+      "signed_volume_mm3": 211807.2488,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Hull_Module_2.stl",
+      "bytes": 785284,
+      "sha256": "cb6e37d75553050e2f1ec675c990e94997c73d1160750e2aac72f004ac89a846",
+      "facets": 15704,
+      "unique_vertices": 7854,
+      "components": 1,
+      "bounds_min_mm": [
+        0.0,
+        59.64038,
+        0.0
+      ],
+      "bounds_max_mm": [
+        164.76666,
+        117.94414,
+        31.43011
+      ],
+      "size_mm": [
+        164.76666,
+        58.30375,
+        31.43011
+      ],
+      "signed_volume_mm3": 260169.5247,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Hull_Module_3.stl",
+      "bytes": 581584,
+      "sha256": "213726d6bba6a53d74993739ed92c95328b071ab8ba11959892f3f8788c567fa",
+      "facets": 11630,
+      "unique_vertices": 5817,
+      "components": 1,
+      "bounds_min_mm": [
+        0.0,
+        119.44414,
+        0.0
+      ],
+      "bounds_max_mm": [
+        158.76666,
+        177.29082,
+        31.42591
+      ],
+      "size_mm": [
+        158.76666,
+        57.84668,
+        31.42591
+      ],
+      "signed_volume_mm3": 238499.1266,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Propeller_1.stl",
+      "bytes": 72284,
+      "sha256": "53e24478c5020a8cd97c8687665c5cd0285d849cdd98b0c90c5ac2f373932e08",
+      "facets": 1444,
+      "unique_vertices": 724,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        3.06,
+        0.0
+      ],
+      "bounds_max_mm": [
+        176.02893,
+        10.18637,
+        2.075
+      ],
+      "size_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "signed_volume_mm3": 9.944,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Propeller_2.stl",
+      "bytes": 72284,
+      "sha256": "cfd03f879a60513fa24281c585d18bca634409e4207387aabcfc731e8e412a8d",
+      "facets": 1444,
+      "unique_vertices": 724,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        20.22636,
+        0.0
+      ],
+      "bounds_max_mm": [
+        176.02893,
+        27.35273,
+        2.075
+      ],
+      "size_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "signed_volume_mm3": 9.944,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Propeller_3.stl",
+      "bytes": 72284,
+      "sha256": "27c387ef68854d9833d9540de5904d1856b0fb6117031603472b08819f931d40",
+      "facets": 1444,
+      "unique_vertices": 724,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        37.39273,
+        0.0
+      ],
+      "bounds_max_mm": [
+        176.02893,
+        44.51909,
+        2.075
+      ],
+      "size_mm": [
+        7.26227,
+        7.12636,
+        2.075
+      ],
+      "signed_volume_mm3": 9.944,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Propeller_4.stl",
+      "bytes": 72284,
+      "sha256": "99a3b9e54187e56a7bb63954a00995553395773cfb8574f5e7978b8e30d53dbd",
+      "facets": 1444,
+      "unique_vertices": 724,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        54.55909,
+        0.0
+      ],
+      "bounds_max_mm": [
+        176.02893,
+        61.68546,
+        2.075
+      ],
+      "size_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "signed_volume_mm3": 9.944,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Rudder_Port.stl",
+      "bytes": 1684,
+      "sha256": "a4dc3eff3fc34da13f3477aa28e5e80019f788322451c111b0c5197a0938d2fc",
+      "facets": 32,
+      "unique_vertices": 18,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        68.66546,
+        0.0
+      ],
+      "bounds_max_mm": [
+        184.76666,
+        80.76546,
+        1.2
+      ],
+      "size_mm": [
+        16.0,
+        12.1,
+        1.2
+      ],
+      "signed_volume_mm3": 143.5986,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Rudder_Starboard.stl",
+      "bytes": 1684,
+      "sha256": "aa5a1d4408f3c268f722aefbd3c0fea21f7fd7ba8e366e9b00fd3c8df72d7bb9",
+      "facets": 32,
+      "unique_vertices": 18,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        82.26546,
+        0.0
+      ],
+      "bounds_max_mm": [
+        184.76666,
+        94.36546,
+        1.2
+      ],
+      "size_mm": [
+        16.0,
+        12.1,
+        1.2
+      ],
+      "signed_volume_mm3": 143.5986,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_1.stl",
+      "bytes": 1084,
+      "sha256": "c7f1331a33a59aa072fcd68d39a1c9bc67caeeea3e883968e143f0b541820151",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        219.12541,
+        1.56,
+        1.351
+      ],
+      "size_mm": [
+        50.35875,
+        1.56,
+        1.351
+      ],
+      "signed_volume_mm3": 79.6005,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_1_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "3aa764ae0f97019728ecc17f73cff8e975ebd0602ebcb0ff618b95e42387b022",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        11.68637,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        12.92636,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_1_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "2aedb46169a989c3751e59869942ba8b3481718bc3e3234e89ba543575de64e1",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        14.42636,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        15.66636,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_2.stl",
+      "bytes": 1084,
+      "sha256": "17f35a0a0e837729bb93684ab2d939ed087a8340492cae7792c0272acca9c8b0",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        17.16636,
+        0.0
+      ],
+      "bounds_max_mm": [
+        220.0562,
+        18.72636,
+        1.351
+      ],
+      "size_mm": [
+        51.28954,
+        1.56,
+        1.351
+      ],
+      "signed_volume_mm3": 81.0718,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_2_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "12b73f76afb9752fa22bb88f2dbfd2c08cf4dfec853b95c3fcdb3a9c48db7e93",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        28.85273,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        30.09273,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_2_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "2a980c05c56ebd31d00b71c374924e0ad021927cfc83f604085b13f23edfe74b",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        31.59273,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        32.83273,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_3.stl",
+      "bytes": 1084,
+      "sha256": "7e3e042ed39de5c74f2d5a46409dc540b623c32dcaf7babe7fd673417275b220",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        34.33273,
+        0.0
+      ],
+      "bounds_max_mm": [
+        220.0562,
+        35.89273,
+        1.351
+      ],
+      "size_mm": [
+        51.28954,
+        1.56,
+        1.351
+      ],
+      "signed_volume_mm3": 81.0718,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_3_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "df300c6cc6b6c9e81af5472b8482c221519ef281df85f75299b2839fc0eb6953",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        46.01909,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        47.25909,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_3_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "5a3deaa91485fb097c338b8226a8e94b501fd2d873c5cca69b0c419ecbf08569",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        48.75909,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        49.9991,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_4.stl",
+      "bytes": 1084,
+      "sha256": "e18a95a71516ba94252fac2abab97a7c628f38c875dee53828578c8e338de429",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        51.4991,
+        0.0
+      ],
+      "bounds_max_mm": [
+        219.12541,
+        53.05909,
+        1.351
+      ],
+      "size_mm": [
+        50.35875,
+        1.56,
+        1.351
+      ],
+      "signed_volume_mm3": 79.6004,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_4_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "c65a67b0f23c375e17d5864027dbcb82b75d7ebff3cd336d1af6f6096312ebcd",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        63.18546,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        64.42546,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "workspace_stl_package",
+      "logical_path": "STL/Shaft_4_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "a5f9a97baeb66befa05dade985d0e4a04c44c7f2f7d56c6214db04d1a7c94a27",
+      "facets": 20,
+      "unique_vertices": 12,
+      "components": 1,
+      "bounds_min_mm": [
+        168.76666,
+        65.92546,
+        0.0
+      ],
+      "bounds_max_mm": [
+        174.62669,
+        67.16546,
+        1.07387
+      ],
+      "size_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "signed_volume_mm3": 5.8524,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_ASSEMBLY_TOOLS/CVN69_alignment_board_left.stl",
+      "bytes": 3084,
+      "sha256": "8a50c2eddb18945aa1f674f8439a51fc26df961a36f0135a914818bb0d903afe",
+      "facets": 60,
+      "unique_vertices": 36,
+      "components": 3,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        238.0,
+        110.0,
+        11.0
+      ],
+      "size_mm": [
+        238.0,
+        110.0,
+        11.0
+      ],
+      "signed_volume_mm3": 116739.2003,
+      "boundary_edges": 0,
+      "non_manifold_edges": 2,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_ASSEMBLY_TOOLS/CVN69_alignment_board_right.stl",
+      "bytes": 3084,
+      "sha256": "3c0eb79be8b7aca65b0cfb6686396f256daff4be845c12315bbe6a75591ceaf6",
+      "facets": 60,
+      "unique_vertices": 36,
+      "components": 3,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        238.0,
+        110.0,
+        11.0
+      ],
+      "size_mm": [
+        238.0,
+        110.0,
+        11.0
+      ],
+      "signed_volume_mm3": 116739.2003,
+      "boundary_edges": 0,
+      "non_manifold_edges": 2,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_ASSEMBLY_TOOLS/CVN69_board_bridge_clip.stl",
+      "bytes": 1884,
+      "sha256": "bf5a51106bcbdb325a160a518808f20f025e50140a0d3dbf9716a76012779bc2",
+      "facets": 36,
+      "unique_vertices": 24,
+      "components": 3,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        34.0,
+        18.0,
+        9.0
+      ],
+      "size_mm": [
+        34.0,
+        18.0,
+        9.0
+      ],
+      "signed_volume_mm3": 3348.0,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_ASSEMBLY_TOOLS/PLA_CA_glue_test_coupon.stl",
+      "bytes": 2484,
+      "sha256": "101fff7ab69cc9a7df836d0388790e808902bc444398d4e83a027b925203e784",
+      "facets": 48,
+      "unique_vertices": 28,
+      "components": 3,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        86.0,
+        20.0,
+        5.0
+      ],
+      "size_mm": [
+        86.0,
+        20.0,
+        5.0
+      ],
+      "signed_volume_mm3": 5056.0,
+      "boundary_edges": 0,
+      "non_manifold_edges": 4,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_ASSEMBLY_TOOLS/fit_gauge_015_020_025mm.stl",
+      "bytes": 88284,
+      "sha256": "31da0371f4e98a8117fd6a0fdacbaa97aeadba2818965fa24b472f9b155f1e73",
+      "facets": 1764,
+      "unique_vertices": 894,
+      "components": 9,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        96.0,
+        22.0,
+        11.0
+      ],
+      "size_mm": [
+        96.0,
+        22.0,
+        11.0
+      ],
+      "signed_volume_mm3": 7431.0169,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_detail_01.stl",
+      "bytes": 3084,
+      "sha256": "3b0c209a68ac6a786aecef4bc1d7d79bd4795525c2b78bc826dc41506f1661cf",
+      "facets": 60,
+      "unique_vertices": 32,
+      "components": 1,
+      "bounds_min_mm": [
+        206.7632,
+        20.50304,
+        15.06249
+      ],
+      "bounds_max_mm": [
+        206.868,
+        34.3152,
+        18.65765
+      ],
+      "size_mm": [
+        0.1048,
+        13.81216,
+        3.59517
+      ],
+      "signed_volume_mm3": 3.9573,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_section_01.stl",
+      "bytes": 175684,
+      "sha256": "16e754cbb943cceacc2b7660fbee14207b9aeadf2a44419a0538782728b69c55",
+      "facets": 3512,
+      "unique_vertices": 1844,
+      "components": 51,
+      "bounds_min_mm": [
+        0.0,
+        -34.27341,
+        0.0
+      ],
+      "bounds_max_mm": [
+        69.44768,
+        37.45767,
+        30.02798
+      ],
+      "size_mm": [
+        69.44768,
+        71.73109,
+        30.02798
+      ],
+      "signed_volume_mm3": 6987.4374,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_section_02.stl",
+      "bytes": 648084,
+      "sha256": "e1c0f9f04afd15b6bfc81dc78377f9fbcc8b7882114b85a4c53309af7deeb417",
+      "facets": 12960,
+      "unique_vertices": 6643,
+      "components": 256,
+      "bounds_min_mm": [
+        104.73659,
+        -37.35529,
+        0.18827
+      ],
+      "bounds_max_mm": [
+        163.71341,
+        38.16532,
+        71.33544
+      ],
+      "size_mm": [
+        58.97682,
+        75.52061,
+        71.14718
+      ],
+      "signed_volume_mm3": 1386.7207,
+      "boundary_edges": 0,
+      "non_manifold_edges": 157,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_section_03.stl",
+      "bytes": 137884,
+      "sha256": "9099c2c54c86b858d7e513729d83d9dbc796d9a5e648259a9e81b10e650996ed",
+      "facets": 2756,
+      "unique_vertices": 1417,
+      "components": 40,
+      "bounds_min_mm": [
+        197.42697,
+        -43.18736,
+        0.3989
+      ],
+      "bounds_max_mm": [
+        261.33176,
+        38.92457,
+        41.41086
+      ],
+      "size_mm": [
+        63.90479,
+        82.11193,
+        41.01196
+      ],
+      "signed_volume_mm3": 1429.868,
+      "boundary_edges": 0,
+      "non_manifold_edges": 2,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_section_04.stl",
+      "bytes": 72684,
+      "sha256": "dfd64c76e7ba5fba154436d9593753930c5f78965cdf8a6d3c23ef49e4249686",
+      "facets": 1452,
+      "unique_vertices": 770,
+      "components": 23,
+      "bounds_min_mm": [
+        304.37061,
+        -37.33689,
+        0.4701
+      ],
+      "bounds_max_mm": [
+        355.27145,
+        43.18736,
+        28.56526
+      ],
+      "size_mm": [
+        50.90085,
+        80.52425,
+        28.09516
+      ],
+      "signed_volume_mm3": 866.8183,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": true
+    },
+    {
+      "source_set": "optimized_v0_4_archive",
+      "logical_path": "STL_MODEL/CVN69_1-700_section_05.stl",
+      "bytes": 146684,
+      "sha256": "3a4353e49451b2d29822bddb16a9923f9d879237b91e6c85756b2700e693f58a",
+      "facets": 2932,
+      "unique_vertices": 1510,
+      "components": 32,
+      "bounds_min_mm": [
+        405.32733,
+        -20.47147,
+        0.79931
+      ],
+      "bounds_max_mm": [
+        476.0,
+        23.03261,
+        28.79427
+      ],
+      "size_mm": [
+        70.67267,
+        43.50408,
+        27.99496
+      ],
+      "signed_volume_mm3": 729.5821,
+      "boundary_edges": 0,
+      "non_manifold_edges": 1,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "watertight": false
+    }
+  ],
+  "availability_note": "Project/STL was the only pre-existing STL package in the workspace and is inventoried in full. No second original-source archive was present in the workspace or Downloads; the separately supplied optimized v0.4 archive is inventoried directly without altering its members."
+}

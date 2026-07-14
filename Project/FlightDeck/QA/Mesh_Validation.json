@@ -1,0 +1,1590 @@
+{
+  "generated_utc": "2026-07-14T17:02:21.351699+00:00",
+  "overall_status": "PASS",
+  "freecad_version": "1.1.1",
+  "checks": [
+    {
+      "name": "STL \u2014 Arresting_Wire_1.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [2.80333, 29.94975, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Arresting_Wire_2.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [2.80333, 29.94975, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Arresting_Wire_3.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [2.80333, 29.94975, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Arresting_Wire_4.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [2.80333, 29.94975, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Catapult_1_Bow_Port.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [129.0031, 1.29999, 0.4] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Catapult_2_Bow_Starboard.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [128.00626, 1.79998, 0.4] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Catapult_3_Waist_Inner.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [165.06764, 14.79714, 0.4] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Catapult_4_Waist_Outer.stl",
+      "status": "PASS",
+      "evidence": "12 facets; 1 component; 0 bad edges; bounds [158.06058, 12.7977, 0.4] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Elevator_1_Port.stl",
+      "status": "PASS",
+      "evidence": "28 facets; 1 component; 0 bad edges; bounds [26.0, 12.8, 1.8] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Elevator_2_Starboard.stl",
+      "status": "PASS",
+      "evidence": "28 facets; 1 component; 0 bad edges; bounds [22.0, 13.8, 1.8] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Elevator_3_Starboard.stl",
+      "status": "PASS",
+      "evidence": "28 facets; 1 component; 0 bad edges; bounds [26.0, 13.7, 1.8] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Elevator_4_Starboard.stl",
+      "status": "PASS",
+      "evidence": "28 facets; 1 component; 0 bad edges; bounds [25.5, 14.8, 1.8] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Main_Deck_Module_1.stl",
+      "status": "PASS",
+      "evidence": "248 facets; 1 component; 0 bad edges; bounds [197.0, 69.80909, 3.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Main_Deck_Module_2.stl",
+      "status": "PASS",
+      "evidence": "140 facets; 1 component; 0 bad edges; bounds [147.0, 73.7, 3.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Main_Deck_Module_3.stl",
+      "status": "PASS",
+      "evidence": "84 facets; 1 component; 0 bad edges; bounds [146.0, 69.44039, 3.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Bow_Centerline.stl",
+      "status": "PASS",
+      "evidence": "140 facets; 1 component; 0 bad edges; bounds [133.0, 5.6, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Elevator_1_Port.stl",
+      "status": "PASS",
+      "evidence": "64 facets; 1 component; 0 bad edges; bounds [24.8, 11.6, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Elevator_2_Starboard.stl",
+      "status": "PASS",
+      "evidence": "64 facets; 1 component; 0 bad edges; bounds [20.8, 12.6, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Elevator_3_Starboard.stl",
+      "status": "PASS",
+      "evidence": "64 facets; 1 component; 0 bad edges; bounds [24.8, 12.5, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Elevator_4_Starboard.stl",
+      "status": "PASS",
+      "evidence": "64 facets; 1 component; 0 bad edges; bounds [24.3, 13.6, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Landing_Aft.stl",
+      "status": "PASS",
+      "evidence": "196 facets; 1 component; 0 bad edges; bounds [180.15947, 35.29044, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Raised_Marking_Landing_Forward.stl",
+      "status": "PASS",
+      "evidence": "156 facets; 1 component; 0 bad edges; bounds [112.15946, 30.05071, 0.35] mm; min z 0.00000"
+    },
+    {
+      "name": "3MF \u2014 CVN69_Flight_Deck_Assembly.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 1428 triangles; bounds [476.0, 73.7, 3.4] mm; assembly reference"
+    },
+    {
+      "name": "3MF \u2014 Individual/Arresting_Wire_1.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [2.80333, 29.94975, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Arresting_Wire_2.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [2.80333, 29.94975, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Arresting_Wire_3.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [2.80333, 29.94975, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Arresting_Wire_4.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [2.80333, 29.94975, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Catapult_1_Bow_Port.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [129.0031, 1.29999, 0.4] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Catapult_2_Bow_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [128.00625, 1.79998, 0.4] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Catapult_3_Waist_Inner.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [165.06764, 14.79714, 0.4] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Catapult_4_Waist_Outer.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 12 triangles; bounds [158.06059, 12.7977, 0.4] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Elevator_1_Port.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 28 triangles; bounds [26.0, 12.8, 1.8] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Elevator_2_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 28 triangles; bounds [22.0, 13.8, 1.8] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Elevator_3_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 28 triangles; bounds [26.0, 13.7, 1.8] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Elevator_4_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 28 triangles; bounds [25.5, 14.8, 1.8] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Main_Deck_Module_1.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 248 triangles; bounds [197.0, 69.80909, 3.0] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Main_Deck_Module_2.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 140 triangles; bounds [147.0, 73.7, 3.0] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Main_Deck_Module_3.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 84 triangles; bounds [146.0, 69.44039, 3.0] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Bow_Centerline.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 140 triangles; bounds [133.0, 5.6, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Elevator_1_Port.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 64 triangles; bounds [24.8, 11.6, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Elevator_2_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 64 triangles; bounds [20.8, 12.6, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Elevator_3_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 64 triangles; bounds [24.8, 12.5, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Elevator_4_Starboard.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 64 triangles; bounds [24.3, 13.6, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Landing_Aft.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 196 triangles; bounds [180.15946, 35.29044, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Individual/Raised_Marking_Landing_Forward.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 156 triangles; bounds [112.15946, 30.05072, 0.35] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_01_Main_Deck.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 472 triangles; bounds [197.0, 217.94949, 3.0] mm; printable envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_02_Details.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; 956 triangles; bounds [210.9, 170.38801, 1.8] mm; printable envelope"
+    },
+    {
+      "name": "FreeCAD production BRep validity / BOPCheck",
+      "status": "PASS",
+      "evidence": "22 production Part::Feature objects; OCC strict checks; zero self-intersections"
+    },
+    {
+      "name": "STEP round-trip",
+      "status": "PASS",
+      "evidence": "22 closed solids after STEP re-import; 0 self-intersections; 0 OCC diagnostics"
+    },
+    {
+      "name": "Complete source STL numerical and visual inventory",
+      "status": "PASS",
+      "evidence": "33 source STLs; sets {'workspace_stl_package': 22, 'optimized_v0_4_archive': 11}; PNG dimensions {'Source_STL_Inventory_Top.png': (2560, 4680), 'Source_STL_Inventory_Isometric.png': (2560, 4680)}"
+    },
+    {
+      "name": "Build-manifest output hashes",
+      "status": "PASS",
+      "evidence": "51 FCStd/STEP/STL/3MF/OBJ outputs match recorded byte sizes and SHA-256 hashes"
+    },
+    {
+      "name": "Bambu Studio independent import/manifold check",
+      "status": "PASS",
+      "evidence": "Bambu Studio 02.07.01.62 loaded 47 STL/3MF exports; all reported manifold"
+    }
+  ],
+  "stl_files": {
+    "Arresting_Wire_1.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.25,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Arresting_Wire_2.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.25,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Arresting_Wire_3.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.25,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Arresting_Wire_4.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.25,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Catapult_1_Bow_Port.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        129.0031,
+        1.29999,
+        0.4
+      ],
+      "bounds_mm": [
+        129.0031,
+        1.29999,
+        0.4
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 41.28031,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Catapult_2_Bow_Starboard.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        128.00626,
+        1.79998,
+        0.4
+      ],
+      "bounds_mm": [
+        128.00626,
+        1.79998,
+        0.4
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 40.96125,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Catapult_3_Waist_Inner.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        165.06764,
+        14.79714,
+        0.4
+      ],
+      "bounds_mm": [
+        165.06764,
+        14.79714,
+        0.4
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 52.98973,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Catapult_4_Waist_Outer.stl": {
+      "facets": 12,
+      "vertices": 8,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        158.06058,
+        12.7977,
+        0.4
+      ],
+      "bounds_mm": [
+        158.06058,
+        12.7977,
+        0.4
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 50.7056,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Elevator_1_Port.stl": {
+      "facets": 28,
+      "vertices": 16,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        26.0,
+        12.8,
+        1.8
+      ],
+      "bounds_mm": [
+        26.0,
+        12.8,
+        1.8
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 596.73599,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Elevator_2_Starboard.stl": {
+      "facets": 28,
+      "vertices": 16,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        22.0,
+        13.8,
+        1.8
+      ],
+      "bounds_mm": [
+        22.0,
+        13.8,
+        1.8
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 544.17599,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Elevator_3_Starboard.stl": {
+      "facets": 28,
+      "vertices": 16,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        26.0,
+        13.7,
+        1.8
+      ],
+      "bounds_mm": [
+        26.0,
+        13.7,
+        1.8
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 638.85597,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Elevator_4_Starboard.stl": {
+      "facets": 28,
+      "vertices": 16,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        25.5,
+        14.8,
+        1.8
+      ],
+      "bounds_mm": [
+        25.5,
+        14.8,
+        1.8
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 677.01599,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Main_Deck_Module_1.stl": {
+      "facets": 248,
+      "vertices": 124,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        197.0,
+        69.80909,
+        3.0
+      ],
+      "bounds_mm": [
+        197.0,
+        69.80909,
+        3.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 33470.94953,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Main_Deck_Module_2.stl": {
+      "facets": 140,
+      "vertices": 72,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        147.0,
+        73.7,
+        3.0
+      ],
+      "bounds_mm": [
+        147.0,
+        73.7,
+        3.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 29450.0786,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Main_Deck_Module_3.stl": {
+      "facets": 84,
+      "vertices": 44,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        146.0,
+        69.44039,
+        3.0
+      ],
+      "bounds_mm": [
+        146.0,
+        69.44039,
+        3.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 16757.01933,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Bow_Centerline.stl": {
+      "facets": 140,
+      "vertices": 72,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        133.0,
+        5.6,
+        0.35
+      ],
+      "bounds_mm": [
+        133.0,
+        5.6,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 32.13001,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Elevator_1_Port.stl": {
+      "facets": 64,
+      "vertices": 32,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        24.8,
+        11.6,
+        0.35
+      ],
+      "bounds_mm": [
+        24.8,
+        11.6,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 14.658,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Elevator_2_Starboard.stl": {
+      "facets": 64,
+      "vertices": 32,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        20.8,
+        12.6,
+        0.35
+      ],
+      "bounds_mm": [
+        20.8,
+        12.6,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 13.398,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Elevator_3_Starboard.stl": {
+      "facets": 64,
+      "vertices": 32,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        24.8,
+        12.5,
+        0.35
+      ],
+      "bounds_mm": [
+        24.8,
+        12.5,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 15.036,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Elevator_4_Starboard.stl": {
+      "facets": 64,
+      "vertices": 32,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        24.3,
+        13.6,
+        0.35
+      ],
+      "bounds_mm": [
+        24.3,
+        13.6,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 15.288,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Landing_Aft.stl": {
+      "facets": 196,
+      "vertices": 88,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        180.15947,
+        35.29044,
+        0.35
+      ],
+      "bounds_mm": [
+        180.15947,
+        35.29044,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 129.42037,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Raised_Marking_Landing_Forward.stl": {
+      "facets": 156,
+      "vertices": 72,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        112.15946,
+        30.05071,
+        0.35
+      ],
+      "bounds_mm": [
+        112.15946,
+        30.05071,
+        0.35
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 82.29537,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    }
+  },
+  "three_mf_files": {
+    "CVN69_Flight_Deck_Assembly.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 728,
+      "triangles": 1428,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        -36.7,
+        0.0
+      ],
+      "bounds_mm": [
+        476.0,
+        73.7,
+        3.4
+      ],
+      "valid": true
+    },
+    "Individual/Arresting_Wire_1.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Arresting_Wire_2.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Arresting_Wire_3.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Arresting_Wire_4.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        2.80333,
+        29.94975,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Catapult_1_Bow_Port.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        129.0031,
+        1.29999,
+        0.4
+      ],
+      "valid": true
+    },
+    "Individual/Catapult_2_Bow_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        128.00625,
+        1.79998,
+        0.4
+      ],
+      "valid": true
+    },
+    "Individual/Catapult_3_Waist_Inner.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        165.06764,
+        14.79714,
+        0.4
+      ],
+      "valid": true
+    },
+    "Individual/Catapult_4_Waist_Outer.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 8,
+      "triangles": 12,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        158.06059,
+        12.7977,
+        0.4
+      ],
+      "valid": true
+    },
+    "Individual/Elevator_1_Port.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 16,
+      "triangles": 28,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        26.0,
+        12.8,
+        1.8
+      ],
+      "valid": true
+    },
+    "Individual/Elevator_2_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 16,
+      "triangles": 28,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        22.0,
+        13.8,
+        1.8
+      ],
+      "valid": true
+    },
+    "Individual/Elevator_3_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 16,
+      "triangles": 28,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        26.0,
+        13.7,
+        1.8
+      ],
+      "valid": true
+    },
+    "Individual/Elevator_4_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 16,
+      "triangles": 28,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        25.5,
+        14.8,
+        1.8
+      ],
+      "valid": true
+    },
+    "Individual/Main_Deck_Module_1.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 124,
+      "triangles": 248,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        197.0,
+        69.80909,
+        3.0
+      ],
+      "valid": true
+    },
+    "Individual/Main_Deck_Module_2.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 72,
+      "triangles": 140,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        147.0,
+        73.7,
+        3.0
+      ],
+      "valid": true
+    },
+    "Individual/Main_Deck_Module_3.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 44,
+      "triangles": 84,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        146.0,
+        69.44039,
+        3.0
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Bow_Centerline.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 72,
+      "triangles": 140,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        133.0,
+        5.6,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Elevator_1_Port.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 32,
+      "triangles": 64,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        24.8,
+        11.6,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Elevator_2_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 32,
+      "triangles": 64,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        20.8,
+        12.6,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Elevator_3_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 32,
+      "triangles": 64,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        24.8,
+        12.5,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Elevator_4_Starboard.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 32,
+      "triangles": 64,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        24.3,
+        13.6,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Landing_Aft.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 88,
+      "triangles": 196,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        180.15946,
+        35.29044,
+        0.35
+      ],
+      "valid": true
+    },
+    "Individual/Raised_Marking_Landing_Forward.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 72,
+      "triangles": 156,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        112.15946,
+        30.05072,
+        0.35
+      ],
+      "valid": true
+    },
+    "Print_Plate_01_Main_Deck.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 240,
+      "triangles": 472,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        197.0,
+        217.94949,
+        3.0
+      ],
+      "valid": true
+    },
+    "Print_Plate_02_Details.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 1,
+      "build_items": 1,
+      "vertices": 488,
+      "triangles": 956,
+      "invalid_triangle_indices": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        210.9,
+        170.38801,
+        1.8
+      ],
+      "valid": true
+    }
+  },
+  "fcstd_shapes": [
+    {
+      "name": "Main_Deck_Module_1",
+      "category": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Main_Deck_Module_2",
+      "category": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Main_Deck_Module_3",
+      "category": "main_deck_body",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Elevator_1_Port",
+      "category": "elevator",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Elevator_2_Starboard",
+      "category": "elevator",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Elevator_3_Starboard",
+      "category": "elevator",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Elevator_4_Starboard",
+      "category": "elevator",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Landing_Aft",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Landing_Forward",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Bow_Centerline",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Elevator_1_Port",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Elevator_2_Starboard",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Elevator_3_Starboard",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Raised_Marking_Elevator_4_Starboard",
+      "category": "raised_marking",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Catapult_1_Bow_Port",
+      "category": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Catapult_2_Bow_Starboard",
+      "category": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Catapult_3_Waist_Inner",
+      "category": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Catapult_4_Waist_Outer",
+      "category": "catapult_track",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Arresting_Wire_1",
+      "category": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Arresting_Wire_2",
+      "category": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Arresting_Wire_3",
+      "category": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    },
+    {
+      "name": "Arresting_Wire_4",
+      "category": "arresting_wire",
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "self_intersections": 0,
+      "strict_messages": []
+    }
+  ],
+  "step": {
+    "valid": true,
+    "solid_count": 22,
+    "all_solids_closed": true,
+    "self_intersections": 0,
+    "strict_message_count": 0,
+    "strict_message_types": []
+  },
+  "source_inventory": {
+    "count": 33,
+    "source_sets": {
+      "workspace_stl_package": 22,
+      "optimized_v0_4_archive": 11
+    },
+    "visuals": {
+      "Source_STL_Inventory_Top.png": [
+        2560,
+        4680
+      ],
+      "Source_STL_Inventory_Isometric.png": [
+        2560,
+        4680
+      ]
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "generated_utc": "2026-07-14T17:02:21.351699+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Corrected 1:700 overall length",
+      "status": "PASS",
+      "evidence": "measured 476.0000 mm; target 476.0000 mm"
+    },
+    {
+      "name": "Main-deck split count",
+      "status": "PASS",
+      "evidence": "3 glue-only modules at x=190.0 and 330.0 mm"
+    },
+    {
+      "name": "Every production part within 240 \u00d7 240 mm",
+      "status": "PASS",
+      "evidence": "maximum planar axis 197.000 mm"
+    },
+    {
+      "name": "Deck body minimum thickness",
+      "status": "PASS",
+      "evidence": "3.00 mm deck; requirement \u2265 1.20 mm"
+    },
+    {
+      "name": "Elevator support shelf",
+      "status": "PASS",
+      "evidence": "1.20 mm continuous shelf"
+    },
+    {
+      "name": "Top skin above glue sockets",
+      "status": "PASS",
+      "evidence": "1.55 mm remaining above 1.45 mm-deep sockets"
+    },
+    {
+      "name": "Glue-only keyed joint clearance",
+      "status": "PASS",
+      "evidence": "0.25 mm per side; two underside tongues per seam"
+    },
+    {
+      "name": "Minimum raised detail width",
+      "status": "PASS",
+      "evidence": "minimum 0.50 mm"
+    },
+    {
+      "name": "Minimum raised detail height",
+      "status": "PASS",
+      "evidence": "minimum 0.35 mm"
+    },
+    {
+      "name": "Four separate elevator solids",
+      "status": "PASS",
+      "evidence": "detected 4"
+    },
+    {
+      "name": "Four separate catapult tracks",
+      "status": "PASS",
+      "evidence": "detected 4"
+    },
+    {
+      "name": "Four separate arresting wires",
+      "status": "PASS",
+      "evidence": "detected 4"
+    },
+    {
+      "name": "Separate raised-marking solids",
+      "status": "PASS",
+      "evidence": "detected 7 connected printable marking parts"
+    },
+    {
+      "name": "Island opening is clear",
+      "status": "PASS",
+      "evidence": "deck/tool overlap 0.00000000 mm\u00b3"
+    },
+    {
+      "name": "Elevator plates do not intersect deck body",
+      "status": "PASS",
+      "evidence": "total overlap 0.00000000 mm\u00b3; plates seat on shelves"
+    },
+    {
+      "name": "Island opening deck-edge wall",
+      "status": "PASS",
+      "evidence": "minimum traced starboard wall 1.50 mm"
+    },
+    {
+      "name": "Source-traced maximum deck width",
+      "status": "PASS",
+      "evidence": "73.700 mm"
+    },
+    {
+      "name": "Top and isometric renders",
+      "status": "PASS",
+      "evidence": "{'CVN69_Flight_Deck_Top.png': (3740, 1386), 'CVN69_Flight_Deck_Isometric.png': (3740, 1650)}"
+    }
+  ],
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "maximum_deck_width": 73.7,
+    "deck_thickness": 3.0,
+    "minimum_wall": 1.2,
+    "raised_detail_minimum": [
+      0.5,
+      0.35
+    ],
+    "fit_clearance_per_side": 0.25,
+    "module_seams_x": [
+      190.0,
+      330.0
+    ]
+  },
+  "part_counts": {
+    "main_deck_modules": 3,
+    "elevators": 4,
+    "raised_marking_parts": 7,
+    "catapult_tracks": 4,
+    "arresting_wires": 4,
+    "printable_parts": 22
+  },
+  "limitations": [
+    "The source archive contains separated reference bands and disconnected/non-manifold components; missing longitudinal intervals were faired parametrically.",
+    "This review package reconstructs only the flight deck and named deck details. Island, weapons, aircraft, hull redesign, and ocean base are intentionally absent.",
+    "Automated checks do not replace a physical first-article print and glue-fit test."
+  ]
+}
