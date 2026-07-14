@@ -1,0 +1,1038 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) 1:700 Museum Edition",
+  "milestone": "Milestone 3 \u2014 Island Reconstruction and Integration",
+  "version": "0.3.0-review",
+  "generated_utc": "2026-07-14T19:20:41.164612+00:00",
+  "freecad_version": "1.1.1",
+  "configuration_period": "2023-10-14 through 2024-07-14 deployment; visible fit frozen at 2024-06-30",
+  "coordinate_system": {
+    "x": "0 mm bow to 476 mm stern",
+    "y": "port negative / starboard positive",
+    "z": "vertical from keel datum"
+  },
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "deck_base_z": 31.5,
+    "deck_top_z": 34.5,
+    "opening_bounds": [
+      325.0,
+      19.2,
+      355.0,
+      33.0
+    ],
+    "interface_clearance_per_side": 0.25,
+    "interface_plug_depth": 2.4,
+    "foundation_flange_offset": 0.9,
+    "glue_channel_width": 0.6,
+    "glue_channel_depth": 0.35,
+    "minimum_structural_wall": 1.2,
+    "minimum_freestanding_mast": 0.8,
+    "minimum_railing": 0.6,
+    "minimum_antenna": 0.6,
+    "mast_height_above_deck": 43.5
+  },
+  "counts": {
+    "production_parts": 17,
+    "coupon_parts": 2,
+    "review_baseline_objects": 55
+  },
+  "material_mapping": {
+    "Foundation_Lower_Island": "Bambu PLA Matte Ash Gray",
+    "Navigation_Bridge": "Bambu PLA Matte Ash Gray",
+    "Primary_Flight_Control": "Bambu PLA Matte Ash Gray",
+    "Exhaust_Uptake": "Bambu PLA Matte Ash Gray",
+    "Main_Mast": "Bambu PLA Matte Ash Gray",
+    "Secondary_Mast": "Bambu PLA Matte Ash Gray",
+    "Main_Yardarm": "Bambu PLA Matte Ash Gray",
+    "Radar_AN_SPS48G_Array": "Bambu PLA Silk Silver",
+    "Radar_AN_SPS49_Array": "Bambu PLA Silk Silver",
+    "Radar_AN_SPN50_Array": "Bambu PLA Silk Silver",
+    "Bridge_Window_Insert": "Bambu PLA Matte Charcoal",
+    "PriFly_Window_Insert": "Bambu PLA Matte Charcoal",
+    "Aft_Access_Ladder": "Bambu PLA Matte Ash Gray",
+    "Antenna_Detail_Set": "Bambu PLA Silk Silver",
+    "Signal_Light_Housings": "Bambu PLA Basic Black",
+    "Marking_69_Port": "Bambu PLA Matte Ivory White",
+    "Marking_69_Starboard": "Bambu PLA Matte Ivory White"
+  },
+  "parts": [
+    {
+      "name": "Foundation_Lower_Island",
+      "role": "foundation_body",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "approved opening + source/photo-informed proportions",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4587.085648,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        324.09378,
+        18.3,
+        32.1,
+        355.9,
+        33.9,
+        44.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        31.80622,
+        15.6,
+        11.9
+      ],
+      "print_size_mm": [
+        31.80622,
+        15.6,
+        11.9
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Navigation_Bridge",
+      "role": "navigation_bridge",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery; photo-informed proportions",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1231.284334,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        325.1,
+        19.1,
+        44.0,
+        339.6,
+        36.2,
+        51.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        14.5,
+        17.1,
+        7.0
+      ],
+      "print_size_mm": [
+        14.5,
+        17.1,
+        7.0
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Primary_Flight_Control",
+      "role": "primary_flight_control",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery; photo-informed proportions",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 615.859763,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        351.0,
+        20.2,
+        44.0,
+        363.5,
+        33.0,
+        49.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        12.5,
+        12.8,
+        5.7
+      ],
+      "print_size_mm": [
+        12.5,
+        12.8,
+        5.7
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Exhaust_Uptake",
+      "role": "exhaust_uptake",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery + source silhouette",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 741.552484,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        338.0,
+        22.0,
+        44.0,
+        348.3,
+        31.9,
+        55.9
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        10.3,
+        9.9,
+        11.9
+      ],
+      "print_size_mm": [
+        10.3,
+        9.9,
+        11.9
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Main_Mast",
+      "role": "main_mast",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery + source height",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 166.725663,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        341.7,
+        22.6,
+        51.0,
+        350.7,
+        30.6,
+        78.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        9.0,
+        27.0,
+        8.0
+      ],
+      "print_size_mm": [
+        9.0,
+        27.0,
+        8.0
+      ],
+      "print_note": "Print mast flat on its aft face"
+    },
+    {
+      "name": "Secondary_Mast",
+      "role": "secondary_mast",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 19.68,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        357.6,
+        22.7,
+        49.7,
+        358.8,
+        29.7,
+        59.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1.2,
+        9.8,
+        7.0
+      ],
+      "print_size_mm": [
+        1.2,
+        9.8,
+        7.0
+      ],
+      "print_note": "Print mast flat"
+    },
+    {
+      "name": "Main_Yardarm",
+      "role": "yardarm",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "2024 official imagery",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 22.114077,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        342.2,
+        19.6,
+        67.9,
+        350.2,
+        33.6,
+        70.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        14.0,
+        2.6
+      ],
+      "print_size_mm": [
+        8.0,
+        14.0,
+        2.6
+      ],
+      "print_note": "Print crossarm flat"
+    },
+    {
+      "name": "Radar_AN_SPS48G_Array",
+      "role": "radar_array",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "U.S. Navy SPS-48G CVN backfit + 2024 photo silhouette",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 38.675,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        338.8,
+        32.0,
+        48.5,
+        345.71582,
+        33.15,
+        56.26692
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        7.0,
+        1.15
+      ],
+      "print_size_mm": [
+        6.0,
+        7.0,
+        1.15
+      ],
+      "print_note": "Print detailed face upward"
+    },
+    {
+      "name": "Radar_AN_SPS49_Array",
+      "role": "radar_array",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "public photo silhouette; identification medium confidence",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 28.14,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        342.7,
+        27.2,
+        64.5,
+        349.7,
+        28.35,
+        68.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        7.0,
+        4.2,
+        1.15
+      ],
+      "print_size_mm": [
+        7.0,
+        4.2,
+        1.15
+      ],
+      "print_note": "Print detailed face upward"
+    },
+    {
+      "name": "Radar_AN_SPN50_Array",
+      "role": "radar_array",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "NAVAIR-confirmed CVN-69 operational installation",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 17.61531,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        344.4,
+        27.70011,
+        54.5,
+        347.8,
+        29.35,
+        61.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        3.4,
+        7.0,
+        1.64989
+      ],
+      "print_size_mm": [
+        3.4,
+        7.0,
+        1.64989
+      ],
+      "print_note": "Print detailed face upward"
+    },
+    {
+      "name": "Bridge_Window_Insert",
+      "role": "window_insert",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "recess-matched CAD insert",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 42.179286,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        325.8,
+        19.925,
+        47.5,
+        337.75,
+        34.375,
+        49.35
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        11.95,
+        14.45,
+        1.85
+      ],
+      "print_size_mm": [
+        11.95,
+        14.45,
+        1.85
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "PriFly_Window_Insert",
+      "role": "window_insert",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "recess-matched CAD insert",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 22.377538,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        353.1551,
+        20.81633,
+        46.7,
+        362.00612,
+        32.68367,
+        48.25
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        8.85102,
+        11.86735,
+        1.55
+      ],
+      "print_size_mm": [
+        8.85102,
+        11.86735,
+        1.55
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Aft_Access_Ladder",
+      "role": "ladder",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "printable representative access ladder",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 8.28,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        362.2,
+        22.2,
+        44.8,
+        362.8,
+        26.0,
+        49.8
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.0,
+        3.8,
+        0.6
+      ],
+      "print_size_mm": [
+        5.0,
+        3.8,
+        0.6
+      ],
+      "print_note": "Print ladder flat"
+    },
+    {
+      "name": "Antenna_Detail_Set",
+      "role": "antenna_set",
+      "material": "Bambu PLA Silk Silver",
+      "evidence_basis": "major visible whip antennas; positions photo-informed",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 4,
+      "volume_mm3": 8.746194,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        341.3,
+        20.50022,
+        59.5,
+        358.9,
+        31.89978,
+        67.65
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        11.0,
+        1.39956,
+        3.95
+      ],
+      "print_size_mm": [
+        11.0,
+        1.39956,
+        3.95
+      ],
+      "print_note": "Four antennas individually based on bed"
+    },
+    {
+      "name": "Signal_Light_Housings",
+      "role": "signal_lights",
+      "material": "Bambu PLA Basic Black",
+      "evidence_basis": "representative major signal housings",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 4,
+      "volume_mm3": 5.321104,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        345.48,
+        20.48022,
+        70.35,
+        346.92,
+        32.71978,
+        71.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1.44,
+        12.23955,
+        1.15
+      ],
+      "print_size_mm": [
+        1.44,
+        12.23955,
+        1.15
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Marking_69_Port",
+      "role": "identification_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "CVN-69 island identification",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 2,
+      "volume_mm3": 4.158,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        345.0,
+        18.85,
+        37.9,
+        350.4,
+        19.2,
+        41.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        0.35,
+        3.6
+      ],
+      "print_size_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "print_note": "Print marking face up"
+    },
+    {
+      "name": "Marking_69_Starboard",
+      "role": "identification_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence_basis": "CVN-69 island identification",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 2,
+      "volume_mm3": 4.158,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        345.0,
+        33.05,
+        37.9,
+        350.4,
+        33.4,
+        41.5
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        0.35,
+        3.6
+      ],
+      "print_size_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "print_note": "Print marking face up"
+    }
+  ],
+  "coupon_parts": [
+    {
+      "name": "Island_Interface_Coupon_Male",
+      "role": "interface_coupon",
+      "material": "Bambu PLA Matte Ash Gray",
+      "evidence_basis": "exact production male plug/clearance/glue channels",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3742.368199,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        40.0,
+        24.0,
+        5.4
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        40.0,
+        24.0,
+        5.4
+      ],
+      "print_size_mm": [
+        40.0,
+        24.0,
+        5.4
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    },
+    {
+      "name": "Island_Interface_Coupon_Female",
+      "role": "interface_coupon",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence_basis": "exact approved opening female geometry",
+      "valid": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1733.16,
+      "strict_bop_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        40.0,
+        24.0,
+        3.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        40.0,
+        24.0,
+        3.0
+      ],
+      "print_size_mm": [
+        40.0,
+        24.0,
+        3.0
+      ],
+      "print_note": "Base down; exported STL minimum z = 0"
+    }
+  ],
+  "stl_facets": {
+    "Foundation_Lower_Island.stl": 1352,
+    "Navigation_Bridge.stl": 200,
+    "Primary_Flight_Control.stl": 210,
+    "Exhaust_Uptake.stl": 1050,
+    "Main_Mast.stl": 660,
+    "Secondary_Mast.stl": 28,
+    "Main_Yardarm.stl": 68,
+    "Radar_AN_SPS48G_Array.stl": 76,
+    "Radar_AN_SPS49_Array.stl": 76,
+    "Radar_AN_SPN50_Array.stl": 582,
+    "Bridge_Window_Insert.stl": 36,
+    "PriFly_Window_Insert.stl": 36,
+    "Aft_Access_Ladder.stl": 92,
+    "Antenna_Detail_Set.stl": 4016,
+    "Signal_Light_Housings.stl": 4016,
+    "Marking_69_Port.stl": 96,
+    "Marking_69_Starboard.stl": 96,
+    "Island_Interface_Coupon_Male.stl": 120,
+    "Island_Interface_Coupon_Female.stl": 48
+  },
+  "approved_input_hashes": {
+    "Project/CAD/FreeCAD/Hull.FCStd": {
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    "Project/CAD/Python/hull_parameters.py": {
+      "bytes": 4074,
+      "sha256": "220e1d6aaa757ee52a68da90941be370b0874c8f70a3c667331e5ca75c0e63d1"
+    },
+    "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": {
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    "Project/FlightDeck/CAD/Python/deck_parameters.py": {
+      "bytes": 3860,
+      "sha256": "ee2d10f44dd33f0349d24d32a9e8b3fb250fcefe896d065e7508ef39b6d581b0"
+    },
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/STEP/CVN69_Hull_Deck_Assembly.step": {
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    "Project/Integration/QA/Approved_Input_Inspection.json": {
+      "bytes": 1786,
+      "sha256": "70dafa94e97fa62afeeb1dba1a65d093005f488ca934cc15f033db2e510922f4"
+    },
+    "Project/Integration/QA/BambuStudio_Validation.json": {
+      "bytes": 56386,
+      "sha256": "c9baca3fec1bcdfd830d5d369ab771c1899ee5eb0d773a14bfc9b8999459be4d"
+    },
+    "Project/Integration/QA/BambuStudio_Validation.md": {
+      "bytes": 5692,
+      "sha256": "7640bd9f9d1fe46c5ab7f444d92d70b8f41e63622a914f19f3e8d6a43286083a"
+    },
+    "Project/Integration/QA/Dimensional_QA.json": {
+      "bytes": 3669,
+      "sha256": "c304a5fdb951d34f6fb0c0e51dabfd4e73a932126d02d7c4a8fe70ed245e3a29"
+    },
+    "Project/Integration/QA/Dimensional_QA.md": {
+      "bytes": 1172,
+      "sha256": "d576e3af119414c9e0a93623aaf91b7638df165bc6b9021f9e1ecbf0c3f061cf"
+    },
+    "Project/Integration/QA/Interference_Report.json": {
+      "bytes": 1951,
+      "sha256": "c77ea10f221c0dcc5e50a00bf844b8a6e3a128ca76943c4fba7aa4a57a46408d"
+    },
+    "Project/Integration/QA/Interference_Report.md": {
+      "bytes": 1023,
+      "sha256": "76117812e6595fa1fb71684e677f237b17b03fc7a7553b95c9149e3709561111"
+    },
+    "Project/Integration/QA/Mesh_Validation.json": {
+      "bytes": 58678,
+      "sha256": "85c6e128599d2878e24ac8fc3868fd09cbc51d0fd7ede3df85b05252ba7d6ad3"
+    },
+    "Project/Integration/QA/Mesh_Validation.md": {
+      "bytes": 9921,
+      "sha256": "ac55afd3f475ca52068935de1f393d63d884e23071e4cb2028acd23b845311db"
+    },
+    "Project/Integration/QA/Validation_Commands.md": {
+      "bytes": 887,
+      "sha256": "378018e85a5aacfcae0cbe86c453dc5bbec0315d60a6bbd7419b75905eadcb7c"
+    },
+    "Project/Integration/QA/build_manifest.json": {
+      "bytes": 51913,
+      "sha256": "a3158e3940e9db469a64fcf81645627b024c8e170d5bc932131d1310a6b70e1c"
+    }
+  },
+  "outputs": {
+    "CAD/FreeCAD/CVN69_Island.FCStd": {
+      "bytes": 109888,
+      "sha256": "2e29a179e1613e8b58b9dedd18d94a2fdb9598d4499359761b43e20efb9538ab"
+    },
+    "STEP/CVN69_Island_Assembly.step": {
+      "bytes": 572644,
+      "sha256": "5c0053190edbc3cf86282557da504ff2b222c425dfd4b7ed94c2512cb5aac034"
+    },
+    "STEP/CVN69_Island_Interface_Coupon.step": {
+      "bytes": 59149,
+      "sha256": "fc4f7cddcd2f316af4be8fdc92e1ea4c52809e45c1000047c0988dcdc24d1799"
+    },
+    "STEP/CVN69_Hull_Deck_Island_Review.step": {
+      "bytes": 5470270,
+      "sha256": "351dccf1382337876b2fa81e5bc5a954f0f3fc448c6853ced50eaee853ace222"
+    },
+    "OBJ/CVN69_Island_Assembly.obj": {
+      "bytes": 419758,
+      "sha256": "396afb91e9c4d1d5be9eb0ea92a1666acade4d8749b9212c521f9e39a74bbf38"
+    },
+    "OBJ/CVN69_Island_Assembly.mtl": {
+      "bytes": 376,
+      "sha256": "5515afc5bd69d5b9e06cc855b7aca8018183448099936f6d5d7c71c5eb9ab5b2"
+    },
+    "3MF/CVN69_Island_Assembly.3mf": {
+      "bytes": 118848,
+      "sha256": "ab2177dd5426cdc4d4dc8cc66c71763603fe8a74a5a0aa0cb625fc6c2fadec13"
+    },
+    "3MF/Print_Plate_01_Island_Body.3mf": {
+      "bytes": 31094,
+      "sha256": "de561750df163a2460a1634c8ea7280c413e82c9158265248426cf137f0c90cd"
+    },
+    "3MF/Print_Plate_02_Mast_Radar.3mf": {
+      "bytes": 15174,
+      "sha256": "67d8810f70cf4a5a6bceb2218abe12cd80a4746ecf8ed120199627fabd0cf122"
+    },
+    "3MF/Print_Plate_03_Antennas_Details.3mf": {
+      "bytes": 73515,
+      "sha256": "938e66a5b99aad5e5366170ed8330383105659a44f1478b60b609a4dc683d949"
+    },
+    "3MF/Island_Interface_Test_Coupon.3mf": {
+      "bytes": 2593,
+      "sha256": "9b67d6c2d8c628794315f3e187285dcc32537759cfae37c72fc5f47695623aef"
+    },
+    "3MF/CVN69_Hull_Deck_Island_Review.3mf": {
+      "bytes": 1190936,
+      "sha256": "a84841c484447a9a713a3dec707be2ca0ccf1f27b18886581b1205170b383e48"
+    },
+    "STL/Foundation_Lower_Island.stl": {
+      "bytes": 67684,
+      "sha256": "d92996d329b64c6c330cf96c8c71aabf871cbefae476a439d08ffa1bd4300af7"
+    },
+    "STL/Navigation_Bridge.stl": {
+      "bytes": 10084,
+      "sha256": "3ec2a81d143aa54a9a51a734dc25aa12bb56d016fad6042c7c087cdd30a46c31"
+    },
+    "STL/Primary_Flight_Control.stl": {
+      "bytes": 10584,
+      "sha256": "ae20832f2714f5b40140b7b4eb2d2b76ef103ecf1a216aedeb10eff24e7346fa"
+    },
+    "STL/Exhaust_Uptake.stl": {
+      "bytes": 52584,
+      "sha256": "e704d9faff9f898b20d7352e515ea63d331f185aa32f300592c09c664620fa4a"
+    },
+    "STL/Main_Mast.stl": {
+      "bytes": 33084,
+      "sha256": "56907854f87735b399961069832e38bc2d6a0653a347a449cd4470a27929d04a"
+    },
+    "STL/Secondary_Mast.stl": {
+      "bytes": 1484,
+      "sha256": "267bbe95223820721b991caa6ae6f0876b3fd2fdc5e52f44156568e4b0a79b0c"
+    },
+    "STL/Main_Yardarm.stl": {
+      "bytes": 3484,
+      "sha256": "9e9c3b89101699134d48d6bae01aae791f357837c58d2f923334373e0e4bd8af"
+    },
+    "STL/Radar_AN_SPS48G_Array.stl": {
+      "bytes": 3884,
+      "sha256": "5612903cf5079426231f4c219d3c696b886687bf3179003e59fb2981392d28db"
+    },
+    "STL/Radar_AN_SPS49_Array.stl": {
+      "bytes": 3884,
+      "sha256": "b363dd9ccb34877e6d4f982e5b0576506906db9e94403e881a9fc5d0f8bb6571"
+    },
+    "STL/Radar_AN_SPN50_Array.stl": {
+      "bytes": 29184,
+      "sha256": "aeeeb8b016eeaa46220a24ad2beec686d034d132f740a781f00041f070f19c33"
+    },
+    "STL/Bridge_Window_Insert.stl": {
+      "bytes": 1884,
+      "sha256": "9f5901f32d56f871c6a984031caf34fae15d4a4cb5564be33c8cf414054b541a"
+    },
+    "STL/PriFly_Window_Insert.stl": {
+      "bytes": 1884,
+      "sha256": "f0ddb16c989e76c554e299dcb2f335705076d9c0926c51fae96eb8e00fb61694"
+    },
+    "STL/Aft_Access_Ladder.stl": {
+      "bytes": 4684,
+      "sha256": "1cd905ca606ae49acd332f41b1d7bf4c1c634460dd7478171fc4e1704d34b1fd"
+    },
+    "STL/Antenna_Detail_Set.stl": {
+      "bytes": 200884,
+      "sha256": "7d2a3091c101c27d64b7f34cd4efd57f8b4603ca809d2b12c5792b32fddba635"
+    },
+    "STL/Signal_Light_Housings.stl": {
+      "bytes": 200884,
+      "sha256": "9421beb1b5b4e61aeb900542a965668c7d909836107a45641db944d2fe5c5b71"
+    },
+    "STL/Marking_69_Port.stl": {
+      "bytes": 4884,
+      "sha256": "8ab47c743be9c6fe85fffda873de40a32aff0585453b8023e7a0cf09a1e5d20b"
+    },
+    "STL/Marking_69_Starboard.stl": {
+      "bytes": 4884,
+      "sha256": "93c7deb019285afd8a70f2d7352169f922299ab0c1ab2c676ae74540e800f865"
+    },
+    "STL/Island_Interface_Coupon_Male.stl": {
+      "bytes": 6084,
+      "sha256": "0579cababb14737a6b7e22df8f2297e107f1e32b9600de072b979d6d2321c6fa"
+    },
+    "STL/Island_Interface_Coupon_Female.stl": {
+      "bytes": 2484,
+      "sha256": "3a5edf77b85be03892e0caf1b1614268ac0e6573380fcd46cc6eb08758e1bd45"
+    },
+    "References/Source_Mesh_Island_Measurements.json": {
+      "bytes": 1477,
+      "sha256": "c7fe441605bfa87512b6c05ffb5f6e3823dbbacd51e47bb03f2ad787c9bf5b95"
+    },
+    "Images/Source_Mesh_Island_Reference.png": {
+      "bytes": 406387,
+      "sha256": "e94f9cb603a83942058611bfd863c27e58d911fb8a225d996a13e8ba232d2f46"
+    },
+    "Render/Island_Port.png": {
+      "bytes": 114006,
+      "sha256": "a31b3f29de53ebc9d5f833dc188054c849ecc3fe6a9c7082bd5fd9c04ed18c72"
+    },
+    "Render/Island_Starboard.png": {
+      "bytes": 123124,
+      "sha256": "7642a4bc5f90aeae2ea9f79c8d9232df4cbcb026d3aafe9984a709d277ae7cd0"
+    },
+    "Render/Island_Forward.png": {
+      "bytes": 93351,
+      "sha256": "98be56bc14b0b917691aa9ab2c918026602ad40c0449b70489d1f1965a2eb9fb"
+    },
+    "Render/Island_Aft.png": {
+      "bytes": 89073,
+      "sha256": "72464e30729a451a2ff38432dfd4b7eaf01c5206ad6a06850adda46964229c1f"
+    },
+    "Render/Island_Top.png": {
+      "bytes": 115905,
+      "sha256": "74aeb07c3a24b53c26603315fb3653c0e020f33e8a7bf3350210d6b5e4c63237"
+    },
+    "Render/Island_Bow_Isometric.png": {
+      "bytes": 126718,
+      "sha256": "614488bcb3dbe27d700073a94da5ee3ca8099c8094952bc63f06607c3e95faca"
+    },
+    "Render/Island_Stern_Isometric.png": {
+      "bytes": 141159,
+      "sha256": "44411dcd66165e3615e8853eb601f060e73ec8e57cc611187e65a47fde57ce50"
+    },
+    "Render/Island_Exploded.png": {
+      "bytes": 123611,
+      "sha256": "fc1ac8ebf0d65696d7bae482a311f8c4e5c5d829d697f9639f6091df38fb5812"
+    },
+    "Render/Island_Interface_Section.png": {
+      "bytes": 130028,
+      "sha256": "8fb53aa26ec11f795912800cbb055841223a3521f2617b24fac821c344b9ece3"
+    },
+    "Render/CVN69_Hull_Deck_Island_Port.png": {
+      "bytes": 109776,
+      "sha256": "04aca7c15d074794bfe8cb2637d9ad48e90736c9f4d61616148d4a808bc2e58e"
+    },
+    "Render/CVN69_Hull_Deck_Island_Starboard.png": {
+      "bytes": 114244,
+      "sha256": "ffbe4f3a06056f607c57139c3ba33bd4aceabfbd04513825d3a737c72501b2d5"
+    },
+    "Render/CVN69_Hull_Deck_Island_Top.png": {
+      "bytes": 122691,
+      "sha256": "7f0fb511af66ffc558c1cf3c84a1d6c52a58fa71458c1da8ad7cedc2cfd58398"
+    },
+    "Render/CVN69_Hull_Deck_Island_Bow_Isometric.png": {
+      "bytes": 236329,
+      "sha256": "aec6d6d4c7a53034c97b766928d4ce1cdc043e22cfd0a0cf08fc05a1ccc2947a"
+    },
+    "Render/CVN69_Hull_Deck_Island_Stern_Isometric.png": {
+      "bytes": 219782,
+      "sha256": "6c57de28afdfc0024f8ddb020e218d757efffd7fb69d8ae0f08e5bdc4cdd8e22"
+    },
+    "Docs/Island_Drawings.pdf": {
+      "bytes": 879509,
+      "sha256": "a930cbe442f4c8df066d34b44f5d61ffc90ce95be8c25cc462ef68e5aea0f8ac"
+    },
+    "Docs/Island_Printing_Guide.pdf": {
+      "bytes": 393390,
+      "sha256": "01f290821b7cb0a54f9a78da3a257bf2853038690ee488050eb5f6f41d7d65ca"
+    },
+    "Docs/Island_Project_Plan.pdf": {
+      "bytes": 364884,
+      "sha256": "01d7d1de95c1b32b27e0002076abea14e7c5a812b9bff43e2d90d876b83d7c22"
+    },
+    "Docs/Island_Interface_Coupon_Instructions.pdf": {
+      "bytes": 136599,
+      "sha256": "834205f199d1fa6c38263e5f82c0f2dcfa9ad952f645cb3eb7379e00007b827c"
+    },
+    "Docs/Island_Material_Mapping.csv": {
+      "bytes": 775,
+      "sha256": "a4d282da1180d864607840311c8bde23edb8501f4810f487fc7a014ff5cf98f2"
+    },
+    "README.md": {
+      "bytes": 3939,
+      "sha256": "bf86d61e51e907a944ce81ed20469c48719eb568f09f1dd91e2999bf3c5b5914"
+    },
+    "Assembly/Glue_Only_Island_Assembly.md": {
+      "bytes": 3413,
+      "sha256": "e846bc1cbc0a1118ffdb36fcb28cab2308a16c0fc25fe22c925060be2da35e98"
+    },
+    "References/Configuration_Audit.md": {
+      "bytes": 8352,
+      "sha256": "e54d391c5a2d5533150ca5592b2e721871e72df412a168cf60724005f215b2c2"
+    },
+    "QA/Reference_Confidence_Report.md": {
+      "bytes": 1463,
+      "sha256": "73fe1126a2aede7da512170d47375d79ed13ae34579d6646226bfaca2a4662fc"
+    },
+    "CAD/Python/island_parameters.py": {
+      "bytes": 7015,
+      "sha256": "5c6a77a82a0974110ed4a0380e861735b1f91176bed9613aeb5a6fbec63f8e9f"
+    },
+    "Scripts/audit_island_reference.py": {
+      "bytes": 7180,
+      "sha256": "7b8f9d8955942b254911e07354d88610f7bd240bf9fc843a9e38faaf5a5dc885"
+    },
+    "Scripts/build_island.py": {
+      "bytes": 44391,
+      "sha256": "89a1c45428e5365829af66d07a1a8c8eb29988ac5f620bf81c6ca6659e981221"
+    },
+    "Scripts/generate_island_documents.py": {
+      "bytes": 18392,
+      "sha256": "1fb1f31a299b1b864752c69d9781b85aada73fb7e69d20206d1c70289cf7f9b2"
+    },
+    "Scripts/render_island.py": {
+      "bytes": 17524,
+      "sha256": "3763f0572ffce8e9c7e2596cefe993bb02dcdcb5c4cc1f90c5579ea02d7fc07f"
+    },
+    "Scripts/run_bambu_island_checks.py": {
+      "bytes": 4506,
+      "sha256": "7a57e64caa51e9df951a7217cf58da47576a83cc5e610fbfacabd2b73137f31c"
+    },
+    "Scripts/validate_island.py": {
+      "bytes": 34167,
+      "sha256": "1030b4b16e8b200f20ae70214a7216075599a220f353db16adab9bea6eb6814a"
+    }
+  }
+}

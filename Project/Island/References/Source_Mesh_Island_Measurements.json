@@ -1,0 +1,62 @@
+{
+  "generated_utc": "2026-07-14T18:32:39.863528+00:00",
+  "archive": "/Users/Yun.Hu@blueshieldca.com/Downloads/CVN69_Optimized_v0_4_Glue_Only.zip",
+  "archive_sha256": "fb05095b123bec8f5d05cf6b688cfce6cb702e2ce5355cffc8d90115384041b2",
+  "member": "STL_MODEL/CVN69_1-700_section_02.stl",
+  "member_sha256": "e1c0f9f04afd15b6bfc81dc78377f9fbcc8b7882114b85a4c53309af7deeb417",
+  "bytes": 648084,
+  "facets": 12960,
+  "unique_vertices": 6643,
+  "connected_components": 256,
+  "bounds_min_mm": [
+    104.73659,
+    -37.35529,
+    0.18827
+  ],
+  "bounds_max_mm": [
+    163.71341,
+    38.16532,
+    71.33544
+  ],
+  "size_mm": [
+    58.97682,
+    75.52061,
+    71.14718
+  ],
+  "boundary_edges": 0,
+  "non_manifold_edges": 157,
+  "degenerate_facets": 0,
+  "normal_mismatches": 0,
+  "watertight": false,
+  "island_visual_subset": {
+    "facets_shown": 8319,
+    "bounds_min_mm": [
+      106.42351,
+      0.74051,
+      24.21083
+    ],
+    "bounds_max_mm": [
+      154.89592,
+      35.84697,
+      71.33544
+    ]
+  },
+  "derived_reference": {
+    "source_deck_top_estimate_mm": 27.8,
+    "source_mast_top_mm": 71.33544,
+    "height_above_deck_mm": 43.53544,
+    "source_island_opening_x_mm": [
+      121.0,
+      151.0
+    ],
+    "authoritative_island_x_mm": [
+      325.0,
+      355.0
+    ],
+    "visible_transverse_extent_mm": [
+      18.8,
+      35.85
+    ]
+  },
+  "production_use": "Dimensional and visual reference only; no triangle or repaired mesh is used by build_island.py."
+}

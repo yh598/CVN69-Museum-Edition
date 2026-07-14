@@ -1,0 +1,1188 @@
+{
+  "generated_utc": "2026-07-14T19:21:26.768683+00:00",
+  "overall_status": "PASS",
+  "freecad_version": "1.1.1",
+  "checks": [
+    {
+      "name": "STL \u2014 Aft_Access_Ladder.stl",
+      "status": "PASS",
+      "evidence": "92 facets; 1 component(s); 0 bad edges; [5.0, 3.8, 0.6] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Antenna_Detail_Set.stl",
+      "status": "PASS",
+      "evidence": "4016 facets; 4 component(s); 0 bad edges; [11.0, 1.39956, 3.95] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Bridge_Window_Insert.stl",
+      "status": "PASS",
+      "evidence": "36 facets; 1 component(s); 0 bad edges; [11.95, 14.45, 1.85] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Exhaust_Uptake.stl",
+      "status": "PASS",
+      "evidence": "1050 facets; 1 component(s); 0 bad edges; [10.3, 9.9, 11.9] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Foundation_Lower_Island.stl",
+      "status": "PASS",
+      "evidence": "1352 facets; 1 component(s); 0 bad edges; [31.80622, 15.6, 11.9] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Island_Interface_Coupon_Female.stl",
+      "status": "PASS",
+      "evidence": "48 facets; 1 component(s); 0 bad edges; [40.0, 24.0, 3.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Island_Interface_Coupon_Male.stl",
+      "status": "PASS",
+      "evidence": "120 facets; 1 component(s); 0 bad edges; [40.0, 24.0, 5.4] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Main_Mast.stl",
+      "status": "PASS",
+      "evidence": "660 facets; 1 component(s); 0 bad edges; [9.0, 27.0, 8.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Main_Yardarm.stl",
+      "status": "PASS",
+      "evidence": "68 facets; 1 component(s); 0 bad edges; [8.0, 14.0, 2.6] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Marking_69_Port.stl",
+      "status": "PASS",
+      "evidence": "96 facets; 2 component(s); 0 bad edges; [5.4, 0.35, 3.6] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Marking_69_Starboard.stl",
+      "status": "PASS",
+      "evidence": "96 facets; 2 component(s); 0 bad edges; [5.4, 0.35, 3.6] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Navigation_Bridge.stl",
+      "status": "PASS",
+      "evidence": "200 facets; 1 component(s); 0 bad edges; [14.5, 17.1, 7.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 PriFly_Window_Insert.stl",
+      "status": "PASS",
+      "evidence": "36 facets; 1 component(s); 0 bad edges; [8.85102, 11.86735, 1.55] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Primary_Flight_Control.stl",
+      "status": "PASS",
+      "evidence": "210 facets; 1 component(s); 0 bad edges; [12.5, 12.8, 5.7] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Radar_AN_SPN50_Array.stl",
+      "status": "PASS",
+      "evidence": "582 facets; 1 component(s); 0 bad edges; [3.4, 7.0, 1.64989] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Radar_AN_SPS48G_Array.stl",
+      "status": "PASS",
+      "evidence": "76 facets; 1 component(s); 0 bad edges; [6.0, 7.0, 1.15] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Radar_AN_SPS49_Array.stl",
+      "status": "PASS",
+      "evidence": "76 facets; 1 component(s); 0 bad edges; [7.0, 4.2, 1.15] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Secondary_Mast.stl",
+      "status": "PASS",
+      "evidence": "28 facets; 1 component(s); 0 bad edges; [1.2, 9.8, 7.0] mm; min z 0.00000"
+    },
+    {
+      "name": "STL \u2014 Signal_Light_Housings.stl",
+      "status": "PASS",
+      "evidence": "4016 facets; 4 component(s); 0 bad edges; [1.44, 12.23955, 1.15] mm; min z 0.00000"
+    },
+    {
+      "name": "3MF \u2014 CVN69_Hull_Deck_Island_Review.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=72/72; triangles=95738; bounds=[476.0, 73.7, 84.36572]; review/reference"
+    },
+    {
+      "name": "3MF \u2014 CVN69_Island_Assembly.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=17/17; triangles=12690; bounds=[39.40622, 17.9, 45.9]; review/reference"
+    },
+    {
+      "name": "3MF \u2014 Island_Interface_Test_Coupon.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=2/2; triangles=168; bounds=[40.0, 51.0, 5.4]; print envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_01_Island_Body.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=4/4; triangles=2812; bounds=[78.10622, 17.1, 11.9]; print envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_02_Mast_Radar.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=6/6; triangles=1490; bounds=[49.6, 27.0, 8.0]; print envelope"
+    },
+    {
+      "name": "3MF \u2014 Print_Plate_03_Antennas_Details.3mf",
+      "status": "PASS",
+      "evidence": "CRC=True; named objects=7/7; triangles=8388; bounds=[67.04102, 14.45, 3.95]; print envelope"
+    },
+    {
+      "name": "FreeCAD Shape.check(True) / strict BOPCheck",
+      "status": "PASS",
+      "evidence": "19 production/coupon objects; zero invalid/open solids or self-intersections"
+    },
+    {
+      "name": "Island STEP round-trip",
+      "status": "PASS",
+      "evidence": "25/25 closed solids; self-intersections=0; diagnostics=0"
+    },
+    {
+      "name": "Coupon STEP round-trip",
+      "status": "PASS",
+      "evidence": "2/2 closed solids; self-intersections=0; diagnostics=0"
+    },
+    {
+      "name": "Review STEP round-trip",
+      "status": "PASS",
+      "evidence": "80/80 closed solids; self-intersections=0; diagnostics=107"
+    },
+    {
+      "name": "Bambu Studio independent import/manifold check",
+      "status": "PASS",
+      "evidence": "Bambu Studio 02.07.01.62 loaded 25/25 STL/3MF exports; all manifold"
+    },
+    {
+      "name": "Required source and production outputs exist",
+      "status": "PASS",
+      "evidence": "67 required files; missing=[]"
+    },
+    {
+      "name": "Build-manifest production hashes",
+      "status": "PASS",
+      "evidence": "63 SHA-256/byte-size records match"
+    },
+    {
+      "name": "Approved Milestone 1\u20132 inputs unchanged",
+      "status": "PASS",
+      "evidence": "18 immutable hashes match"
+    },
+    {
+      "name": "Production build excludes source mesh import",
+      "status": "PASS",
+      "evidence": "build_island.py creates Part BReps and does not import the reference archive/STL"
+    },
+    {
+      "name": "PDF documentation structure",
+      "status": "PASS",
+      "evidence": "{'Island_Drawings.pdf': {'bytes': 879509, 'header_ok': True, 'eof_ok': True, 'pages': 6}, 'Island_Printing_Guide.pdf': {'bytes': 393390, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'Island_Project_Plan.pdf': {'bytes': 364884, 'header_ok': True, 'eof_ok': True, 'pages': 3}, 'Island_Interface_Coupon_Instructions.pdf': {'bytes': 136599, 'header_ok': True, 'eof_ok': True, 'pages': 1}}"
+    },
+    {
+      "name": "All 14 high-resolution renders",
+      "status": "PASS",
+      "evidence": "{'Island_Port.png': (2750, 1826), 'Island_Starboard.png': (2750, 1826), 'Island_Forward.png': (2750, 1826), 'Island_Aft.png': (2750, 1826), 'Island_Top.png': (2750, 1826), 'Island_Bow_Isometric.png': (2750, 2023), 'Island_Stern_Isometric.png': (2750, 2023), 'Island_Exploded.png': (2750, 2023), 'Island_Interface_Section.png': (2640, 1760), 'CVN69_Hull_Deck_Island_Port.png': (3740, 1364), 'CVN69_Hull_Deck_Island_Starboard.png': (3740, 1364), 'CVN69_Hull_Deck_Island_Top.png': (3740, 1364), 'CVN69_Hull_Deck_Island_Bow_Isometric.png': (3740, 1803), 'CVN69_Hull_Deck_Island_Stern_Isometric.png': (3740, 1803)}"
+    }
+  ],
+  "stl_files": {
+    "Aft_Access_Ladder.stl": {
+      "facets": 92,
+      "vertices": 40,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        5.0,
+        3.8,
+        0.6
+      ],
+      "bounds_mm": [
+        5.0,
+        3.8,
+        0.6
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 8.28,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Antenna_Detail_Set.stl": {
+      "facets": 4016,
+      "vertices": 2016,
+      "components": 4,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        11.0,
+        1.39956,
+        3.95
+      ],
+      "bounds_mm": [
+        11.0,
+        1.39956,
+        3.95
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 8.74257,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Bridge_Window_Insert.stl": {
+      "facets": 36,
+      "vertices": 20,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        11.95,
+        14.45,
+        1.85
+      ],
+      "bounds_mm": [
+        11.95,
+        14.45,
+        1.85
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 42.17928,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Exhaust_Uptake.stl": {
+      "facets": 1050,
+      "vertices": 527,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        10.3,
+        9.9,
+        11.9
+      ],
+      "bounds_mm": [
+        10.3,
+        9.9,
+        11.9
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 741.54764,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Foundation_Lower_Island.stl": {
+      "facets": 1352,
+      "vertices": 678,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        31.80622,
+        15.6,
+        11.9
+      ],
+      "bounds_mm": [
+        31.80622,
+        15.6,
+        11.9
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4589.66741,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Island_Interface_Coupon_Female.stl": {
+      "facets": 48,
+      "vertices": 24,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        40.0,
+        24.0,
+        3.0
+      ],
+      "bounds_mm": [
+        40.0,
+        24.0,
+        3.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1733.15996,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Island_Interface_Coupon_Male.stl": {
+      "facets": 120,
+      "vertices": 62,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        40.0,
+        24.0,
+        5.4
+      ],
+      "bounds_mm": [
+        40.0,
+        24.0,
+        5.4
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3742.36828,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Main_Mast.stl": {
+      "facets": 660,
+      "vertices": 328,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        9.0,
+        27.0,
+        8.0
+      ],
+      "bounds_mm": [
+        9.0,
+        27.0,
+        8.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 166.72114,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Main_Yardarm.stl": {
+      "facets": 68,
+      "vertices": 36,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        8.0,
+        14.0,
+        2.6
+      ],
+      "bounds_mm": [
+        8.0,
+        14.0,
+        2.6
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 22.11408,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Marking_69_Port.stl": {
+      "facets": 96,
+      "vertices": 48,
+      "components": 2,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "bounds_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.158,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Marking_69_Starboard.stl": {
+      "facets": 96,
+      "vertices": 48,
+      "components": 2,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "bounds_mm": [
+        5.4,
+        0.35,
+        3.6
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.158,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Navigation_Bridge.stl": {
+      "facets": 200,
+      "vertices": 96,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        14.5,
+        17.1,
+        7.0
+      ],
+      "bounds_mm": [
+        14.5,
+        17.1,
+        7.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1231.28434,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "PriFly_Window_Insert.stl": {
+      "facets": 36,
+      "vertices": 20,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        8.85102,
+        11.86735,
+        1.55
+      ],
+      "bounds_mm": [
+        8.85102,
+        11.86735,
+        1.55
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 22.37753,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Primary_Flight_Control.stl": {
+      "facets": 210,
+      "vertices": 107,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        12.5,
+        12.8,
+        5.7
+      ],
+      "bounds_mm": [
+        12.5,
+        12.8,
+        5.7
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 615.85972,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Radar_AN_SPN50_Array.stl": {
+      "facets": 582,
+      "vertices": 293,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        3.4,
+        7.0,
+        1.64989
+      ],
+      "bounds_mm": [
+        3.4,
+        7.0,
+        1.64989
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 17.61491,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Radar_AN_SPS48G_Array.stl": {
+      "facets": 76,
+      "vertices": 40,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        6.0,
+        7.0,
+        1.15
+      ],
+      "bounds_mm": [
+        6.0,
+        7.0,
+        1.15
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 38.675,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Radar_AN_SPS49_Array.stl": {
+      "facets": 76,
+      "vertices": 40,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        7.0,
+        4.2,
+        1.15
+      ],
+      "bounds_mm": [
+        7.0,
+        4.2,
+        1.15
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 28.14,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Secondary_Mast.stl": {
+      "facets": 28,
+      "vertices": 16,
+      "components": 1,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        1.2,
+        9.8,
+        7.0
+      ],
+      "bounds_mm": [
+        1.2,
+        9.8,
+        7.0
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 19.68,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Signal_Light_Housings.stl": {
+      "facets": 4016,
+      "vertices": 2016,
+      "components": 4,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_mm": [
+        1.44,
+        12.23955,
+        1.15
+      ],
+      "bounds_mm": [
+        1.44,
+        12.23955,
+        1.15
+      ],
+      "non_two_incident_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.3189,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    }
+  },
+  "three_mf_files": {
+    "CVN69_Hull_Deck_Island_Review.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 72,
+      "object_names": [
+        "Approved_Hull_Module_1_Bow",
+        "Approved_Hull_Module_2_Midship",
+        "Approved_Hull_Module_3_Stern",
+        "Approved_Shaft_1",
+        "Approved_Propeller_1",
+        "Approved_Shaft_1_Strut_P",
+        "Approved_Shaft_1_Strut_S",
+        "Approved_Shaft_2",
+        "Approved_Propeller_2",
+        "Approved_Shaft_2_Strut_P",
+        "Approved_Shaft_2_Strut_S",
+        "Approved_Shaft_3",
+        "Approved_Propeller_3",
+        "Approved_Shaft_3_Strut_P",
+        "Approved_Shaft_3_Strut_S",
+        "Approved_Shaft_4",
+        "Approved_Propeller_4",
+        "Approved_Shaft_4_Strut_P",
+        "Approved_Shaft_4_Strut_S",
+        "Approved_Rudder_Port",
+        "Approved_Rudder_Starboard",
+        "Approved_Deck_Module_1_Bow",
+        "Approved_Deck_Module_2_Midship",
+        "Approved_Deck_Module_3_Stern",
+        "Approved_Arresting_Wire_1",
+        "Approved_Arresting_Wire_2",
+        "Approved_Arresting_Wire_3",
+        "Approved_Arresting_Wire_4",
+        "Approved_Catapult_1_Bow_Port",
+        "Approved_Catapult_2_Bow_Starboard",
+        "Approved_Catapult_3_Waist_Inner",
+        "Approved_Catapult_4_Waist_Outer",
+        "Approved_Elevator_1_Port",
+        "Approved_Elevator_2_Starboard",
+        "Approved_Elevator_3_Starboard",
+        "Approved_Elevator_4_Starboard",
+        "Approved_Raised_Marking_Bow_Centerline",
+        "Approved_Raised_Marking_Elevator_1_Port",
+        "Approved_Raised_Marking_Elevator_2_Starboard",
+        "Approved_Raised_Marking_Elevator_3_Starboard",
+        "Approved_Raised_Marking_Elevator_4_Starboard",
+        "Approved_Raised_Marking_Landing_Aft",
+        "Approved_Raised_Marking_Landing_Forward",
+        "Approved_Interface_Pad_01_Port",
+        "Approved_Interface_Pad_01_Starboard",
+        "Approved_Interface_Pad_02_Port",
+        "Approved_Interface_Pad_02_Starboard",
+        "Approved_Interface_Pad_03_Port",
+        "Approved_Interface_Pad_03_Starboard",
+        "Approved_Interface_Pad_04_Port",
+        "Approved_Interface_Pad_04_Starboard",
+        "Approved_Interface_Pad_05_Port",
+        "Approved_Interface_Pad_05_Starboard",
+        "Approved_Interface_Pad_06_Port",
+        "Approved_Interface_Pad_06_Starboard",
+        "Foundation_Lower_Island",
+        "Navigation_Bridge",
+        "Primary_Flight_Control",
+        "Exhaust_Uptake",
+        "Main_Mast",
+        "Secondary_Mast",
+        "Main_Yardarm",
+        "Radar_AN_SPS48G_Array",
+        "Radar_AN_SPS49_Array",
+        "Radar_AN_SPN50_Array",
+        "Bridge_Window_Insert",
+        "PriFly_Window_Insert",
+        "Aft_Access_Ladder",
+        "Antenna_Detail_Set",
+        "Signal_Light_Housings",
+        "Marking_69_Port",
+        "Marking_69_Starboard"
+      ],
+      "unique_object_names": 72,
+      "build_items": 72,
+      "vertices": 47973,
+      "triangles": 95738,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        0.0,
+        -36.7,
+        -6.36572
+      ],
+      "bounds_mm": [
+        476.0,
+        73.7,
+        84.36572
+      ],
+      "valid": true
+    },
+    "CVN69_Island_Assembly.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 17,
+      "object_names": [
+        "Foundation_Lower_Island",
+        "Navigation_Bridge",
+        "Primary_Flight_Control",
+        "Exhaust_Uptake",
+        "Main_Mast",
+        "Secondary_Mast",
+        "Main_Yardarm",
+        "Radar_AN_SPS48G_Array",
+        "Radar_AN_SPS49_Array",
+        "Radar_AN_SPN50_Array",
+        "Bridge_Window_Insert",
+        "PriFly_Window_Insert",
+        "Aft_Access_Ladder",
+        "Antenna_Detail_Set",
+        "Signal_Light_Housings",
+        "Marking_69_Port",
+        "Marking_69_Starboard"
+      ],
+      "unique_object_names": 17,
+      "build_items": 17,
+      "vertices": 6369,
+      "triangles": 12690,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        324.09378,
+        18.3,
+        32.1
+      ],
+      "bounds_mm": [
+        39.40622,
+        17.9,
+        45.9
+      ],
+      "valid": true
+    },
+    "Island_Interface_Test_Coupon.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 2,
+      "object_names": [
+        "Island_Interface_Coupon_Male",
+        "Island_Interface_Coupon_Female"
+      ],
+      "unique_object_names": 2,
+      "build_items": 2,
+      "vertices": 86,
+      "triangles": 168,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        40.0,
+        51.0,
+        5.4
+      ],
+      "valid": true
+    },
+    "Print_Plate_01_Island_Body.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 4,
+      "object_names": [
+        "Foundation_Lower_Island",
+        "Navigation_Bridge",
+        "Primary_Flight_Control",
+        "Exhaust_Uptake"
+      ],
+      "unique_object_names": 4,
+      "build_items": 4,
+      "vertices": 1408,
+      "triangles": 2812,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        78.10622,
+        17.1,
+        11.9
+      ],
+      "valid": true
+    },
+    "Print_Plate_02_Mast_Radar.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 6,
+      "object_names": [
+        "Main_Mast",
+        "Secondary_Mast",
+        "Main_Yardarm",
+        "Radar_AN_SPS48G_Array",
+        "Radar_AN_SPS49_Array",
+        "Radar_AN_SPN50_Array"
+      ],
+      "unique_object_names": 6,
+      "build_items": 6,
+      "vertices": 753,
+      "triangles": 1490,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        49.6,
+        27.0,
+        8.0
+      ],
+      "valid": true
+    },
+    "Print_Plate_03_Antennas_Details.3mf": {
+      "zip_crc_ok": true,
+      "missing_members": [],
+      "objects": 7,
+      "object_names": [
+        "Bridge_Window_Insert",
+        "PriFly_Window_Insert",
+        "Aft_Access_Ladder",
+        "Antenna_Detail_Set",
+        "Signal_Light_Housings",
+        "Marking_69_Port",
+        "Marking_69_Starboard"
+      ],
+      "unique_object_names": 7,
+      "build_items": 7,
+      "vertices": 4208,
+      "triangles": 8388,
+      "invalid_triangle_indices": 0,
+      "triangles_without_material": 0,
+      "min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        67.04102,
+        14.45,
+        3.95
+      ],
+      "valid": true
+    }
+  },
+  "fcstd_shapes": [
+    {
+      "name": "Foundation_Lower_Island",
+      "role": "foundation_body",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Navigation_Bridge",
+      "role": "navigation_bridge",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Primary_Flight_Control",
+      "role": "primary_flight_control",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Exhaust_Uptake",
+      "role": "exhaust_uptake",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Main_Mast",
+      "role": "main_mast",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Secondary_Mast",
+      "role": "secondary_mast",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Main_Yardarm",
+      "role": "yardarm",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Radar_AN_SPS48G_Array",
+      "role": "radar_array",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Radar_AN_SPS49_Array",
+      "role": "radar_array",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Radar_AN_SPN50_Array",
+      "role": "radar_array",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Bridge_Window_Insert",
+      "role": "window_insert",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "PriFly_Window_Insert",
+      "role": "window_insert",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Aft_Access_Ladder",
+      "role": "ladder",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Antenna_Detail_Set",
+      "role": "antenna_set",
+      "valid": true,
+      "solids": 4,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Signal_Light_Housings",
+      "role": "signal_lights",
+      "valid": true,
+      "solids": 4,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Marking_69_Port",
+      "role": "identification_marking",
+      "valid": true,
+      "solids": 2,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Marking_69_Starboard",
+      "role": "identification_marking",
+      "valid": true,
+      "solids": 2,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Island_Interface_Coupon_Male",
+      "role": "interface_coupon",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    },
+    {
+      "name": "Island_Interface_Coupon_Female",
+      "role": "interface_coupon",
+      "valid": true,
+      "solids": 1,
+      "all_solids_closed": true,
+      "strict_messages": [],
+      "self_intersections": 0
+    }
+  ],
+  "step_round_trip": {
+    "island": {
+      "valid": true,
+      "solid_count": 25,
+      "expected_solids": 25,
+      "all_solids_closed": true,
+      "self_intersections": 0,
+      "strict_message_count": 0,
+      "strict_message_types": []
+    },
+    "coupon": {
+      "valid": true,
+      "solid_count": 2,
+      "expected_solids": 2,
+      "all_solids_closed": true,
+      "self_intersections": 0,
+      "strict_message_count": 0,
+      "strict_message_types": []
+    },
+    "review": {
+      "valid": true,
+      "solid_count": 80,
+      "expected_solids": 80,
+      "all_solids_closed": true,
+      "self_intersections": 0,
+      "strict_message_count": 107,
+      "strict_message_types": [
+        "BOP check found the following errors:",
+        "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+        "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+      ]
+    }
+  },
+  "pdfs": {
+    "Island_Drawings.pdf": {
+      "bytes": 879509,
+      "header_ok": true,
+      "eof_ok": true,
+      "pages": 6
+    },
+    "Island_Printing_Guide.pdf": {
+      "bytes": 393390,
+      "header_ok": true,
+      "eof_ok": true,
+      "pages": 4
+    },
+    "Island_Project_Plan.pdf": {
+      "bytes": 364884,
+      "header_ok": true,
+      "eof_ok": true,
+      "pages": 3
+    },
+    "Island_Interface_Coupon_Instructions.pdf": {
+      "bytes": 136599,
+      "header_ok": true,
+      "eof_ok": true,
+      "pages": 1
+    }
+  }
+}

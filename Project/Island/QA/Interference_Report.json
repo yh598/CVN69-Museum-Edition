@@ -1,0 +1,58 @@
+{
+  "generated_utc": "2026-07-14T19:21:26.768683+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Integrated unintended overlap",
+      "status": "PASS",
+      "evidence": "0.000000000 mm\u00b3; maximum 0.10 mm\u00b3"
+    },
+    {
+      "name": "Elevators unobstructed",
+      "status": "PASS",
+      "evidence": "overlap=0.000000000 mm\u00b3; nearest axis-aligned gap=2.094 mm"
+    },
+    {
+      "name": "Deck markings/catapults/wires unobstructed",
+      "status": "PASS",
+      "evidence": "overlap=0.000000000 mm\u00b3"
+    },
+    {
+      "name": "Twelve Milestone 2 landing pads unobstructed",
+      "status": "PASS",
+      "evidence": "overlap=0.000000000 mm\u00b3"
+    },
+    {
+      "name": "Approved deck solids clear interface",
+      "status": "PASS",
+      "evidence": "overlap=0.000000000 mm\u00b3"
+    },
+    {
+      "name": "No coincident island/deck seam",
+      "status": "PASS",
+      "evidence": "island x=[324.0937826424906, 363.5]; deck seams=[146.0, 286.0]; nearest=38.094 mm"
+    }
+  ],
+  "measurements": {
+    "baseline_objects": 55,
+    "island_objects": 17,
+    "overlap_mm3": {
+      "all": 0.0,
+      "elevators": 0.0,
+      "markings": 0.0,
+      "landing_pads": 0.0,
+      "deck_modules": 0.0
+    },
+    "overlap_pairs": [],
+    "nearest_elevator_axis_gap_mm": 2.0937826424906234,
+    "island_x_bounds_mm": [
+      324.0937826424906,
+      363.5
+    ],
+    "deck_seams_x_mm": [
+      146.0,
+      286.0
+    ]
+  },
+  "method": "OpenCascade common-volume checks between approved Milestone 2 BReps and all assembled island production BReps"
+}

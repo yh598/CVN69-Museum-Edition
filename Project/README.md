@@ -1,5 +1,7 @@
 # USS Dwight D. Eisenhower (CVN-69) — Museum Edition
 
+Milestone 3 island reconstruction and hull–deck integration review is available under [`Island/`](Island/README.md). It is a new parametric BRep reconstruction frozen to the 2023–2024 deployment fit, with a concealed glue-only deck interface, separate no-paint color objects, interface coupon, integrated review models, and strict validation. Approved Milestone 1–2 geometry remains immutable.
+
 Milestone 2 hull–flight-deck integration is available for review under [`Integration/`](Integration/README.md). It combines the approved hull and deck packages with a concealed printed-pad, glue-only interface; all mandatory geometry, interference, mesh, package, and Bambu Studio checks pass. It is intentionally untagged pending physical coupon and reviewer approval.
 
 The flight-deck geometry-reconstruction review package is available under [`FlightDeck/`](FlightDeck/README.md). It is a separate, untagged review deliverable and does not alter the released Milestone 1 hull files.

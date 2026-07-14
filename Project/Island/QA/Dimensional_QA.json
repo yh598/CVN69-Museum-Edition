@@ -1,0 +1,130 @@
+{
+  "generated_utc": "2026-07-14T19:21:26.768683+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Authoritative overall length import",
+      "status": "PASS",
+      "evidence": "476.00000 mm"
+    },
+    {
+      "name": "Approved deck elevation import",
+      "status": "PASS",
+      "evidence": "underside=31.500; top=34.500 mm"
+    },
+    {
+      "name": "Island opening / foundation match",
+      "status": "PASS",
+      "evidence": "plug symmetric difference=0.000000000 mm\u00b3"
+    },
+    {
+      "name": "Island X/Y position error",
+      "status": "PASS",
+      "evidence": "x=0.000000; y=0.000000 mm"
+    },
+    {
+      "name": "Vertical seating error",
+      "status": "PASS",
+      "evidence": "0.000000 mm"
+    },
+    {
+      "name": "Island lean",
+      "status": "PASS",
+      "evidence": "0.000000\u00b0"
+    },
+    {
+      "name": "Glue clearance",
+      "status": "PASS",
+      "evidence": "measured=0.25000; parameter=0.25000 mm/side"
+    },
+    {
+      "name": "Backward installation prevented",
+      "status": "PASS",
+      "evidence": "180\u00b0 rotated plug protrudes 49.63095 mm\u00b3 outside opening"
+    },
+    {
+      "name": "Mast height envelope",
+      "status": "PASS",
+      "evidence": "43.50000 mm above deck; reference=43.53544 mm"
+    },
+    {
+      "name": "Structural wall minimum",
+      "status": "PASS",
+      "evidence": "structural=1.20; flange=1.50 mm"
+    },
+    {
+      "name": "Mast / antenna thickness",
+      "status": "PASS",
+      "evidence": "mast=0.80; preferred=1.00; antenna=0.60 mm"
+    },
+    {
+      "name": "Raised / engraved detail rules",
+      "status": "PASS",
+      "evidence": "raised=0.50\u00d70.35; engraved=0.50\u00d70.30 mm"
+    },
+    {
+      "name": "Railing / radar rib rules",
+      "status": "PASS",
+      "evidence": "railing=0.60; radar rib=0.50\u00d70.35 mm"
+    },
+    {
+      "name": "Physical coupon envelope",
+      "status": "PASS",
+      "evidence": "[40.0, 51.0, 5.4] mm; limit 60 \u00d7 60 \u00d7 25 mm"
+    },
+    {
+      "name": "No trapped unsupported interface cavity",
+      "status": "PASS",
+      "evidence": "solid plug + through opening + four perimeter-open glue channels"
+    },
+    {
+      "name": "Production part envelope",
+      "status": "PASS",
+      "evidence": "maximum=31.806 mm"
+    }
+  ],
+  "measurements": {
+    "production_part_count": 17,
+    "coupon_part_count": 2,
+    "interface_plug_symmetric_difference_mm3": 0.0,
+    "interface_clearance_per_side_mm": 0.24999999999998843,
+    "position_error_x_mm": 0.0,
+    "position_error_y_mm": 0.0,
+    "vertical_seating_error_mm": 0.0,
+    "mast_lean_degrees": 7.237528875152535e-13,
+    "mast_axis_low_mm": [
+      346.2,
+      26.6,
+      51.0
+    ],
+    "mast_axis_high_mm": [
+      346.19999999999965,
+      26.6,
+      78.0
+    ],
+    "backward_rotated_plug_outside_opening_mm3": 49.63094593431136,
+    "mast_top_z_mm": 78.0,
+    "island_height_above_deck_mm": 43.5
+  },
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "deck_base_z": 31.5,
+    "deck_top_z": 34.5,
+    "opening_bounds": [
+      325.0,
+      19.2,
+      355.0,
+      33.0
+    ],
+    "interface_clearance_per_side": 0.25,
+    "interface_plug_depth": 2.4,
+    "foundation_flange_offset": 0.9,
+    "glue_channel_width": 0.6,
+    "glue_channel_depth": 0.35,
+    "minimum_structural_wall": 1.2,
+    "minimum_freestanding_mast": 0.8,
+    "minimum_railing": 0.6,
+    "minimum_antenna": 0.6,
+    "mast_height_above_deck": 43.5
+  }
+}

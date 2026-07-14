@@ -2,6 +2,37 @@
 
 All released changes use semantic versioning. Release artifacts are never overwritten after tagging.
 
+## Unreleased — Milestone 3 island reconstruction and integration
+
+### Added
+
+- New deterministic, parametric FreeCAD island BReps; no source STL triangles are reused.
+- Public-reference configuration audit frozen to the 2023–2024 deployment, including the AN/SPS-48G and CVN-69 AN/SPN-50 fit.
+- Seventeen major glue-assembled production parts: foundation/lower body, bridge, PriFly, uptake, masts, yardarm, radar faces, window inserts, ladder, antennas, signal housings, and separate `69` markings.
+- Asymmetric concealed foundation plug derived from the approved island opening, with 0.25 mm clearance per side and hidden open glue channels.
+- Full-geometry male/female interface coupon and one-page test instructions.
+- Island/coupon/review STEP, individual print-oriented STL files, assembly/review OBJ/3MF, and three named-object print plates.
+- Fourteen high-resolution island and integrated hull–deck–island renders.
+- Drawings, printing guide, project plan, assembly guide, dimensional QA, mesh validation, interference report, Bambu Studio report, reference-confidence report, and SHA-256 build manifest.
+
+### Accuracy boundary
+
+- Approved deck datums and opening geometry are dimensionally verified.
+- Island superstructure proportions are derived from official public photographs and the supplied mesh envelope and are not described as shipyard-accurate.
+- Unverified small sensors, cabling, sub-scale safety netting, and ambiguous equipment are omitted.
+
+### Validation
+
+- 36/36 mesh, package, FreeCAD BRep, STEP round-trip, document, render, immutable-input, and manifest checks pass.
+- 16/16 dimensional and interface checks pass, including 0.250 mm clearance per side, zero X/Y/seating error, and zero measured mast lean.
+- 6/6 integrated interference checks pass with zero unintended island overlap against the approved deck, elevators, markings, catapults, arresting wires, or twelve landing pads.
+- Bambu Studio 02.07.01.62 independently imports all 25 STL/3MF exports and reports them manifold.
+
+### Scope
+
+- Weapons, aircraft, deck vehicles, ocean base, display stand, lighting/electronics, and a full-ship production release remain excluded.
+- No release tag is created.
+
 ## Unreleased — Milestone 2 hull–flight-deck integration
 
 ### Added

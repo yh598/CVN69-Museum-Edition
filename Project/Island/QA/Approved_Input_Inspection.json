@@ -1,0 +1,126 @@
+{
+  "inspected_utc": "2026-07-14T19:20:39.588756+00:00",
+  "freecad_version": "1.1.1",
+  "coordinate_system": {
+    "x": "0 bow to 476 stern",
+    "y": "port negative / starboard positive",
+    "z": "keel datum"
+  },
+  "deck_base_z_mm": 31.5,
+  "deck_top_z_mm": 34.5,
+  "opening_authoritative_mm": [
+    [
+      355.0,
+      19.2
+    ],
+    [
+      326.1,
+      19.2
+    ],
+    [
+      325.0,
+      22.0
+    ],
+    [
+      325.4,
+      33.0
+    ],
+    [
+      333.0,
+      33.0
+    ],
+    [
+      334.2,
+      31.8
+    ],
+    [
+      353.0,
+      31.8
+    ],
+    [
+      355.0,
+      29.5
+    ]
+  ],
+  "opening_bounds_mm": [
+    325.0,
+    19.2,
+    355.0,
+    33.0
+  ],
+  "approved_files": {
+    "Project/CAD/FreeCAD/Hull.FCStd": {
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    "Project/CAD/Python/hull_parameters.py": {
+      "bytes": 4074,
+      "sha256": "220e1d6aaa757ee52a68da90941be370b0874c8f70a3c667331e5ca75c0e63d1"
+    },
+    "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": {
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    "Project/FlightDeck/CAD/Python/deck_parameters.py": {
+      "bytes": 3860,
+      "sha256": "ee2d10f44dd33f0349d24d32a9e8b3fb250fcefe896d065e7508ef39b6d581b0"
+    },
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/STEP/CVN69_Hull_Deck_Assembly.step": {
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    "Project/Integration/QA/Approved_Input_Inspection.json": {
+      "bytes": 1786,
+      "sha256": "70dafa94e97fa62afeeb1dba1a65d093005f488ca934cc15f033db2e510922f4"
+    },
+    "Project/Integration/QA/BambuStudio_Validation.json": {
+      "bytes": 56386,
+      "sha256": "c9baca3fec1bcdfd830d5d369ab771c1899ee5eb0d773a14bfc9b8999459be4d"
+    },
+    "Project/Integration/QA/BambuStudio_Validation.md": {
+      "bytes": 5692,
+      "sha256": "7640bd9f9d1fe46c5ab7f444d92d70b8f41e63622a914f19f3e8d6a43286083a"
+    },
+    "Project/Integration/QA/Dimensional_QA.json": {
+      "bytes": 3669,
+      "sha256": "c304a5fdb951d34f6fb0c0e51dabfd4e73a932126d02d7c4a8fe70ed245e3a29"
+    },
+    "Project/Integration/QA/Dimensional_QA.md": {
+      "bytes": 1172,
+      "sha256": "d576e3af119414c9e0a93623aaf91b7638df165bc6b9021f9e1ecbf0c3f061cf"
+    },
+    "Project/Integration/QA/Interference_Report.json": {
+      "bytes": 1951,
+      "sha256": "c77ea10f221c0dcc5e50a00bf844b8a6e3a128ca76943c4fba7aa4a57a46408d"
+    },
+    "Project/Integration/QA/Interference_Report.md": {
+      "bytes": 1023,
+      "sha256": "76117812e6595fa1fb71684e677f237b17b03fc7a7553b95c9149e3709561111"
+    },
+    "Project/Integration/QA/Mesh_Validation.json": {
+      "bytes": 58678,
+      "sha256": "85c6e128599d2878e24ac8fc3868fd09cbc51d0fd7ede3df85b05252ba7d6ad3"
+    },
+    "Project/Integration/QA/Mesh_Validation.md": {
+      "bytes": 9921,
+      "sha256": "ac55afd3f475ca52068935de1f393d63d884e23071e4cb2028acd23b845311db"
+    },
+    "Project/Integration/QA/Validation_Commands.md": {
+      "bytes": 887,
+      "sha256": "378018e85a5aacfcae0cbe86c453dc5bbec0315d60a6bbd7419b75905eadcb7c"
+    },
+    "Project/Integration/QA/build_manifest.json": {
+      "bytes": 51913,
+      "sha256": "a3158e3940e9db469a64fcf81645627b024c8e170d5bc932131d1310a6b70e1c"
+    }
+  },
+  "read_only_policy": "Approved Milestone 1 and 2 inputs are opened read-only and are not overwritten."
+}
