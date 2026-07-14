@@ -2,7 +2,9 @@
 
 ## Before the full print
 
-Print `3MF/Interface_Test_Coupon.3mf` first. Verify that the 6.00 mm male feature enters the 6.50 mm female socket without force, the flat faces fully seat, and the chosen adhesive does not prevent seating. The designed clearance is 0.25 mm per side.
+The first-article `3MF/Interface_Test_Coupon.3mf` has a recorded physical PASS at 100% scale with a 0.40 mm nozzle, 0.16 mm layers, three walls, 0.00 mm XY compensation, and 0.15 mm elephant-foot compensation. The 6.00 mm male feature entered the 6.50 mm female socket by hand and seated correctly. The qualified clearance is 0.25 mm per side, and the production interface dimensions are frozen.
+
+If the printer, material, slicer behavior, or compensation differs materially from the qualified setup, print the coupon before committing the full print. Do not alter the frozen CAD interface to compensate for a new process without creating a new revision and repeating physical qualification.
 
 ## Print sequence
 
@@ -41,4 +43,4 @@ This interface is designed for printed geometry and adhesive only. Do not add ma
 
 ## First-article note
 
-Automated geometry validation does not replace a physical coupon and first-article assembly. Record the coupon result before committing the full print to adhesive.
+Physical coupon PASS is recorded in `QA/Physical_Coupon_Result.md`. Keep the frozen dimensions in `QA/Production_Interface_Freeze.md` unchanged for production. A future interface revision must pass a new physical coupon before use.

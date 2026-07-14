@@ -25,6 +25,8 @@ PROJECT = INTEGRATION.parent
 REPO = PROJECT.parent
 QA = INTEGRATION / "QA"
 MANIFEST_PATH = QA / "build_manifest.json"
+PHYSICAL_RESULT_PATH = QA / "Physical_Coupon_Result.json"
+INTERFACE_FREEZE_PATH = QA / "Production_Interface_Freeze.json"
 sys.path.insert(0, str(INTEGRATION / "CAD" / "Python"))
 from integration_parameters import make_parameters  # noqa: E402
 
@@ -343,6 +345,8 @@ def main():
     mesh_checks = []
     dimensional_checks = []
     interference_checks = []
+    physical_result = json.loads(PHYSICAL_RESULT_PATH.read_text(encoding="utf-8"))
+    interface_freeze = json.loads(INTERFACE_FREEZE_PATH.read_text(encoding="utf-8"))
 
     stl_results = {}
     for path in sorted((INTEGRATION / "STL").glob("*.stl")):
@@ -424,6 +428,10 @@ def main():
         "Docs/Material_Mapping.csv",
         "README.md",
         "Assembly/Glue_Only_Assembly.md",
+        "QA/Physical_Coupon_Result.json",
+        "QA/Physical_Coupon_Result.md",
+        "QA/Production_Interface_Freeze.json",
+        "QA/Production_Interface_Freeze.md",
         "CAD/Python/integration_parameters.py",
         "Scripts/build_hull_deck_integration.py",
         "Scripts/render_hull_deck_integration.py",
@@ -457,6 +465,14 @@ def main():
         if sha256(REPO / relative) != expected:
             approved_hash_mismatches.append(relative)
     add_check(mesh_checks, "Approved inputs unchanged", not approved_hash_mismatches, "Hull v0.1.0 and FlightDeck review hashes match build inputs" if not approved_hash_mismatches else str(approved_hash_mismatches))
+
+    governed_artifact_errors = []
+    for record in interface_freeze.get("governed_artifacts", []):
+        path = INTEGRATION / record["path"]
+        if not path.exists():
+            governed_artifact_errors.append(f"missing {record['path']}")
+        elif path.stat().st_size != record["bytes"] or sha256(path) != record["sha256"]:
+            governed_artifact_errors.append(f"hash/size mismatch {record['path']}")
 
     pdfs = {
         "drawings": pdf_metrics(INTEGRATION / "Docs" / "Hull_Deck_Integration_Drawings.pdf"),
@@ -494,6 +510,80 @@ def main():
     add_check(dimensional_checks, "Physical coupon envelope", coupon_3mf["bounds_mm"][0] <= 60 and coupon_3mf["bounds_mm"][1] <= 60 and coupon_3mf["bounds_mm"][2] <= 20, f"{coupon_3mf['bounds_mm']} mm; limit 60 × 60 × 20 mm")
     add_check(dimensional_checks, "No trapped unsupported interface cavity", P.socket_width <= 6.50 and P.socket_opening_allowance > 0.0, f"open underside/top sockets; maximum roof span {P.socket_width:.2f} mm")
 
+    expected_print_settings = {
+        "scale_percent": 100.0,
+        "nozzle_diameter_mm": 0.4,
+        "layer_height_mm": 0.16,
+        "wall_count": 3,
+        "xy_compensation_mm": 0.0,
+        "elephant_foot_compensation_mm": 0.15,
+    }
+    expected_qualified_interface = {
+        "male_length_mm": 6.0,
+        "male_width_mm": 6.0,
+        "female_opening_length_mm": 6.5,
+        "female_opening_width_mm": 6.5,
+        "clearance_per_side_mm": 0.25,
+    }
+    physical_artifact = physical_result.get("tested_artifact", {})
+    physical_artifact_path = INTEGRATION / physical_artifact.get("path", "")
+    physical_pass = (
+        physical_result.get("result") == "PASS"
+        and physical_result.get("print_settings") == expected_print_settings
+        and physical_result.get("qualified_interface") == expected_qualified_interface
+        and physical_result.get("observations") == {
+            "assembled_by_hand": True,
+            "seated_correctly": True,
+        }
+        and physical_artifact_path.is_file()
+        and physical_artifact_path.stat().st_size == physical_artifact.get("bytes")
+        and sha256(physical_artifact_path) == physical_artifact.get("sha256")
+    )
+    add_check(
+        dimensional_checks,
+        "Physical 0.25 mm-per-side coupon fit",
+        physical_pass,
+        "PASS; 100% scale, 0.40 mm nozzle, 0.16 mm layers, 3 walls, 0.00 mm XY compensation, 0.15 mm elephant-foot compensation; assembled by hand and seated correctly",
+    )
+
+    expected_locked_dimensions = {
+        "interface_clearance_per_side": P.interface_clearance_per_side,
+        "pad_length": P.pad_length,
+        "pad_width": P.pad_width,
+        "pad_total_height": P.pad_total_height,
+        "pad_hull_insertion": P.pad_hull_insertion,
+        "pad_deck_insertion": P.pad_deck_insertion,
+        "socket_opening_length": P.socket_length,
+        "socket_opening_width": P.socket_width,
+        "hull_socket_nominal_depth": P.hull_socket_depth,
+        "deck_socket_nominal_depth": P.deck_socket_depth,
+        "socket_opening_allowance": P.socket_opening_allowance,
+        "hull_socket_as_modeled_cut_depth": P.hull_socket_depth + P.socket_opening_allowance,
+        "deck_socket_as_modeled_cut_depth": P.deck_socket_depth + P.socket_opening_allowance,
+        "vertical_pad_tip_clearance": P.vertical_pad_tip_clearance,
+        "deck_top_skin_over_socket": P.deck_top_skin_over_socket,
+        "nominal_seating_gap": P.seating_gap,
+        "minimum_structural_thickness": P.minimum_structural_thickness,
+        "pad_x_stations": list(P.pad_x_stations),
+        "pad_y_centers": list(P.pad_y_centers),
+    }
+    freeze_basis = interface_freeze.get("basis", {})
+    freeze_pass = (
+        interface_freeze.get("status") == "FROZEN_PHYSICAL_PASS"
+        and freeze_basis.get("result") == "PASS"
+        and freeze_basis.get("physical_result_path") == "QA/Physical_Coupon_Result.json"
+        and freeze_basis.get("physical_result_sha256") == sha256(PHYSICAL_RESULT_PATH)
+        and interface_freeze.get("locked_dimensions_mm") == expected_locked_dimensions
+        and len(interface_freeze.get("governed_artifacts", [])) == 29
+        and not governed_artifact_errors
+    )
+    add_check(
+        dimensional_checks,
+        "Production interface freeze",
+        freeze_pass,
+        "M2-DECK-HULL-INTERFACE-2026-07-14; 19 locked dimensions/placements and 29 governed CAD/STEP/STL/3MF artifacts match" if freeze_pass else "; ".join(governed_artifact_errors) or "freeze record mismatch",
+    )
+
     # Mandatory interference checks.
     add_check(interference_checks, "Hull/deck unintended overlap", context["hull_deck_unintended_overlap_mm3"] <= 0.10, f"{context['hull_deck_unintended_overlap_mm3']:.8f} mm³; maximum 0.10 mm³")
     add_check(interference_checks, "Pads clear hull sockets", context["pad_hull_overlap_mm3"] <= 0.10, f"unintended overlap {context['pad_hull_overlap_mm3']:.8f} mm³")
@@ -524,6 +614,12 @@ def main():
         "checks": dimensional_checks,
         "measurements": context,
         "parameters_mm": MANIFEST["parameters_mm"],
+        "physical_coupon": physical_result,
+        "production_interface_freeze": {
+            "freeze_id": interface_freeze.get("freeze_id"),
+            "status": interface_freeze.get("status"),
+            "record": "QA/Production_Interface_Freeze.json",
+        },
     }
     interference_report = {
         "generated_utc": generated,

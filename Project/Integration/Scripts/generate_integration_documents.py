@@ -228,7 +228,7 @@ def build_printing_guide(manifest, output: Path, mapping_csv: Path):
         bullet("Install elevators and raised details after the hull/deck bond has cured."),
         Spacer(1, 0.14 * inch),
         fitted_image(RENDER / "CVN69_Hull_Deck_Exploded.png", 7.1 * inch, 3.6 * inch),
-        Paragraph("This automated package does not replace a physical first-article print. Record the coupon result before full bonding.", S["SmallM2"]),
+        Paragraph("Physical qualification is complete: the 0.25 mm-per-side coupon assembled by hand and seated correctly at 100% scale with a 0.40 mm nozzle, 0.16 mm layers, three walls, 0.00 mm XY compensation, and 0.15 mm elephant-foot compensation. Production interface dimensions are frozen.", S["SmallM2"]),
     ]
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
 
@@ -246,7 +246,7 @@ def build_coupon_instruction(output: Path):
     )
     story = [
         Paragraph("CVN-69 Deck-to-Hull Interface Coupon", S["TitleM2"]),
-        Paragraph("ONE-PAGE PRINT / FIT / GLUE TEST · RUN BEFORE THE FULL MILESTONE 2 PRINT", S["SubM2"]),
+        Paragraph("PHYSICAL PASS RECORDED · 0.25 MM/SIDE PRODUCTION INTERFACE FROZEN", S["SubM2"]),
         fitted_image(RENDER / "Section_Keyed_Landing_Pad.png", 7.0 * inch, 3.8 * inch),
         styled_table(
             [
@@ -256,6 +256,7 @@ def build_coupon_instruction(output: Path):
                 ["Nominal clearance", "0.25 mm per side"],
                 ["Female top wall", "1.55 mm"],
                 ["Combined print layout", "53 × 20 × 5.2 mm"],
+                ["Qualified print profile", "100% · 0.40 nozzle · 0.16 layer · 3 walls · XY 0.00 · elephant foot 0.15 mm"],
             ],
             widths=[2.6 * inch, 4.0 * inch],
         ),
@@ -302,6 +303,10 @@ def main():
         mapping_csv,
         INTEGRATION / "README.md",
         INTEGRATION / "Assembly" / "Glue_Only_Assembly.md",
+        INTEGRATION / "QA" / "Physical_Coupon_Result.json",
+        INTEGRATION / "QA" / "Physical_Coupon_Result.md",
+        INTEGRATION / "QA" / "Production_Interface_Freeze.json",
+        INTEGRATION / "QA" / "Production_Interface_Freeze.md",
         INTEGRATION / "CAD" / "Python" / "integration_parameters.py",
         INTEGRATION / "Scripts" / "build_hull_deck_integration.py",
         INTEGRATION / "Scripts" / "render_hull_deck_integration.py",

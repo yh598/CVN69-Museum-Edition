@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "freeze_id": "M2-DECK-HULL-INTERFACE-2026-07-14",
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "Milestone 2 — Hull–Flight-Deck Integration",
+  "status": "FROZEN_PHYSICAL_PASS",
+  "effective_date": "2026-07-14",
+  "basis": {
+    "physical_result_path": "QA/Physical_Coupon_Result.json",
+    "physical_result_sha256": "632756ed7b9756cd8fa710731f8b5b1f264d68763a542dd4f1593157e4b55b15",
+    "result": "PASS",
+    "observation": "Coupon parts assembled by hand and seated correctly at the qualified print settings."
+  },
+  "coordinate_reference_mm": {
+    "overall_length": 476.0,
+    "x_origin": "bow",
+    "x_direction": "bow to stern",
+    "y_origin": "ship centerline",
+    "deck_underside_z": 31.5
+  },
+  "locked_dimensions_mm": {
+    "interface_clearance_per_side": 0.25,
+    "pad_length": 6.0,
+    "pad_width": 6.0,
+    "pad_total_height": 2.4,
+    "pad_hull_insertion": 1.2,
+    "pad_deck_insertion": 1.2,
+    "socket_opening_length": 6.5,
+    "socket_opening_width": 6.5,
+    "hull_socket_nominal_depth": 1.2,
+    "deck_socket_nominal_depth": 1.45,
+    "socket_opening_allowance": 0.05,
+    "hull_socket_as_modeled_cut_depth": 1.25,
+    "deck_socket_as_modeled_cut_depth": 1.5,
+    "vertical_pad_tip_clearance": 0.25,
+    "deck_top_skin_over_socket": 1.55,
+    "nominal_seating_gap": 0.0,
+    "minimum_structural_thickness": 1.2,
+    "pad_x_stations": [
+      32.0,
+      105.0,
+      205.0,
+      270.0,
+      370.0,
+      445.0
+    ],
+    "pad_y_centers": [
+      -8.0,
+      8.0
+    ]
+  },
+  "governed_artifacts": [
+    {
+      "path": "CAD/Python/integration_parameters.py",
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    {
+      "path": "CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd",
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    {
+      "path": "STEP/CVN69_Hull_Deck_Assembly.step",
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    {
+      "path": "STEP/Interface_Test_Coupon.step",
+      "bytes": 22566,
+      "sha256": "c34c15f823fd641c27a9ab95bdf08b73c5dc897e5537ed4a6689a9a8b9b3ce68"
+    },
+    {
+      "path": "STL/Hull_Module_1_Bow.stl",
+      "bytes": 2064884,
+      "sha256": "ec04a0229a820c23fd58d949851582eb999d38306ccafe0eadef4f0df7dd2ca4"
+    },
+    {
+      "path": "STL/Hull_Module_2_Midship.stl",
+      "bytes": 750484,
+      "sha256": "e5af4654adf0235738d541274e5c181c98a46c4acc32cafd52a5ed10369b157e"
+    },
+    {
+      "path": "STL/Hull_Module_3_Stern.stl",
+      "bytes": 583884,
+      "sha256": "bb258458e6154b998c8774d1f72bb0aedbe638836407576240a01544306e62dd"
+    },
+    {
+      "path": "STL/Deck_Module_1_Bow.stl",
+      "bytes": 7484,
+      "sha256": "73c7fa75984fdba8cd9d3abd64386953dcff288a9da53d6f4c5d982e0c08a6a0"
+    },
+    {
+      "path": "STL/Deck_Module_2_Midship.stl",
+      "bytes": 10284,
+      "sha256": "1801206c925303b5edce76e85e5648958db98973da5fe505e662b7af7e54deb3"
+    },
+    {
+      "path": "STL/Deck_Module_3_Stern.stl",
+      "bytes": 15684,
+      "sha256": "d9536a564a98206f3490debe1b4f682b2c78214d0e892bea94cebfa7b44f8ab5"
+    },
+    {
+      "path": "STL/Interface_Pad_01_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_01_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_02_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_02_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_03_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_03_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_04_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_04_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_05_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_05_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_06_Port.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Pad_06_Starboard.stl",
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    {
+      "path": "STL/Interface_Test_Coupon_Female.stl",
+      "bytes": 1484,
+      "sha256": "05d27bfa8890f19d6a54657b06067089eef07da51ac2730ec9bf0ea3d1ddcf36"
+    },
+    {
+      "path": "STL/Interface_Test_Coupon_Male.stl",
+      "bytes": 1484,
+      "sha256": "1758e2e194c7d58b1129d23c77646d2d1022e97c485191e0a9af7ea254fda273"
+    },
+    {
+      "path": "3MF/CVN69_Hull_Deck_Assembly.3mf",
+      "bytes": 973126,
+      "sha256": "14e87107f94b6292bbd75db196db97ab3dce58a3bbc553cb85430b6fbcf6b06d"
+    },
+    {
+      "path": "3MF/Print_Plate_01_Hull.3mf",
+      "bytes": 955734,
+      "sha256": "fbadf12dbb3b5a97ccdb178e8f6f38d78501afb1709f5bb815c4d0f90b72fea5"
+    },
+    {
+      "path": "3MF/Print_Plate_02_Deck.3mf",
+      "bytes": 6889,
+      "sha256": "9bd11bd01025be0c6bf70fe6f4f77c1454d83f4bdf174df47dec7e69eab51604"
+    },
+    {
+      "path": "3MF/Print_Plate_03_Details.3mf",
+      "bytes": 10811,
+      "sha256": "e5ac5c90a8513d8607868874c2a463650d17cd2a86330f792eeae12adb571ccc"
+    },
+    {
+      "path": "3MF/Interface_Test_Coupon.3mf",
+      "bytes": 1598,
+      "sha256": "1e327dd22bb8fc535e6e413df91aee6eb14335342a36dd7841dccfc30deb820e"
+    }
+  ],
+  "change_control": {
+    "rule": "Do not alter any locked dimension or governed artifact while retaining this freeze status.",
+    "requalification": "Any interface geometry or clearance change requires a new revision, regenerated artifacts, and a new physical coupon PASS before production use."
+  }
+}

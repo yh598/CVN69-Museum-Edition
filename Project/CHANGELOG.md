@@ -80,14 +80,16 @@ All released changes use semantic versioning. Release artifacts are never overwr
 ### Validation
 
 - 71/71 mesh/package/BRep/STEP/document checks pass.
-- 14/14 dimensional checks pass, including 476.000 mm length, zero centerline/datum error, 0.250 mm measured clearance per side, and 0.000 mm nominal seating gap.
+- Physical interface coupon PASS at 100% scale using a 0.40 mm nozzle, 0.16 mm layers, three walls, 0.00 mm XY compensation, and 0.15 mm elephant-foot compensation; the 0.25 mm-per-side parts assembled by hand and seated correctly.
+- Production deck-to-hull interface dimensions frozen under `Integration/QA/Production_Interface_Freeze.json` with SHA-256-governed CAD, STEP, STL, and 3MF artifacts.
+- 16/16 dimensional checks pass, including 476.000 mm length, zero centerline/datum error, 0.250 mm measured clearance per side, 0.000 mm nominal seating gap, the physical coupon gate, and the production-interface freeze gate.
 - 5/5 interference checks pass: zero unintended hull/deck, pad, elevator, and island-opening overlap.
 - Bambu Studio 02.07.01.62 independently reports all 62 STL/3MF exports manifold.
 
 ### Scope
 
 - Island, weapons, aircraft, radar, ocean base, and display stand remain excluded.
-- No release tag is created pending physical coupon and reviewer approval.
+- No release tag is created pending reviewer approval.
 
 ## Unreleased — Flight-deck reconstruction review
 

@@ -2142,27 +2142,27 @@
     },
     "Docs/Hull_Deck_Integration_Drawings.pdf": {
       "bytes": 684740,
-      "sha256": "674287ada7c2ab94b0ec94128febfefa5822083c9c0ec4ddb92d075b3d1d8c91"
+      "sha256": "713797e8e3a7e1171781d7d8ffd12442a28a32203eae8cbae3fcd3fb66dc2630"
     },
     "Docs/Hull_Deck_Printing_Guide.pdf": {
-      "bytes": 485472,
-      "sha256": "c3c8697121adb94a454f1f69910f9af1d325274d84b6820f3fe19ec8a8f59b6f"
+      "bytes": 485585,
+      "sha256": "a5e7007760698b27179c34400e0a9637d5ed903279ab291f0e5dab5aaa6019b4"
     },
     "Docs/Interface_Test_Coupon_Instructions.pdf": {
-      "bytes": 79844,
-      "sha256": "3801ee1a2138f2222126bb5f73e9bd497964268ab72c6620186b57acf2ef1863"
+      "bytes": 79923,
+      "sha256": "09176ebeb544c549ab47eaf05a0f60608ad44b7c08577321a7498499a0626185"
     },
     "Docs/Material_Mapping.csv": {
       "bytes": 2541,
       "sha256": "5a5fee03c43d7cb308f944efbc6ec3725a27ecfaf2b08152f7178224869e876a"
     },
     "README.md": {
-      "bytes": 4362,
-      "sha256": "78d10b7f5fb0c017e431c78b3b919b1889cd01553499e06ee4dc700297c2af60"
+      "bytes": 4941,
+      "sha256": "7e8e0e53df1303c76d6fb43144c57e90ea1198b4ea7f03ded0e80991b7be1b66"
     },
     "Assembly/Glue_Only_Assembly.md": {
-      "bytes": 2761,
-      "sha256": "0aaacdf72d46a8b2db4e31131239b27a522ccb36e454e4936969ecd218844572"
+      "bytes": 3270,
+      "sha256": "fedb0c1d95cc3350708cc2fd417e931de273477175544aeebe06303a3a6e7831"
     },
     "CAD/Python/integration_parameters.py": {
       "bytes": 4798,
@@ -2181,12 +2181,28 @@
       "sha256": "48f13953145b8dbca2155b391fdd8460654a70becbc2338cfe220e670264a101"
     },
     "Scripts/generate_integration_documents.py": {
-      "bytes": 15877,
-      "sha256": "e4f37a08812706d7efbafc0a058764743e3e66b51f1cac62ad5cc1f2ae59069f"
+      "bytes": 16405,
+      "sha256": "d135c80d829aca7272c5963f7bea5f1e23523bb80145f67a81a1b0c12989770c"
     },
     "Scripts/validate_hull_deck_integration.py": {
-      "bytes": 30951,
-      "sha256": "f0cb42437540b603ff9492bc7ea180046ca7971c3c4ea736a99114292fa15060"
+      "bytes": 35637,
+      "sha256": "8ad13ab7012f918fa835520c5e84e51b9a9a25d2f537889b10399be7818104c2"
+    },
+    "QA/Physical_Coupon_Result.json": {
+      "bytes": 1195,
+      "sha256": "632756ed7b9756cd8fa710731f8b5b1f264d68763a542dd4f1593157e4b55b15"
+    },
+    "QA/Physical_Coupon_Result.md": {
+      "bytes": 1049,
+      "sha256": "b48650840fc9810466ad8b53ae4ed5b6d649aad71b2ec1369c7070a3e345baef"
+    },
+    "QA/Production_Interface_Freeze.json": {
+      "bytes": 6723,
+      "sha256": "c177e38ff8058eaf97fa934a8ba8bff7eb7640d1e04754cb99514140f220c893"
+    },
+    "QA/Production_Interface_Freeze.md": {
+      "bytes": 1783,
+      "sha256": "3d48f6f4dd370010695297e99f2e722fe710344b0ee57b42f9d4c053413a6ea5"
     }
   }
 }

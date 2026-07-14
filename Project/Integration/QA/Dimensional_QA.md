@@ -18,3 +18,5 @@ Overall status: **PASS**
 | Hull external length preserved | PASS | length 476.000 mm |
 | Physical coupon envelope | PASS | [53.0, 20.0, 5.2] mm; limit 60 × 60 × 20 mm |
 | No trapped unsupported interface cavity | PASS | open underside/top sockets; maximum roof span 6.50 mm |
+| Physical 0.25 mm-per-side coupon fit | PASS | PASS; 100% scale, 0.40 mm nozzle, 0.16 mm layers, 3 walls, 0.00 mm XY compensation, 0.15 mm elephant-foot compensation; assembled by hand and seated correctly |
+| Production interface freeze | PASS | M2-DECK-HULL-INTERFACE-2026-07-14; 19 locked dimensions/placements and 29 governed CAD/STEP/STL/3MF artifacts match |

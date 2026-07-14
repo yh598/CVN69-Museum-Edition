@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14T17:43:05.697205+00:00",
+  "generated_utc": "2026-07-14T21:16:27.377937+00:00",
   "overall_status": "PASS",
   "freecad_version": "1.1.1",
   "checks": [
@@ -336,12 +336,12 @@
     {
       "name": "Required production outputs exist",
       "status": "PASS",
-      "evidence": "85 required outputs; missing=[]"
+      "evidence": "89 required outputs; missing=[]"
     },
     {
       "name": "Build-manifest production hashes",
       "status": "PASS",
-      "evidence": "85 byte-size/SHA-256 records match"
+      "evidence": "89 byte-size/SHA-256 records match"
     },
     {
       "name": "Approved inputs unchanged",
@@ -351,7 +351,7 @@
     {
       "name": "PDF documentation structure",
       "status": "PASS",
-      "evidence": "{'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485472, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79844, 'header_ok': True, 'eof_ok': True, 'pages': 1}}"
+      "evidence": "{'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485585, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}}"
     },
     {
       "name": "All required renders",
@@ -2547,13 +2547,13 @@
       "pages": 4
     },
     "printing": {
-      "bytes": 485472,
+      "bytes": 485585,
       "header_ok": true,
       "eof_ok": true,
       "pages": 5
     },
     "coupon": {
-      "bytes": 79844,
+      "bytes": 79923,
       "header_ok": true,
       "eof_ok": true,
       "pages": 1

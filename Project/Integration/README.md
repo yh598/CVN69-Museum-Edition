@@ -26,6 +26,8 @@ The deck seats directly on the hull-top datum, providing a continuous hidden glu
 - no feature penetrates the visible deck
 - sockets are open and only 6.50 mm wide, avoiding trapped cavities and long unsupported roofs
 
+Physical qualification status: **PASS**. The interface coupon was printed at 100% scale with a 0.40 mm nozzle, 0.16 mm layers, three walls, 0.00 mm XY compensation, and 0.15 mm elephant-foot compensation. The parts assembled by hand and seated correctly. The production interface dimensions are frozen under [`QA/Production_Interface_Freeze.md`](QA/Production_Interface_Freeze.md).
+
 Deck seams transform to x = 146 and 286 mm. Hull seams remain x = 158.667 and 317.333 mm. The staggered offsets prevent coincident weak planes and leave each deck seam supported by a continuous hull module.
 
 ## Deliverables
@@ -45,6 +47,8 @@ Deck seams transform to x = 146 and 286 mm. Hull seams remain x = 158.667 and 31
 | Mesh validation | [`QA/Mesh_Validation.md`](QA/Mesh_Validation.md) |
 | Interference report | [`QA/Interference_Report.md`](QA/Interference_Report.md) |
 | Bambu Studio validation | [`QA/BambuStudio_Validation.md`](QA/BambuStudio_Validation.md) |
+| Physical coupon PASS | [`QA/Physical_Coupon_Result.md`](QA/Physical_Coupon_Result.md) |
+| Production interface freeze | [`QA/Production_Interface_Freeze.md`](QA/Production_Interface_Freeze.md) |
 
 ## Production organization
 
@@ -79,4 +83,3 @@ python3 Project/Integration/Scripts/run_bambu_integration_checks.py
 ```
 
 This is an unreleased review milestone. No release tag is created.
-

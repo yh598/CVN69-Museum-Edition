@@ -70,10 +70,10 @@ Overall status: **PASS**
 | Assembly STEP round-trip | PASS | 55 closed solids; 0 self-intersections; 107 OCC diagnostics |
 | Coupon STEP round-trip | PASS | 2 closed solids; 0 self-intersections |
 | Bambu Studio independent import/manifold check | PASS | Bambu Studio 02.07.01.62 loaded 62 STL/3MF exports; all reported manifold |
-| Required production outputs exist | PASS | 85 required outputs; missing=[] |
-| Build-manifest production hashes | PASS | 85 byte-size/SHA-256 records match |
+| Required production outputs exist | PASS | 89 required outputs; missing=[] |
+| Build-manifest production hashes | PASS | 89 byte-size/SHA-256 records match |
 | Approved inputs unchanged | PASS | Hull v0.1.0 and FlightDeck review hashes match build inputs |
-| PDF documentation structure | PASS | {'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485472, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79844, 'header_ok': True, 'eof_ok': True, 'pages': 1}} |
+| PDF documentation structure | PASS | {'drawings': {'bytes': 684740, 'header_ok': True, 'eof_ok': True, 'pages': 4}, 'printing': {'bytes': 485585, 'header_ok': True, 'eof_ok': True, 'pages': 5}, 'coupon': {'bytes': 79923, 'header_ok': True, 'eof_ok': True, 'pages': 1}} |
 | All required renders | PASS | {'Render/CVN69_Hull_Deck_Top.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Port.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Starboard.png': (3570, 1260), 'Render/CVN69_Hull_Deck_Bow_Isometric.png': (3570, 1721), 'Render/CVN69_Hull_Deck_Stern_Isometric.png': (3570, 1721), 'Render/CVN69_Hull_Deck_Exploded.png': (3570, 1721), 'Render/Section_Keyed_Landing_Pad.png': (2100, 1680), 'Render/Section_Direct_Support.png': (2100, 1470)} |
 
 ## Checks run

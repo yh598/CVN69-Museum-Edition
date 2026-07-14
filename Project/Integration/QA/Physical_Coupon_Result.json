@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "Milestone 2 — Hull–Flight-Deck Integration",
+  "recorded_date": "2026-07-14",
+  "print_date": null,
+  "evidence_source": "User-reported physical first-article coupon test",
+  "tested_artifact": {
+    "path": "3MF/Interface_Test_Coupon.3mf",
+    "bytes": 1598,
+    "sha256": "1e327dd22bb8fc535e6e413df91aee6eb14335342a36dd7841dccfc30deb820e"
+  },
+  "result": "PASS",
+  "print_settings": {
+    "scale_percent": 100.0,
+    "nozzle_diameter_mm": 0.4,
+    "layer_height_mm": 0.16,
+    "wall_count": 3,
+    "xy_compensation_mm": 0.0,
+    "elephant_foot_compensation_mm": 0.15
+  },
+  "qualified_interface": {
+    "male_length_mm": 6.0,
+    "male_width_mm": 6.0,
+    "female_opening_length_mm": 6.5,
+    "female_opening_width_mm": 6.5,
+    "clearance_per_side_mm": 0.25
+  },
+  "observations": {
+    "assembled_by_hand": true,
+    "seated_correctly": true
+  },
+  "decision": "Physical PASS. Freeze the Milestone 2 production deck-to-hull interface dimensions represented by this coupon.",
+  "not_supplied": [
+    "print_date",
+    "printer_model",
+    "filament_material",
+    "adhesive"
+  ]
+}

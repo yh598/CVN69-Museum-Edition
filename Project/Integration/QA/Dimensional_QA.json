@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14T17:43:05.697205+00:00",
+  "generated_utc": "2026-07-14T21:16:27.377937+00:00",
   "overall_status": "PASS",
   "checks": [
     {
@@ -71,6 +71,16 @@
       "name": "No trapped unsupported interface cavity",
       "status": "PASS",
       "evidence": "open underside/top sockets; maximum roof span 6.50 mm"
+    },
+    {
+      "name": "Physical 0.25 mm-per-side coupon fit",
+      "status": "PASS",
+      "evidence": "PASS; 100% scale, 0.40 mm nozzle, 0.16 mm layers, 3 walls, 0.00 mm XY compensation, 0.15 mm elephant-foot compensation; assembled by hand and seated correctly"
+    },
+    {
+      "name": "Production interface freeze",
+      "status": "PASS",
+      "evidence": "M2-DECK-HULL-INTERFACE-2026-07-14; 19 locked dimensions/placements and 29 governed CAD/STEP/STL/3MF artifacts match"
     }
   ],
   "measurements": {
@@ -143,5 +153,50 @@
     "deck_top_skin_over_socket": 1.55,
     "vertical_pad_tip_clearance": 0.25,
     "nominal_seating_gap": 0.0
+  },
+  "physical_coupon": {
+    "schema_version": 1,
+    "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+    "milestone": "Milestone 2 \u2014 Hull\u2013Flight-Deck Integration",
+    "recorded_date": "2026-07-14",
+    "print_date": null,
+    "evidence_source": "User-reported physical first-article coupon test",
+    "tested_artifact": {
+      "path": "3MF/Interface_Test_Coupon.3mf",
+      "bytes": 1598,
+      "sha256": "1e327dd22bb8fc535e6e413df91aee6eb14335342a36dd7841dccfc30deb820e"
+    },
+    "result": "PASS",
+    "print_settings": {
+      "scale_percent": 100.0,
+      "nozzle_diameter_mm": 0.4,
+      "layer_height_mm": 0.16,
+      "wall_count": 3,
+      "xy_compensation_mm": 0.0,
+      "elephant_foot_compensation_mm": 0.15
+    },
+    "qualified_interface": {
+      "male_length_mm": 6.0,
+      "male_width_mm": 6.0,
+      "female_opening_length_mm": 6.5,
+      "female_opening_width_mm": 6.5,
+      "clearance_per_side_mm": 0.25
+    },
+    "observations": {
+      "assembled_by_hand": true,
+      "seated_correctly": true
+    },
+    "decision": "Physical PASS. Freeze the Milestone 2 production deck-to-hull interface dimensions represented by this coupon.",
+    "not_supplied": [
+      "print_date",
+      "printer_model",
+      "filament_material",
+      "adhesive"
+    ]
+  },
+  "production_interface_freeze": {
+    "freeze_id": "M2-DECK-HULL-INTERFACE-2026-07-14",
+    "status": "FROZEN_PHYSICAL_PASS",
+    "record": "QA/Production_Interface_Freeze.json"
   }
 }
