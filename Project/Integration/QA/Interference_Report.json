@@ -1,0 +1,68 @@
+{
+  "generated_utc": "2026-07-14T17:43:05.697205+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Hull/deck unintended overlap",
+      "status": "PASS",
+      "evidence": "0.00000000 mm\u00b3; maximum 0.10 mm\u00b3"
+    },
+    {
+      "name": "Pads clear hull sockets",
+      "status": "PASS",
+      "evidence": "unintended overlap 0.00000000 mm\u00b3"
+    },
+    {
+      "name": "Pads clear deck sockets",
+      "status": "PASS",
+      "evidence": "unintended overlap 0.00000000 mm\u00b3; tip clearance 0.25 mm"
+    },
+    {
+      "name": "Elevators removable and unobstructed",
+      "status": "PASS",
+      "evidence": "hull=0.00000000; pads=0.00000000; deck/shelf=0.00000000 mm\u00b3"
+    },
+    {
+      "name": "Island opening unobstructed",
+      "status": "PASS",
+      "evidence": "obstruction above seating datum 0.00000000 mm\u00b3"
+    }
+  ],
+  "measurements": {
+    "production_part_count": 55,
+    "coupon_part_count": 2,
+    "hull_deck_unintended_overlap_mm3": 0.0,
+    "pad_hull_overlap_mm3": 0.0,
+    "pad_deck_overlap_mm3": 0.0,
+    "elevator_hull_overlap_mm3": 0.0,
+    "elevator_pad_overlap_mm3": 0.0,
+    "elevator_deck_overlap_mm3": 0.0,
+    "island_opening_obstruction_mm3": 0.0,
+    "hull_length_mm": 476.0000000000001,
+    "deck_length_mm": 476.0,
+    "assembled_length_mm": 476.0000000000001,
+    "bow_datum_error_mm": 0.0,
+    "stern_datum_error_mm": 1.1368683772161603e-13,
+    "centerline_error_mm": 0.0,
+    "seating_gap_mm": -9.755751761986176e-12,
+    "deck_base_spread_mm": 0.0,
+    "deck_collective_y_mm": [
+      -36.7,
+      37.0
+    ],
+    "hull_socket_count": 12,
+    "deck_socket_count": 12,
+    "hull_socket_size_mm": [
+      6.5,
+      6.5,
+      1.25
+    ],
+    "deck_socket_size_mm": [
+      6.5,
+      6.5,
+      1.5000000000000036
+    ],
+    "measured_clearance_per_side_mm": 0.25
+  },
+  "method": "OpenCascade common-volume checks between production BReps in assembled coordinates"
+}

@@ -1,0 +1,56 @@
+object_name,material
+Arresting_Wire_1,Bambu PLA Silk Silver
+Arresting_Wire_2,Bambu PLA Silk Silver
+Arresting_Wire_3,Bambu PLA Silk Silver
+Arresting_Wire_4,Bambu PLA Silk Silver
+Catapult_1_Bow_Port,Bambu PLA Silk Silver
+Catapult_2_Bow_Starboard,Bambu PLA Silk Silver
+Catapult_3_Waist_Inner,Bambu PLA Silk Silver
+Catapult_4_Waist_Outer,Bambu PLA Silk Silver
+Deck_Module_1_Bow,Bambu PLA Matte Charcoal
+Deck_Module_2_Midship,Bambu PLA Matte Charcoal
+Deck_Module_3_Stern,Bambu PLA Matte Charcoal
+Elevator_1_Port,Bambu PLA Matte Charcoal
+Elevator_2_Starboard,Bambu PLA Matte Charcoal
+Elevator_3_Starboard,Bambu PLA Matte Charcoal
+Elevator_4_Starboard,Bambu PLA Matte Charcoal
+Hull_Module_1_Bow,Bambu PLA Matte Ash Gray
+Hull_Module_2_Midship,Bambu PLA Matte Ash Gray
+Hull_Module_3_Stern,Bambu PLA Matte Ash Gray
+Interface_Pad_01_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_01_Starboard,Bambu PLA Matte Ash Gray
+Interface_Pad_02_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_02_Starboard,Bambu PLA Matte Ash Gray
+Interface_Pad_03_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_03_Starboard,Bambu PLA Matte Ash Gray
+Interface_Pad_04_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_04_Starboard,Bambu PLA Matte Ash Gray
+Interface_Pad_05_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_05_Starboard,Bambu PLA Matte Ash Gray
+Interface_Pad_06_Port,Bambu PLA Matte Ash Gray
+Interface_Pad_06_Starboard,Bambu PLA Matte Ash Gray
+Propeller_1,Bambu PLA Silk Silver
+Propeller_2,Bambu PLA Silk Silver
+Propeller_3,Bambu PLA Silk Silver
+Propeller_4,Bambu PLA Silk Silver
+Raised_Marking_Bow_Centerline,Bambu PLA Matte Ivory White
+Raised_Marking_Elevator_1_Port,Bambu PLA Matte Ivory White
+Raised_Marking_Elevator_2_Starboard,Bambu PLA Matte Ivory White
+Raised_Marking_Elevator_3_Starboard,Bambu PLA Matte Ivory White
+Raised_Marking_Elevator_4_Starboard,Bambu PLA Matte Ivory White
+Raised_Marking_Landing_Aft,Bambu PLA Matte Ivory White
+Raised_Marking_Landing_Forward,Bambu PLA Matte Ivory White
+Rudder_Port,Bambu PLA Matte Ash Gray
+Rudder_Starboard,Bambu PLA Matte Ash Gray
+Shaft_1,Bambu PLA Silk Silver
+Shaft_1_Strut_P,Bambu PLA Matte Ash Gray
+Shaft_1_Strut_S,Bambu PLA Matte Ash Gray
+Shaft_2,Bambu PLA Silk Silver
+Shaft_2_Strut_P,Bambu PLA Matte Ash Gray
+Shaft_2_Strut_S,Bambu PLA Matte Ash Gray
+Shaft_3,Bambu PLA Silk Silver
+Shaft_3_Strut_P,Bambu PLA Matte Ash Gray
+Shaft_3_Strut_S,Bambu PLA Matte Ash Gray
+Shaft_4,Bambu PLA Silk Silver
+Shaft_4_Strut_P,Bambu PLA Matte Ash Gray
+Shaft_4_Strut_S,Bambu PLA Matte Ash Gray

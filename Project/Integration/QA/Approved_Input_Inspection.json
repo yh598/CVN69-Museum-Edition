@@ -1,0 +1,61 @@
+{
+  "inspected_utc": "2026-07-14T17:29:01.847201+00:00",
+  "freecad_version": "1.1.1",
+  "authoritative_coordinate_system": {
+    "x": "0 mm bow to 476 mm stern",
+    "y": "port negative to starboard positive",
+    "z": "vertical; hull keel datum"
+  },
+  "approved_hull": {
+    "overall_length_mm": 476.0,
+    "molded_depth_mm": 31.5,
+    "module_seams_x_mm": [
+      158.66666666666666,
+      317.3333333333333
+    ]
+  },
+  "approved_flight_deck": {
+    "overall_length_mm": 476.0,
+    "source_seams_x_mm": [
+      190.0,
+      330.0
+    ],
+    "authoritative_seams_x_mm": [
+      146.0,
+      286.0
+    ],
+    "transform": "mirror about x=238 mm; preserve y; translate z by hull molded depth"
+  },
+  "files": [
+    {
+      "path": "Project/CAD/FreeCAD/Hull.FCStd",
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    {
+      "path": "Project/STEP/Hull.step",
+      "bytes": 4088259,
+      "sha256": "c51b7cecc7389ba3ebc62d9cf3cb7ef4a5615f10396aea42951bea8000d2ccc1"
+    },
+    {
+      "path": "Project/QA/build_manifest.json",
+      "bytes": 11729,
+      "sha256": "af42acbeaca60953f58fbaf6b135f96418790e2b74e7b5b9182a8d0c0cc36615"
+    },
+    {
+      "path": "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd",
+      "bytes": 95768,
+      "sha256": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244"
+    },
+    {
+      "path": "Project/FlightDeck/STEP/CVN69_Flight_Deck_Assembly.step",
+      "bytes": 529028,
+      "sha256": "eafea70f7374c85c3158177dc5df617e57498963e979aba963bef51861339b9f"
+    },
+    {
+      "path": "Project/FlightDeck/QA/build_manifest.json",
+      "bytes": 19066,
+      "sha256": "f27d996c63f7bbd7df976bd113b1a475ee4870a5a490a5c3ce0f43f352f15db3"
+    }
+  ]
+}

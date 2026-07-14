@@ -1,0 +1,2192 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "Milestone 2 \u2014 Hull\u2013Flight-Deck Integration",
+  "version": "0.2.0-review",
+  "generated_utc": "2026-07-14T17:29:05.353265+00:00",
+  "freecad_version": "1.1.1",
+  "coordinate_system": {
+    "x": "0 bow to 476 stern",
+    "y": "port negative to starboard positive",
+    "z": "vertical from hull keel datum",
+    "deck_source_transform": "x_authoritative = 476 - x_source; y unchanged; z += 31.5"
+  },
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "deck_base_z": 31.5,
+    "hull_module_seams": [
+      158.66666666666666,
+      317.3333333333333
+    ],
+    "deck_module_seams": [
+      146.0,
+      286.0
+    ],
+    "interface_clearance_per_side": 0.25,
+    "pad_size": [
+      6.0,
+      6.0,
+      2.4
+    ],
+    "pad_x_stations": [
+      32.0,
+      105.0,
+      205.0,
+      270.0,
+      370.0,
+      445.0
+    ],
+    "pad_y_centers": [
+      -8.0,
+      8.0
+    ],
+    "hull_socket_depth": 1.2,
+    "deck_socket_depth": 1.45,
+    "deck_top_skin_over_socket": 1.55,
+    "vertical_pad_tip_clearance": 0.25,
+    "nominal_seating_gap": 0.0
+  },
+  "counts": {
+    "hull_modules": 3,
+    "hull_accessories": 18,
+    "deck_modules": 3,
+    "deck_details": 19,
+    "interface_pads": 12,
+    "production_parts": 55,
+    "coupon_parts": 2
+  },
+  "material_mapping": {
+    "Hull_Module_1_Bow": "Bambu PLA Matte Ash Gray",
+    "Hull_Module_2_Midship": "Bambu PLA Matte Ash Gray",
+    "Hull_Module_3_Stern": "Bambu PLA Matte Ash Gray",
+    "Shaft_1": "Bambu PLA Silk Silver",
+    "Propeller_1": "Bambu PLA Silk Silver",
+    "Shaft_1_Strut_P": "Bambu PLA Matte Ash Gray",
+    "Shaft_1_Strut_S": "Bambu PLA Matte Ash Gray",
+    "Shaft_2": "Bambu PLA Silk Silver",
+    "Propeller_2": "Bambu PLA Silk Silver",
+    "Shaft_2_Strut_P": "Bambu PLA Matte Ash Gray",
+    "Shaft_2_Strut_S": "Bambu PLA Matte Ash Gray",
+    "Shaft_3": "Bambu PLA Silk Silver",
+    "Propeller_3": "Bambu PLA Silk Silver",
+    "Shaft_3_Strut_P": "Bambu PLA Matte Ash Gray",
+    "Shaft_3_Strut_S": "Bambu PLA Matte Ash Gray",
+    "Shaft_4": "Bambu PLA Silk Silver",
+    "Propeller_4": "Bambu PLA Silk Silver",
+    "Shaft_4_Strut_P": "Bambu PLA Matte Ash Gray",
+    "Shaft_4_Strut_S": "Bambu PLA Matte Ash Gray",
+    "Rudder_Port": "Bambu PLA Matte Ash Gray",
+    "Rudder_Starboard": "Bambu PLA Matte Ash Gray",
+    "Deck_Module_1_Bow": "Bambu PLA Matte Charcoal",
+    "Deck_Module_2_Midship": "Bambu PLA Matte Charcoal",
+    "Deck_Module_3_Stern": "Bambu PLA Matte Charcoal",
+    "Arresting_Wire_1": "Bambu PLA Silk Silver",
+    "Arresting_Wire_2": "Bambu PLA Silk Silver",
+    "Arresting_Wire_3": "Bambu PLA Silk Silver",
+    "Arresting_Wire_4": "Bambu PLA Silk Silver",
+    "Catapult_1_Bow_Port": "Bambu PLA Silk Silver",
+    "Catapult_2_Bow_Starboard": "Bambu PLA Silk Silver",
+    "Catapult_3_Waist_Inner": "Bambu PLA Silk Silver",
+    "Catapult_4_Waist_Outer": "Bambu PLA Silk Silver",
+    "Elevator_1_Port": "Bambu PLA Matte Charcoal",
+    "Elevator_2_Starboard": "Bambu PLA Matte Charcoal",
+    "Elevator_3_Starboard": "Bambu PLA Matte Charcoal",
+    "Elevator_4_Starboard": "Bambu PLA Matte Charcoal",
+    "Raised_Marking_Bow_Centerline": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Elevator_1_Port": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Elevator_2_Starboard": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Elevator_3_Starboard": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Elevator_4_Starboard": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Landing_Aft": "Bambu PLA Matte Ivory White",
+    "Raised_Marking_Landing_Forward": "Bambu PLA Matte Ivory White",
+    "Interface_Pad_01_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_01_Starboard": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_02_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_02_Starboard": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_03_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_03_Starboard": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_04_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_04_Starboard": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_05_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_05_Starboard": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_06_Port": "Bambu PLA Matte Ash Gray",
+    "Interface_Pad_06_Starboard": "Bambu PLA Matte Ash Gray"
+  },
+  "shapes": [
+    {
+      "name": "Hull_Module_1_Bow",
+      "kind": "hull_module",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Hull_Module_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 211726.97348,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          164.66667
+        ],
+        "y": [
+          -29.0702,
+          29.07019
+        ],
+        "z": [
+          0.06904,
+          31.5
+        ],
+        "size": [
+          164.66667,
+          58.14038,
+          31.43096
+        ]
+      }
+    },
+    {
+      "name": "Hull_Module_2_Midship",
+      "kind": "hull_module",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Hull_Module_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 260058.39797,
+      "bounds_mm": {
+        "x": [
+          158.56667,
+          323.33333
+        ],
+        "y": [
+          -29.15107,
+          29.15188
+        ],
+        "z": [
+          0.06989,
+          31.5
+        ],
+        "size": [
+          164.76667,
+          58.30295,
+          31.43011
+        ]
+      }
+    },
+    {
+      "name": "Hull_Module_3_Stern",
+      "kind": "hull_module",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Hull_Module_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 238438.25272,
+      "bounds_mm": {
+        "x": [
+          317.23333,
+          476.0
+        ],
+        "y": [
+          -28.92345,
+          28.92323
+        ],
+        "z": [
+          0.07409,
+          31.5
+        ],
+        "size": [
+          158.76667,
+          57.84668,
+          31.42591
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1",
+      "kind": "shaft",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Shaft_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 79.60053,
+      "bounds_mm": {
+        "x": [
+          393.04891,
+          442.92709
+        ],
+        "y": [
+          -15.25125,
+          -11.421
+        ],
+        "z": [
+          -3.61957,
+          6.12457
+        ],
+        "size": [
+          49.87817,
+          3.83025,
+          9.74414
+        ]
+      }
+    },
+    {
+      "name": "Propeller_1",
+      "kind": "propeller",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Propeller_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.94413,
+      "bounds_mm": {
+        "x": [
+          441.5625,
+          443.6375
+        ],
+        "y": [
+          -17.88336,
+          -10.757
+        ],
+        "z": [
+          -6.36572,
+          0.89655
+        ],
+        "size": [
+          2.075,
+          7.12636,
+          7.26227
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1_Strut_P",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_1_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          405.92205,
+          409.67427
+        ],
+        "y": [
+          -15.98396,
+          -12.39541
+        ],
+        "z": [
+          2.27337,
+          7.52723
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1_Strut_S",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_1_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          405.92205,
+          409.67427
+        ],
+        "y": [
+          -13.48396,
+          -9.89541
+        ],
+        "z": [
+          2.27337,
+          7.52723
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2",
+      "kind": "shaft",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Shaft_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 81.0718,
+      "bounds_mm": {
+        "x": [
+          400.66372,
+          451.49628
+        ],
+        "y": [
+          -7.96358,
+          -5.37254
+        ],
+        "z": [
+          -3.21938,
+          6.75438
+        ],
+        "size": [
+          50.83256,
+          2.59104,
+          9.97376
+        ]
+      }
+    },
+    {
+      "name": "Propeller_2",
+      "kind": "propeller",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Propeller_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.94413,
+      "bounds_mm": {
+        "x": [
+          450.1305,
+          452.2055
+        ],
+        "y": [
+          -10.59586,
+          -3.4695
+        ],
+        "z": [
+          -5.96572,
+          1.29655
+        ],
+        "size": [
+          2.075,
+          7.12636,
+          7.26227
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2_Strut_P",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_2_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          413.86173,
+          417.61395
+        ],
+        "y": [
+          -9.51412,
+          -5.92556
+        ],
+        "z": [
+          2.82517,
+          8.07903
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2_Strut_S",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_2_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          413.86173,
+          417.61395
+        ],
+        "y": [
+          -7.01412,
+          -3.42556
+        ],
+        "z": [
+          2.82517,
+          8.07903
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3",
+      "kind": "shaft",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Shaft_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 81.0718,
+      "bounds_mm": {
+        "x": [
+          400.66372,
+          451.49628
+        ],
+        "y": [
+          5.37254,
+          7.96358
+        ],
+        "z": [
+          -3.21938,
+          6.75438
+        ],
+        "size": [
+          50.83256,
+          2.59104,
+          9.97376
+        ]
+      }
+    },
+    {
+      "name": "Propeller_3",
+      "kind": "propeller",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Propeller_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.94413,
+      "bounds_mm": {
+        "x": [
+          450.1305,
+          452.2055
+        ],
+        "y": [
+          3.97914,
+          11.1055
+        ],
+        "z": [
+          -5.96572,
+          1.29655
+        ],
+        "size": [
+          2.075,
+          7.12636,
+          7.26227
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3_Strut_P",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_3_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          413.86173,
+          417.61395
+        ],
+        "y": [
+          3.42556,
+          7.01412
+        ],
+        "z": [
+          2.82517,
+          8.07903
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3_Strut_S",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_3_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          413.86173,
+          417.61395
+        ],
+        "y": [
+          5.92556,
+          9.51412
+        ],
+        "z": [
+          2.82517,
+          8.07903
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4",
+      "kind": "shaft",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Shaft_4",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 79.60053,
+      "bounds_mm": {
+        "x": [
+          393.04891,
+          442.92709
+        ],
+        "y": [
+          11.421,
+          15.25125
+        ],
+        "z": [
+          -3.61957,
+          6.12457
+        ],
+        "size": [
+          49.87817,
+          3.83025,
+          9.74414
+        ]
+      }
+    },
+    {
+      "name": "Propeller_4",
+      "kind": "propeller",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Propeller_4",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.94413,
+      "bounds_mm": {
+        "x": [
+          441.5625,
+          443.6375
+        ],
+        "y": [
+          11.26664,
+          18.393
+        ],
+        "z": [
+          -6.36572,
+          0.89655
+        ],
+        "size": [
+          2.075,
+          7.12636,
+          7.26227
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4_Strut_P",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_4_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          405.92205,
+          409.67427
+        ],
+        "y": [
+          9.89541,
+          13.48396
+        ],
+        "z": [
+          2.27337,
+          7.52723
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4_Strut_S",
+      "kind": "strut",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Shaft_4_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.85242,
+      "bounds_mm": {
+        "x": [
+          405.92205,
+          409.67427
+        ],
+        "y": [
+          12.39541,
+          15.98396
+        ],
+        "z": [
+          2.27337,
+          7.52723
+        ],
+        "size": [
+          3.75221,
+          3.58856,
+          5.25387
+        ]
+      }
+    },
+    {
+      "name": "Rudder_Port",
+      "kind": "rudder",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Rudder_Port",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 143.59858,
+      "bounds_mm": {
+        "x": [
+          445.06,
+          461.06
+        ],
+        "y": [
+          -9.6365,
+          -8.4365
+        ],
+        "z": [
+          -6.0,
+          6.1
+        ],
+        "size": [
+          16.0,
+          1.2,
+          12.1
+        ]
+      }
+    },
+    {
+      "name": "Rudder_Starboard",
+      "kind": "rudder",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "Rudder_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 143.59858,
+      "bounds_mm": {
+        "x": [
+          445.06,
+          461.06
+        ],
+        "y": [
+          8.4365,
+          9.6365
+        ],
+        "z": [
+          -6.0,
+          6.1
+        ],
+        "size": [
+          16.0,
+          1.2,
+          12.1
+        ]
+      }
+    },
+    {
+      "name": "Deck_Module_1_Bow",
+      "kind": "deck_module",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Main_Deck_Module_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 16511.96978,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          146.0
+        ],
+        "y": [
+          -34.36897,
+          35.07143
+        ],
+        "z": [
+          31.5,
+          34.5
+        ],
+        "size": [
+          146.0,
+          69.44039,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Deck_Module_2_Midship",
+      "kind": "deck_module",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Main_Deck_Module_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 29205.02831,
+      "bounds_mm": {
+        "x": [
+          139.0,
+          286.0
+        ],
+        "y": [
+          -36.7,
+          37.0
+        ],
+        "z": [
+          31.5,
+          34.5
+        ],
+        "size": [
+          147.0,
+          73.7,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Deck_Module_3_Stern",
+      "kind": "deck_module",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Main_Deck_Module_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 33225.89791,
+      "bounds_mm": {
+        "x": [
+          279.0,
+          476.0
+        ],
+        "y": [
+          -34.70303,
+          35.10606
+        ],
+        "z": [
+          31.5,
+          34.5
+        ],
+        "size": [
+          197.0,
+          69.80909,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_1",
+      "kind": "arresting_wire",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Arresting_Wire_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          418.59833,
+          421.40167
+        ],
+        "y": [
+          -18.01939,
+          11.93035
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          2.80333,
+          29.94975,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_2",
+      "kind": "arresting_wire",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Arresting_Wire_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          406.59833,
+          409.40167
+        ],
+        "y": [
+          -18.94405,
+          11.0057
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          2.80333,
+          29.94975,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_3",
+      "kind": "arresting_wire",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Arresting_Wire_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          394.59833,
+          397.40167
+        ],
+        "y": [
+          -19.86871,
+          10.08104
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          2.80333,
+          29.94975,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Arresting_Wire_4",
+      "kind": "arresting_wire",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Arresting_Wire_4",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.25,
+      "bounds_mm": {
+        "x": [
+          382.59833,
+          385.40167
+        ],
+        "y": [
+          -20.79337,
+          9.15638
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          2.80333,
+          29.94975,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Catapult_1_Bow_Port",
+      "kind": "catapult_track",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Catapult_1_Bow_Port",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 41.28031,
+      "bounds_mm": {
+        "x": [
+          10.99845,
+          140.00155
+        ],
+        "y": [
+          -7.9,
+          -6.6
+        ],
+        "z": [
+          34.5,
+          34.9
+        ],
+        "size": [
+          129.0031,
+          1.29999,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_2_Bow_Starboard",
+      "kind": "catapult_track",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Catapult_2_Bow_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 40.96125,
+      "bounds_mm": {
+        "x": [
+          11.99688,
+          140.00312
+        ],
+        "y": [
+          6.60001,
+          8.39999
+        ],
+        "z": [
+          34.5,
+          34.9
+        ],
+        "size": [
+          128.00625,
+          1.79998,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_3_Waist_Inner",
+      "kind": "catapult_track",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Catapult_3_Waist_Inner",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 52.98972,
+      "bounds_mm": {
+        "x": [
+          160.96618,
+          326.03382
+        ],
+        "y": [
+          -22.89857,
+          -8.10143
+        ],
+        "z": [
+          34.5,
+          34.9
+        ],
+        "size": [
+          165.06764,
+          14.79714,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Catapult_4_Waist_Outer",
+      "kind": "catapult_track",
+      "material": "Bambu PLA Silk Silver",
+      "source": "Catapult_4_Waist_Outer",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 50.70561,
+      "bounds_mm": {
+        "x": [
+          173.96971,
+          332.03029
+        ],
+        "y": [
+          -32.39885,
+          -19.60115
+        ],
+        "z": [
+          34.5,
+          34.9
+        ],
+        "size": [
+          158.06059,
+          12.7977,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "Elevator_1_Port",
+      "kind": "elevator",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Elevator_1_Port",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 596.736,
+      "bounds_mm": {
+        "x": [
+          409.5,
+          435.5
+        ],
+        "y": [
+          -31.8,
+          -19.0
+        ],
+        "z": [
+          32.7,
+          34.5
+        ],
+        "size": [
+          26.0,
+          12.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_2_Starboard",
+      "kind": "elevator",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Elevator_2_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 544.176,
+      "bounds_mm": {
+        "x": [
+          408.0,
+          430.0
+        ],
+        "y": [
+          20.0,
+          33.8
+        ],
+        "z": [
+          32.7,
+          34.5
+        ],
+        "size": [
+          22.0,
+          13.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_3_Starboard",
+      "kind": "elevator",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Elevator_3_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 638.856,
+      "bounds_mm": {
+        "x": [
+          296.0,
+          322.0
+        ],
+        "y": [
+          20.1,
+          33.8
+        ],
+        "z": [
+          32.7,
+          34.5
+        ],
+        "size": [
+          26.0,
+          13.7,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Elevator_4_Starboard",
+      "kind": "elevator",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "Elevator_4_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 677.016,
+      "bounds_mm": {
+        "x": [
+          222.0,
+          247.5
+        ],
+        "y": [
+          20.0,
+          34.8
+        ],
+        "z": [
+          32.7,
+          34.5
+        ],
+        "size": [
+          25.5,
+          14.8,
+          1.8
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Bow_Centerline",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Bow_Centerline",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 32.13,
+      "bounds_mm": {
+        "x": [
+          8.0,
+          141.0
+        ],
+        "y": [
+          -2.8,
+          2.8
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          133.0,
+          5.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_1_Port",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Elevator_1_Port",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 14.658,
+      "bounds_mm": {
+        "x": [
+          410.1,
+          434.9
+        ],
+        "y": [
+          -31.2,
+          -19.6
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          24.8,
+          11.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_2_Starboard",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Elevator_2_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 13.398,
+      "bounds_mm": {
+        "x": [
+          408.6,
+          429.4
+        ],
+        "y": [
+          20.6,
+          33.2
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          20.8,
+          12.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_3_Starboard",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Elevator_3_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 15.036,
+      "bounds_mm": {
+        "x": [
+          296.6,
+          321.4
+        ],
+        "y": [
+          20.7,
+          33.2
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          24.8,
+          12.5,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Elevator_4_Starboard",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Elevator_4_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 15.288,
+      "bounds_mm": {
+        "x": [
+          222.6,
+          246.9
+        ],
+        "y": [
+          20.6,
+          34.2
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          24.3,
+          13.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Landing_Aft",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Landing_Aft",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 129.42035,
+      "bounds_mm": {
+        "x": [
+          286.67027,
+          466.82973
+        ],
+        "y": [
+          -24.02236,
+          11.26808
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          180.15946,
+          35.29044,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Raised_Marking_Landing_Forward",
+      "kind": "raised_marking",
+      "material": "Bambu PLA Matte Ivory White",
+      "source": "Raised_Marking_Landing_Forward",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 82.29536,
+      "bounds_mm": {
+        "x": [
+          173.17027,
+          285.32973
+        ],
+        "y": [
+          -32.76808,
+          -2.71737
+        ],
+        "z": [
+          34.5,
+          34.85
+        ],
+        "size": [
+          112.15946,
+          30.05071,
+          0.35
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_01_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          29.0,
+          35.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_01_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          29.0,
+          35.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_02_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          102.0,
+          108.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_02_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          102.0,
+          108.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_03_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          202.0,
+          208.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_03_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          202.0,
+          208.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_04_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          267.0,
+          273.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_04_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          267.0,
+          273.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_05_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          367.0,
+          373.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_05_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          367.0,
+          373.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_06_Port",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          442.0,
+          448.0
+        ],
+        "y": [
+          -11.0,
+          -5.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "Interface_Pad_06_Starboard",
+      "kind": "interface_pad",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 86.4,
+      "bounds_mm": {
+        "x": [
+          442.0,
+          448.0
+        ],
+        "y": [
+          5.0,
+          11.0
+        ],
+        "z": [
+          30.3,
+          32.7
+        ],
+        "size": [
+          6.0,
+          6.0,
+          2.4
+        ]
+      }
+    }
+  ],
+  "coupon_shapes": [
+    {
+      "name": "Interface_Test_Coupon_Male",
+      "kind": "test_coupon",
+      "material": "Bambu PLA Matte Ash Gray",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 2043.2,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          25.0
+        ],
+        "y": [
+          0.0,
+          20.0
+        ],
+        "z": [
+          0.0,
+          5.2
+        ],
+        "size": [
+          25.0,
+          20.0,
+          5.2
+        ]
+      }
+    },
+    {
+      "name": "Interface_Test_Coupon_Female",
+      "kind": "test_coupon",
+      "material": "Bambu PLA Matte Charcoal",
+      "source": "new integration geometry",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 1438.7375,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          25.0
+        ],
+        "y": [
+          0.0,
+          20.0
+        ],
+        "z": [
+          4.0,
+          7.0
+        ],
+        "size": [
+          25.0,
+          20.0,
+          3.0
+        ]
+      }
+    }
+  ],
+  "stl_facets": {
+    "Hull_Module_1_Bow.stl": 41296,
+    "Hull_Module_2_Midship.stl": 15008,
+    "Hull_Module_3_Stern.stl": 11676,
+    "Shaft_1.stl": 20,
+    "Propeller_1.stl": 1444,
+    "Shaft_1_Strut_P.stl": 20,
+    "Shaft_1_Strut_S.stl": 20,
+    "Shaft_2.stl": 20,
+    "Propeller_2.stl": 1444,
+    "Shaft_2_Strut_P.stl": 20,
+    "Shaft_2_Strut_S.stl": 20,
+    "Shaft_3.stl": 20,
+    "Propeller_3.stl": 1444,
+    "Shaft_3_Strut_P.stl": 20,
+    "Shaft_3_Strut_S.stl": 20,
+    "Shaft_4.stl": 20,
+    "Propeller_4.stl": 1444,
+    "Shaft_4_Strut_P.stl": 20,
+    "Shaft_4_Strut_S.stl": 20,
+    "Rudder_Port.stl": 32,
+    "Rudder_Starboard.stl": 32,
+    "Deck_Module_1_Bow.stl": 148,
+    "Deck_Module_2_Midship.stl": 204,
+    "Deck_Module_3_Stern.stl": 312,
+    "Arresting_Wire_1.stl": 12,
+    "Arresting_Wire_2.stl": 12,
+    "Arresting_Wire_3.stl": 12,
+    "Arresting_Wire_4.stl": 12,
+    "Catapult_1_Bow_Port.stl": 12,
+    "Catapult_2_Bow_Starboard.stl": 12,
+    "Catapult_3_Waist_Inner.stl": 12,
+    "Catapult_4_Waist_Outer.stl": 12,
+    "Elevator_1_Port.stl": 28,
+    "Elevator_2_Starboard.stl": 28,
+    "Elevator_3_Starboard.stl": 28,
+    "Elevator_4_Starboard.stl": 28,
+    "Raised_Marking_Bow_Centerline.stl": 140,
+    "Raised_Marking_Elevator_1_Port.stl": 64,
+    "Raised_Marking_Elevator_2_Starboard.stl": 64,
+    "Raised_Marking_Elevator_3_Starboard.stl": 64,
+    "Raised_Marking_Elevator_4_Starboard.stl": 64,
+    "Raised_Marking_Landing_Aft.stl": 196,
+    "Raised_Marking_Landing_Forward.stl": 156,
+    "Interface_Pad_01_Port.stl": 12,
+    "Interface_Pad_01_Starboard.stl": 12,
+    "Interface_Pad_02_Port.stl": 12,
+    "Interface_Pad_02_Starboard.stl": 12,
+    "Interface_Pad_03_Port.stl": 12,
+    "Interface_Pad_03_Starboard.stl": 12,
+    "Interface_Pad_04_Port.stl": 12,
+    "Interface_Pad_04_Starboard.stl": 12,
+    "Interface_Pad_05_Port.stl": 12,
+    "Interface_Pad_05_Starboard.stl": 12,
+    "Interface_Pad_06_Port.stl": 12,
+    "Interface_Pad_06_Starboard.stl": 12,
+    "Interface_Test_Coupon_Male.stl": 28,
+    "Interface_Test_Coupon_Female.stl": 28
+  },
+  "approved_input_hashes": {
+    "Project/CAD/FreeCAD/Hull.FCStd": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f",
+    "Project/STEP/Hull.step": "c51b7cecc7389ba3ebc62d9cf3cb7ef4a5615f10396aea42951bea8000d2ccc1",
+    "Project/QA/build_manifest.json": "af42acbeaca60953f58fbaf6b135f96418790e2b74e7b5b9182a8d0c0cc36615",
+    "Project/FlightDeck/CAD/FreeCAD/CVN69_Flight_Deck_Reconstruction.FCStd": "7b4e1387fd9be7712cc8ad172b4504ee8a292f8017a5218b18e16d60509c8244",
+    "Project/FlightDeck/STEP/CVN69_Flight_Deck_Assembly.step": "eafea70f7374c85c3158177dc5df617e57498963e979aba963bef51861339b9f",
+    "Project/FlightDeck/QA/build_manifest.json": "f27d996c63f7bbd7df976bd113b1a475ee4870a5a490a5c3ce0f43f352f15db3"
+  },
+  "outputs": {
+    "QA/Approved_Input_Inspection.json": {
+      "bytes": 1786,
+      "sha256": "70dafa94e97fa62afeeb1dba1a65d093005f488ca934cc15f033db2e510922f4"
+    },
+    "CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1517147,
+      "sha256": "be8611d8ad47c4c5440231d257e2e74796acacf5345dfab76805da6dcdacb06c"
+    },
+    "STEP/CVN69_Hull_Deck_Assembly.step": {
+      "bytes": 4874528,
+      "sha256": "04b3fbd96786a989cd35d578080d2d510c1f6f32e5a94dfdbb3e05376127bf37"
+    },
+    "STEP/Interface_Test_Coupon.step": {
+      "bytes": 22566,
+      "sha256": "c34c15f823fd641c27a9ab95bdf08b73c5dc897e5537ed4a6689a9a8b9b3ce68"
+    },
+    "OBJ/CVN69_Hull_Deck_Assembly.obj": {
+      "bytes": 2678917,
+      "sha256": "c269f4b33ab1ff2c1c237c35f667a32a7ecd4c550e48394fdbd05eef9627699b"
+    },
+    "OBJ/CVN69_Hull_Deck_Assembly.mtl": {
+      "bytes": 307,
+      "sha256": "1105cdeee7993cda6ba2c9c492580adb883424a20c81a68188badfdd1c385dec"
+    },
+    "3MF/CVN69_Hull_Deck_Assembly.3mf": {
+      "bytes": 973126,
+      "sha256": "14e87107f94b6292bbd75db196db97ab3dce58a3bbc553cb85430b6fbcf6b06d"
+    },
+    "3MF/Print_Plate_01_Hull.3mf": {
+      "bytes": 955734,
+      "sha256": "fbadf12dbb3b5a97ccdb178e8f6f38d78501afb1709f5bb815c4d0f90b72fea5"
+    },
+    "3MF/Print_Plate_02_Deck.3mf": {
+      "bytes": 6889,
+      "sha256": "9bd11bd01025be0c6bf70fe6f4f77c1454d83f4bdf174df47dec7e69eab51604"
+    },
+    "3MF/Print_Plate_03_Details.3mf": {
+      "bytes": 10811,
+      "sha256": "e5ac5c90a8513d8607868874c2a463650d17cd2a86330f792eeae12adb571ccc"
+    },
+    "3MF/Interface_Test_Coupon.3mf": {
+      "bytes": 1598,
+      "sha256": "1e327dd22bb8fc535e6e413df91aee6eb14335342a36dd7841dccfc30deb820e"
+    },
+    "STL/Hull_Module_1_Bow.stl": {
+      "bytes": 2064884,
+      "sha256": "ec04a0229a820c23fd58d949851582eb999d38306ccafe0eadef4f0df7dd2ca4"
+    },
+    "STL/Hull_Module_2_Midship.stl": {
+      "bytes": 750484,
+      "sha256": "e5af4654adf0235738d541274e5c181c98a46c4acc32cafd52a5ed10369b157e"
+    },
+    "STL/Hull_Module_3_Stern.stl": {
+      "bytes": 583884,
+      "sha256": "bb258458e6154b998c8774d1f72bb0aedbe638836407576240a01544306e62dd"
+    },
+    "STL/Shaft_1.stl": {
+      "bytes": 1084,
+      "sha256": "e2bf236e6d9dc1e7dfc22f7bf494bc3f140bf777cb3115c3acdece095d2e73b1"
+    },
+    "STL/Propeller_1.stl": {
+      "bytes": 72284,
+      "sha256": "085e358599e16a243505c6681ce95e132de7446ad79029d0e5c6c39b390fe164"
+    },
+    "STL/Shaft_1_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "8a1fa44659eb3f0e5e6043175dbb6d946ca8cba614e883319dc6a930b37c93ef"
+    },
+    "STL/Shaft_1_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "f8c2bcdf93900ae08300a21792fd5f3a28b7a7d17949199958239b4445fef5e1"
+    },
+    "STL/Shaft_2.stl": {
+      "bytes": 1084,
+      "sha256": "4c4aad890244cd79a395ddc4c275581475a5da5059a6d321945486f0441ce9c4"
+    },
+    "STL/Propeller_2.stl": {
+      "bytes": 72284,
+      "sha256": "2b60d3fc8938afa531efbf186d7a5c3ecaf25b5c011f345698ec782a4b0847b6"
+    },
+    "STL/Shaft_2_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "62adf110eb97b1626df1d9995dcffd3e86f28cbd21ec44217d643447a11f747b"
+    },
+    "STL/Shaft_2_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "68e22a2d36a3aeab7b45bb89c7ceafe5515700774847f2998f2a4682bf0a1765"
+    },
+    "STL/Shaft_3.stl": {
+      "bytes": 1084,
+      "sha256": "6bd95cd190e6f9c4a50d0068c7fd61f15856fc73f4eb751f90bd5d0351fc50ef"
+    },
+    "STL/Propeller_3.stl": {
+      "bytes": 72284,
+      "sha256": "1d6cb5ebbd3500a27dd330d82aebdcecc12e1ee97ce10636e297febbdf015f5e"
+    },
+    "STL/Shaft_3_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "42e29c405b38f75651eb1077779437c98e5ad1cd1ea0a5e3e24db4d1ca2f8d1b"
+    },
+    "STL/Shaft_3_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "f0c80b1a4b7da49d340c56a02444c0f6b1bda1e5efc4cf654046e962eb94e159"
+    },
+    "STL/Shaft_4.stl": {
+      "bytes": 1084,
+      "sha256": "85f935770df4ee681d3b90fd92141058729ab7c663463cb474f647bee3d16a5c"
+    },
+    "STL/Propeller_4.stl": {
+      "bytes": 72284,
+      "sha256": "0526b7f5307dd3d44b531653a2d3034b37d9c098e4672882f92b5d23bbac7741"
+    },
+    "STL/Shaft_4_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "05ccb6db86116f2029ecdaeabe683cb4d747734bd93aa200de6c329753714eb5"
+    },
+    "STL/Shaft_4_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "cb2d445eab54defa732ebf9b061a72a496349d7ab37bc4398b9f1b13b5f3ccf5"
+    },
+    "STL/Rudder_Port.stl": {
+      "bytes": 1684,
+      "sha256": "b9ba38958251eda040cdda7716bd11e5a5e16bdd42ca9741e99615975062619f"
+    },
+    "STL/Rudder_Starboard.stl": {
+      "bytes": 1684,
+      "sha256": "b9ba38958251eda040cdda7716bd11e5a5e16bdd42ca9741e99615975062619f"
+    },
+    "STL/Deck_Module_1_Bow.stl": {
+      "bytes": 7484,
+      "sha256": "73c7fa75984fdba8cd9d3abd64386953dcff288a9da53d6f4c5d982e0c08a6a0"
+    },
+    "STL/Deck_Module_2_Midship.stl": {
+      "bytes": 10284,
+      "sha256": "1801206c925303b5edce76e85e5648958db98973da5fe505e662b7af7e54deb3"
+    },
+    "STL/Deck_Module_3_Stern.stl": {
+      "bytes": 15684,
+      "sha256": "d9536a564a98206f3490debe1b4f682b2c78214d0e892bea94cebfa7b44f8ab5"
+    },
+    "STL/Arresting_Wire_1.stl": {
+      "bytes": 684,
+      "sha256": "fb008415aacbdac5121da5acad81ff0cba5f1f9b81ce4bb20d921ee02d20366e"
+    },
+    "STL/Arresting_Wire_2.stl": {
+      "bytes": 684,
+      "sha256": "f1ddb441d6ea998c3e821966a89e75ffecbf076ee630a85676533cf2cfe915c7"
+    },
+    "STL/Arresting_Wire_3.stl": {
+      "bytes": 684,
+      "sha256": "72a7e075af3221bea84c8396002f80fcd2d2a4dbd1370f47ed42d9f3051be253"
+    },
+    "STL/Arresting_Wire_4.stl": {
+      "bytes": 684,
+      "sha256": "f1ddb441d6ea998c3e821966a89e75ffecbf076ee630a85676533cf2cfe915c7"
+    },
+    "STL/Catapult_1_Bow_Port.stl": {
+      "bytes": 684,
+      "sha256": "3343036dbea2fb4d13d131804a40c56b05dcfe8f495eeb5fb27dbb556c3d1c54"
+    },
+    "STL/Catapult_2_Bow_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "241a3ffad7a84df926addd1c1879705feabbbb05709efa776f931451e9954e94"
+    },
+    "STL/Catapult_3_Waist_Inner.stl": {
+      "bytes": 684,
+      "sha256": "6c7d137e9cacedc95834ba16a93a74ac54162814f5072d3d73784e34844249d3"
+    },
+    "STL/Catapult_4_Waist_Outer.stl": {
+      "bytes": 684,
+      "sha256": "d7f17c750ea5a611801d9db3dd54588acb85df16678842ee572a0ef61182718f"
+    },
+    "STL/Elevator_1_Port.stl": {
+      "bytes": 1484,
+      "sha256": "e40abdc73d9671b395414343fa6589b7627e8728bd131dc01c8382cdf3d66e70"
+    },
+    "STL/Elevator_2_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "b9ad95eb545f1aae21c2d1bf8a393d28add5da19a39e34770183f8bbce2835fa"
+    },
+    "STL/Elevator_3_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "b2d534e76a6446a3e92131e69438c493274af24f16d1c078961336414e548522"
+    },
+    "STL/Elevator_4_Starboard.stl": {
+      "bytes": 1484,
+      "sha256": "885ba0605b024fa61bd911ad9b68fb007b0f0409b7159ede40fe7cfcd5e8ad97"
+    },
+    "STL/Raised_Marking_Bow_Centerline.stl": {
+      "bytes": 7084,
+      "sha256": "4090376b64211e0c7621372a00dc9c3bf40bbe232980f6cf2949b3b6393682a1"
+    },
+    "STL/Raised_Marking_Elevator_1_Port.stl": {
+      "bytes": 3284,
+      "sha256": "c6e0d1c93b3e5c48bb3897a68bc1bf0b44da977eb9d7d7e81bc608f32b759c65"
+    },
+    "STL/Raised_Marking_Elevator_2_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "045fd2f83a50f246b487fa21c2194884260032bab8f5b263d350bf2b54b86a52"
+    },
+    "STL/Raised_Marking_Elevator_3_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "0d0b5974b6d8572717a02b66f2708aa831f9807a2ef6b05fa1bafedf1b05c697"
+    },
+    "STL/Raised_Marking_Elevator_4_Starboard.stl": {
+      "bytes": 3284,
+      "sha256": "22b168d79c7ab18f56c7337b2bfa0dc86ccc3902690083e3023ebf60355dcd8d"
+    },
+    "STL/Raised_Marking_Landing_Aft.stl": {
+      "bytes": 9884,
+      "sha256": "ecf00a47290a5f47eeaf2dfd5367a51be4b31a388c4983253e8dd0558c0ecc96"
+    },
+    "STL/Raised_Marking_Landing_Forward.stl": {
+      "bytes": 7884,
+      "sha256": "7ade9f0bc921b8448bf529c3e415f3c575b68bcd0af38b8e3ca5439c0d59ceb5"
+    },
+    "STL/Interface_Pad_01_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_01_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_02_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_02_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_03_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_03_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_04_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_04_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_05_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_05_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_06_Port.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Pad_06_Starboard.stl": {
+      "bytes": 684,
+      "sha256": "b3e6a11a20b650bb7a9d0d6d96dbed80af72371399360d5891d0ccbc687ed821"
+    },
+    "STL/Interface_Test_Coupon_Male.stl": {
+      "bytes": 1484,
+      "sha256": "1758e2e194c7d58b1129d23c77646d2d1022e97c485191e0a9af7ea254fda273"
+    },
+    "STL/Interface_Test_Coupon_Female.stl": {
+      "bytes": 1484,
+      "sha256": "05d27bfa8890f19d6a54657b06067089eef07da51ac2730ec9bf0ea3d1ddcf36"
+    },
+    "Render/CVN69_Hull_Deck_Top.png": {
+      "bytes": 260949,
+      "sha256": "1771995408dac5576ea064ce84507edc2678924eec9788708add23a77ef97e9e"
+    },
+    "Render/CVN69_Hull_Deck_Port.png": {
+      "bytes": 309269,
+      "sha256": "dbfd4d5fd1910e722d2ccf7b06dc3e68a1225239641748cf8bee10320469481a"
+    },
+    "Render/CVN69_Hull_Deck_Starboard.png": {
+      "bytes": 312541,
+      "sha256": "d0e9df94ceac987e17ba8c9214b784044b2a1065f0eddb1d874f934e70411983"
+    },
+    "Render/CVN69_Hull_Deck_Bow_Isometric.png": {
+      "bytes": 203009,
+      "sha256": "25253e0828dbef110b877bc2e422dcb32fd6b85be2242c3318c3f6b2953a3b70"
+    },
+    "Render/CVN69_Hull_Deck_Stern_Isometric.png": {
+      "bytes": 186345,
+      "sha256": "93bc1d858a2ca0198c36a1b11e88f2e23e3c29499eaeb5fd7c536a0785a83029"
+    },
+    "Render/CVN69_Hull_Deck_Exploded.png": {
+      "bytes": 225550,
+      "sha256": "a97d8d924ae10945a28d55e04dafca2c5dee58e2db840ecb752db28fbde17246"
+    },
+    "Render/Section_Keyed_Landing_Pad.png": {
+      "bytes": 81426,
+      "sha256": "8c83522f5f3de6110ba93a4eb2a09064d329f802387be16bc66a7312ecd94f02"
+    },
+    "Render/Section_Direct_Support.png": {
+      "bytes": 85981,
+      "sha256": "a8064975265a4d58939ee1f1439d06814ae164bc572083be70bc9139ed53bc29"
+    },
+    "Docs/Hull_Deck_Integration_Drawings.pdf": {
+      "bytes": 684740,
+      "sha256": "674287ada7c2ab94b0ec94128febfefa5822083c9c0ec4ddb92d075b3d1d8c91"
+    },
+    "Docs/Hull_Deck_Printing_Guide.pdf": {
+      "bytes": 485472,
+      "sha256": "c3c8697121adb94a454f1f69910f9af1d325274d84b6820f3fe19ec8a8f59b6f"
+    },
+    "Docs/Interface_Test_Coupon_Instructions.pdf": {
+      "bytes": 79844,
+      "sha256": "3801ee1a2138f2222126bb5f73e9bd497964268ab72c6620186b57acf2ef1863"
+    },
+    "Docs/Material_Mapping.csv": {
+      "bytes": 2541,
+      "sha256": "5a5fee03c43d7cb308f944efbc6ec3725a27ecfaf2b08152f7178224869e876a"
+    },
+    "README.md": {
+      "bytes": 4362,
+      "sha256": "78d10b7f5fb0c017e431c78b3b919b1889cd01553499e06ee4dc700297c2af60"
+    },
+    "Assembly/Glue_Only_Assembly.md": {
+      "bytes": 2761,
+      "sha256": "0aaacdf72d46a8b2db4e31131239b27a522ccb36e454e4936969ecd218844572"
+    },
+    "CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Scripts/build_hull_deck_integration.py": {
+      "bytes": 32790,
+      "sha256": "309013b1c203e147a5c518142706f3c31bcd969218897dc76050aaa92d5a702c"
+    },
+    "Scripts/render_hull_deck_integration.py": {
+      "bytes": 14387,
+      "sha256": "2845263951cda95ea0724602f4d22548251b769b828b91b8393bbdfeace1ccda"
+    },
+    "Scripts/run_bambu_integration_checks.py": {
+      "bytes": 4351,
+      "sha256": "48f13953145b8dbca2155b391fdd8460654a70becbc2338cfe220e670264a101"
+    },
+    "Scripts/generate_integration_documents.py": {
+      "bytes": 15877,
+      "sha256": "e4f37a08812706d7efbafc0a058764743e3e66b51f1cac62ad5cc1f2ae59069f"
+    },
+    "Scripts/validate_hull_deck_integration.py": {
+      "bytes": 30951,
+      "sha256": "f0cb42437540b603ff9492bc7ea180046ca7971c3c4ea736a99114292fa15060"
+    }
+  }
+}

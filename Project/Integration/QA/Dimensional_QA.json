@@ -1,0 +1,147 @@
+{
+  "generated_utc": "2026-07-14T17:43:05.697205+00:00",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "Assembled overall length",
+      "status": "PASS",
+      "evidence": "476.00000 mm; tolerance \u00b10.05 mm"
+    },
+    {
+      "name": "Hull/deck centerline coincidence",
+      "status": "PASS",
+      "evidence": "error 0.00000 mm"
+    },
+    {
+      "name": "Bow datum coincidence",
+      "status": "PASS",
+      "evidence": "error 0.00000 mm"
+    },
+    {
+      "name": "Stern datum coincidence",
+      "status": "PASS",
+      "evidence": "error 0.00000 mm"
+    },
+    {
+      "name": "Deck elevation consistency",
+      "status": "PASS",
+      "evidence": "base spread 0.00000 mm; seating gap -0.00000 mm"
+    },
+    {
+      "name": "Nominal seating gap",
+      "status": "PASS",
+      "evidence": "-0.00000 mm; maximum 0.30 mm"
+    },
+    {
+      "name": "Interface structural thickness",
+      "status": "PASS",
+      "evidence": "minimum 1.20 mm"
+    },
+    {
+      "name": "Glue clearance",
+      "status": "PASS",
+      "evidence": "measured 0.250 mm/side; parameter 0.250"
+    },
+    {
+      "name": "Staggered module-seam compatibility",
+      "status": "PASS",
+      "evidence": "deck seams (146.0, 286.0); hull seams (158.66666666666666, 317.3333333333333); nearest offsets [12.667, 31.333] mm"
+    },
+    {
+      "name": "Interface socket counts",
+      "status": "PASS",
+      "evidence": "hull=12; deck=12"
+    },
+    {
+      "name": "Deck external planform preserved",
+      "status": "PASS",
+      "evidence": "length 476.000 mm; y [-36.7, 37.0]"
+    },
+    {
+      "name": "Hull external length preserved",
+      "status": "PASS",
+      "evidence": "length 476.000 mm"
+    },
+    {
+      "name": "Physical coupon envelope",
+      "status": "PASS",
+      "evidence": "[53.0, 20.0, 5.2] mm; limit 60 \u00d7 60 \u00d7 20 mm"
+    },
+    {
+      "name": "No trapped unsupported interface cavity",
+      "status": "PASS",
+      "evidence": "open underside/top sockets; maximum roof span 6.50 mm"
+    }
+  ],
+  "measurements": {
+    "production_part_count": 55,
+    "coupon_part_count": 2,
+    "hull_deck_unintended_overlap_mm3": 0.0,
+    "pad_hull_overlap_mm3": 0.0,
+    "pad_deck_overlap_mm3": 0.0,
+    "elevator_hull_overlap_mm3": 0.0,
+    "elevator_pad_overlap_mm3": 0.0,
+    "elevator_deck_overlap_mm3": 0.0,
+    "island_opening_obstruction_mm3": 0.0,
+    "hull_length_mm": 476.0000000000001,
+    "deck_length_mm": 476.0,
+    "assembled_length_mm": 476.0000000000001,
+    "bow_datum_error_mm": 0.0,
+    "stern_datum_error_mm": 1.1368683772161603e-13,
+    "centerline_error_mm": 0.0,
+    "seating_gap_mm": -9.755751761986176e-12,
+    "deck_base_spread_mm": 0.0,
+    "deck_collective_y_mm": [
+      -36.7,
+      37.0
+    ],
+    "hull_socket_count": 12,
+    "deck_socket_count": 12,
+    "hull_socket_size_mm": [
+      6.5,
+      6.5,
+      1.25
+    ],
+    "deck_socket_size_mm": [
+      6.5,
+      6.5,
+      1.5000000000000036
+    ],
+    "measured_clearance_per_side_mm": 0.25
+  },
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "deck_base_z": 31.5,
+    "hull_module_seams": [
+      158.66666666666666,
+      317.3333333333333
+    ],
+    "deck_module_seams": [
+      146.0,
+      286.0
+    ],
+    "interface_clearance_per_side": 0.25,
+    "pad_size": [
+      6.0,
+      6.0,
+      2.4
+    ],
+    "pad_x_stations": [
+      32.0,
+      105.0,
+      205.0,
+      270.0,
+      370.0,
+      445.0
+    ],
+    "pad_y_centers": [
+      -8.0,
+      8.0
+    ],
+    "hull_socket_depth": 1.2,
+    "deck_socket_depth": 1.45,
+    "deck_top_skin_over_socket": 1.55,
+    "vertical_pad_tip_clearance": 0.25,
+    "nominal_seating_gap": 0.0
+  }
+}

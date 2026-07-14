@@ -1,5 +1,7 @@
 # USS Dwight D. Eisenhower (CVN-69) — Museum Edition
 
+Milestone 2 hull–flight-deck integration is available for review under [`Integration/`](Integration/README.md). It combines the approved hull and deck packages with a concealed printed-pad, glue-only interface; all mandatory geometry, interference, mesh, package, and Bambu Studio checks pass. It is intentionally untagged pending physical coupon and reviewer approval.
+
 The flight-deck geometry-reconstruction review package is available under [`FlightDeck/`](FlightDeck/README.md). It is a separate, untagged review deliverable and does not alter the released Milestone 1 hull files.
 
 Milestone 1 (`v0.1.0`) is the complete 1:700 hull release. It contains the bulbous-bow/full-hull envelope, cruiser stern, engraved waterline witness, paired anchor recesses, three keyed hull modules, four shaft lines with A-brackets and five-blade propellers, and twin rudders. Flight-deck details, island, weapons, aircraft, radar, and display bases are intentionally out of scope.
