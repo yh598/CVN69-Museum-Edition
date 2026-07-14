@@ -1,0 +1,142 @@
+{
+  "generated_utc": "2026-07-14T23:12:39.281171+00:00",
+  "parameter_checks": {
+    "ship_length_476_mm": true,
+    "deck_top_z_34p5_mm": true,
+    "frozen_interface_0p25_mm_per_side": true,
+    "wing_at_least_0p60_mm": true,
+    "fuselage_at_least_0p80_mm": true,
+    "gear_at_least_0p80_mm": true,
+    "rotor_at_least_0p70_by_0p60_mm": true,
+    "marking_at_least_0p50_by_0p30_mm": true,
+    "insert_at_least_0p60_mm": true,
+    "materials_limited_to_approved_palette": true,
+    "production_object_count_48": true
+  },
+  "aircraft_dimensions": [
+    {
+      "code": "FA18E_VFA105",
+      "variant": "spread",
+      "expected_length_mm": 26.256,
+      "measured_length_mm": 26.256,
+      "expected_span_or_body_mm": 19.551,
+      "measured_span_or_body_mm": 19.551,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "FA18F_VFA32",
+      "variant": "spread",
+      "expected_length_mm": 26.256,
+      "measured_length_mm": 26.256,
+      "expected_span_or_body_mm": 19.551,
+      "measured_span_or_body_mm": 19.551,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "FA18E_VFA83",
+      "variant": "spread",
+      "expected_length_mm": 26.256,
+      "measured_length_mm": 26.256,
+      "expected_span_or_body_mm": 19.551,
+      "measured_span_or_body_mm": 19.551,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "FA18E_VFA131",
+      "variant": "spread",
+      "expected_length_mm": 26.256,
+      "measured_length_mm": 26.256,
+      "expected_span_or_body_mm": 19.551,
+      "measured_span_or_body_mm": 19.551,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "EA18G_VAQ130",
+      "variant": "spread",
+      "expected_length_mm": 26.213,
+      "measured_length_mm": 26.213,
+      "expected_span_or_body_mm": 19.551,
+      "measured_span_or_body_mm": 19.551,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "E2C_VAW123",
+      "variant": "spread",
+      "expected_length_mm": 25.037,
+      "measured_length_mm": 25.037,
+      "expected_span_or_body_mm": 35.089,
+      "measured_span_or_body_mm": 35.089,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "E2C_VAW123",
+      "variant": "rotodome",
+      "expected_diameter_mm": 10.45,
+      "measured_diameter_mm": 10.45,
+      "error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "C2A_VRC40",
+      "variant": "spread",
+      "expected_length_mm": 24.747,
+      "measured_length_mm": 24.747,
+      "expected_span_or_body_mm": 35.089,
+      "measured_span_or_body_mm": 35.089,
+      "length_error_mm": 0.0,
+      "span_error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "MH60R_HSM74",
+      "variant": "deployed",
+      "expected_length_mm": 28.23,
+      "measured_length_mm": 28.23,
+      "expected_span_or_body_mm": 5.0,
+      "measured_span_or_body_mm": 5.0,
+      "length_error_mm": 0.0,
+      "span_error_mm": null,
+      "status": "PASS"
+    },
+    {
+      "code": "MH60R_HSM74",
+      "variant": "deployed rotor",
+      "expected_diameter_mm": 23.368,
+      "measured_diameter_mm": 23.368,
+      "error_mm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "code": "MH60S_HSC7",
+      "variant": "deployed",
+      "expected_length_mm": 28.23,
+      "measured_length_mm": 28.23,
+      "expected_span_or_body_mm": 5.0,
+      "measured_span_or_body_mm": 5.0,
+      "length_error_mm": 0.0,
+      "span_error_mm": null,
+      "status": "PASS"
+    },
+    {
+      "code": "MH60S_HSC7",
+      "variant": "deployed rotor",
+      "expected_diameter_mm": 23.368,
+      "measured_diameter_mm": 23.368,
+      "error_mm": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS"
+}

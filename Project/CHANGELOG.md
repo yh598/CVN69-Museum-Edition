@@ -2,6 +2,39 @@
 
 All released changes use semantic versioning. Release artifacts are never overwritten after tagging.
 
+## Unreleased — Milestone 5 carrier air wing
+
+### Added
+
+- Official-source frozen-period CVW-3 audit for 14 October 2023 through 14 July 2024, confirming nine unit/type combinations and establishing the deployed VAW-123 aircraft as E-2C rather than E-2D.
+- Forty-eight new parametric FreeCAD/OpenCascade production objects: 25 major spread/folded/launch or rotor-state bodies plus no-paint canopy, rotodome, rotor, and neutral squadron identity inserts. No source mesh is opened or reused.
+- Official-dimension 1:700 envelopes with documented 0.4 mm-nozzle enlargement: 0.70 mm flight surfaces, 0.80 mm landing/support features, 0.70 × 0.60 mm rotor blades, 0.60 mm fins/inserts, and 0.50 × 0.30 mm raised identity details.
+- Removable 0.80 mm bed-connected belly/engine print rails in STL/3MF print geometry; clean assembly BReps and STEP geometry remain rail-free.
+- Editable master/layout FreeCAD sources; 12 STEP exports; 48 individual STLs; 13 named/material 3MF packages; master/default-layout OBJ; integrated M2–M5 review STEP/3MF; and ten production plates including a ≤120 × 120 mm first article.
+- Configurable light/default/full layouts containing 16/32/36 aircraft with type, variant, squadron, x/y/z, heading, material, evidence URL, and confidence metadata.
+- Twenty-two full-ship, layout, type-family, variant, no-paint, and first-article renders; drawings, printing, plan, first-article, and layout PDFs; glue-only assembly and material schedules.
+
+### Validation
+
+- All 48 production BReps are single valid closed solids; all 12 STEP exports re-import as valid closed solids. Strict compound-level cross-object messages are retained but do not invalidate valid/closed child solids.
+- 48/48 STLs pass watertight/manifold, normal, positive-volume, z=0, boundary-edge, non-manifold-edge, and degenerate-triangle checks; 13/13 3MF packages pass ZIP/OPC/XML/name/material/index/build validation.
+- Light/default/full layouts pass traced deck-boundary, island, weapon, elevator, catapult, arresting-wire, raised-marking, neighbor-clearance, and exact ≤0.10 mm³ overlap checks at 16/32/36 aircraft.
+- Bambu Studio 02.07.01.62 passes 61 independent STL/3MF imports and 20 actual 0.12/0.16 mm production-plate slices with non-empty G-code, all named objects/rotors present, and zero floating-region, empty-layer, or faulty-mesh warnings.
+- Approved Milestone 1–4 input hashes remain unchanged, including the physically qualified frozen 0.25 mm-per-side hull/deck interface.
+
+### Scope
+
+- Aircraft geometry and deck placement only. No approved hull, deck, interface, island, weapon, vehicle, ocean base, electronics, or display-base geometry is changed.
+- Physical first-article printing remains a separate real-world gate. No release tag is created.
+
+## Approved baseline ledger
+
+- `70fe661` records the completed Milestone 3 island reconstruction and integrated review package.
+- `1afb7cf` records the physical PASS of the Milestone 2 interface coupon at 100% scale: 0.40 mm nozzle, 0.16 mm layers, three walls, zero XY compensation, and 0.15 mm elephant-foot compensation.
+- The qualified 0.25 mm-per-side deck-to-hull production interface is frozen; later milestones may reference but must not revise its dimensions or approved child artifacts.
+- Milestone 4 adds the frozen-period defensive systems and deck-edge package while preserving Milestones 1–3.
+- `05805a6` removes the four propellers from the hull plate, supplies their dedicated continuously sliceable plate, and leaves the approved hull modules and frozen hull/deck interface unchanged.
+
 ## Unreleased — Milestone 4 defensive systems and deck-edge equipment
 
 ### Added

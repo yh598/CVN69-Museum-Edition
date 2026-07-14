@@ -1,0 +1,46 @@
+{
+  "generated_utc": "2026-07-14T23:12:03.470987+00:00",
+  "coordinate_system": "x=0 bow to x=476 stern; y port(-)/starboard(+); heading clockwise from +x",
+  "baseline_objects": 115,
+  "collision_targets": 97,
+  "layouts": {
+    "light": {
+      "count": 16,
+      "rejected_candidates_during_generation": {
+        "outside_deck": 0,
+        "baseline": 0,
+        "aircraft_clearance": 0,
+        "note": "persisted configuration used"
+      }
+    },
+    "default_deployment": {
+      "count": 32,
+      "rejected_candidates_during_generation": {
+        "outside_deck": 0,
+        "baseline": 0,
+        "aircraft_clearance": 0,
+        "note": "persisted configuration used"
+      }
+    },
+    "full_deck": {
+      "count": 36,
+      "rejected_candidates_during_generation": {
+        "outside_deck": 0,
+        "baseline": 0,
+        "aircraft_clearance": 0,
+        "note": "persisted configuration used"
+      }
+    }
+  },
+  "default_review_aircraft": 32,
+  "outputs": [
+    "CAD/FreeCAD/CVN69_AirWing_Layout.FCStd",
+    "STEP/CVN69_Hull_Deck_Island_Weapons_AirWing_Review.step",
+    "STEP/CVN69_AirWing_Default_Layout.step",
+    "3MF/CVN69_Hull_Deck_Island_Weapons_AirWing_Review.3mf",
+    "3MF/CVN69_AirWing_Default_Layout.3mf",
+    "OBJ/CVN69_AirWing_Default_Layout.obj",
+    "OBJ/CVN69_AirWing_Default_Layout.mtl"
+  ],
+  "overall_status": "PASS"
+}

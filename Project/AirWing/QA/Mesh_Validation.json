@@ -1,0 +1,1015 @@
+{
+  "generated_utc": "2026-07-14T23:12:39.281171+00:00",
+  "stl_files": 48,
+  "records": [
+    {
+      "path": "STL/C2A_VRC40_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.4,
+        1.5,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3.69,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/C2A_VRC40_Folded_Body.stl",
+      "facets": 432,
+      "bounds_mm": [
+        24.747,
+        13.2,
+        4.1
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 164.976386,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/C2A_VRC40_Launch_Body.stl",
+      "facets": 448,
+      "bounds_mm": [
+        24.747,
+        35.089001,
+        4.1
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 237.789452,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/C2A_VRC40_Spread_Body.stl",
+      "facets": 424,
+      "bounds_mm": [
+        24.747,
+        35.089001,
+        4.1
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 237.243452,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/C2A_VRC40_Squadron_ID_Insert.stl",
+      "facets": 28,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.116,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.4,
+        1.5,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3.69,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Folded_Body.stl",
+      "facets": 1052,
+      "bounds_mm": [
+        25.037001,
+        13.2,
+        3.7
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 151.930567,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Launch_Body.stl",
+      "facets": 1068,
+      "bounds_mm": [
+        25.037001,
+        35.089001,
+        3.7
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 224.466999,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Rotodome.stl",
+      "facets": 1004,
+      "bounds_mm": [
+        10.45,
+        10.446752,
+        1.2
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 52.009106,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Spread_Body.stl",
+      "facets": 1044,
+      "bounds_mm": [
+        25.037001,
+        35.089001,
+        3.7
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 223.920998,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/E2C_VAW123_Squadron_ID_Insert.stl",
+      "facets": 60,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.476,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/EA18G_VAQ130_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        5.4,
+        1.1,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3.366,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/EA18G_VAQ130_Folded_Body.stl",
+      "facets": 384,
+      "bounds_mm": [
+        26.212999,
+        13.4,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 118.790434,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/EA18G_VAQ130_Launch_Body.stl",
+      "facets": 408,
+      "bounds_mm": [
+        26.212999,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 148.089902,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/EA18G_VAQ130_Spread_Body.stl",
+      "facets": 384,
+      "bounds_mm": [
+        26.212999,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 147.519901,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/EA18G_VAQ130_Squadron_ID_Insert.stl",
+      "facets": 44,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.296,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA105_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 2.574,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA105_Folded_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        13.4,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 114.542924,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA105_Launch_Body.stl",
+      "facets": 344,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.801068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA105_Spread_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.231069,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA105_Squadron_ID_Insert.stl",
+      "facets": 28,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.116,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA131_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 2.574,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA131_Folded_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        13.4,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 114.542924,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA131_Launch_Body.stl",
+      "facets": 344,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.801068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA131_Spread_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.231069,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA131_Squadron_ID_Insert.stl",
+      "facets": 28,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.116,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA83_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 2.574,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA83_Folded_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        13.4,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 114.542924,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA83_Launch_Body.stl",
+      "facets": 344,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.801068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA83_Spread_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.231069,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18E_VFA83_Squadron_ID_Insert.stl",
+      "facets": 60,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.476,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18F_VFA32_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        5.4,
+        1.1,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 3.366,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18F_VFA32_Folded_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        13.4,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 114.542924,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18F_VFA32_Launch_Body.stl",
+      "facets": 344,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.801068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18F_VFA32_Spread_Body.stl",
+      "facets": 320,
+      "bounds_mm": [
+        26.256001,
+        19.551001,
+        3.05
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.231069,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/FA18F_VFA32_Squadron_ID_Insert.stl",
+      "facets": 44,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.296,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.0,
+        2.0,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.2,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Deployed_Body.stl",
+      "facets": 200,
+      "bounds_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 108.105068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Deployed_Main_Rotor.stl",
+      "facets": 220,
+      "bounds_mm": [
+        23.368,
+        23.368,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 19.427678,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Folded_Body.stl",
+      "facets": 200,
+      "bounds_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 108.105068,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Folded_Main_Rotor.stl",
+      "facets": 12,
+      "bounds_mm": [
+        22.667999,
+        2.8,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 38.08224,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60R_HSM74_Squadron_ID_Insert.stl",
+      "facets": 44,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.296,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Canopy_Insert.stl",
+      "facets": 16,
+      "bounds_mm": [
+        4.0,
+        2.0,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 4.2,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Deployed_Body.stl",
+      "facets": 168,
+      "bounds_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 115.468015,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Deployed_Main_Rotor.stl",
+      "facets": 220,
+      "bounds_mm": [
+        23.368,
+        23.368,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 19.427678,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Folded_Body.stl",
+      "facets": 168,
+      "bounds_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 115.468015,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Folded_Main_Rotor.stl",
+      "facets": 12,
+      "bounds_mm": [
+        22.667999,
+        2.8,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 38.08224,
+      "watertight": true,
+      "valid": true
+    },
+    {
+      "path": "STL/MH60S_HSC7_Squadron_ID_Insert.stl",
+      "facets": 60,
+      "bounds_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_triangles": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 1.476,
+      "watertight": true,
+      "valid": true
+    }
+  ],
+  "overall_status": "PASS"
+}

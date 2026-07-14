@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-07-14T23:11:54.029871+00:00",
+  "freecad_version": "1.1.1",
+  "coordinate_system": "x=0 bow to x=476 stern; y port negative; z deck top 34.5 mm",
+  "deck_top_z_mm": 34.5,
+  "frozen_interface_clearance_per_side_mm": 0.25,
+  "approved_inputs": {
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1512420,
+      "sha256": "5f94cf8e1eb354d104279feea788dfd84bbcdf390f9e09dc41009bec8053eca2"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/QA/Production_Interface_Freeze.json": {
+      "bytes": 8034,
+      "sha256": "7a06c4c9cb8640f9cbeb3ce16307a197627057e76c69d4b726f48cd7edee50fe"
+    },
+    "Project/Island/CAD/FreeCAD/CVN69_Island.FCStd": {
+      "bytes": 109888,
+      "sha256": "2e29a179e1613e8b58b9dedd18d94a2fdb9598d4499359761b43e20efb9538ab"
+    },
+    "Project/Island/CAD/Python/island_parameters.py": {
+      "bytes": 7015,
+      "sha256": "5c6a77a82a0974110ed4a0380e861735b1f91176bed9613aeb5a6fbec63f8e9f"
+    },
+    "Project/WeaponsDeckEdge/CAD/FreeCAD/CVN69_Weapons_DeckEdge.FCStd": {
+      "bytes": 193938,
+      "sha256": "0b3bd9861405253f410c39ca66c9d9c439403964adbee37decd4eab28abd8011"
+    },
+    "Project/WeaponsDeckEdge/CAD/Python/weapons_deckedge_parameters.py": {
+      "bytes": 8024,
+      "sha256": "b19531e25d696fda00220420f96f72ad3f7c2329b348ab768505bf8af12a49ab"
+    }
+  },
+  "policy": "approved inputs hashed/read-only; production builder opens no source mesh"
+}

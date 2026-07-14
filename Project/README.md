@@ -1,5 +1,11 @@
 # USS Dwight D. Eisenhower (CVN-69) — Museum Edition
 
+## Approved baseline through Milestone 4
+
+The immutable production baseline used by Milestone 5 is `origin/main` at `05805a6`. It contains Milestone 3 island reconstruction (`70fe661`), the physically qualified Milestone 2 deck-to-hull coupon record (`1afb7cf`), the Milestone 4 defensive/deck-edge package, and the isolated propeller print-plate correction (`05805a6`). The printed coupon passed at 100% scale with 0.25 mm clearance per side; those production interface dimensions remain frozen.
+
+Milestone 5 carrier-air-wing reconstruction is available under [`AirWing/`](AirWing/README.md). It adds 48 new parametric production objects covering 25 spread/folded/launch or rotor-state variants for the nine officially confirmed CVW-3 unit/type combinations from the 2023-10-14 through 2024-07-14 deployment. It includes configurable 16/32/36-aircraft layouts, ten real-slice-validated print plates, clean assembly and integrated review exports, twenty-two renders, five PDFs, and strict BRep/STEP/mesh/package/interference/Bambu QA. Approved Milestones 1–4 and the frozen physical interface remain unchanged; no release tag is created.
+
 Milestone 4 defensive-systems and deck-edge reconstruction is available under [`WeaponsDeckEdge/`](WeaponsDeckEdge/README.md). It adds 43 new parametric, glue-only production objects for the frozen 2023–2024 visible fit—two CIWS, two RAM, two Mk 29/ESSM installations, their asymmetric keyed sponsons/foundations, life-raft groups, a generic public-photo-informed utility-boat set, and selected major deck-edge fittings—without altering approved Milestones 1–3. STEP/STL/OBJ/3MF exports, an actual-interface coupon, integrated review models, nineteen renders, drawings, and strict FreeCAD/STEP/mesh/interference/Bambu QA are included. No release tag is created.
 
 Milestone 3 island reconstruction and hull–deck integration review is available under [`Island/`](Island/README.md). It is a new parametric BRep reconstruction frozen to the 2023–2024 deployment fit, with a concealed glue-only deck interface, separate no-paint color objects, interface coupon, integrated review models, and strict validation. Approved Milestone 1–2 geometry remains immutable.

@@ -1,0 +1,112 @@
+{
+  "generated_utc": "2026-07-14T22:35:11.468725+00:00",
+  "configuration_period": "2023-10-14 through 2024-07-14",
+  "aircraft_types": 9,
+  "records": [
+    {
+      "code": "FA18E_VFA105",
+      "squadron": "VFA-105",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "FA18F_VFA32",
+      "squadron": "VFA-32",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "FA18E_VFA83",
+      "squadron": "VFA-83",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "FA18E_VFA131",
+      "squadron": "VFA-131",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "EA18G_VAQ130",
+      "squadron": "VAQ-130",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "E2C_VAW123",
+      "squadron": "VAW-123",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "C2A_VRC40",
+      "squadron": "VRC-40",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "MH60R_HSM74",
+      "squadron": "HSM-74",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    },
+    {
+      "code": "MH60S_HSC7",
+      "squadron": "HSC-7",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "model_dimensions_positive": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "explicit_exclusions": [
+    "E-2D",
+    "CMV-22B",
+    "F-35C"
+  ],
+  "overall_status": "PASS"
+}

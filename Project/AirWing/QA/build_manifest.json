@@ -1,0 +1,2686 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) 1:700 Museum Edition",
+  "milestone": "Milestone 5 \u2014 Frozen-period Carrier Air Wing",
+  "version": "0.5.0-review",
+  "generated_utc": "2026-07-14T23:11:54.030259+00:00",
+  "freecad_version": "1.1.1",
+  "configuration_period": "2023-10-14 through 2024-07-14",
+  "source_geometry_policy": "new parametric BReps; no mesh opened or reused",
+  "parameters_mm": {
+    "ship_length": 476.0,
+    "deck_top_z": 34.5,
+    "frozen_ship_interface_clearance_per_side": 0.25,
+    "aircraft_clearance_per_side": 0.2,
+    "wing": 0.7,
+    "stabilizer": 0.7,
+    "gear": 0.8,
+    "rotor_blade_width": 0.7,
+    "rotor_blade_thickness": 0.6,
+    "fin": 0.6,
+    "insert": 0.6,
+    "marking": [
+      0.5,
+      0.3
+    ]
+  },
+  "counts": {
+    "aircraft_types": 9,
+    "body_variants": 25,
+    "production_objects": 48,
+    "stl_files": 48,
+    "three_mf_packages": 13,
+    "step_files": 12,
+    "renders": 22,
+    "pdf_documents": 5,
+    "layout_counts": {
+      "light": 16,
+      "default": 32,
+      "full": 36
+    }
+  },
+  "aircraft_types": [
+    {
+      "code": "FA18E_VFA105",
+      "name": "F/A-18E Super Hornet",
+      "squadron": "VFA-105",
+      "nickname": "Gunslingers",
+      "full_length_m": 18.379,
+      "full_span_m": 13.686,
+      "model_length": 26.256,
+      "model_span": 19.551,
+      "folded_span": 13.4,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "dimension_url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "FA18F_VFA32",
+      "name": "F/A-18F Super Hornet",
+      "squadron": "VFA-32",
+      "nickname": "Fighting Swordsmen",
+      "full_length_m": 18.379,
+      "full_span_m": 13.686,
+      "model_length": 26.256,
+      "model_span": 19.551,
+      "folded_span": 13.4,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "dimension_url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "FA18E_VFA83",
+      "name": "F/A-18E Super Hornet",
+      "squadron": "VFA-83",
+      "nickname": "Rampagers",
+      "full_length_m": 18.379,
+      "full_span_m": 13.686,
+      "model_length": 26.256,
+      "model_span": 19.551,
+      "folded_span": 13.4,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "dimension_url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "FA18E_VFA131",
+      "name": "F/A-18E Super Hornet",
+      "squadron": "VFA-131",
+      "nickname": "Wildcats",
+      "full_length_m": 18.379,
+      "full_span_m": 13.686,
+      "model_length": 26.256,
+      "model_span": 19.551,
+      "folded_span": 13.4,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "dimension_url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "EA18G_VAQ130",
+      "name": "EA-18G Growler",
+      "squadron": "VAQ-130",
+      "nickname": "Zappers",
+      "full_length_m": 18.349,
+      "full_span_m": 13.686,
+      "model_length": 26.213,
+      "model_span": 19.551,
+      "folded_span": 13.4,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "dimension_url": "https://www.navair.navy.mil/product/EA-18G-Growler",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "E2C_VAW123",
+      "name": "E-2C Hawkeye",
+      "squadron": "VAW-123",
+      "nickname": "Screwtops",
+      "full_length_m": 17.526,
+      "full_span_m": 24.562,
+      "model_length": 25.037,
+      "model_span": 35.089,
+      "folded_span": 13.2,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "dimension_url": "https://www.navair.navy.mil/product/E-2C-Hawkeye",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 10.45
+    },
+    {
+      "code": "C2A_VRC40",
+      "name": "C-2A Greyhound",
+      "squadron": "VRC-40",
+      "nickname": "Rawhides",
+      "full_length_m": 17.323,
+      "full_span_m": 24.562,
+      "model_length": 24.747,
+      "model_span": 35.089,
+      "folded_span": 13.2,
+      "variants": [
+        "spread",
+        "folded",
+        "launch"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "dimension_url": "https://www.navair.navy.mil/product/C-2",
+      "confidence": "high",
+      "rotor_diameter": 0.0,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "MH60R_HSM74",
+      "name": "MH-60R Seahawk",
+      "squadron": "HSM-74",
+      "nickname": "Swamp Foxes",
+      "full_length_m": 19.761,
+      "full_span_m": 16.358,
+      "model_length": 28.23,
+      "model_span": 23.368,
+      "folded_span": 6.2,
+      "variants": [
+        "deployed",
+        "folded"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8461915/uss-dwight-d-eisenhower-carrier-strike-group-conducts-photoex-with-its-cavour-carrier-strike-group-red-sea",
+      "dimension_url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166679/mh-60r-seahawk/",
+      "confidence": "high",
+      "rotor_diameter": 23.368,
+      "dome_diameter": 0.0
+    },
+    {
+      "code": "MH60S_HSC7",
+      "name": "MH-60S Seahawk",
+      "squadron": "HSC-7",
+      "nickname": "Dusty Dogs",
+      "full_length_m": 19.761,
+      "full_span_m": 16.358,
+      "model_length": 28.23,
+      "model_span": 23.368,
+      "folded_span": 6.2,
+      "variants": [
+        "deployed",
+        "folded"
+      ],
+      "evidence_url": "https://www.dvidshub.net/image/8278107/uss-dwight-d-eisenhower-conducts-cast-and-recovery-exercise-red-sea",
+      "dimension_url": "https://www.navair.navy.mil/product/MH-60S-Seahawk",
+      "confidence": "high",
+      "rotor_diameter": 23.368,
+      "dome_diameter": 0.0
+    }
+  ],
+  "parts": [
+    {
+      "name": "FA18E_VFA105_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA105",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 137.046371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA105_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA105",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 108.358232,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -6.7,
+        0.0,
+        13.128,
+        6.7,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        13.4,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        13.4,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA105_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA105",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 138.288371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA105_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "FA18E_VFA105",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 2.574,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.1,
+        -0.55,
+        0.0,
+        2.1,
+        0.55,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.2,
+        1.1,
+        0.6
+      ],
+      "print_size_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18E_VFA105_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "FA18E_VFA105",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/news/476133/strike-fighter-squadron-vfa-105-returns-deployment",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.116,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18F_VFA32_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18F_VFA32",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 137.046371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18F_VFA32_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18F_VFA32",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 108.358232,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -6.7,
+        0.0,
+        13.128,
+        6.7,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        13.4,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        13.4,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18F_VFA32_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18F_VFA32",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 138.288371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18F_VFA32_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "FA18F_VFA32",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3.366,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.7,
+        -0.55,
+        0.0,
+        2.7,
+        0.55,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        1.1,
+        0.6
+      ],
+      "print_size_mm": [
+        5.4,
+        1.1,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18F_VFA32_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "FA18F_VFA32",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8386769/fighting-swordsmen-strike-fighter-squadron-vfa-32-conduct-airborne-change-command-ceremony-red-sea",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.296,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18E_VFA83_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA83",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 137.046371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA83_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA83",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 108.358232,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -6.7,
+        0.0,
+        13.128,
+        6.7,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        13.4,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        13.4,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA83_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA83",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 138.288371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA83_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "FA18E_VFA83",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 2.574,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.1,
+        -0.55,
+        0.0,
+        2.1,
+        0.55,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.2,
+        1.1,
+        0.6
+      ],
+      "print_size_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18E_VFA83_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "FA18E_VFA83",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/news/476132/strike-fighter-squadron-vfa-83-returns-deployment",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.476,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18E_VFA131_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA131",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 137.046371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA131_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA131",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 108.358232,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -6.7,
+        0.0,
+        13.128,
+        6.7,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        13.4,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        13.4,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA131_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "FA18E_VFA131",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 138.288371,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.128,
+        -9.7755,
+        0.0,
+        13.128,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.256,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.256,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "FA18E_VFA131_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "FA18E_VFA131",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 2.574,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.1,
+        -0.55,
+        0.0,
+        2.1,
+        0.55,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.2,
+        1.1,
+        0.6
+      ],
+      "print_size_mm": [
+        4.2,
+        1.1,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "FA18E_VFA131_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "FA18E_VFA131",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8322956/uss-dwight-d-eisenhower-conducts-routine-flight-operations",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.116,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "EA18G_VAQ130_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "EA18G_VAQ130",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 138.562892,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.1065,
+        -9.7755,
+        0.0,
+        13.1065,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.213,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.213,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "EA18G_VAQ130_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "EA18G_VAQ130",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 109.833435,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.1065,
+        -6.7,
+        0.0,
+        13.1065,
+        6.7,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.213,
+        13.4,
+        3.05
+      ],
+      "print_size_mm": [
+        26.213,
+        13.4,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "EA18G_VAQ130_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "EA18G_VAQ130",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 139.804892,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -13.1065,
+        -9.7755,
+        0.0,
+        13.1065,
+        9.7755,
+        3.05
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        26.213,
+        19.551,
+        3.05
+      ],
+      "print_size_mm": [
+        26.213,
+        19.551,
+        3.05
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "EA18G_VAQ130_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "EA18G_VAQ130",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3.366,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.7,
+        -0.55,
+        0.0,
+        2.7,
+        0.55,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        5.4,
+        1.1,
+        0.6
+      ],
+      "print_size_mm": [
+        5.4,
+        1.1,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "EA18G_VAQ130_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "EA18G_VAQ130",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8317320/uss-dwight-d-eisenhower-conducts-flight-operations-red-sea",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.296,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "E2C_VAW123_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 213.163025,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.5185,
+        -17.5445,
+        0.0,
+        12.5185,
+        17.5445,
+        3.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.037,
+        35.089,
+        3.7
+      ],
+      "print_size_mm": [
+        25.037,
+        35.089,
+        3.7
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "E2C_VAW123_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 141.172587,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.5185,
+        -6.6,
+        0.0,
+        12.5185,
+        6.6,
+        3.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.037,
+        13.2,
+        3.7
+      ],
+      "print_size_mm": [
+        25.037,
+        13.2,
+        3.7
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "E2C_VAW123_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 214.333025,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.5185,
+        -17.5445,
+        0.0,
+        12.5185,
+        17.5445,
+        3.7
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.037,
+        35.089,
+        3.7
+      ],
+      "print_size_mm": [
+        25.037,
+        35.089,
+        3.7
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "E2C_VAW123_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3.69,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.2,
+        -0.75,
+        0.0,
+        2.2,
+        0.75,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.4,
+        1.5,
+        0.6
+      ],
+      "print_size_mm": [
+        4.4,
+        1.5,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "E2C_VAW123_Rotodome",
+      "role": "rotodome",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.navair.navy.mil/product/E-2C-Hawkeye",
+      "classification": "official 24 ft diameter; thickness enlarged to FDM minimum",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 52.030665,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -5.225,
+        -5.22338,
+        0.0,
+        5.225,
+        5.22338,
+        1.2
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        10.45,
+        10.44675,
+        1.2
+      ],
+      "print_size_mm": [
+        10.45,
+        10.44675,
+        1.2
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "E2C_VAW123_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "E2C_VAW123",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.airlant.usff.navy.mil/Press-Room/News-Stories/Article/3955484/vaw-123-sends-their-last-e-2c-hawkeye-to-the-boneyard/",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.476,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "C2A_VRC40_Spread_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "C2A_VRC40",
+      "variant": "spread",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 226.573463,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.3735,
+        -17.5445,
+        0.0,
+        12.3735,
+        17.5445,
+        4.1
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        24.747,
+        35.089,
+        4.1
+      ],
+      "print_size_mm": [
+        24.747,
+        35.089,
+        4.1
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "C2A_VRC40_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "C2A_VRC40",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 154.306424,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.3735,
+        -6.6,
+        0.0,
+        12.3735,
+        6.6,
+        4.1
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        24.747,
+        13.2,
+        4.1
+      ],
+      "print_size_mm": [
+        24.747,
+        13.2,
+        4.1
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "C2A_VRC40_Launch_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "C2A_VRC40",
+      "variant": "launch",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 227.743463,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -12.3735,
+        -17.5445,
+        0.0,
+        12.3735,
+        17.5445,
+        4.1
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        24.747,
+        35.089,
+        4.1
+      ],
+      "print_size_mm": [
+        24.747,
+        35.089,
+        4.1
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "C2A_VRC40_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "C2A_VRC40",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 3.69,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.2,
+        -0.75,
+        0.0,
+        2.2,
+        0.75,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.4,
+        1.5,
+        0.6
+      ],
+      "print_size_mm": [
+        4.4,
+        1.5,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "C2A_VRC40_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "C2A_VRC40",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8479217/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.116,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60R_HSM74_Deployed_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "deployed",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8461915/uss-dwight-d-eisenhower-carrier-strike-group-conducts-photoex-with-its-cavour-carrier-strike-group-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 97.498026,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -14.115,
+        -2.5,
+        0.0,
+        14.115,
+        2.5,
+        4.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        28.23,
+        5.0,
+        4.0
+      ],
+      "print_size_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "MH60R_HSM74_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8461915/uss-dwight-d-eisenhower-carrier-strike-group-conducts-photoex-with-its-cavour-carrier-strike-group-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 97.498026,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -14.115,
+        -2.5,
+        0.0,
+        14.115,
+        2.5,
+        4.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        28.23,
+        5.0,
+        4.0
+      ],
+      "print_size_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "MH60R_HSM74_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8461915/uss-dwight-d-eisenhower-carrier-strike-group-conducts-photoex-with-its-cavour-carrier-strike-group-red-sea",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4.2,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.0,
+        -1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        0.6
+      ],
+      "print_size_mm": [
+        4.0,
+        2.0,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60R_HSM74_Deployed_Main_Rotor",
+      "role": "main_rotor",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "deployed",
+      "material": "Bambu PLA Silk Silver",
+      "evidence": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166679/mh-60r-seahawk/",
+      "classification": "official rotor diameter for deployed state; blade chord/thickness enlarged for FDM",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 19.427773,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -11.684,
+        -11.684,
+        0.0,
+        11.684,
+        11.684,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        23.368,
+        23.368,
+        0.6
+      ],
+      "print_size_mm": [
+        23.368,
+        23.368,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60R_HSM74_Folded_Main_Rotor",
+      "role": "main_rotor",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "folded",
+      "material": "Bambu PLA Silk Silver",
+      "evidence": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166679/mh-60r-seahawk/",
+      "classification": "official rotor diameter for deployed state; blade chord/thickness enlarged for FDM",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 38.08224,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -11.334,
+        -1.4,
+        0.0,
+        11.334,
+        1.4,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        22.668,
+        2.8,
+        0.6
+      ],
+      "print_size_mm": [
+        22.668,
+        2.8,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60R_HSM74_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "MH60R_HSM74",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8461915/uss-dwight-d-eisenhower-carrier-strike-group-conducts-photoex-with-its-cavour-carrier-strike-group-red-sea",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.296,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60S_HSC7_Deployed_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "deployed",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8278107/uss-dwight-d-eisenhower-conducts-cast-and-recovery-exercise-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 104.724976,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -14.115,
+        -2.5,
+        0.0,
+        14.115,
+        2.5,
+        4.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        28.23,
+        5.0,
+        4.0
+      ],
+      "print_size_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "MH60S_HSC7_Folded_Body",
+      "role": "aircraft_body",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "folded",
+      "material": "Bambu PLA Basic Blue Grey",
+      "evidence": "https://www.dvidshub.net/image/8278107/uss-dwight-d-eisenhower-conducts-cast-and-recovery-exercise-red-sea",
+      "classification": "official-dimension envelope; photo-informed silhouette; FDM-safe parametric reconstruction",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 104.724976,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -14.115,
+        -2.5,
+        0.0,
+        14.115,
+        2.5,
+        4.0
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        28.23,
+        5.0,
+        4.0
+      ],
+      "print_size_mm": [
+        28.23,
+        5.0,
+        4.0
+      ],
+      "minimum_feature_mm": 0.7,
+      "print_note": "Assembly BRep plus removable 0.80 mm bed-connected belly/engine rails; z=0 continuous slice support"
+    },
+    {
+      "name": "MH60S_HSC7_Canopy_Insert",
+      "role": "canopy_insert",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Charcoal",
+      "evidence": "https://www.dvidshub.net/image/8278107/uss-dwight-d-eisenhower-conducts-cast-and-recovery-exercise-red-sea",
+      "classification": "no-paint glue-on insert; silhouette simplified",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 4.2,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -2.0,
+        -1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        0.6
+      ],
+      "print_size_mm": [
+        4.0,
+        2.0,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60S_HSC7_Deployed_Main_Rotor",
+      "role": "main_rotor",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "deployed",
+      "material": "Bambu PLA Silk Silver",
+      "evidence": "https://www.navair.navy.mil/product/MH-60S-Seahawk",
+      "classification": "official rotor diameter for deployed state; blade chord/thickness enlarged for FDM",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 19.427773,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -11.684,
+        -11.684,
+        0.0,
+        11.684,
+        11.684,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        23.368,
+        23.368,
+        0.6
+      ],
+      "print_size_mm": [
+        23.368,
+        23.368,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60S_HSC7_Folded_Main_Rotor",
+      "role": "main_rotor",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "folded",
+      "material": "Bambu PLA Silk Silver",
+      "evidence": "https://www.navair.navy.mil/product/MH-60S-Seahawk",
+      "classification": "official rotor diameter for deployed state; blade chord/thickness enlarged for FDM",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 38.08224,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        -11.334,
+        -1.4,
+        0.0,
+        11.334,
+        1.4,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        22.668,
+        2.8,
+        0.6
+      ],
+      "print_size_mm": [
+        22.668,
+        2.8,
+        0.6
+      ],
+      "minimum_feature_mm": 0.6,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    },
+    {
+      "name": "MH60S_HSC7_Squadron_ID_Insert",
+      "role": "squadron_id_insert",
+      "aircraft_code": "MH60S_HSC7",
+      "variant": "universal",
+      "material": "Bambu PLA Matte Ivory White",
+      "evidence": "https://www.dvidshub.net/image/8278107/uss-dwight-d-eisenhower-conducts-cast-and-recovery-exercise-red-sea",
+      "classification": "confirmed unit identity; neutral bar-code tile, not invented insignia artwork",
+      "valid_brep": true,
+      "closed_solids": true,
+      "solid_count": 1,
+      "volume_mm3": 1.476,
+      "strict_messages": [],
+      "assembly_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.6,
+        1.2,
+        0.6
+      ],
+      "print_size_mm": [
+        2.6,
+        1.2,
+        0.6
+      ],
+      "minimum_feature_mm": 0.3,
+      "print_note": "Flat engineered support/bed face at z=0; no support required"
+    }
+  ],
+  "stl_facets": {
+    "FA18E_VFA105_Spread_Body.stl": 320,
+    "FA18E_VFA105_Folded_Body.stl": 320,
+    "FA18E_VFA105_Launch_Body.stl": 344,
+    "FA18E_VFA105_Canopy_Insert.stl": 16,
+    "FA18E_VFA105_Squadron_ID_Insert.stl": 28,
+    "FA18F_VFA32_Spread_Body.stl": 320,
+    "FA18F_VFA32_Folded_Body.stl": 320,
+    "FA18F_VFA32_Launch_Body.stl": 344,
+    "FA18F_VFA32_Canopy_Insert.stl": 16,
+    "FA18F_VFA32_Squadron_ID_Insert.stl": 44,
+    "FA18E_VFA83_Spread_Body.stl": 320,
+    "FA18E_VFA83_Folded_Body.stl": 320,
+    "FA18E_VFA83_Launch_Body.stl": 344,
+    "FA18E_VFA83_Canopy_Insert.stl": 16,
+    "FA18E_VFA83_Squadron_ID_Insert.stl": 60,
+    "FA18E_VFA131_Spread_Body.stl": 320,
+    "FA18E_VFA131_Folded_Body.stl": 320,
+    "FA18E_VFA131_Launch_Body.stl": 344,
+    "FA18E_VFA131_Canopy_Insert.stl": 16,
+    "FA18E_VFA131_Squadron_ID_Insert.stl": 28,
+    "EA18G_VAQ130_Spread_Body.stl": 384,
+    "EA18G_VAQ130_Folded_Body.stl": 384,
+    "EA18G_VAQ130_Launch_Body.stl": 408,
+    "EA18G_VAQ130_Canopy_Insert.stl": 16,
+    "EA18G_VAQ130_Squadron_ID_Insert.stl": 44,
+    "E2C_VAW123_Spread_Body.stl": 1044,
+    "E2C_VAW123_Folded_Body.stl": 1052,
+    "E2C_VAW123_Launch_Body.stl": 1068,
+    "E2C_VAW123_Canopy_Insert.stl": 16,
+    "E2C_VAW123_Rotodome.stl": 1004,
+    "E2C_VAW123_Squadron_ID_Insert.stl": 60,
+    "C2A_VRC40_Spread_Body.stl": 424,
+    "C2A_VRC40_Folded_Body.stl": 432,
+    "C2A_VRC40_Launch_Body.stl": 448,
+    "C2A_VRC40_Canopy_Insert.stl": 16,
+    "C2A_VRC40_Squadron_ID_Insert.stl": 28,
+    "MH60R_HSM74_Deployed_Body.stl": 200,
+    "MH60R_HSM74_Folded_Body.stl": 200,
+    "MH60R_HSM74_Canopy_Insert.stl": 16,
+    "MH60R_HSM74_Deployed_Main_Rotor.stl": 220,
+    "MH60R_HSM74_Folded_Main_Rotor.stl": 12,
+    "MH60R_HSM74_Squadron_ID_Insert.stl": 44,
+    "MH60S_HSC7_Deployed_Body.stl": 168,
+    "MH60S_HSC7_Folded_Body.stl": 168,
+    "MH60S_HSC7_Canopy_Insert.stl": 16,
+    "MH60S_HSC7_Deployed_Main_Rotor.stl": 220,
+    "MH60S_HSC7_Folded_Main_Rotor.stl": 12,
+    "MH60S_HSC7_Squadron_ID_Insert.stl": 60
+  },
+  "approved_input_hashes": {
+    "Project/Integration/CAD/FreeCAD/CVN69_Hull_Deck_Integration.FCStd": {
+      "bytes": 1512420,
+      "sha256": "5f94cf8e1eb354d104279feea788dfd84bbcdf390f9e09dc41009bec8053eca2"
+    },
+    "Project/Integration/CAD/Python/integration_parameters.py": {
+      "bytes": 4798,
+      "sha256": "3902106cad14fef4c8b4e8338e41694fdfebeb0b8fee28c5071c80caf57abe9c"
+    },
+    "Project/Integration/QA/Production_Interface_Freeze.json": {
+      "bytes": 8034,
+      "sha256": "7a06c4c9cb8640f9cbeb3ce16307a197627057e76c69d4b726f48cd7edee50fe"
+    },
+    "Project/Island/CAD/FreeCAD/CVN69_Island.FCStd": {
+      "bytes": 109888,
+      "sha256": "2e29a179e1613e8b58b9dedd18d94a2fdb9598d4499359761b43e20efb9538ab"
+    },
+    "Project/Island/CAD/Python/island_parameters.py": {
+      "bytes": 7015,
+      "sha256": "5c6a77a82a0974110ed4a0380e861735b1f91176bed9613aeb5a6fbec63f8e9f"
+    },
+    "Project/WeaponsDeckEdge/CAD/FreeCAD/CVN69_Weapons_DeckEdge.FCStd": {
+      "bytes": 193938,
+      "sha256": "0b3bd9861405253f410c39ca66c9d9c439403964adbee37decd4eab28abd8011"
+    },
+    "Project/WeaponsDeckEdge/CAD/Python/weapons_deckedge_parameters.py": {
+      "bytes": 8024,
+      "sha256": "b19531e25d696fda00220420f96f72ad3f7c2329b348ab768505bf8af12a49ab"
+    }
+  },
+  "outputs": {
+    "3MF/CVN69_AirWing_Default_Layout.3mf": {
+      "bytes": 117243,
+      "sha256": "90f23307570fd5410cf98b47477a86347737ba9aa1ed419c1d71cb6f2ae0e772"
+    },
+    "3MF/CVN69_AirWing_Master.3mf": {
+      "bytes": 97684,
+      "sha256": "dead79f077e1362e3ea32da2f1699c9aa1b6edd85f342dd59b12633905f147c6"
+    },
+    "3MF/CVN69_Hull_Deck_Island_Weapons_AirWing_Review.3mf": {
+      "bytes": 1777894,
+      "sha256": "5808418dad7fd643a874c66f1dbca7ce8a43756c523145ae314b4d7859486b55"
+    },
+    "3MF/Print_Plate_00_First_Article.3mf": {
+      "bytes": 38474,
+      "sha256": "b227c22effe47622fbf6aa48e7e0a82c57fe07e1b91bebc4da2ed28be0d1e5bc"
+    },
+    "3MF/Print_Plate_C2A_VRC40.3mf": {
+      "bytes": 12724,
+      "sha256": "68a1c285540bc2871ee6e445cb580ef0034a9372cb012fa869b455e488c629f8"
+    },
+    "3MF/Print_Plate_E2C_VAW123.3mf": {
+      "bytes": 40507,
+      "sha256": "c4531b3687f9b0533ad780d832e1f831bca4e1c8fa5233e039cebca5babfccb4"
+    },
+    "3MF/Print_Plate_EA18G_VAQ130.3mf": {
+      "bytes": 9782,
+      "sha256": "5fde058218bb6c395805026886c06f6c293ef5724bd5788dcbc63e30100933c6"
+    },
+    "3MF/Print_Plate_FA18E_VFA105.3mf": {
+      "bytes": 8512,
+      "sha256": "8066d58dc64d7b78bdee6d57ff2e959d9e6ca0d666c87e0f64a4d75aea79ecf0"
+    },
+    "3MF/Print_Plate_FA18E_VFA131.3mf": {
+      "bytes": 8512,
+      "sha256": "ca793b30cb866a3d7c01d9bde88f3572a820fbdf937e1f2aae33cbc6549199e3"
+    },
+    "3MF/Print_Plate_FA18E_VFA83.3mf": {
+      "bytes": 8750,
+      "sha256": "d3273b2fc33abf627510687632096014c01b4670a2466b96d77218777c397894"
+    },
+    "3MF/Print_Plate_FA18F_VFA32.3mf": {
+      "bytes": 8631,
+      "sha256": "5fe68ebe06e05306235b85e4daad11c4ec52a38b98a5f81099d2fe9da21d004a"
+    },
+    "3MF/Print_Plate_MH60R_HSM74.3mf": {
+      "bytes": 6068,
+      "sha256": "843c6b35519fb9d0edfe8de08ab089cac583d1025497aae4ed2694408f3c187e"
+    },
+    "3MF/Print_Plate_MH60S_HSC7.3mf": {
+      "bytes": 5830,
+      "sha256": "9328e83b4412549a7f8f65dd91f2af8e9e1831d400919df3a73d7fb326060389"
+    },
+    "Assembly/Glue_Only_AirWing_Assembly.md": {
+      "bytes": 1222,
+      "sha256": "5ada66d61171ff64ea510c896eb09ea514def4287f8e390786a02325110a42fa"
+    },
+    "CAD/FreeCAD/CVN69_AirWing_Layout.FCStd": {
+      "bytes": 2573219,
+      "sha256": "c0c0b221c9f85f72a31964272be342d80bd0b48107d9d804d9f5b3a8a23b61f5"
+    },
+    "CAD/FreeCAD/CVN69_AirWing_Master.FCStd": {
+      "bytes": 596106,
+      "sha256": "17483542c64c61264fe92db5faaf1c81f1dda7df0c4fcd5d0b7f6a46cbf3a382"
+    },
+    "CAD/Python/aircraft_layout_parameters.py": {
+      "bytes": 876,
+      "sha256": "229e44b9db2b7a73b2ca62c344b0a7cdf809f55c33c6b185bd80e19ce7856985"
+    },
+    "CAD/Python/airwing_parameters.py": {
+      "bytes": 6810,
+      "sha256": "5eac7d1116c68bb877031549a3ef72cac0a4e8e6a0ebe2b2aecbaa8b7af1b797"
+    },
+    "Docs/AirWing_Drawings.pdf": {
+      "bytes": 153540,
+      "sha256": "a2b2de7045a7838074e8b552e85e3bbdce354f04e4b81eb448a34c36ab578435"
+    },
+    "Docs/AirWing_First_Article_Instructions.pdf": {
+      "bytes": 107522,
+      "sha256": "874e68906d12621980d8a1650fe051e8c49c656e6ad41093d4a0ff66ae6a39f9"
+    },
+    "Docs/AirWing_Layout_Guide.pdf": {
+      "bytes": 115165,
+      "sha256": "a8f748c94e56c5e759101dd3ac7216e166c3e49b6cb982d22903b78f6d79827b"
+    },
+    "Docs/AirWing_Material_Mapping.csv": {
+      "bytes": 2563,
+      "sha256": "5faee683bdbc1d84d652d1a7ce3d5f08f614a1eef4970d4d815b647ee4405f1f"
+    },
+    "Docs/AirWing_Printing_Guide.pdf": {
+      "bytes": 3305,
+      "sha256": "f7c390f7400b3b5d0050095a197db8ce018b39b4f37ab0a3fea9312d721ce31f"
+    },
+    "Docs/AirWing_Project_Plan.pdf": {
+      "bytes": 3250,
+      "sha256": "3af650c090884bb333d0d4bdffbbb5222851c8c9ca5304c4f981c1da717dcb3f"
+    },
+    "Images/README.md": {
+      "bytes": 272,
+      "sha256": "b5fb7c5d63d8354e54b2a72d225cf64979e99037c82b0d6748398458e34b37e4"
+    },
+    "Layout/default_deployment_layout.json": {
+      "bytes": 15094,
+      "sha256": "281f73df3d29ac5bddacaab8e083d5f795545c70a18386eac71da8e856fede27"
+    },
+    "Layout/full_deck_layout.json": {
+      "bytes": 16905,
+      "sha256": "1f092310a69d783e06863583882aa9cc9de478810d832fe68437d81871356c7d"
+    },
+    "Layout/light_deck_layout.json": {
+      "bytes": 7651,
+      "sha256": "4734695dc036baa47be56b069d7938e99cc1db973e4762802f0b2ae0a4b5a900"
+    },
+    "OBJ/CVN69_AirWing_Default_Layout.mtl": {
+      "bytes": 293,
+      "sha256": "604ec4e75a292a6f46ad1cca3bab6e9e9aa2f5868fb27e57c93d294b2c912d7b"
+    },
+    "OBJ/CVN69_AirWing_Default_Layout.obj": {
+      "bytes": 559896,
+      "sha256": "9b87745f76a8ab10491687b25498f2b3d209e03f15f383d2f687e8c0a2e300f8"
+    },
+    "OBJ/CVN69_AirWing_Master.mtl": {
+      "bytes": 293,
+      "sha256": "604ec4e75a292a6f46ad1cca3bab6e9e9aa2f5868fb27e57c93d294b2c912d7b"
+    },
+    "OBJ/CVN69_AirWing_Master.obj": {
+      "bytes": 401090,
+      "sha256": "1ee5ca1501b879e4db1196e0264d06effd4f1b9a50a8289111e0d666c0f84dca"
+    },
+    "QA/Approved_Input_Inspection.json": {
+      "bytes": 1615,
+      "sha256": "b984db2fd348a8a9301710a8e3ecd262ccb42fce551e21fd92b006cb533f6b03"
+    },
+    "QA/BambuStudio_Validation.json": {
+      "bytes": 614296,
+      "sha256": "5d160af07bb47345e74a731c19721f2411d784daf8a9c797116f8023ddf09859"
+    },
+    "QA/BambuStudio_Validation.md": {
+      "bytes": 2399,
+      "sha256": "bcb97dca3e96f3db475ad747d0acca80cc139a1af3bd76b75b610b4bb043ad09"
+    },
+    "QA/Deterministic_Rebuild.json": {
+      "bytes": 17541,
+      "sha256": "989fd1345515051c078f3150aeea1deafe5cdc42c7cd01203c1253677618f2b9"
+    },
+    "QA/Dimensional_QA.json": {
+      "bytes": 3913,
+      "sha256": "2eb66f298415098b6791be6ed840f90a11979e150550b07179f4fa403aa35b64"
+    },
+    "QA/Dimensional_QA.md": {
+      "bytes": 451,
+      "sha256": "5fd26c6bdb91da67ea519d66a38404bd08f1bab06fe50348dd2d0293447c961a"
+    },
+    "QA/Immutable_Input_Validation.json": {
+      "bytes": 2174,
+      "sha256": "b51a83d3f375ed33122358f9f2dfcc355208693dacccd6c99674f0c9cb81be83"
+    },
+    "QA/Interference_Report.json": {
+      "bytes": 34262,
+      "sha256": "341f7ee9e9483e985ae2c31e2d9a4f38e7bb3eda296f4f64fa6654d1dc061f2c"
+    },
+    "QA/Interference_Report.md": {
+      "bytes": 451,
+      "sha256": "2f82c6cd14276614f432338081b401cb27dddfb48d102adff4783fd7eaf782bd"
+    },
+    "QA/Layout_Build_Report.json": {
+      "bytes": 1360,
+      "sha256": "0b279d82d4938ef8b3778c3a3cac6b1a1c16f4901e4af31adb91e5a532985f48"
+    },
+    "QA/Layout_Validation.json": {
+      "bytes": 18750,
+      "sha256": "e160540b37b428f6d34a17fcc017fcb2ce53413d307a4e6d385339d5e51b9d95"
+    },
+    "QA/Material_Map.md": {
+      "bytes": 376,
+      "sha256": "8b65046647abcdb25dfa6daaef7d7a256e8b28cfd5800cfa3db8b9778909e6b5"
+    },
+    "QA/Mesh_Validation.json": {
+      "bytes": 20819,
+      "sha256": "11dd1f5f904d3206d6ef3f75f4d69cbc3ab97c18d339af88af6b124362ae045b"
+    },
+    "QA/Mesh_Validation.md": {
+      "bytes": 431,
+      "sha256": "3801043cfc1d68c9a26193ed3209edeeb72508f95e4c93fcf8bbb5feb626fd19"
+    },
+    "QA/Part_Material_Assignments.json": {
+      "bytes": 2885,
+      "sha256": "fdac142f77389f380c6862199729c373bc6af70a2714be65ec24476ed4519024"
+    },
+    "QA/Physical_First_Article_Status.md": {
+      "bytes": 427,
+      "sha256": "c18b506a55e570cadd0fe78278039100a8526bb65c91c8fa2b69558c6277c53a"
+    },
+    "QA/Reference_Audit.json": {
+      "bytes": 2654,
+      "sha256": "01429d17d22356c8a951f08b6d3bfa262c919c59a25840e4acceadf6101bfe17"
+    },
+    "QA/Reference_Confidence_Report.json": {
+      "bytes": 558,
+      "sha256": "a2198f5e35e805e1e3c08f72f8c4db2551b2a9f19423f1468f6347c383767fac"
+    },
+    "QA/Reference_Confidence_Report.md": {
+      "bytes": 827,
+      "sha256": "58ddfc25f153f7d3405c6de99ddd7a5eefa0fed52ab193b65141f225db675720"
+    },
+    "QA/ThreeMF_Validation.json": {
+      "bytes": 20369,
+      "sha256": "353c4b4c2c4fa4a246db86f1a92339a57ee2dc3de6fa01a9d66df1a0e1d7a48a"
+    },
+    "QA/Topology_QA.json": {
+      "bytes": 814838,
+      "sha256": "21fcbaed2a7740b13461715d34e44c559d17138f0ba7b170e918a9a9f240c83a"
+    },
+    "QA/Topology_QA.md": {
+      "bytes": 200,
+      "sha256": "4c51f327d501300045917c4d4872b401b7a679f8fbe58d687b336983b69dd728"
+    },
+    "QA/Validation_Commands.md": {
+      "bytes": 1394,
+      "sha256": "f30d789432451f3db8be9d9d7ed29667b640317f9629ed92c2277ca2a23b35fe"
+    },
+    "QA/Validation_Summary.json": {
+      "bytes": 334,
+      "sha256": "713591932fd091753ad6ac6fa44d016b412486e66cd1067c405afdfa86a95ecb"
+    },
+    "README.md": {
+      "bytes": 5965,
+      "sha256": "d2e3efb0953cfc7a19b7e0ad37fbfa404102d86754b29e686802b33b09a0808d"
+    },
+    "References/Configuration_Audit.md": {
+      "bytes": 4601,
+      "sha256": "684430ca4bcbcade8645599c8464fbff6c58ab2446928c66c0bdc868aaa7b9f2"
+    },
+    "Render/CVN69_AirWing_Bow_Isometric.png": {
+      "bytes": 296333,
+      "sha256": "f5b1287ffccd06bae5315d787aba95094aa0169979908e169666d02ffba0289b"
+    },
+    "Render/CVN69_AirWing_Port.png": {
+      "bytes": 113193,
+      "sha256": "830bee5aea6f7933c664006e83abc0857f187bec87b795f6c47ef6c1abd0a7b3"
+    },
+    "Render/CVN69_AirWing_Starboard.png": {
+      "bytes": 116540,
+      "sha256": "eea94ae935869959e5ceb166624c9d966898a171402d0f3b15f0e514348f621f"
+    },
+    "Render/CVN69_AirWing_Stern_Isometric.png": {
+      "bytes": 275364,
+      "sha256": "298ce050fa8e37176af17e480d8383b6114603400f0827bac801fb3675f05704"
+    },
+    "Render/CVN69_AirWing_Top.png": {
+      "bytes": 138092,
+      "sha256": "def64f373f58a0d315faa47da6c7ece48b3f96b9ea66a59c9f89f3124fd3e363"
+    },
+    "Render/Default_Deployment_Close_Top.png": {
+      "bytes": 124167,
+      "sha256": "cb84905c4374e526b8cefd012b03eba62491c530947ef361458d32ca2ebd579b"
+    },
+    "Render/Family_C2A_VRC40.png": {
+      "bytes": 93994,
+      "sha256": "711a242413da202d7f035705464a770d24ebc9230130c0d442b771d217e1c97c"
+    },
+    "Render/Family_E2C_VAW123.png": {
+      "bytes": 116199,
+      "sha256": "18f7532b25b96ce66666f00d38f324422d57e4b1f2649e628901be2b9857ccc4"
+    },
+    "Render/Family_EA18G_VAQ130.png": {
+      "bytes": 93335,
+      "sha256": "9813abebc116453c7dc5b0a72e2768146ddbf60f4fb0c04f07800236587e7f2e"
+    },
+    "Render/Family_FA18E_VFA105.png": {
+      "bytes": 106127,
+      "sha256": "3aff857568c2651a07e6a8e834a1c5eb0553c2c296b6a670640c7190d4efa087"
+    },
+    "Render/Family_FA18E_VFA131.png": {
+      "bytes": 105358,
+      "sha256": "1a5d0127112a8b0ae55f7de3c511236731b063273d31f07664224ea79f7db73a"
+    },
+    "Render/Family_FA18E_VFA83.png": {
+      "bytes": 92376,
+      "sha256": "25ace7a0efa16379a78782fd5c8ec1e5033d1595e4df82e114ecfe11333b289e"
+    },
+    "Render/Family_FA18F_VFA32.png": {
+      "bytes": 105748,
+      "sha256": "395fa08fbd9b16e4f02dd697a8cfd6f2ad9a8aa5ad40daee62889140ff8463d2"
+    },
+    "Render/Family_MH60R_HSM74.png": {
+      "bytes": 97394,
+      "sha256": "cabbe386fb0f4c2c494cff9330bd6944850ac07aa53e5447a81f1fa4a908e82b"
+    },
+    "Render/Family_MH60S_HSC7.png": {
+      "bytes": 89417,
+      "sha256": "5f4eaa75ccc48d3dcd4d39cc601f9d47e429c56785f073bac9d44f6631e62317"
+    },
+    "Render/Fixed_Wing_Variant_Comparison.png": {
+      "bytes": 161276,
+      "sha256": "98f2cc3317d9dcaf37a323c30ab11efd20066190d94082a48af465e4a3cfed8f"
+    },
+    "Render/Helicopter_Rotor_Comparison.png": {
+      "bytes": 108246,
+      "sha256": "67e96ddc0ef980494484a6cafdce30d254587fe6c28e680a9a12b8c2955be902"
+    },
+    "Render/Layout_Default_32.png": {
+      "bytes": 95800,
+      "sha256": "2cb5f623cc62184b126cc493806f52df60dfff47d806e5d5a86b48f3332c5615"
+    },
+    "Render/Layout_Full_36.png": {
+      "bytes": 98958,
+      "sha256": "87649f7a6dff7a7f00f4b67b54eda8f2a98737516946a46115676afe9b712a75"
+    },
+    "Render/Layout_Light_16.png": {
+      "bytes": 86530,
+      "sha256": "8a49414834cbe82f70fade015c405a70511b2c7ded0bb4b484fb9208b3f4f959"
+    },
+    "Render/No_Paint_Insert_Comparison.png": {
+      "bytes": 81018,
+      "sha256": "0393c9b40b39f1ec39a0f5b6760d55c3efc1cbd99b7b4034836e5abfa6db366e"
+    },
+    "Render/Print_Plate_00_First_Article.png": {
+      "bytes": 91669,
+      "sha256": "526dffc748df5eef7066b7aeb37e7bb53bab524c4d5a7a84e733bbb253bd2d57"
+    },
+    "STEP/C2A_VRC40_Master.step": {
+      "bytes": 467479,
+      "sha256": "d59887e96bc5320f28e11706db180851cd6da90539ec1853c792355f73cd31e5"
+    },
+    "STEP/CVN69_AirWing_Default_Layout.step": {
+      "bytes": 4594424,
+      "sha256": "837531d6ba4d0adbbbaf23074669e2f78a089dc2963579dbeb8f725ce7e0cafb"
+    },
+    "STEP/CVN69_AirWing_Master.step": {
+      "bytes": 3487341,
+      "sha256": "2a2fcdfa50a5ff9bc94a2fa8a9cc4dfe5fb78c589ea8b2c0c1163e0246946882"
+    },
+    "STEP/CVN69_Hull_Deck_Island_Weapons_AirWing_Review.step": {
+      "bytes": 11497713,
+      "sha256": "94ae8e0c190c449a9f4c91fee205fb50c3861dde82df222c5f065a0b67d246e5"
+    },
+    "STEP/E2C_VAW123_Master.step": {
+      "bytes": 609520,
+      "sha256": "96234488726e5a6ced6635bdf89783f757d4d803528bc78f80b6c40b1ee309e1"
+    },
+    "STEP/EA18G_VAQ130_Master.step": {
+      "bytes": 430203,
+      "sha256": "4ea00b3d0fd6b86d8c2f401db2d6aeeddeae42101fdd0dd18eb7ef8ada04ebee"
+    },
+    "STEP/FA18E_VFA105_Master.step": {
+      "bytes": 358507,
+      "sha256": "42e3b41067e84df7054291ba92dca117c0f10b6b82289c69d94cf4e2b85382e3"
+    },
+    "STEP/FA18E_VFA131_Master.step": {
+      "bytes": 358507,
+      "sha256": "90c4938d151f0cd14db991bfef8cdc0d3751ae3ddb11acd9e4b2c045579a327d"
+    },
+    "STEP/FA18E_VFA83_Master.step": {
+      "bytes": 368937,
+      "sha256": "0c04be9adb171b6bf36ff6eee204775d13cf455c6c0f220e310535a14a791d51"
+    },
+    "STEP/FA18F_VFA32_Master.step": {
+      "bytes": 363737,
+      "sha256": "2db50696be35665c22a296603152fb1fa18d0ddd56cd498bb2eef8dcc0b2943d"
+    },
+    "STEP/MH60R_HSM74_Master.step": {
+      "bytes": 192041,
+      "sha256": "738ee038070a2ecba47b8cc418a7d03f3559386348fb63ec2efa0f9eba09561d"
+    },
+    "STEP/MH60S_HSC7_Master.step": {
+      "bytes": 176386,
+      "sha256": "ba2cf6432967ce014c3c86bf1c38cdbde4aacb21d2dd915e125fc8c2f5762872"
+    },
+    "STL/C2A_VRC40_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "a80db1fc2f7cf0b91cab2565a49e4a533f74636f0523185d374637d881ee6786"
+    },
+    "STL/C2A_VRC40_Folded_Body.stl": {
+      "bytes": 21684,
+      "sha256": "a98e21496c8073e096163a9f8da2d0c8b4012a6a6219d4436b213394a1245f70"
+    },
+    "STL/C2A_VRC40_Launch_Body.stl": {
+      "bytes": 22484,
+      "sha256": "ac76d38837c81585387e70daa2b89f4bb4c725e1391718202bcb8d63e4b3f94c"
+    },
+    "STL/C2A_VRC40_Spread_Body.stl": {
+      "bytes": 21284,
+      "sha256": "26c08d57517cbd1c6053ca8b4746c616ff6cfc6566a083dc6a644749252c6bcf"
+    },
+    "STL/C2A_VRC40_Squadron_ID_Insert.stl": {
+      "bytes": 1484,
+      "sha256": "cc37f46dde22b1f2b4da0495aaa9adb75d84cc509516439f1457cb9362a383d1"
+    },
+    "STL/E2C_VAW123_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "bac3a9c3f18ae1dc0fcd74c3252cf07fe26d578292af8c03e8bf36ff8a22ecf7"
+    },
+    "STL/E2C_VAW123_Folded_Body.stl": {
+      "bytes": 52684,
+      "sha256": "e7886d42b7b487be703ecbc78836ec519c3337d18780c2521631e92d33d471eb"
+    },
+    "STL/E2C_VAW123_Launch_Body.stl": {
+      "bytes": 53484,
+      "sha256": "8779ea320443ce997def689b15ef3cc0e8d78d32c255cc38d2bfd62fa329998e"
+    },
+    "STL/E2C_VAW123_Rotodome.stl": {
+      "bytes": 50284,
+      "sha256": "e361b578db951d74d1533223fee34faf61b03612a2300f15766a09573a71f198"
+    },
+    "STL/E2C_VAW123_Spread_Body.stl": {
+      "bytes": 52284,
+      "sha256": "398b4331edaf5686c30f2a4385ac97b918a7b6678cbf34d969eb3fbec8347b46"
+    },
+    "STL/E2C_VAW123_Squadron_ID_Insert.stl": {
+      "bytes": 3084,
+      "sha256": "97a0ed38e519338dd851bf22a1930885e802c7ef2b0a02c22615535acc74142b"
+    },
+    "STL/EA18G_VAQ130_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "04c692e36f6b1867881d078be5e70d159f275b64ca66254f77b208827eac9d16"
+    },
+    "STL/EA18G_VAQ130_Folded_Body.stl": {
+      "bytes": 19284,
+      "sha256": "223c45cb550a13067b9dc4d6dbcf9ba6f279ed3f20bb90fe5fd750c3c092aa9a"
+    },
+    "STL/EA18G_VAQ130_Launch_Body.stl": {
+      "bytes": 20484,
+      "sha256": "3336a8f179f72c4db6fa2d165a1a3405fb4ac0de987d68f41a6af681366f5af3"
+    },
+    "STL/EA18G_VAQ130_Spread_Body.stl": {
+      "bytes": 19284,
+      "sha256": "07fffff248aa32cbc2d94f5c37a737c4bc8552f0ad20a11ddb5632321fd3281c"
+    },
+    "STL/EA18G_VAQ130_Squadron_ID_Insert.stl": {
+      "bytes": 2284,
+      "sha256": "2546851b03320f0aa619f400beaa748cdfd9809d0341452b492d98e042d9dc2f"
+    },
+    "STL/FA18E_VFA105_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "ad75b126278276069832afae123068244e172fb115cf3784b234f1a4919abd1e"
+    },
+    "STL/FA18E_VFA105_Folded_Body.stl": {
+      "bytes": 16084,
+      "sha256": "50c9723ae1fb28035f8a5c6fd5588274bad0a05e7a2c98c3909cd0745fd08094"
+    },
+    "STL/FA18E_VFA105_Launch_Body.stl": {
+      "bytes": 17284,
+      "sha256": "46b280f981bdcc752c63b3b046da9c53b6e9b5596f7c99de2825f770bfdf6347"
+    },
+    "STL/FA18E_VFA105_Spread_Body.stl": {
+      "bytes": 16084,
+      "sha256": "4f2f3e0d7ce4a174518018e00dba75148e084415732988d562751e5fb8cc8589"
+    },
+    "STL/FA18E_VFA105_Squadron_ID_Insert.stl": {
+      "bytes": 1484,
+      "sha256": "7f426c21bb9a2af42a50a1e10ca05781100f89b1e39aaf1e66b478ef465b9c73"
+    },
+    "STL/FA18E_VFA131_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "c2fc5799cca332a673cee943b5351e15b2171f37d1c375a2dabc2ffeb1552afd"
+    },
+    "STL/FA18E_VFA131_Folded_Body.stl": {
+      "bytes": 16084,
+      "sha256": "00fe318db5dbebe18c935239cf164c265db8d2c9e508a1b20935a453c0b59d69"
+    },
+    "STL/FA18E_VFA131_Launch_Body.stl": {
+      "bytes": 17284,
+      "sha256": "69f5aa0a9489286410656bbf57523a880b507a516d517a5e6f45313cdef96d02"
+    },
+    "STL/FA18E_VFA131_Spread_Body.stl": {
+      "bytes": 16084,
+      "sha256": "8a5e3161a3f1732128c67a7a8b2824729b7871e7d255f7fd88510da6a6fb76b9"
+    },
+    "STL/FA18E_VFA131_Squadron_ID_Insert.stl": {
+      "bytes": 1484,
+      "sha256": "ddda1d67157deee17bca0769a2182c2911098378a55ffc37c653a7ab694fa195"
+    },
+    "STL/FA18E_VFA83_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "8a547f906a977591b9c18cbab06a7836d0efd04bafe8f9ce985c7e7d24cc7745"
+    },
+    "STL/FA18E_VFA83_Folded_Body.stl": {
+      "bytes": 16084,
+      "sha256": "a83ea8d09de5d492fe923b624b48a3011a5d7f52c112cfba77c7a17ce2b10189"
+    },
+    "STL/FA18E_VFA83_Launch_Body.stl": {
+      "bytes": 17284,
+      "sha256": "8dbd23dc00926235ca075a5029b94550d26f7c146dc6a3b2d63d057f0d655bb8"
+    },
+    "STL/FA18E_VFA83_Spread_Body.stl": {
+      "bytes": 16084,
+      "sha256": "08837114703763b272f5c2ff89ade0217b54c3885640f299ffaebad13db9b3f2"
+    },
+    "STL/FA18E_VFA83_Squadron_ID_Insert.stl": {
+      "bytes": 3084,
+      "sha256": "f578c8ba11b5e9c73d3d0fcb28ac9928464b8c14a927f4890c197bb78f1d80a3"
+    },
+    "STL/FA18F_VFA32_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "a36cf580c5cf066fc882fa05f04b473c61aabf2f7c67a9d900e4f375df13d3ae"
+    },
+    "STL/FA18F_VFA32_Folded_Body.stl": {
+      "bytes": 16084,
+      "sha256": "41a02e87a38e85dcd1cfe047ae5ad54ab8ad769abb08f7d437d5dc8a0efe3b8e"
+    },
+    "STL/FA18F_VFA32_Launch_Body.stl": {
+      "bytes": 17284,
+      "sha256": "82b45d691b6992c02c04094571f8bace92e90d871c7ea2328106056a92f7f2f3"
+    },
+    "STL/FA18F_VFA32_Spread_Body.stl": {
+      "bytes": 16084,
+      "sha256": "8594480af4b9710118674dbe7af792d94c13b7e0b071e2940bddcdce9c2b33a2"
+    },
+    "STL/FA18F_VFA32_Squadron_ID_Insert.stl": {
+      "bytes": 2284,
+      "sha256": "e59e95329d7f337f4796e906e7bdc0b7568637e6b3fc38444b9fb3c77ce569b4"
+    },
+    "STL/MH60R_HSM74_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "713beaab6a4f99581c58dd240dd3ee3b12465d398a661ebfffd57e81fc5f98bc"
+    },
+    "STL/MH60R_HSM74_Deployed_Body.stl": {
+      "bytes": 10084,
+      "sha256": "df1560551ff7c890706c2e0de6f38feb61e74b92e17136929f6f570113dddfb3"
+    },
+    "STL/MH60R_HSM74_Deployed_Main_Rotor.stl": {
+      "bytes": 11084,
+      "sha256": "605f18948f67048e385850d7b467e26b64998b43b8d7c58e30255ce585fec899"
+    },
+    "STL/MH60R_HSM74_Folded_Body.stl": {
+      "bytes": 10084,
+      "sha256": "07b7f1ce73546f5ef82bfafc78a88f2df6b963804b3f8662c7f839206af0b906"
+    },
+    "STL/MH60R_HSM74_Folded_Main_Rotor.stl": {
+      "bytes": 684,
+      "sha256": "892e3203dda3b3a98947cdd82a9f2b120207cf233d16ab7487f0aaf8885ba9d9"
+    },
+    "STL/MH60R_HSM74_Squadron_ID_Insert.stl": {
+      "bytes": 2284,
+      "sha256": "920a78a82272539d2ae0b608547e5548a93eb1fc499067cb5a0d00dee04c2f47"
+    },
+    "STL/MH60S_HSC7_Canopy_Insert.stl": {
+      "bytes": 884,
+      "sha256": "77bd8ed306521c6d25a97a52d5d039895b47f343a47e9aa2484747fc45871e6c"
+    },
+    "STL/MH60S_HSC7_Deployed_Body.stl": {
+      "bytes": 8484,
+      "sha256": "4d7081131a14f562e1b88da0c3dedfb2867e40b9010b6b6e12ec21ad43cbc6ff"
+    },
+    "STL/MH60S_HSC7_Deployed_Main_Rotor.stl": {
+      "bytes": 11084,
+      "sha256": "31434a5b04e281a1dc82b48c42f7b2c4754b58858d066c51dc0be38c473cd20a"
+    },
+    "STL/MH60S_HSC7_Folded_Body.stl": {
+      "bytes": 8484,
+      "sha256": "7db2ce8cdbecd4bf0712c88685cd2042bab758401dc5295f0db2c320e5c78ec1"
+    },
+    "STL/MH60S_HSC7_Folded_Main_Rotor.stl": {
+      "bytes": 684,
+      "sha256": "2177efee3e58e7b86280fab72c6ad823d34558c11c6f542bccdc0c5ed7b5a038"
+    },
+    "STL/MH60S_HSC7_Squadron_ID_Insert.stl": {
+      "bytes": 3084,
+      "sha256": "bd208fd5ca5a8365f41ba7a22f9440dc5c7b42bee93d2e589fbf4139504cb617"
+    },
+    "Scripts/audit_airwing_references.py": {
+      "bytes": 1797,
+      "sha256": "ad86ce991e66edd43e8afc5a8a3461d5bd35ed522158c909f166c4338d53a9e5"
+    },
+    "Scripts/build_airwing.py": {
+      "bytes": 26865,
+      "sha256": "dced42da72713c459f6967192fae3316e7a45b0b428730a55b6a1929e997551c"
+    },
+    "Scripts/build_airwing_layout.py": {
+      "bytes": 18672,
+      "sha256": "944ecf2490037416f84c64ded054a0642a31d5297ed544816b1fea3c55ee11c4"
+    },
+    "Scripts/generate_airwing_documents.py": {
+      "bytes": 14741,
+      "sha256": "7932db2c2ddd0b2a7cf65f3a247ae4bf4f2820f8a6fd30cf6c5be1a89bcdea3f"
+    },
+    "Scripts/render_airwing.py": {
+      "bytes": 9260,
+      "sha256": "fd432398fd6163da45f1272a1ae173d64986cb40980f7c31b8a9cefa8b147446"
+    },
+    "Scripts/run_bambu_airwing_checks.py": {
+      "bytes": 8273,
+      "sha256": "ab88966de5c0a2c0edf3953a15937906cd66a681a28acccf979a05a89e0db555"
+    },
+    "Scripts/validate_airwing.py": {
+      "bytes": 20480,
+      "sha256": "5d309e1925fe31a98ebdbd13b106002274a670b89a50ac2b55a74430aaaa73a4"
+    }
+  },
+  "validation_status": {
+    "reference_audit": "PASS",
+    "geometry_mesh_layout": "PASS",
+    "deterministic_rebuild": "PASS",
+    "bambu_real_slice": "PASS",
+    "physical_first_article": "NOT_RUN"
+  },
+  "output_file_count": 147
+}

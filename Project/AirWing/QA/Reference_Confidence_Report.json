@@ -1,0 +1,8 @@
+{
+  "overall_status": "PASS",
+  "configuration_period": "2023-10-14 through 2024-07-14",
+  "high_confidence": ["official embarked unit list", "aircraft type assignments", "official overall dimensions"],
+  "medium_confidence": ["major silhouettes", "visible folding states", "family distinctions"],
+  "engineering_representations": ["folded envelopes", "FDM thickness", "removable print rails", "identity tiles", "parking coordinates"],
+  "excluded": ["controlled lofts", "bureau numbers", "weapons loads", "exact insignia art", "E-2D", "CMV-22B", "F-35C"]
+}
