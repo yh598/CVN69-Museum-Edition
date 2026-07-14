@@ -1,0 +1,286 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "Milestone 1 \u2014 Hull",
+  "version": "0.1.0",
+  "sealed_utc": "2026-07-14T05:16:34.952994+00:00",
+  "status": "PASS",
+  "validation_checks": 34,
+  "accuracy_class": "public-data, photo-informed, print-oriented reconstruction",
+  "artifacts": [
+    {
+      "path": "3MF/Hull.3mf",
+      "bytes": 960629,
+      "sha256": "f73121dbc7b7d4747b8643b6ed2bfb823fca380ea589986bbd09309936886862"
+    },
+    {
+      "path": "Assembly/README.md",
+      "bytes": 282,
+      "sha256": "84e8444972ed44044459f9ca6315fcd57c26a259c05e348d23636ab2b56ff104"
+    },
+    {
+      "path": "CAD/FreeCAD/Hull.FCStd",
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    {
+      "path": "CAD/Python/hull_parameters.py",
+      "bytes": 4074,
+      "sha256": "220e1d6aaa757ee52a68da90941be370b0874c8f70a3c667331e5ca75c0e63d1"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1331,
+      "sha256": "41ff11e01de23e8c2f5507d0c1579a69e41ac9ac4446ab657da32947fe7cb584"
+    },
+    {
+      "path": "Docs/BOM.csv",
+      "bytes": 618,
+      "sha256": "bbb8a76496483d10add17c110003b6035069604cad80ab8ef52276896ae70c8e"
+    },
+    {
+      "path": "Docs/Hull_Assembly.md",
+      "bytes": 2473,
+      "sha256": "15137d5c5cd7ddb2cc388091c346939b2d9993e44c7442848de555a652c89391"
+    },
+    {
+      "path": "Docs/Hull_Assembly.pdf",
+      "bytes": 190676,
+      "sha256": "b412d4a30e4a8f7126003fc8cfdf1d1d5271b2cba747c8a23479c8d1bef240e2"
+    },
+    {
+      "path": "Docs/Hull_Drawings.pdf",
+      "bytes": 411175,
+      "sha256": "4280c44bbed86989de1777fb03b0f46f459aadf3e64155d01993ee96069a6f74"
+    },
+    {
+      "path": "Docs/Hull_Printing_Guide.md",
+      "bytes": 2111,
+      "sha256": "55292fb17727a041c2b39e51b8e63c58ade2f4e4dca1ed39e391c375aef4c739"
+    },
+    {
+      "path": "Docs/Hull_Printing_Guide.pdf",
+      "bytes": 66959,
+      "sha256": "acf8fc0bcc136913f5f7a7211af81e84e8f9a210de8b1e1a2bfc67169721249d"
+    },
+    {
+      "path": "Docs/Hull_ProjectPlan.md",
+      "bytes": 2992,
+      "sha256": "316e3deea68ed81510fc937fee5a843730cb34047f2009d4382977b91bc8ca34"
+    },
+    {
+      "path": "Docs/Hull_ProjectPlan.pdf",
+      "bytes": 68154,
+      "sha256": "35a580c0299bdaf9ede0e54d16887551d6d0241c13d525c1116f9e5058531ee6"
+    },
+    {
+      "path": "Docs/ReleaseNotes-v0.1.0.md",
+      "bytes": 743,
+      "sha256": "6ddc944f100273d33a589644a3c9982114565cb618c20f6296a7a19d7e536df7"
+    },
+    {
+      "path": "Images/Hull_Exploded.png",
+      "bytes": 115682,
+      "sha256": "cac225bfa8f696d547ecb5f737b46baa50d39f767bc826aa666f2d2626f5ce68"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 727,
+      "sha256": "12679c1c96c48cb79c12b39af35e2693dc891f7143d68ab5c21e4054a428075b"
+    },
+    {
+      "path": "OBJ/Hull.mtl",
+      "bytes": 264,
+      "sha256": "f6d49bd973ca19fd936144898101e0692c008cda67e0f6e06bcc3d2a2df0ec09"
+    },
+    {
+      "path": "OBJ/Hull.obj",
+      "bytes": 2621331,
+      "sha256": "66942d1c30a181cb9b4f7db06ed92bcc0e0a5ddb1e4fd591a4f36f8ac3ae5745"
+    },
+    {
+      "path": "Print/README.md",
+      "bytes": 342,
+      "sha256": "d83df7cf99a3327c1593b395ba5d1687af9954e9a2775e5398abd2e87e3e8864"
+    },
+    {
+      "path": "QA/BambuStudio_Info.txt",
+      "bytes": 342,
+      "sha256": "343959c0555398ca11c3fdde52bc920aac458b35789ff6e4b847885d616d9984"
+    },
+    {
+      "path": "QA/VALIDATION.md",
+      "bytes": 4102,
+      "sha256": "5609c16d5d565c33acd23e42934ce8347873d68d0b6930464fd5f83adb1bd2db"
+    },
+    {
+      "path": "QA/build_manifest.json",
+      "bytes": 11729,
+      "sha256": "af42acbeaca60953f58fbaf6b135f96418790e2b74e7b5b9182a8d0c0cc36615"
+    },
+    {
+      "path": "QA/scale_smoke_tests.txt",
+      "bytes": 509,
+      "sha256": "c338c69b41754e854a61308a9e0e45f78af3c034891fcf7a438ff03316130f95"
+    },
+    {
+      "path": "QA/validation_report.json",
+      "bytes": 18020,
+      "sha256": "3aa77cafe4c6e9a6858d962970b964c774dca9d9a22404fca3c16c2125f79519"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4577,
+      "sha256": "87b40d3bc25d1a8be0e46e84d3c8313ef8d86178e54abadf9392f1198dba2947"
+    },
+    {
+      "path": "Render/Hull_Isometric.png",
+      "bytes": 117843,
+      "sha256": "c0ad6db2c9bf06becfde9882e2b20e5c16e1f9d106b1bdf8b128fa8227ef6eb5"
+    },
+    {
+      "path": "Render/Hull_Orthographic.png",
+      "bytes": 376485,
+      "sha256": "207c60e0749cb82dbead4eacffd245def2eb5fcb80c0b95579c823d979fd24a3"
+    },
+    {
+      "path": "STEP/Hull.step",
+      "bytes": 4088259,
+      "sha256": "c51b7cecc7389ba3ebc62d9cf3cb7ef4a5615f10396aea42951bea8000d2ccc1"
+    },
+    {
+      "path": "STL/Hull.stl",
+      "bytes": 3722384,
+      "sha256": "a1c886ab90c406ea59b1a1614444106c6195aeb3cd562c20ba20bda6dc467f7c"
+    },
+    {
+      "path": "STL/Hull_Module_1.stl",
+      "bytes": 2051684,
+      "sha256": "3583ba358a8489346024c55604689ed56e051a10b058aa90ac4d6c87caff6213"
+    },
+    {
+      "path": "STL/Hull_Module_2.stl",
+      "bytes": 785284,
+      "sha256": "cb6e37d75553050e2f1ec675c990e94997c73d1160750e2aac72f004ac89a846"
+    },
+    {
+      "path": "STL/Hull_Module_3.stl",
+      "bytes": 581584,
+      "sha256": "213726d6bba6a53d74993739ed92c95328b071ab8ba11959892f3f8788c567fa"
+    },
+    {
+      "path": "STL/Propeller_1.stl",
+      "bytes": 72284,
+      "sha256": "53e24478c5020a8cd97c8687665c5cd0285d849cdd98b0c90c5ac2f373932e08"
+    },
+    {
+      "path": "STL/Propeller_2.stl",
+      "bytes": 72284,
+      "sha256": "cfd03f879a60513fa24281c585d18bca634409e4207387aabcfc731e8e412a8d"
+    },
+    {
+      "path": "STL/Propeller_3.stl",
+      "bytes": 72284,
+      "sha256": "27c387ef68854d9833d9540de5904d1856b0fb6117031603472b08819f931d40"
+    },
+    {
+      "path": "STL/Propeller_4.stl",
+      "bytes": 72284,
+      "sha256": "99a3b9e54187e56a7bb63954a00995553395773cfb8574f5e7978b8e30d53dbd"
+    },
+    {
+      "path": "STL/Rudder_Port.stl",
+      "bytes": 1684,
+      "sha256": "a4dc3eff3fc34da13f3477aa28e5e80019f788322451c111b0c5197a0938d2fc"
+    },
+    {
+      "path": "STL/Rudder_Starboard.stl",
+      "bytes": 1684,
+      "sha256": "aa5a1d4408f3c268f722aefbd3c0fea21f7fd7ba8e366e9b00fd3c8df72d7bb9"
+    },
+    {
+      "path": "STL/Shaft_1.stl",
+      "bytes": 1084,
+      "sha256": "c7f1331a33a59aa072fcd68d39a1c9bc67caeeea3e883968e143f0b541820151"
+    },
+    {
+      "path": "STL/Shaft_1_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "3aa764ae0f97019728ecc17f73cff8e975ebd0602ebcb0ff618b95e42387b022"
+    },
+    {
+      "path": "STL/Shaft_1_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "2aedb46169a989c3751e59869942ba8b3481718bc3e3234e89ba543575de64e1"
+    },
+    {
+      "path": "STL/Shaft_2.stl",
+      "bytes": 1084,
+      "sha256": "17f35a0a0e837729bb93684ab2d939ed087a8340492cae7792c0272acca9c8b0"
+    },
+    {
+      "path": "STL/Shaft_2_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "12b73f76afb9752fa22bb88f2dbfd2c08cf4dfec853b95c3fcdb3a9c48db7e93"
+    },
+    {
+      "path": "STL/Shaft_2_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "2a980c05c56ebd31d00b71c374924e0ad021927cfc83f604085b13f23edfe74b"
+    },
+    {
+      "path": "STL/Shaft_3.stl",
+      "bytes": 1084,
+      "sha256": "7e3e042ed39de5c74f2d5a46409dc540b623c32dcaf7babe7fd673417275b220"
+    },
+    {
+      "path": "STL/Shaft_3_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "df300c6cc6b6c9e81af5472b8482c221519ef281df85f75299b2839fc0eb6953"
+    },
+    {
+      "path": "STL/Shaft_3_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "5a3deaa91485fb097c338b8226a8e94b501fd2d873c5cca69b0c419ecbf08569"
+    },
+    {
+      "path": "STL/Shaft_4.stl",
+      "bytes": 1084,
+      "sha256": "e18a95a71516ba94252fac2abab97a7c628f38c875dee53828578c8e338de429"
+    },
+    {
+      "path": "STL/Shaft_4_Strut_P.stl",
+      "bytes": 1084,
+      "sha256": "c65a67b0f23c375e17d5864027dbcb82b75d7ebff3cd336d1af6f6096312ebcd"
+    },
+    {
+      "path": "STL/Shaft_4_Strut_S.stl",
+      "bytes": 1084,
+      "sha256": "a5f9a97baeb66befa05dade985d0e4a04c44c7f2f7d56c6214db04d1a7c94a27"
+    },
+    {
+      "path": "Scripts/build_milestone_1.py",
+      "bytes": 33812,
+      "sha256": "5e852bee65757e1dbc7617a4dd4746f0e0882a30bc3e3cf18cb45736bfd3cf9b"
+    },
+    {
+      "path": "Scripts/generate_documents.py",
+      "bytes": 23016,
+      "sha256": "19a677c32f067f025fc3d09d3c261b19af9da0f8eaf985b6fde118ab5ef708b7"
+    },
+    {
+      "path": "Scripts/package_release.py",
+      "bytes": 2487,
+      "sha256": "5e89286df5deca63e00cc63b712c873aa4c2d42525535ea0243c65d9ce5c24a9"
+    },
+    {
+      "path": "Scripts/render_hull.py",
+      "bytes": 7871,
+      "sha256": "085b9ac8edab5805307058cb55c2dd45526c514dc707e4a34d38dcc91cbf5fa3"
+    },
+    {
+      "path": "Scripts/validate_milestone_1.py",
+      "bytes": 12945,
+      "sha256": "7d5b9b08eef51e0d872bfce4e8031763cc5c1adecd1962b3f1ef6e5148e3a082"
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "v0.1 Hull",
+  "validated_utc": "2026-07-14T05:13:53.167096+00:00",
+  "freecad_version": "1.1.1",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "name": "STL topology \u2014 Hull.stl",
+      "status": "PASS",
+      "evidence": "74446 facets; 21 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Hull_Module_1.stl",
+      "status": "PASS",
+      "evidence": "41032 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Hull_Module_2.stl",
+      "status": "PASS",
+      "evidence": "15704 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Hull_Module_3.stl",
+      "status": "PASS",
+      "evidence": "11630 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Propeller_1.stl",
+      "status": "PASS",
+      "evidence": "1444 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Propeller_2.stl",
+      "status": "PASS",
+      "evidence": "1444 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Propeller_3.stl",
+      "status": "PASS",
+      "evidence": "1444 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Propeller_4.stl",
+      "status": "PASS",
+      "evidence": "1444 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Rudder_Port.stl",
+      "status": "PASS",
+      "evidence": "32 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Rudder_Starboard.stl",
+      "status": "PASS",
+      "evidence": "32 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_1.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_1_Strut_P.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_1_Strut_S.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_2.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_2_Strut_P.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_2_Strut_S.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_3.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_3_Strut_P.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_3_Strut_S.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_4.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_4_Strut_P.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "STL topology \u2014 Shaft_4_Strut_S.stl",
+      "status": "PASS",
+      "evidence": "20 facets; 1 component(s); 0 non-manifold edges; 0 degenerate facets"
+    },
+    {
+      "name": "Complete kit part count",
+      "status": "PASS",
+      "evidence": "detected 21 disconnected watertight parts"
+    },
+    {
+      "name": "Preferred plate envelope",
+      "status": "PASS",
+      "evidence": "Hull.stl bounds [220.0562, 177.29082, 31.43096] mm"
+    },
+    {
+      "name": "A1 Mini module envelope",
+      "status": "PASS",
+      "evidence": "module maximum axes [164.66667, 164.76666, 158.76666] mm"
+    },
+    {
+      "name": "3MF package and indices",
+      "status": "PASS",
+      "evidence": "74446 triangles; 4 allowed materials; CRC=True"
+    },
+    {
+      "name": "FreeCAD BRep validity / self-intersection",
+      "status": "PASS",
+      "evidence": "23 leaf/reference BRep shapes passed OCC BOPCheck"
+    },
+    {
+      "name": "FreeCAD closed solids",
+      "status": "PASS",
+      "evidence": "all exported production Part::Feature objects are closed solids"
+    },
+    {
+      "name": "STEP round-trip",
+      "status": "PASS",
+      "evidence": "21 closed solids after STEP re-import; 0 self-intersection issues (92 OCC p-curve diagnostics recorded)"
+    },
+    {
+      "name": "Overall hull length",
+      "status": "PASS",
+      "evidence": "measured 476.000 mm; target 476.000 mm"
+    },
+    {
+      "name": "Maximum molded hull beam",
+      "status": "PASS",
+      "evidence": "measured 58.304 mm; target 58.300 mm"
+    },
+    {
+      "name": "Glue-joint fit allowance",
+      "status": "PASS",
+      "evidence": "0.250 mm per side; 0.50 mm diametral"
+    },
+    {
+      "name": "Minimum modeled feature",
+      "status": "PASS",
+      "evidence": "0.48 mm minimum strut radius / blade gauge; hull bodies are solid slicer volumes"
+    },
+    {
+      "name": "Support strategy",
+      "status": "PASS",
+      "evidence": "hull modules orient flight-deck interface down; sockets bridge less than 8 mm; accessories have supplied flat/hex orientations"
+    }
+  ],
+  "stl_files": {
+    "Hull.stl": {
+      "facets": 74446,
+      "vertices": 37265,
+      "components": 21,
+      "bounds_mm": [
+        220.0562,
+        177.29082,
+        31.43096
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 711171.0371,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Hull_Module_1.stl": {
+      "facets": 41032,
+      "vertices": 20518,
+      "components": 1,
+      "bounds_mm": [
+        164.66667,
+        58.14038,
+        31.43096
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 211807.2488,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Hull_Module_2.stl": {
+      "facets": 15704,
+      "vertices": 7854,
+      "components": 1,
+      "bounds_mm": [
+        164.76666,
+        58.30376,
+        31.43011
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 260169.5247,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Hull_Module_3.stl": {
+      "facets": 11630,
+      "vertices": 5817,
+      "components": 1,
+      "bounds_mm": [
+        158.76666,
+        57.84668,
+        31.42591
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 238499.1266,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Propeller_1.stl": {
+      "facets": 1444,
+      "vertices": 724,
+      "components": 1,
+      "bounds_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 9.944,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Propeller_2.stl": {
+      "facets": 1444,
+      "vertices": 724,
+      "components": 1,
+      "bounds_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 9.944,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Propeller_3.stl": {
+      "facets": 1444,
+      "vertices": 724,
+      "components": 1,
+      "bounds_mm": [
+        7.26227,
+        7.12636,
+        2.075
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 9.944,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Propeller_4.stl": {
+      "facets": 1444,
+      "vertices": 724,
+      "components": 1,
+      "bounds_mm": [
+        7.26227,
+        7.12637,
+        2.075
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 9.944,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Rudder_Port.stl": {
+      "facets": 32,
+      "vertices": 18,
+      "components": 1,
+      "bounds_mm": [
+        16.0,
+        12.1,
+        1.2
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.5986,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Rudder_Starboard.stl": {
+      "facets": 32,
+      "vertices": 18,
+      "components": 1,
+      "bounds_mm": [
+        16.0,
+        12.1,
+        1.2
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 143.5986,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_1.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        50.35875,
+        1.56,
+        1.351
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 79.6005,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_1_Strut_P.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.23999,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_1_Strut_S.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_2.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        51.28954,
+        1.56,
+        1.351
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 81.0718,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_2_Strut_P.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_2_Strut_S.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_3.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        51.28954,
+        1.56,
+        1.351
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 81.0718,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_3_Strut_P.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_3_Strut_S.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24001,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_4.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        50.35875,
+        1.55999,
+        1.351
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 79.6004,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_4_Strut_P.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    },
+    "Shaft_4_Strut_S.stl": {
+      "facets": 20,
+      "vertices": 12,
+      "components": 1,
+      "bounds_mm": [
+        5.86003,
+        1.24,
+        1.07387
+      ],
+      "non_manifold_edges": 0,
+      "degenerate_facets": 0,
+      "normal_mismatches": 0,
+      "signed_volume_mm3": 5.8524,
+      "watertight": true,
+      "manifold": true,
+      "normals_consistent": true
+    }
+  },
+  "three_mf": {
+    "zip_crc_ok": true,
+    "missing_package_members": [],
+    "objects": 1,
+    "build_items": 1,
+    "vertices": 37265,
+    "triangles": 74446,
+    "materials": [
+      "PLA Matte Ash Gray",
+      "PLA Matte Charcoal",
+      "PLA Basic Gold",
+      "PLA Silk Silver"
+    ],
+    "invalid_triangle_indices": 0,
+    "valid": true
+  },
+  "fcstd_shapes": [
+    {
+      "name": "WaterlineGrooveTool",
+      "valid": true,
+      "closed": true,
+      "solids": 2
+    },
+    {
+      "name": "Hull_Module_1",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Hull_Module_2",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Hull_Module_3",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_1",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Propeller_1",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_1_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_1_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_2",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Propeller_2",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_2_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_2_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_3",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Propeller_3",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_3_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_3_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_4",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Propeller_4",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_4_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_4_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Rudder_Port",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "Rudder_Starboard",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    },
+    {
+      "name": "UnsplitHullEnvelope",
+      "valid": true,
+      "closed": true,
+      "solids": 1
+    }
+  ],
+  "step": {
+    "valid": true,
+    "solid_count": 21,
+    "all_solids_closed": true,
+    "strict_bop_issue_count": 92,
+    "strict_bop_issue_types": [
+      "Error in Edge: BOPAlgo_InvalidCurveOnSurface",
+      "Error in Face: BOPAlgo_InvalidCurveOnSurface"
+    ],
+    "self_intersection_issues": 0
+  },
+  "limitations": [
+    "No shipyard lines or classified appendage drawings were available; fidelity is a public-data, photo-informed Nimitz-class reconstruction.",
+    "Automated geometry checks do not replace a physical fit coupon and first-article print."
+  ]
+}

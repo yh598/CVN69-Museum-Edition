@@ -1,0 +1,8 @@
+FreeCAD 1.1.1 parameterized-geometry smoke tests
+
+1:1000 — overall length 333.2 mm — 3 modules — all modules valid and closed: PASS
+1:700  — overall length 476.0 mm — 3 modules — full release validation: PASS
+1:350  — overall length 952.0 mm — 6 modules — all modules valid and closed: PASS
+
+The non-default tests execute lofting, waterline/anchor cuts, propulsion/socket generation, automatic splitting, and per-module quick solid validation without overwriting the 1:700 release exports.
+

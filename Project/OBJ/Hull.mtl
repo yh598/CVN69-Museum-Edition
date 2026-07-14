@@ -1,0 +1,16 @@
+newmtl ash_gray
+# PLA Matte Ash Gray
+Kd 0.588235 0.596078 0.564706
+
+newmtl charcoal
+# PLA Matte Charcoal
+Kd 0.203922 0.215686 0.227451
+
+newmtl gold
+# PLA Basic Gold
+Kd 0.772549 0.603922 0.196078
+
+newmtl silk_silver
+# PLA Silk Silver
+Kd 0.682353 0.705882 0.721569
+

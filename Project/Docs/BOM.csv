@@ -1,0 +1,10 @@
+item,description,quantity,material,color,source_file
+1,Hull module 1 — bow,1,PLA Matte,Ash Gray,STL/Hull_Module_1.stl
+2,Hull module 2 — midship,1,PLA Matte,Ash Gray,STL/Hull_Module_2.stl
+3,Hull module 3 — stern,1,PLA Matte,Ash Gray,STL/Hull_Module_3.stl
+4,Shaft line,4,PLA,Silk Silver,STL/Shaft_1.stl through Shaft_4.stl
+5,Five-blade propeller,4,PLA Basic,Gold,STL/Propeller_1.stl through Propeller_4.stl
+6,A-bracket strut,8,PLA Matte,Ash Gray,STL/Shaft_n_Strut_P/S.stl
+7,Rudder,2,PLA Matte,Ash Gray,STL/Rudder_Port.stl and Rudder_Starboard.stl
+8,PLA-compatible adhesive,as required,Adhesive,Clear,not supplied
+

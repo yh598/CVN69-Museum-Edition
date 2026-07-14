@@ -1,0 +1,18 @@
+BambuStudio-02.07.01.62
+Command: BambuStudio --info Project/3MF/Hull.3mf
+
+[Hull.3mf]
+size_x = 220.056198
+size_y = 177.290817
+size_z = 31.430960
+min_x = -110.028099
+min_y = -88.645409
+min_z = -15.715480
+max_x = 110.028099
+max_y = 88.645409
+max_z = 15.715480
+number_of_facets = 74446
+manifold = yes
+number_of_parts = 21
+volume = 711196.125000
+

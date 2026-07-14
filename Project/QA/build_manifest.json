@@ -1,0 +1,576 @@
+{
+  "project": "USS Dwight D. Eisenhower (CVN-69) Museum Edition",
+  "milestone": "v0.1 Hull",
+  "version": "0.1.0",
+  "generated_utc": "2026-07-14T05:08:55.676689+00:00",
+  "freecad_version": "1.1.1",
+  "scale": "1:700",
+  "parameters_mm": {
+    "overall_length": 476.0,
+    "maximum_hull_beam": 58.3,
+    "molded_depth": 31.5,
+    "waterline_height": 15.9,
+    "joint_clearance_per_side": 0.25,
+    "module_max_length": 160.0,
+    "tessellation_deflection": 0.075
+  },
+  "print_layout_bounds_mm": [
+    220.056,
+    177.291,
+    31.431
+  ],
+  "stl_facet_count": 74446,
+  "shapes": [
+    {
+      "name": "Hull_Module_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 211928.604,
+      "bounds_mm": {
+        "x": [
+          0.0,
+          164.667
+        ],
+        "y": [
+          -29.07,
+          29.07
+        ],
+        "z": [
+          0.069,
+          31.5
+        ]
+      }
+    },
+    {
+      "name": "Hull_Module_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 260261.456,
+      "bounds_mm": {
+        "x": [
+          158.567,
+          323.333
+        ],
+        "y": [
+          -29.152,
+          29.152
+        ],
+        "z": [
+          0.07,
+          31.5
+        ]
+      }
+    },
+    {
+      "name": "Hull_Module_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 238641.04,
+      "bounds_mm": {
+        "x": [
+          317.233,
+          476.0
+        ],
+        "y": [
+          -28.923,
+          28.923
+        ],
+        "z": [
+          0.074,
+          31.5
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 79.601,
+      "bounds_mm": {
+        "x": [
+          393.049,
+          442.927
+        ],
+        "y": [
+          -15.251,
+          -11.421
+        ],
+        "z": [
+          -3.62,
+          6.125
+        ]
+      }
+    },
+    {
+      "name": "Propeller_1",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.944,
+      "bounds_mm": {
+        "x": [
+          441.562,
+          443.637
+        ],
+        "y": [
+          -17.883,
+          -10.757
+        ],
+        "z": [
+          -6.366,
+          0.897
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          405.922,
+          409.674
+        ],
+        "y": [
+          -15.984,
+          -12.395
+        ],
+        "z": [
+          2.273,
+          7.527
+        ]
+      }
+    },
+    {
+      "name": "Shaft_1_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          405.922,
+          409.674
+        ],
+        "y": [
+          -13.484,
+          -9.895
+        ],
+        "z": [
+          2.273,
+          7.527
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 81.072,
+      "bounds_mm": {
+        "x": [
+          400.664,
+          451.496
+        ],
+        "y": [
+          -7.964,
+          -5.373
+        ],
+        "z": [
+          -3.219,
+          6.754
+        ]
+      }
+    },
+    {
+      "name": "Propeller_2",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.944,
+      "bounds_mm": {
+        "x": [
+          450.13,
+          452.205
+        ],
+        "y": [
+          -10.596,
+          -3.469
+        ],
+        "z": [
+          -5.966,
+          1.297
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          413.862,
+          417.614
+        ],
+        "y": [
+          -9.514,
+          -5.926
+        ],
+        "z": [
+          2.825,
+          8.079
+        ]
+      }
+    },
+    {
+      "name": "Shaft_2_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          413.862,
+          417.614
+        ],
+        "y": [
+          -7.014,
+          -3.426
+        ],
+        "z": [
+          2.825,
+          8.079
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 81.072,
+      "bounds_mm": {
+        "x": [
+          400.664,
+          451.496
+        ],
+        "y": [
+          5.373,
+          7.964
+        ],
+        "z": [
+          -3.219,
+          6.754
+        ]
+      }
+    },
+    {
+      "name": "Propeller_3",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.944,
+      "bounds_mm": {
+        "x": [
+          450.13,
+          452.205
+        ],
+        "y": [
+          3.979,
+          11.105
+        ],
+        "z": [
+          -5.966,
+          1.297
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          413.862,
+          417.614
+        ],
+        "y": [
+          3.426,
+          7.014
+        ],
+        "z": [
+          2.825,
+          8.079
+        ]
+      }
+    },
+    {
+      "name": "Shaft_3_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          413.862,
+          417.614
+        ],
+        "y": [
+          5.926,
+          9.514
+        ],
+        "z": [
+          2.825,
+          8.079
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 79.601,
+      "bounds_mm": {
+        "x": [
+          393.049,
+          442.927
+        ],
+        "y": [
+          11.421,
+          15.251
+        ],
+        "z": [
+          -3.62,
+          6.125
+        ]
+      }
+    },
+    {
+      "name": "Propeller_4",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 9.944,
+      "bounds_mm": {
+        "x": [
+          441.562,
+          443.637
+        ],
+        "y": [
+          11.267,
+          18.393
+        ],
+        "z": [
+          -6.366,
+          0.897
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4_Strut_P",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          405.922,
+          409.674
+        ],
+        "y": [
+          9.895,
+          13.484
+        ],
+        "z": [
+          2.273,
+          7.527
+        ]
+      }
+    },
+    {
+      "name": "Shaft_4_Strut_S",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 5.852,
+      "bounds_mm": {
+        "x": [
+          405.922,
+          409.674
+        ],
+        "y": [
+          12.395,
+          15.984
+        ],
+        "z": [
+          2.273,
+          7.527
+        ]
+      }
+    },
+    {
+      "name": "Rudder_Port",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 143.599,
+      "bounds_mm": {
+        "x": [
+          445.06,
+          461.06
+        ],
+        "y": [
+          -9.636,
+          -8.437
+        ],
+        "z": [
+          -6.0,
+          6.1
+        ]
+      }
+    },
+    {
+      "name": "Rudder_Starboard",
+      "valid": true,
+      "closed": true,
+      "solid_count": 1,
+      "volume_mm3": 143.599,
+      "bounds_mm": {
+        "x": [
+          445.06,
+          461.06
+        ],
+        "y": [
+          8.437,
+          9.636
+        ],
+        "z": [
+          -6.0,
+          6.1
+        ]
+      }
+    }
+  ],
+  "outputs": {
+    "CAD/FreeCAD/Hull.FCStd": {
+      "bytes": 1310499,
+      "sha256": "924708a5021b6939a093ff78ad89167b455ec6177bb1412e05f8763d89b0184f"
+    },
+    "STEP/Hull.step": {
+      "bytes": 4088259,
+      "sha256": "c51b7cecc7389ba3ebc62d9cf3cb7ef4a5615f10396aea42951bea8000d2ccc1"
+    },
+    "STL/Hull.stl": {
+      "bytes": 3722384,
+      "sha256": "a1c886ab90c406ea59b1a1614444106c6195aeb3cd562c20ba20bda6dc467f7c"
+    },
+    "3MF/Hull.3mf": {
+      "bytes": 960629,
+      "sha256": "f73121dbc7b7d4747b8643b6ed2bfb823fca380ea589986bbd09309936886862"
+    },
+    "OBJ/Hull.obj": {
+      "bytes": 2621331,
+      "sha256": "66942d1c30a181cb9b4f7db06ed92bcc0e0a5ddb1e4fd591a4f36f8ac3ae5745"
+    },
+    "OBJ/Hull.mtl": {
+      "bytes": 264,
+      "sha256": "f6d49bd973ca19fd936144898101e0692c008cda67e0f6e06bcc3d2a2df0ec09"
+    },
+    "STL/Hull_Module_1.stl": {
+      "bytes": 2051684,
+      "sha256": "3583ba358a8489346024c55604689ed56e051a10b058aa90ac4d6c87caff6213"
+    },
+    "STL/Hull_Module_2.stl": {
+      "bytes": 785284,
+      "sha256": "cb6e37d75553050e2f1ec675c990e94997c73d1160750e2aac72f004ac89a846"
+    },
+    "STL/Hull_Module_3.stl": {
+      "bytes": 581584,
+      "sha256": "213726d6bba6a53d74993739ed92c95328b071ab8ba11959892f3f8788c567fa"
+    },
+    "STL/Shaft_1.stl": {
+      "bytes": 1084,
+      "sha256": "c7f1331a33a59aa072fcd68d39a1c9bc67caeeea3e883968e143f0b541820151"
+    },
+    "STL/Propeller_1.stl": {
+      "bytes": 72284,
+      "sha256": "53e24478c5020a8cd97c8687665c5cd0285d849cdd98b0c90c5ac2f373932e08"
+    },
+    "STL/Shaft_1_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "3aa764ae0f97019728ecc17f73cff8e975ebd0602ebcb0ff618b95e42387b022"
+    },
+    "STL/Shaft_1_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "2aedb46169a989c3751e59869942ba8b3481718bc3e3234e89ba543575de64e1"
+    },
+    "STL/Shaft_2.stl": {
+      "bytes": 1084,
+      "sha256": "17f35a0a0e837729bb93684ab2d939ed087a8340492cae7792c0272acca9c8b0"
+    },
+    "STL/Propeller_2.stl": {
+      "bytes": 72284,
+      "sha256": "cfd03f879a60513fa24281c585d18bca634409e4207387aabcfc731e8e412a8d"
+    },
+    "STL/Shaft_2_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "12b73f76afb9752fa22bb88f2dbfd2c08cf4dfec853b95c3fcdb3a9c48db7e93"
+    },
+    "STL/Shaft_2_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "2a980c05c56ebd31d00b71c374924e0ad021927cfc83f604085b13f23edfe74b"
+    },
+    "STL/Shaft_3.stl": {
+      "bytes": 1084,
+      "sha256": "7e3e042ed39de5c74f2d5a46409dc540b623c32dcaf7babe7fd673417275b220"
+    },
+    "STL/Propeller_3.stl": {
+      "bytes": 72284,
+      "sha256": "27c387ef68854d9833d9540de5904d1856b0fb6117031603472b08819f931d40"
+    },
+    "STL/Shaft_3_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "df300c6cc6b6c9e81af5472b8482c221519ef281df85f75299b2839fc0eb6953"
+    },
+    "STL/Shaft_3_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "5a3deaa91485fb097c338b8226a8e94b501fd2d873c5cca69b0c419ecbf08569"
+    },
+    "STL/Shaft_4.stl": {
+      "bytes": 1084,
+      "sha256": "e18a95a71516ba94252fac2abab97a7c628f38c875dee53828578c8e338de429"
+    },
+    "STL/Propeller_4.stl": {
+      "bytes": 72284,
+      "sha256": "99a3b9e54187e56a7bb63954a00995553395773cfb8574f5e7978b8e30d53dbd"
+    },
+    "STL/Shaft_4_Strut_P.stl": {
+      "bytes": 1084,
+      "sha256": "c65a67b0f23c375e17d5864027dbcb82b75d7ebff3cd336d1af6f6096312ebcd"
+    },
+    "STL/Shaft_4_Strut_S.stl": {
+      "bytes": 1084,
+      "sha256": "a5f9a97baeb66befa05dade985d0e4a04c44c7f2f7d56c6214db04d1a7c94a27"
+    },
+    "STL/Rudder_Port.stl": {
+      "bytes": 1684,
+      "sha256": "a4dc3eff3fc34da13f3477aa28e5e80019f788322451c111b0c5197a0938d2fc"
+    },
+    "STL/Rudder_Starboard.stl": {
+      "bytes": 1684,
+      "sha256": "aa5a1d4408f3c268f722aefbd3c0fea21f7fd7ba8e366e9b00fd3c8df72d7bb9"
+    }
+  }
+}
