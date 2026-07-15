@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-07-14T23:58:02.838980+00:00",
+  "coordinate_system": "x=0 bow to x=476 stern; y port(-)/starboard(+); z uses approved hull datum; heading clockwise from +x",
+  "baseline_objects": 115,
+  "collision_targets": 97,
+  "layouts": {
+    "light": {
+      "support_instances": 14,
+      "aircraft_instances": 16,
+      "rejected_candidates": {
+        "outside_deck": 1378,
+        "fixed_obstacle": 34,
+        "aircraft": 18,
+        "vehicle_clearance": 123
+      },
+      "config": "Layout/light_support_layout.json"
+    },
+    "default": {
+      "support_instances": 24,
+      "aircraft_instances": 32,
+      "rejected_candidates": {
+        "outside_deck": 2642,
+        "fixed_obstacle": 204,
+        "aircraft": 14,
+        "vehicle_clearance": 412
+      },
+      "config": "Layout/default_support_layout.json"
+    },
+    "full": {
+      "support_instances": 32,
+      "aircraft_instances": 36,
+      "rejected_candidates": {
+        "outside_deck": 3656,
+        "fixed_obstacle": 408,
+        "aircraft": 18,
+        "vehicle_clearance": 729
+      },
+      "config": "Layout/full_support_layout.json"
+    }
+  },
+  "outputs": [
+    "CAD/FreeCAD/CVN69_Deck_Equipment_Layout.FCStd",
+    "STEP/CVN69_Default_Support_Layout.step",
+    "OBJ/CVN69_Default_Support_Layout.obj",
+    "OBJ/CVN69_Default_Support_Layout.mtl",
+    "3MF/CVN69_Default_Support_Layout_Review.3mf",
+    "STEP/CVN69_Full_Ship_AirWing_Vehicles_Review.step",
+    "3MF/CVN69_Full_Ship_AirWing_Vehicles_Review.3mf",
+    "3MF/CVN69_Light_AirWing_Support_Review.3mf",
+    "3MF/CVN69_Full_AirWing_Support_Review.3mf"
+  ],
+  "overall_status": "PASS"
+}

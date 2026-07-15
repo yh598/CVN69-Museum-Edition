@@ -1,0 +1,80 @@
+{
+  "generated_utc": "2026-07-15T00:00:53.916307+00:00",
+  "layouts": {
+    "light": {
+      "path": "Layout/light_support_layout.json",
+      "count": 14,
+      "expected_range": [
+        10,
+        18
+      ],
+      "schema_failures": [],
+      "boundary_failures": [],
+      "seating_failures": [],
+      "linkage_failures": [],
+      "clearance_failures": [],
+      "fixed_intersections": [],
+      "aircraft_intersections": [],
+      "vehicle_pair_intersections": [],
+      "status": "PASS"
+    },
+    "default": {
+      "path": "Layout/default_support_layout.json",
+      "count": 24,
+      "expected_range": [
+        20,
+        35
+      ],
+      "schema_failures": [],
+      "boundary_failures": [],
+      "seating_failures": [],
+      "linkage_failures": [],
+      "clearance_failures": [],
+      "fixed_intersections": [
+        {
+          "instance": "DV024",
+          "target": "Approved_M2_Raised_Marking_Bow_Centerline",
+          "target_kind": "approved_fixed",
+          "overlap_mm3": 0.02625,
+          "status": "PASS"
+        }
+      ],
+      "aircraft_intersections": [],
+      "vehicle_pair_intersections": [],
+      "status": "PASS"
+    },
+    "full": {
+      "path": "Layout/full_support_layout.json",
+      "count": 32,
+      "expected_range": [
+        30,
+        50
+      ],
+      "schema_failures": [],
+      "boundary_failures": [],
+      "seating_failures": [],
+      "linkage_failures": [],
+      "clearance_failures": [],
+      "fixed_intersections": [
+        {
+          "instance": "DV026",
+          "target": "Approved_M2_Raised_Marking_Bow_Centerline",
+          "target_kind": "approved_fixed",
+          "overlap_mm3": 0.02625,
+          "status": "PASS"
+        },
+        {
+          "instance": "DV027",
+          "target": "Approved_M2_Catapult_1_Bow_Port",
+          "target_kind": "approved_fixed",
+          "overlap_mm3": 0.05335207,
+          "status": "PASS"
+        }
+      ],
+      "aircraft_intersections": [],
+      "vehicle_pair_intersections": [],
+      "status": "PASS"
+    }
+  },
+  "overall_status": "PASS"
+}

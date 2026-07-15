@@ -1,0 +1,201 @@
+{
+  "generated_utc": "2026-07-15T00:00:53.916307+00:00",
+  "parameter_checks": {
+    "ship_length_476_mm": true,
+    "deck_top_z_34p5_mm": true,
+    "frozen_interface_0p25_mm_per_side": true,
+    "wall_at_least_0p80": true,
+    "wheel_at_least_1p00_by_0p70": true,
+    "towbar_at_least_0p80": true,
+    "ladder_at_least_0p60": true,
+    "hose_at_least_0p60": true,
+    "production_count_16": true,
+    "all_enlargements_documented": true,
+    "approved_palette_only": true
+  },
+  "equipment_dimensions": [
+    {
+      "family": "STT49",
+      "full_scale_reference_mm": [
+        3528.06,
+        1859.28,
+        1020.06
+      ],
+      "released_model_envelope_mm": [
+        5.04,
+        3.4,
+        2.18
+      ],
+      "measured_assembly_envelope_mm": [
+        5.04,
+        3.4,
+        2.18
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.06,
+      "classification": "manufacturer-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "P25A",
+      "full_scale_reference_mm": [
+        4826.0,
+        1778.0,
+        1625.6
+      ],
+      "released_model_envelope_mm": [
+        6.897,
+        3.25,
+        2.86
+      ],
+      "measured_assembly_envelope_mm": [
+        6.8985,
+        3.25,
+        2.86
+      ],
+      "errors_mm": [
+        0.0015,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.08,
+      "classification": "official-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "MSU200",
+      "full_scale_reference_mm": [
+        1735.07,
+        929.89,
+        694.69
+      ],
+      "released_model_envelope_mm": [
+        3.6,
+        2.55,
+        1.9
+      ],
+      "measured_assembly_envelope_mm": [
+        3.6,
+        2.55,
+        1.92
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "tolerance_mm": 0.08,
+      "classification": "official-dimension-derived module on photo-informed towable frame; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "TOWBAR",
+      "full_scale_reference_mm": [
+        3500.0,
+        450.0,
+        300.0
+      ],
+      "released_model_envelope_mm": [
+        4.725,
+        2.2,
+        0.8
+      ],
+      "measured_assembly_envelope_mm": [
+        4.725,
+        2.2,
+        0.8
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.35,
+      "classification": "official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "LADDER",
+      "full_scale_reference_mm": [
+        1800.0,
+        900.0,
+        2200.0
+      ],
+      "released_model_envelope_mm": [
+        3.6,
+        0.6,
+        3.85
+      ],
+      "measured_assembly_envelope_mm": [
+        3.6,
+        0.6,
+        3.85
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.45,
+      "classification": "deployment-era official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "CHOCK",
+      "full_scale_reference_mm": [
+        850.0,
+        500.0,
+        300.0
+      ],
+      "released_model_envelope_mm": [
+        3.1,
+        1.1,
+        0.7
+      ],
+      "measured_assembly_envelope_mm": [
+        3.1,
+        1.1,
+        0.7
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.3,
+      "classification": "official-photo-derived generic aviation safety form; visually approximated; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    },
+    {
+      "family": "EXT",
+      "full_scale_reference_mm": [
+        1100.0,
+        650.0,
+        1200.0
+      ],
+      "released_model_envelope_mm": [
+        2.6,
+        2.3,
+        2.2
+      ],
+      "measured_assembly_envelope_mm": [
+        2.6,
+        2.3,
+        2.2
+      ],
+      "errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tolerance_mm": 0.3,
+      "classification": "official-equipment-description-derived; visually approximated; deliberately enlarged for FDM printability",
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS"
+}

@@ -1,0 +1,107 @@
+{
+  "generated_utc": "2026-07-14T23:55:37.258851+00:00",
+  "configuration_period": "2023-10-14 through 2024-07-14",
+  "families": 7,
+  "records": [
+    {
+      "family": "STT49",
+      "name": "A/S32A-49 Shipboard Tow Tractor",
+      "confidence": "high",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "P25A",
+      "name": "A/S32P-25A Shipboard Firefighting Vehicle",
+      "confidence": "high",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "MSU200",
+      "name": "MSU-200NAV Air Start Service Cart",
+      "confidence": "medium-high",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "TOWBAR",
+      "name": "Carrier Aircraft Tow Bar",
+      "confidence": "medium",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "LADDER",
+      "name": "Portable Aircraft Maintenance Ladder",
+      "confidence": "medium",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "CHOCK",
+      "name": "Aircraft Wheel Chock Group",
+      "confidence": "medium",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    },
+    {
+      "family": "EXT",
+      "name": "Twin Portable Flight-Deck Extinguisher Cart",
+      "confidence": "medium",
+      "checks": {
+        "code_listed": true,
+        "evidence_url_listed": true,
+        "dimension_url_listed": true,
+        "classification_present": true,
+        "released_dimensions_positive": true,
+        "enlargements_documented": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "omitted_families_documented": true,
+  "overall_status": "PASS"
+}

@@ -1,0 +1,8 @@
+{
+  "milestone": 6,
+  "status": "NOT_RUN",
+  "physical_print_reported": false,
+  "automated_geometry_status": "PASS",
+  "bambu_real_slice_status": "PASS",
+  "airwing_milestone_5_physical_status": "NOT_RUN"
+}

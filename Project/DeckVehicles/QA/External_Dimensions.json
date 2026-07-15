@@ -1,0 +1,159 @@
+{
+  "generated_utc": "2026-07-14T23:57:07.869975+00:00",
+  "families": [
+    {
+      "code": "STT49",
+      "name": "A/S32A-49 Shipboard Tow Tractor",
+      "category": "tow_tractor",
+      "full_length_mm": 3528.06,
+      "full_width_mm": 1859.28,
+      "full_height_mm": 1020.06,
+      "model_length": 5.04,
+      "model_width": 3.4,
+      "model_height": 2.18,
+      "material": "gold",
+      "evidence_url": "https://www.navair.navy.mil/product/Shipboard-Tow-Tractor-STT",
+      "dimension_url": "https://sam.gov/opp/e2c470306bf64dc28a7a1df13b696f26/view",
+      "classification": "manufacturer-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.06,
+      "confidence": "high",
+      "enlargements": [
+        "overall width 2.656 -> 3.400 mm to retain 0.70 mm wheel width",
+        "overall height 1.457 -> 1.750 mm to retain wheel/body sections",
+        "wheel diameter -> 1.10 mm minimum"
+      ]
+    },
+    {
+      "code": "P25A",
+      "name": "A/S32P-25A Shipboard Firefighting Vehicle",
+      "category": "firefighting_vehicle",
+      "full_length_mm": 4826.0,
+      "full_width_mm": 1778.0,
+      "full_height_mm": 1625.6,
+      "model_length": 6.897,
+      "model_width": 3.25,
+      "model_height": 2.86,
+      "material": "gold",
+      "evidence_url": "https://www.navair.navy.mil/node/21206",
+      "dimension_url": "https://www.globalsecurity.org/military/library/policy/navy/ntsp/p25-a.htm",
+      "classification": "official-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.08,
+      "confidence": "high",
+      "enlargements": [
+        "overall width 2.540 -> 3.250 mm for 0.70 mm wheels",
+        "overall height 2.322 -> 2.650 mm for roof/turret continuity",
+        "wheel diameter -> 1.10 mm minimum",
+        "turret/nozzle diameter -> 0.80 mm"
+      ]
+    },
+    {
+      "code": "MSU200",
+      "name": "MSU-200NAV Air Start Service Cart",
+      "category": "service_cart",
+      "full_length_mm": 1735.07,
+      "full_width_mm": 929.89,
+      "full_height_mm": 694.69,
+      "model_length": 3.6,
+      "model_width": 2.55,
+      "model_height": 1.9,
+      "material": "ash_gray",
+      "evidence_url": "https://www.navair.navy.mil/systems",
+      "dimension_url": "https://www.globalsecurity.org/military/library/policy/navy/ntsp/msu_200-p_2002.pdf",
+      "classification": "official-dimension-derived module on photo-informed towable frame; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.08,
+      "confidence": "medium-high",
+      "enlargements": [
+        "module/trailer length 2.479 -> 3.600 mm",
+        "overall width 1.328 -> 2.550 mm",
+        "overall height 0.992 -> 1.900 mm",
+        "wheel diameter -> 1.00 mm",
+        "hose representation -> 0.60 mm"
+      ]
+    },
+    {
+      "code": "TOWBAR",
+      "name": "Carrier Aircraft Tow Bar",
+      "category": "tow_bar",
+      "full_length_mm": 3500.0,
+      "full_width_mm": 450.0,
+      "full_height_mm": 300.0,
+      "model_length": 4.725,
+      "model_width": 2.2,
+      "model_height": 0.8,
+      "material": "gold",
+      "evidence_url": "https://www.dvidshub.net/image/8063718/aircraft-handling",
+      "dimension_url": "https://www.dvidshub.net/image/8063718/aircraft-handling",
+      "classification": "official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.35,
+      "confidence": "medium",
+      "enlargements": [
+        "bar thickness and width -> 0.80 mm",
+        "fork spacing -> 2.20 mm for visible silhouette"
+      ]
+    },
+    {
+      "code": "LADDER",
+      "name": "Portable Aircraft Maintenance Ladder",
+      "category": "maintenance_ladder",
+      "full_length_mm": 1800.0,
+      "full_width_mm": 900.0,
+      "full_height_mm": 2200.0,
+      "model_length": 3.6,
+      "model_width": 0.6,
+      "model_height": 3.85,
+      "material": "gold",
+      "evidence_url": "https://www.dvidshub.net/image/8278538/uss-dwight-d-eisenhower-conducts-routine-maintenance-in-the-red-sea",
+      "dimension_url": "https://www.dvidshub.net/image/8278538/uss-dwight-d-eisenhower-conducts-routine-maintenance-in-the-red-sea",
+      "classification": "deployment-era official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.45,
+      "confidence": "medium",
+      "enlargements": [
+        "rail and rung thickness -> 0.60 mm",
+        "flat-backed overall envelope enlarged to preserve four open steps and support-free printing"
+      ]
+    },
+    {
+      "code": "CHOCK",
+      "name": "Aircraft Wheel Chock Group",
+      "category": "wheel_chock",
+      "full_length_mm": 850.0,
+      "full_width_mm": 500.0,
+      "full_height_mm": 300.0,
+      "model_length": 3.1,
+      "model_width": 1.1,
+      "model_height": 0.7,
+      "material": "gold",
+      "evidence_url": "https://www.dvidshub.net/news/153407/1-228th-aviation-regiment-joins-navy-for-qualification",
+      "dimension_url": "https://www.dvidshub.net/image/6811000/night-flying-operations",
+      "classification": "official-photo-derived generic aviation safety form; visually approximated; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.3,
+      "confidence": "medium",
+      "enlargements": [
+        "two chocks enlarged to 1.20 mm each",
+        "connecting rope represented as a 0.80 mm bed-connected bar"
+      ]
+    },
+    {
+      "code": "EXT",
+      "name": "Twin Portable Flight-Deck Extinguisher Cart",
+      "category": "extinguisher_group",
+      "full_length_mm": 1100.0,
+      "full_width_mm": 650.0,
+      "full_height_mm": 1200.0,
+      "model_length": 2.6,
+      "model_width": 2.3,
+      "model_height": 2.2,
+      "material": "red",
+      "evidence_url": "https://www.navair.navy.mil/node/21206",
+      "dimension_url": "https://www.navair.navy.mil/node/21206",
+      "classification": "official-equipment-description-derived; visually approximated; deliberately enlarged for FDM printability",
+      "tolerance_mm": 0.3,
+      "confidence": "medium",
+      "enlargements": [
+        "bottle diameters -> 0.90 mm",
+        "cart rails/handle -> 0.70 mm",
+        "wheels -> 1.00 x 0.70 mm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "STT49": {
+    "name": "A/S32A-49 Shipboard Tow Tractor",
+    "evidence_url": "https://www.navair.navy.mil/product/Shipboard-Tow-Tractor-STT",
+    "dimension_url": "https://sam.gov/opp/e2c470306bf64dc28a7a1df13b696f26/view",
+    "confidence": "high",
+    "classification": "manufacturer-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability"
+  },
+  "P25A": {
+    "name": "A/S32P-25A Shipboard Firefighting Vehicle",
+    "evidence_url": "https://www.navair.navy.mil/node/21206",
+    "dimension_url": "https://www.globalsecurity.org/military/library/policy/navy/ntsp/p25-a.htm",
+    "confidence": "high",
+    "classification": "official-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability"
+  },
+  "MSU200": {
+    "name": "MSU-200NAV Air Start Service Cart",
+    "evidence_url": "https://www.navair.navy.mil/systems",
+    "dimension_url": "https://www.globalsecurity.org/military/library/policy/navy/ntsp/msu_200-p_2002.pdf",
+    "confidence": "medium-high",
+    "classification": "official-dimension-derived module on photo-informed towable frame; deliberately enlarged for FDM printability"
+  },
+  "TOWBAR": {
+    "name": "Carrier Aircraft Tow Bar",
+    "evidence_url": "https://www.dvidshub.net/image/8063718/aircraft-handling",
+    "dimension_url": "https://www.dvidshub.net/image/8063718/aircraft-handling",
+    "confidence": "medium",
+    "classification": "official-photo-derived; visually approximated; deliberately enlarged for FDM printability"
+  },
+  "LADDER": {
+    "name": "Portable Aircraft Maintenance Ladder",
+    "evidence_url": "https://www.dvidshub.net/image/8278538/uss-dwight-d-eisenhower-conducts-routine-maintenance-in-the-red-sea",
+    "dimension_url": "https://www.dvidshub.net/image/8278538/uss-dwight-d-eisenhower-conducts-routine-maintenance-in-the-red-sea",
+    "confidence": "medium",
+    "classification": "deployment-era official-photo-derived; visually approximated; deliberately enlarged for FDM printability"
+  },
+  "CHOCK": {
+    "name": "Aircraft Wheel Chock Group",
+    "evidence_url": "https://www.dvidshub.net/news/153407/1-228th-aviation-regiment-joins-navy-for-qualification",
+    "dimension_url": "https://www.dvidshub.net/image/6811000/night-flying-operations",
+    "confidence": "medium",
+    "classification": "official-photo-derived generic aviation safety form; visually approximated; deliberately enlarged for FDM printability"
+  },
+  "EXT": {
+    "name": "Twin Portable Flight-Deck Extinguisher Cart",
+    "evidence_url": "https://www.navair.navy.mil/node/21206",
+    "dimension_url": "https://www.navair.navy.mil/node/21206",
+    "confidence": "medium",
+    "classification": "official-equipment-description-derived; visually approximated; deliberately enlarged for FDM printability"
+  }
+}

@@ -2,6 +2,28 @@
 
 All released changes use semantic versioning. Release artifacts are never overwritten after tagging.
 
+## Unreleased — Milestone 6 flight-deck vehicles and aviation support equipment
+
+### Added
+
+- Public-reference audit frozen to 14 October 2023 through 14 July 2024, supporting seven families and explicitly omitting uncertain equipment instead of inventing deck clutter.
+- Sixteen new parametric FreeCAD/OpenCascade production solids for the A/S32A-49 tow tractor, P-25A firefighting vehicle, MSU-200NAV air-start cart, carrier tow bar, maintenance ladder, wheel-chock group, portable extinguisher group, color inserts, and family-only sprues. No source mesh is opened or reused.
+- Documented 0.4 mm-nozzle enlargement for 1.00 × 0.70 mm wheels, 0.80 mm tow bars/axles/sprues, 0.70 mm handles, and 0.60 mm ladder/hose details; enlarged features are not described as dimensionally exact.
+- Two editable FCStd sources; master/default/integrated STEP; 16 individual STLs; master/default/integrated OBJ/3MF; seven non-empty production/first-article plates; and light/default/full combined review 3MFs.
+- Configurable light/default/full support layouts containing 14/24/32 instances with family, variant, x/y/z, heading, material, relationship, confidence/rationale, state, source, and linkage metadata.
+- Forty-five family, exploded, plate, layout, integrated, close-up, and vignette renders; five PDFs; glue-only assembly instructions; material and confidence schedules; machine-readable dimensional/enlargement/layout/interference reports.
+
+### Validation
+
+- Bambu Studio 02.07.01.62 independently imports all 28 STL/3MF exports and completes 14 actual 0.12/0.16 mm production-plate slices with non-empty G-code, all named difficult objects retained, and zero floating-region, empty-layer, or faulty-mesh warnings.
+- The first ladder orientation exposed real empty-layer failures during slicing and was redesigned as a flat-backed, support-free part before the passing validation run.
+- Approved Milestone 1–5 input hashes remain governed and unchanged, including the physically qualified frozen 0.25 mm-per-side hull/deck interface.
+
+### Scope
+
+- Static external deck vehicles/support equipment only. No weapons/ammunition, crew, functional mechanisms, approved hull/deck/interface/island/weapon/AirWing redesign, ocean base, display stand, lighting/electronics, or final release work is included.
+- Milestone 5 and Milestone 6 physical first articles remain NOT RUN. No v1.0 or other release tag is created.
+
 ## Unreleased — Milestone 5 carrier air wing
 
 ### Added

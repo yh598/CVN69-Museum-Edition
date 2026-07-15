@@ -1,0 +1,32 @@
+newmtl gold
+# Bambu PLA Basic Gold
+Kd 0.839216 0.662745 0.211765
+
+newmtl black
+# Bambu PLA Basic Black
+Kd 0.082353 0.090196 0.098039
+
+newmtl charcoal
+# Bambu PLA Matte Charcoal
+Kd 0.203922 0.219608 0.235294
+
+newmtl red
+# Bambu PLA Translucent Red
+Kd 0.721569 0.223529 0.207843
+
+newmtl ash_gray
+# Bambu PLA Matte Ash Gray
+Kd 0.588235 0.596078 0.564706
+
+newmtl silver
+# Bambu PLA Silk Silver
+Kd 0.682353 0.705882 0.721569
+
+newmtl ivory
+# Bambu PLA Matte Ivory White
+Kd 0.925490 0.909804 0.850980
+
+newmtl marine_blue
+# Bambu PLA Matte Marine Blue
+Kd 0.192157 0.356863 0.450980
+

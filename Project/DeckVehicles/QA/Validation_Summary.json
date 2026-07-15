@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-07-15T00:00:53.916307+00:00",
+  "overall_status": "PASS",
+  "topology": true,
+  "dimensional": true,
+  "mesh": true,
+  "3mf": true,
+  "layouts": true,
+  "immutable_inputs": true,
+  "deterministic_rebuild": true,
+  "required_outputs": true,
+  "manifest_hashes": true,
+  "counts": {
+    "production_objects": 16,
+    "stl": 16,
+    "3mf": 12,
+    "step": 3,
+    "light_support": 14,
+    "default_support": 24,
+    "full_support": 32
+  }
+}

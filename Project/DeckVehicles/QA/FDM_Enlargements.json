@@ -1,0 +1,68 @@
+{
+  "generated_utc": "2026-07-14T23:57:07.869848+00:00",
+  "records": [
+    {
+      "family": "STT49",
+      "classification": "manufacturer-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "records": [
+        "overall width 2.656 -> 3.400 mm to retain 0.70 mm wheel width",
+        "overall height 1.457 -> 1.750 mm to retain wheel/body sections",
+        "wheel diameter -> 1.10 mm minimum"
+      ]
+    },
+    {
+      "family": "P25A",
+      "classification": "official-dimension-derived; official-photo-informed silhouette; deliberately enlarged for FDM printability",
+      "records": [
+        "overall width 2.540 -> 3.250 mm for 0.70 mm wheels",
+        "overall height 2.322 -> 2.650 mm for roof/turret continuity",
+        "wheel diameter -> 1.10 mm minimum",
+        "turret/nozzle diameter -> 0.80 mm"
+      ]
+    },
+    {
+      "family": "MSU200",
+      "classification": "official-dimension-derived module on photo-informed towable frame; deliberately enlarged for FDM printability",
+      "records": [
+        "module/trailer length 2.479 -> 3.600 mm",
+        "overall width 1.328 -> 2.550 mm",
+        "overall height 0.992 -> 1.900 mm",
+        "wheel diameter -> 1.00 mm",
+        "hose representation -> 0.60 mm"
+      ]
+    },
+    {
+      "family": "TOWBAR",
+      "classification": "official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "records": [
+        "bar thickness and width -> 0.80 mm",
+        "fork spacing -> 2.20 mm for visible silhouette"
+      ]
+    },
+    {
+      "family": "LADDER",
+      "classification": "deployment-era official-photo-derived; visually approximated; deliberately enlarged for FDM printability",
+      "records": [
+        "rail and rung thickness -> 0.60 mm",
+        "flat-backed overall envelope enlarged to preserve four open steps and support-free printing"
+      ]
+    },
+    {
+      "family": "CHOCK",
+      "classification": "official-photo-derived generic aviation safety form; visually approximated; deliberately enlarged for FDM printability",
+      "records": [
+        "two chocks enlarged to 1.20 mm each",
+        "connecting rope represented as a 0.80 mm bed-connected bar"
+      ]
+    },
+    {
+      "family": "EXT",
+      "classification": "official-equipment-description-derived; visually approximated; deliberately enlarged for FDM printability",
+      "records": [
+        "bottle diameters -> 0.90 mm",
+        "cart rails/handle -> 0.70 mm",
+        "wheels -> 1.00 x 0.70 mm"
+      ]
+    }
+  ]
+}

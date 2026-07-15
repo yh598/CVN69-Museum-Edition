@@ -1,0 +1,831 @@
+{
+  "generated_utc": "2026-07-15T00:00:53.916307+00:00",
+  "manifest_entries": 103,
+  "records": [
+    {
+      "path": "3MF/CVN69_Deck_Vehicles_Master.3mf",
+      "expected_bytes": 91480,
+      "actual_bytes": 91480,
+      "expected_sha256": "30ff1765ef8d8d55bdc3827dcad585b05e7290ae3bafaa37e641e944bd74e73d",
+      "actual_sha256": "30ff1765ef8d8d55bdc3827dcad585b05e7290ae3bafaa37e641e944bd74e73d",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/CVN69_Default_Support_Layout_Review.3mf",
+      "expected_bytes": 274534,
+      "actual_bytes": 274534,
+      "expected_sha256": "d73b057377356c8566ffdb1bc74be433027a62286d16835beda16c603b73f6ab",
+      "actual_sha256": "d73b057377356c8566ffdb1bc74be433027a62286d16835beda16c603b73f6ab",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/CVN69_Full_AirWing_Support_Review.3mf",
+      "expected_bytes": 2212638,
+      "actual_bytes": 2212638,
+      "expected_sha256": "347693a97a7e50329ff1996b4ab1d25a7858559e6598cddaa919dff1c6e78b18",
+      "actual_sha256": "347693a97a7e50329ff1996b4ab1d25a7858559e6598cddaa919dff1c6e78b18",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/CVN69_Full_Ship_AirWing_Vehicles_Review.3mf",
+      "expected_bytes": 2098163,
+      "actual_bytes": 2098163,
+      "expected_sha256": "cf04e72a8bb186e153585d627c4a1aa8adc7fd8428a20898550cfb34b700825c",
+      "actual_sha256": "cf04e72a8bb186e153585d627c4a1aa8adc7fd8428a20898550cfb34b700825c",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/CVN69_Light_AirWing_Support_Review.3mf",
+      "expected_bytes": 1941424,
+      "actual_bytes": 1941424,
+      "expected_sha256": "b8b19fc116f9efafe29466c7d4125986e02ea2c9feb9db441d4225c279afeca5",
+      "actual_sha256": "b8b19fc116f9efafe29466c7d4125986e02ea2c9feb9db441d4225c279afeca5",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_00_First_Article.3mf",
+      "expected_bytes": 34221,
+      "actual_bytes": 34221,
+      "expected_sha256": "0d710a4f8230314ff00f0aef309180a91e3f992d001dcdfc8de10103af7bd088",
+      "actual_sha256": "0d710a4f8230314ff00f0aef309180a91e3f992d001dcdfc8de10103af7bd088",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_01_Tow_Tractors.3mf",
+      "expected_bytes": 17217,
+      "actual_bytes": 17217,
+      "expected_sha256": "adbc5e78f1926e8f395718266429c289800a2a167ab56d3e5d4043399bc3e1b0",
+      "actual_sha256": "adbc5e78f1926e8f395718266429c289800a2a167ab56d3e5d4043399bc3e1b0",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_02_Service_Carts.3mf",
+      "expected_bytes": 25319,
+      "actual_bytes": 25319,
+      "expected_sha256": "7358d1dc5f2f565d61db5daa5a04d2340ef9c9d9c69c851aaba78ec2cdcbd790",
+      "actual_sha256": "7358d1dc5f2f565d61db5daa5a04d2340ef9c9d9c69c851aaba78ec2cdcbd790",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_03_Firefighting_Equipment.3mf",
+      "expected_bytes": 47595,
+      "actual_bytes": 47595,
+      "expected_sha256": "378f4978c5b71845147696423e513a1ca040d37202a1d940ba0cf004436a9468",
+      "actual_sha256": "378f4978c5b71845147696423e513a1ca040d37202a1d940ba0cf004436a9468",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_04_Tow_Bars_Chocks.3mf",
+      "expected_bytes": 4538,
+      "actual_bytes": 4538,
+      "expected_sha256": "dbb18f65e4b80c1af6c52781c7ff0e3c82489d126510be07847531e67eb97967",
+      "actual_sha256": "dbb18f65e4b80c1af6c52781c7ff0e3c82489d126510be07847531e67eb97967",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_05_Ladders_Maintenance.3mf",
+      "expected_bytes": 1896,
+      "actual_bytes": 1896,
+      "expected_sha256": "278949273c024862bee556fa1d4355cda6c17235a58916ff127231b350ddd899",
+      "actual_sha256": "278949273c024862bee556fa1d4355cda6c17235a58916ff127231b350ddd899",
+      "status": "PASS"
+    },
+    {
+      "path": "3MF/Print_Plate_06_Wheels_Inserts_Details.3mf",
+      "expected_bytes": 72395,
+      "actual_bytes": 72395,
+      "expected_sha256": "a1b2b803e9059657323bd5e779e5d07d4504c1e4f16f796006b62ee919e0a1dc",
+      "actual_sha256": "a1b2b803e9059657323bd5e779e5d07d4504c1e4f16f796006b62ee919e0a1dc",
+      "status": "PASS"
+    },
+    {
+      "path": "Assembly/Glue_Only_Deck_Vehicle_Assembly.md",
+      "expected_bytes": 1027,
+      "actual_bytes": 1027,
+      "expected_sha256": "8f5324197051e22f830a3d1e6b1e36a2b6d22ce58e09260914b53412871fed63",
+      "actual_sha256": "8f5324197051e22f830a3d1e6b1e36a2b6d22ce58e09260914b53412871fed63",
+      "status": "PASS"
+    },
+    {
+      "path": "CAD/FreeCAD/CVN69_Deck_Equipment_Layout.FCStd",
+      "expected_bytes": 2779414,
+      "actual_bytes": 2779414,
+      "expected_sha256": "8c19794d223648807232328b57f155d2ad4b4fe6d1667d688cdba442cbc195bd",
+      "actual_sha256": "8c19794d223648807232328b57f155d2ad4b4fe6d1667d688cdba442cbc195bd",
+      "status": "PASS"
+    },
+    {
+      "path": "CAD/FreeCAD/CVN69_Deck_Vehicles_Master.FCStd",
+      "expected_bytes": 87131,
+      "actual_bytes": 87131,
+      "expected_sha256": "f6b2b5ac4bdfdceec1ab2a234bad9d66002a678b671e82fc503534904c06b01e",
+      "actual_sha256": "f6b2b5ac4bdfdceec1ab2a234bad9d66002a678b671e82fc503534904c06b01e",
+      "status": "PASS"
+    },
+    {
+      "path": "CAD/Python/deck_equipment_layout_parameters.py",
+      "expected_bytes": 791,
+      "actual_bytes": 791,
+      "expected_sha256": "b2ee06351cd4fab2e8fc841cb2b968a1f47b6b8b2be5bb3f4dc39d607aff1b8a",
+      "actual_sha256": "b2ee06351cd4fab2e8fc841cb2b968a1f47b6b8b2be5bb3f4dc39d607aff1b8a",
+      "status": "PASS"
+    },
+    {
+      "path": "CAD/Python/deck_vehicle_parameters.py",
+      "expected_bytes": 8211,
+      "actual_bytes": 8211,
+      "expected_sha256": "f405523c0f9b7e7941720f5c7695b1cdf5025f99b60fb64d72875fa4e9f2a6ed",
+      "actual_sha256": "f405523c0f9b7e7941720f5c7695b1cdf5025f99b60fb64d72875fa4e9f2a6ed",
+      "status": "PASS"
+    },
+    {
+      "path": "Docs/Deck_Equipment_Layout_Guide.pdf",
+      "expected_bytes": 103860,
+      "actual_bytes": 103860,
+      "expected_sha256": "97b71f79d33ac5d47c06e01556fe4da00e6fbf98794125901df7d0f75b121bc1",
+      "actual_sha256": "97b71f79d33ac5d47c06e01556fe4da00e6fbf98794125901df7d0f75b121bc1",
+      "status": "PASS"
+    },
+    {
+      "path": "Docs/Deck_Vehicles_Drawings.pdf",
+      "expected_bytes": 110240,
+      "actual_bytes": 110240,
+      "expected_sha256": "f3cfc8936f078df198667a1130dcb62afde0c09a2cf245fd3575d781777ea134",
+      "actual_sha256": "f3cfc8936f078df198667a1130dcb62afde0c09a2cf245fd3575d781777ea134",
+      "status": "PASS"
+    },
+    {
+      "path": "Docs/Deck_Vehicles_First_Article_Instructions.pdf",
+      "expected_bytes": 85869,
+      "actual_bytes": 85869,
+      "expected_sha256": "c3539e90d4deecdb8b3857254e730989772afc28b72387308d45501525cef1b4",
+      "actual_sha256": "c3539e90d4deecdb8b3857254e730989772afc28b72387308d45501525cef1b4",
+      "status": "PASS"
+    },
+    {
+      "path": "Docs/Deck_Vehicles_Printing_Guide.pdf",
+      "expected_bytes": 3126,
+      "actual_bytes": 3126,
+      "expected_sha256": "26fff610954da2a4939914f89376e53ff5db0f5c600e0ee90a339a97da68260b",
+      "actual_sha256": "26fff610954da2a4939914f89376e53ff5db0f5c600e0ee90a339a97da68260b",
+      "status": "PASS"
+    },
+    {
+      "path": "Docs/Deck_Vehicles_Project_Plan.pdf",
+      "expected_bytes": 3329,
+      "actual_bytes": 3329,
+      "expected_sha256": "ed6376ac1cf8ce6dc003e646c1f5295991c637b7b5b9ca90fab939095840e4e3",
+      "actual_sha256": "ed6376ac1cf8ce6dc003e646c1f5295991c637b7b5b9ca90fab939095840e4e3",
+      "status": "PASS"
+    },
+    {
+      "path": "Images/README.md",
+      "expected_bytes": 208,
+      "actual_bytes": 208,
+      "expected_sha256": "e8c502604e04299d5377161be92cb64fb02daa24571b92caf4633406301010e0",
+      "actual_sha256": "e8c502604e04299d5377161be92cb64fb02daa24571b92caf4633406301010e0",
+      "status": "PASS"
+    },
+    {
+      "path": "Layout/default_support_layout.json",
+      "expected_bytes": 16812,
+      "actual_bytes": 16812,
+      "expected_sha256": "3f1b6120e4fa9d3f4fbd83c08054580fe8dde5c1fe9f569e83ada8428b349295",
+      "actual_sha256": "3f1b6120e4fa9d3f4fbd83c08054580fe8dde5c1fe9f569e83ada8428b349295",
+      "status": "PASS"
+    },
+    {
+      "path": "Layout/full_support_layout.json",
+      "expected_bytes": 22328,
+      "actual_bytes": 22328,
+      "expected_sha256": "9173c350aa8da44620cc7f7db509cc9a126512711d73b3bf7667297124bdf624",
+      "actual_sha256": "9173c350aa8da44620cc7f7db509cc9a126512711d73b3bf7667297124bdf624",
+      "status": "PASS"
+    },
+    {
+      "path": "Layout/light_support_layout.json",
+      "expected_bytes": 9949,
+      "actual_bytes": 9949,
+      "expected_sha256": "90846e93e4df1356d5296574c9d650249a60429f8a7ac32c75b6b695819f7a4a",
+      "actual_sha256": "90846e93e4df1356d5296574c9d650249a60429f8a7ac32c75b6b695819f7a4a",
+      "status": "PASS"
+    },
+    {
+      "path": "OBJ/CVN69_Deck_Vehicles_Master.mtl",
+      "expected_bytes": 575,
+      "actual_bytes": 575,
+      "expected_sha256": "adf1d11c1599efe75304481c87c593aab60cfadfbb1234184023eea90f7cbed4",
+      "actual_sha256": "adf1d11c1599efe75304481c87c593aab60cfadfbb1234184023eea90f7cbed4",
+      "status": "PASS"
+    },
+    {
+      "path": "OBJ/CVN69_Deck_Vehicles_Master.obj",
+      "expected_bytes": 307168,
+      "actual_bytes": 307168,
+      "expected_sha256": "457f177827ae9043577e43a04739c3d6e9718b925a81de81fe695ca18f57c91a",
+      "actual_sha256": "457f177827ae9043577e43a04739c3d6e9718b925a81de81fe695ca18f57c91a",
+      "status": "PASS"
+    },
+    {
+      "path": "OBJ/CVN69_Default_Support_Layout.mtl",
+      "expected_bytes": 575,
+      "actual_bytes": 575,
+      "expected_sha256": "adf1d11c1599efe75304481c87c593aab60cfadfbb1234184023eea90f7cbed4",
+      "actual_sha256": "adf1d11c1599efe75304481c87c593aab60cfadfbb1234184023eea90f7cbed4",
+      "status": "PASS"
+    },
+    {
+      "path": "OBJ/CVN69_Default_Support_Layout.obj",
+      "expected_bytes": 1011994,
+      "actual_bytes": 1011994,
+      "expected_sha256": "d0d9568833686e61f00a06b936b37912895b13306c312d73e7f8304d01da3a9c",
+      "actual_sha256": "d0d9568833686e61f00a06b936b37912895b13306c312d73e7f8304d01da3a9c",
+      "status": "PASS"
+    },
+    {
+      "path": "README.md",
+      "expected_bytes": 1832,
+      "actual_bytes": 1832,
+      "expected_sha256": "c905d108fddfc7354262ee5a3e2b4f624cbcc397d3daa8e1b9d6468f73b98aa9",
+      "actual_sha256": "c905d108fddfc7354262ee5a3e2b4f624cbcc397d3daa8e1b9d6468f73b98aa9",
+      "status": "PASS"
+    },
+    {
+      "path": "References/Configuration_Audit.md",
+      "expected_bytes": 4316,
+      "actual_bytes": 4316,
+      "expected_sha256": "ca585b38fb7fde91072e4435e77619a0fcac11a0dd43be25ff9e5f1e5ae7aaa1",
+      "actual_sha256": "ca585b38fb7fde91072e4435e77619a0fcac11a0dd43be25ff9e5f1e5ae7aaa1",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Closeup_Aft_Landing_Area_Support.png",
+      "expected_bytes": 122306,
+      "actual_bytes": 122306,
+      "expected_sha256": "b91443b6a4400115fe8e97a2414c1c3311dbee3f5042090c20525fa8e6dff4f6",
+      "actual_sha256": "b91443b6a4400115fe8e97a2414c1c3311dbee3f5042090c20525fa8e6dff4f6",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Closeup_Bow_Catapult_Support.png",
+      "expected_bytes": 119541,
+      "actual_bytes": 119541,
+      "expected_sha256": "664bddd587634d9246ca87073a4662f422c2799e6e12117dfe06251e2bf8f514",
+      "actual_sha256": "664bddd587634d9246ca87073a4662f422c2799e6e12117dfe06251e2bf8f514",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Closeup_Island_Side_Support.png",
+      "expected_bytes": 119888,
+      "actual_bytes": 119888,
+      "expected_sha256": "ba8eae2b94649f881d621f85f6441a8f1f7cc62310c938fba4b3bb493d7971c4",
+      "actual_sha256": "ba8eae2b94649f881d621f85f6441a8f1f7cc62310c938fba4b3bb493d7971c4",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Default_Combined_Aircraft_Vehicles_Top.png",
+      "expected_bytes": 128790,
+      "actual_bytes": 128790,
+      "expected_sha256": "242aa576f6a283c60910ffed4a040eb9d77a1a97439efcc68c1327678c572be0",
+      "actual_sha256": "242aa576f6a283c60910ffed4a040eb9d77a1a97439efcc68c1327678c572be0",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Default_Combined_Port.png",
+      "expected_bytes": 110653,
+      "actual_bytes": 110653,
+      "expected_sha256": "9441cfc1008afa8aa1c0efb80fd9be8427c599e72b27f3aae877dbf88a6df41e",
+      "actual_sha256": "9441cfc1008afa8aa1c0efb80fd9be8427c599e72b27f3aae877dbf88a6df41e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Default_Combined_Starboard.png",
+      "expected_bytes": 114414,
+      "actual_bytes": 114414,
+      "expected_sha256": "d9b5ed3d89762589fb6060bad796647ab4c8fe559decc5d65600b2fda083371d",
+      "actual_sha256": "d9b5ed3d89762589fb6060bad796647ab4c8fe559decc5d65600b2fda083371d",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Default_Support_Layout_Bow_Isometric.png",
+      "expected_bytes": 123548,
+      "actual_bytes": 123548,
+      "expected_sha256": "e24c3ed13ac836ea31a71317ae9679bd5b0c933ac43b1722956beb4ddf4e14eb",
+      "actual_sha256": "e24c3ed13ac836ea31a71317ae9679bd5b0c933ac43b1722956beb4ddf4e14eb",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Default_Support_Layout_Top.png",
+      "expected_bytes": 112757,
+      "actual_bytes": 112757,
+      "expected_sha256": "1070129d4576e9f236f6eaae3fe469d320741611260bd9e6cde536a726f01151",
+      "actual_sha256": "1070129d4576e9f236f6eaae3fe469d320741611260bd9e6cde536a726f01151",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Exploded_EXT.png",
+      "expected_bytes": 142264,
+      "actual_bytes": 142264,
+      "expected_sha256": "caa2b24970759bf0379e42d0648716b842d3ae0f9db4ecbcbb6ebd4f5e24dcd6",
+      "actual_sha256": "caa2b24970759bf0379e42d0648716b842d3ae0f9db4ecbcbb6ebd4f5e24dcd6",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Exploded_MSU200.png",
+      "expected_bytes": 118573,
+      "actual_bytes": 118573,
+      "expected_sha256": "f9f3182e5d7a2237429a2732f56513f4506fbce4027e3d89ec0cc89689ac3978",
+      "actual_sha256": "f9f3182e5d7a2237429a2732f56513f4506fbce4027e3d89ec0cc89689ac3978",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Exploded_P25A.png",
+      "expected_bytes": 115491,
+      "actual_bytes": 115491,
+      "expected_sha256": "9f19c434e1450958eca329a0a4ea5e38383e167cc2f00bd6b55be673fd7a1189",
+      "actual_sha256": "9f19c434e1450958eca329a0a4ea5e38383e167cc2f00bd6b55be673fd7a1189",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Exploded_STT49.png",
+      "expected_bytes": 120645,
+      "actual_bytes": 120645,
+      "expected_sha256": "5be53982c9b5d61ab5c5d4f3563f2dfc148aa6c57a4bc8af6ae6090809b7b40e",
+      "actual_sha256": "5be53982c9b5d61ab5c5d4f3563f2dfc148aa6c57a4bc8af6ae6090809b7b40e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_CHOCK_Front_Isometric.png",
+      "expected_bytes": 90145,
+      "actual_bytes": 90145,
+      "expected_sha256": "6391df152661778256aeb52d6668251fd6376a06dcf57e2eca67600ec17a630d",
+      "actual_sha256": "6391df152661778256aeb52d6668251fd6376a06dcf57e2eca67600ec17a630d",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_CHOCK_Side.png",
+      "expected_bytes": 88285,
+      "actual_bytes": 88285,
+      "expected_sha256": "990f07b4eccf75ba13d7909f4f4d87a976090257a7fbd402d33b4f669e568125",
+      "actual_sha256": "990f07b4eccf75ba13d7909f4f4d87a976090257a7fbd402d33b4f669e568125",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_CHOCK_Top.png",
+      "expected_bytes": 86629,
+      "actual_bytes": 86629,
+      "expected_sha256": "a4a8bee74d24944ea0fe338a7abe42baefcde55445fc07699a9dc5566163b902",
+      "actual_sha256": "a4a8bee74d24944ea0fe338a7abe42baefcde55445fc07699a9dc5566163b902",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_EXT_Front_Isometric.png",
+      "expected_bytes": 131176,
+      "actual_bytes": 131176,
+      "expected_sha256": "fe0b0e0dc711f469e8ed34a26a01aa0a551a2b861811c2b754f89c22357175c7",
+      "actual_sha256": "fe0b0e0dc711f469e8ed34a26a01aa0a551a2b861811c2b754f89c22357175c7",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_EXT_Side.png",
+      "expected_bytes": 89872,
+      "actual_bytes": 89872,
+      "expected_sha256": "945aac93c6193a4a993d2741849803a13676a325ee544f227750773da9e9f6e1",
+      "actual_sha256": "945aac93c6193a4a993d2741849803a13676a325ee544f227750773da9e9f6e1",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_EXT_Top.png",
+      "expected_bytes": 87664,
+      "actual_bytes": 87664,
+      "expected_sha256": "6eed3933ded8ac7d640eb07ba0da983517164eee94aea5b1d3a9527777d5fe2e",
+      "actual_sha256": "6eed3933ded8ac7d640eb07ba0da983517164eee94aea5b1d3a9527777d5fe2e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_LADDER_Front_Isometric.png",
+      "expected_bytes": 94442,
+      "actual_bytes": 94442,
+      "expected_sha256": "cdff796039904504e09e37bade37bda4b8537914d34bb4d2352578a4a2174421",
+      "actual_sha256": "cdff796039904504e09e37bade37bda4b8537914d34bb4d2352578a4a2174421",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_LADDER_Side.png",
+      "expected_bytes": 92249,
+      "actual_bytes": 92249,
+      "expected_sha256": "65ffa1261f84fa395768783c25af519cdfbf8666062f95966d43898d76aaa2c0",
+      "actual_sha256": "65ffa1261f84fa395768783c25af519cdfbf8666062f95966d43898d76aaa2c0",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_LADDER_Top.png",
+      "expected_bytes": 87030,
+      "actual_bytes": 87030,
+      "expected_sha256": "3ff478879fefdf2fbae00356b1949c157f111c6584a8ddfb6ccbbb0af6b6de57",
+      "actual_sha256": "3ff478879fefdf2fbae00356b1949c157f111c6584a8ddfb6ccbbb0af6b6de57",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_MSU200_Front_Isometric.png",
+      "expected_bytes": 129321,
+      "actual_bytes": 129321,
+      "expected_sha256": "0a6cdb99a5f814b5b40a2943fd63693280d8defb8df3b4e2713912ebd311078b",
+      "actual_sha256": "0a6cdb99a5f814b5b40a2943fd63693280d8defb8df3b4e2713912ebd311078b",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_MSU200_Side.png",
+      "expected_bytes": 103195,
+      "actual_bytes": 103195,
+      "expected_sha256": "8178456e1c689b75c18c875550651954a9016a8c1bd246fa9ab1bdc6cba84e8f",
+      "actual_sha256": "8178456e1c689b75c18c875550651954a9016a8c1bd246fa9ab1bdc6cba84e8f",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_MSU200_Top.png",
+      "expected_bytes": 92482,
+      "actual_bytes": 92482,
+      "expected_sha256": "be55e542a6e0118a6976cca4b3967ddddbfef203349f3f4fee8701ba0bef9417",
+      "actual_sha256": "be55e542a6e0118a6976cca4b3967ddddbfef203349f3f4fee8701ba0bef9417",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_P25A_Front_Isometric.png",
+      "expected_bytes": 121600,
+      "actual_bytes": 121600,
+      "expected_sha256": "abaece56f61715f9c238abb6412ff980afd90f317f301bdb13e6c9e5d11f8ad3",
+      "actual_sha256": "abaece56f61715f9c238abb6412ff980afd90f317f301bdb13e6c9e5d11f8ad3",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_P25A_Side.png",
+      "expected_bytes": 94275,
+      "actual_bytes": 94275,
+      "expected_sha256": "cebc8e868f25f5b64cfe9b871b65ccc100900868d39212d19f8518c58f3b5dbf",
+      "actual_sha256": "cebc8e868f25f5b64cfe9b871b65ccc100900868d39212d19f8518c58f3b5dbf",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_P25A_Top.png",
+      "expected_bytes": 93174,
+      "actual_bytes": 93174,
+      "expected_sha256": "2e94a3d59958b6d6df137459298d065cc01fc6547a4b298fae0ce050f9638821",
+      "actual_sha256": "2e94a3d59958b6d6df137459298d065cc01fc6547a4b298fae0ce050f9638821",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_STT49_Front_Isometric.png",
+      "expected_bytes": 132495,
+      "actual_bytes": 132495,
+      "expected_sha256": "6dd1b86ef5caad0604bb53dbe131b0f8f20d120bff4d2a3b8a8b834f838ed2c7",
+      "actual_sha256": "6dd1b86ef5caad0604bb53dbe131b0f8f20d120bff4d2a3b8a8b834f838ed2c7",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_STT49_Side.png",
+      "expected_bytes": 89909,
+      "actual_bytes": 89909,
+      "expected_sha256": "c5b24f63c484ad3a86c450691e5dc5ffbb03b4cbac98d54b43a68e36501379a9",
+      "actual_sha256": "c5b24f63c484ad3a86c450691e5dc5ffbb03b4cbac98d54b43a68e36501379a9",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_STT49_Top.png",
+      "expected_bytes": 90632,
+      "actual_bytes": 90632,
+      "expected_sha256": "64167c359d017008df93b1d91bd0fc709bdbacd1e33eb214eb6b31cafe70f10b",
+      "actual_sha256": "64167c359d017008df93b1d91bd0fc709bdbacd1e33eb214eb6b31cafe70f10b",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_TOWBAR_Front_Isometric.png",
+      "expected_bytes": 90261,
+      "actual_bytes": 90261,
+      "expected_sha256": "dc3ce18000f28c53e9dc5f824f2ca2cbd808e3a2dc1e9143cf81079373f795f8",
+      "actual_sha256": "dc3ce18000f28c53e9dc5f824f2ca2cbd808e3a2dc1e9143cf81079373f795f8",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_TOWBAR_Side.png",
+      "expected_bytes": 87540,
+      "actual_bytes": 87540,
+      "expected_sha256": "115b9c963dba25199b4d9175e97dc727ab4549bdc3729f99d995b8a5078147f7",
+      "actual_sha256": "115b9c963dba25199b4d9175e97dc727ab4549bdc3729f99d995b8a5078147f7",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Family_TOWBAR_Top.png",
+      "expected_bytes": 84213,
+      "actual_bytes": 84213,
+      "expected_sha256": "52c2c917f8fdabf0d8291b3b3132698c1fc3bc1e0f0e960dfc0ba9ede70e6893",
+      "actual_sha256": "52c2c917f8fdabf0d8291b3b3132698c1fc3bc1e0f0e960dfc0ba9ede70e6893",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Firefighting_Equipment_Vignette.png",
+      "expected_bytes": 116251,
+      "actual_bytes": 116251,
+      "expected_sha256": "9950c48e4a2b9dece61b2f483de356aa28a60c44193a2c957a3dc50adac5f721",
+      "actual_sha256": "9950c48e4a2b9dece61b2f483de356aa28a60c44193a2c957a3dc50adac5f721",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Layout_Default_Combined.png",
+      "expected_bytes": 85408,
+      "actual_bytes": 85408,
+      "expected_sha256": "d047af08e4678c2ff6c701749468838544789eaedc476cce7356052a3474f3e9",
+      "actual_sha256": "d047af08e4678c2ff6c701749468838544789eaedc476cce7356052a3474f3e9",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Layout_Full_Combined.png",
+      "expected_bytes": 84301,
+      "actual_bytes": 84301,
+      "expected_sha256": "49c30a2eac40a82c25cf3f0def37cc8c16a4c18935be49e41f2296cedd6ec2b7",
+      "actual_sha256": "49c30a2eac40a82c25cf3f0def37cc8c16a4c18935be49e41f2296cedd6ec2b7",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Layout_Light_Combined.png",
+      "expected_bytes": 82829,
+      "actual_bytes": 82829,
+      "expected_sha256": "43530ddd44f0ee592a738ca7758be214a874225d4a21a02131430690d3714f5c",
+      "actual_sha256": "43530ddd44f0ee592a738ca7758be214a874225d4a21a02131430690d3714f5c",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_00_First_Article.png",
+      "expected_bytes": 81942,
+      "actual_bytes": 81942,
+      "expected_sha256": "7af75eb73caf1f2ef699311b5e8b1396357d50a7f2e5113077547e6f6202798e",
+      "actual_sha256": "7af75eb73caf1f2ef699311b5e8b1396357d50a7f2e5113077547e6f6202798e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_01_Tow_Tractors.png",
+      "expected_bytes": 89879,
+      "actual_bytes": 89879,
+      "expected_sha256": "e7e319a887770a9b424ea18e2f51713090955a4995672e10881bff01d072f776",
+      "actual_sha256": "e7e319a887770a9b424ea18e2f51713090955a4995672e10881bff01d072f776",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_02_Service_Carts.png",
+      "expected_bytes": 87232,
+      "actual_bytes": 87232,
+      "expected_sha256": "ff3c48ef2d9a0e9a2ca72e54c1a60600e362ff13ee3318d53585931b1b3c5c8e",
+      "actual_sha256": "ff3c48ef2d9a0e9a2ca72e54c1a60600e362ff13ee3318d53585931b1b3c5c8e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_03_Firefighting_Equipment.png",
+      "expected_bytes": 81736,
+      "actual_bytes": 81736,
+      "expected_sha256": "a7682cbc3684ffcc98403c0995db5cc761fe3dfe4376e191247106148f04ce34",
+      "actual_sha256": "a7682cbc3684ffcc98403c0995db5cc761fe3dfe4376e191247106148f04ce34",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_04_Tow_Bars_Chocks.png",
+      "expected_bytes": 86113,
+      "actual_bytes": 86113,
+      "expected_sha256": "4404dd3ce4934ee6a8c49972a40d410f081747cf70b7456f25f146097e2b513e",
+      "actual_sha256": "4404dd3ce4934ee6a8c49972a40d410f081747cf70b7456f25f146097e2b513e",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_05_Ladders_Maintenance.png",
+      "expected_bytes": 90029,
+      "actual_bytes": 90029,
+      "expected_sha256": "7b9a66b104274ee542b380697483e13135d5a583bb7eabfb261af15babd663e7",
+      "actual_sha256": "7b9a66b104274ee542b380697483e13135d5a583bb7eabfb261af15babd663e7",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Print_Plate_06_Wheels_Inserts_Details.png",
+      "expected_bytes": 83575,
+      "actual_bytes": 83575,
+      "expected_sha256": "bdb6c4ea13554dd550f033c86db86a2340cf711b79bdebf5346e74d425187347",
+      "actual_sha256": "bdb6c4ea13554dd550f033c86db86a2340cf711b79bdebf5346e74d425187347",
+      "status": "PASS"
+    },
+    {
+      "path": "Render/Tow_Tractor_Aircraft_Vignette.png",
+      "expected_bytes": 118484,
+      "actual_bytes": 118484,
+      "expected_sha256": "8be507a0dbba0f44dbd21eef0c180cab2faf2f1f984f86538d8831c3eacabb48",
+      "actual_sha256": "8be507a0dbba0f44dbd21eef0c180cab2faf2f1f984f86538d8831c3eacabb48",
+      "status": "PASS"
+    },
+    {
+      "path": "STEP/CVN69_Deck_Vehicles_Master.step",
+      "expected_bytes": 499128,
+      "actual_bytes": 499128,
+      "expected_sha256": "c0c3d8fed7379d0dc0e13ee151b8f0f21a73799906bb2e5c4e262c613ab0aeef",
+      "actual_sha256": "c0c3d8fed7379d0dc0e13ee151b8f0f21a73799906bb2e5c4e262c613ab0aeef",
+      "status": "PASS"
+    },
+    {
+      "path": "STEP/CVN69_Default_Support_Layout.step",
+      "expected_bytes": 1272041,
+      "actual_bytes": 1272041,
+      "expected_sha256": "e05b1cfc99367dd10e2859a87f5e841d375879d7d0615314e3bdc1f2a69e7f59",
+      "actual_sha256": "e05b1cfc99367dd10e2859a87f5e841d375879d7d0615314e3bdc1f2a69e7f59",
+      "status": "PASS"
+    },
+    {
+      "path": "STEP/CVN69_Full_Ship_AirWing_Vehicles_Review.step",
+      "expected_bytes": 12860380,
+      "actual_bytes": 12860380,
+      "expected_sha256": "50a380a378c968e4c17fb3e67e6e0df1b1f16864ddabb08ec71468a66a932160",
+      "actual_sha256": "50a380a378c968e4c17fb3e67e6e0df1b1f16864ddabb08ec71468a66a932160",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Aircraft_Tow_Bar_Type01_Family_Sprue_Gold.stl",
+      "expected_bytes": 9084,
+      "actual_bytes": 9084,
+      "expected_sha256": "fb6e899862addea99318901567bc80bc54e03da309c9950e4cd4bf8189262dee",
+      "actual_sha256": "fb6e899862addea99318901567bc80bc54e03da309c9950e4cd4bf8189262dee",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Aircraft_Tow_Bar_Type01_Gold.stl",
+      "expected_bytes": 2684,
+      "actual_bytes": 2684,
+      "expected_sha256": "673054b7c0e308258839b86cb6cf5377de33bb969a35ec9a06f3299e89e6c1b4",
+      "actual_sha256": "673054b7c0e308258839b86cb6cf5377de33bb969a35ec9a06f3299e89e6c1b4",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Firefighting_Extinguisher_Group_Type01_Red.stl",
+      "expected_bytes": 63784,
+      "actual_bytes": 63784,
+      "expected_sha256": "6213619c4f89556eedf1089d182e80e7b375a83d9d9a0aec10c2dcde3192bf03",
+      "actual_sha256": "6213619c4f89556eedf1089d182e80e7b375a83d9d9a0aec10c2dcde3192bf03",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Firefighting_Extinguisher_Group_Wheels_Black.stl",
+      "expected_bytes": 77484,
+      "actual_bytes": 77484,
+      "expected_sha256": "93a78264d16cc20040d920b437f54bb60243ed3b820e40fed5e0fc4773f413ac",
+      "actual_sha256": "93a78264d16cc20040d920b437f54bb60243ed3b820e40fed5e0fc4773f413ac",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/MSU200_Air_Start_Cart_Body_AshGray.stl",
+      "expected_bytes": 3484,
+      "actual_bytes": 3484,
+      "expected_sha256": "1ed786a4e3b6e5eaf2d4c9944da795fe6e0571e858ed1d358b58cd9de31ab3f4",
+      "actual_sha256": "1ed786a4e3b6e5eaf2d4c9944da795fe6e0571e858ed1d358b58cd9de31ab3f4",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/MSU200_Air_Start_Cart_Wheels_Black.stl",
+      "expected_bytes": 77484,
+      "actual_bytes": 77484,
+      "expected_sha256": "4a4ed7e75ca38f926f6a3fac6fed14da49f11359eff2284886a3441e748693ff",
+      "actual_sha256": "4a4ed7e75ca38f926f6a3fac6fed14da49f11359eff2284886a3441e748693ff",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/MSU200_Hose_Reel_Silver.stl",
+      "expected_bytes": 50284,
+      "actual_bytes": 50284,
+      "expected_sha256": "dc2fe3ba6340578af557ae6219681b0c8aba49ecfe3e3341ebf2d3991a5db8a0",
+      "actual_sha256": "dc2fe3ba6340578af557ae6219681b0c8aba49ecfe3e3341ebf2d3991a5db8a0",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Maintenance_Ladder_Type01_Gold.stl",
+      "expected_bytes": 4484,
+      "actual_bytes": 4484,
+      "expected_sha256": "4b54f69502215489342894f20663e24ec4d31aa1c89e9690e3f85413ea81f550",
+      "actual_sha256": "4b54f69502215489342894f20663e24ec4d31aa1c89e9690e3f85413ea81f550",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/P25A_Firefighting_Vehicle_Body_Gold.stl",
+      "expected_bytes": 2684,
+      "actual_bytes": 2684,
+      "expected_sha256": "bb7f307b31684c60d80861a1b067f89d1378659ba557cb17e84c5c9704f6633f",
+      "actual_sha256": "bb7f307b31684c60d80861a1b067f89d1378659ba557cb17e84c5c9704f6633f",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/P25A_Firefighting_Vehicle_Wheels_Black.stl",
+      "expected_bytes": 80684,
+      "actual_bytes": 80684,
+      "expected_sha256": "067940c938b8088fa6f8f1d5780ad69dc92b9dfb2a4cbab5de593263a1b53c4a",
+      "actual_sha256": "067940c938b8088fa6f8f1d5780ad69dc92b9dfb2a4cbab5de593263a1b53c4a",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/P25A_Turret_Nozzle_Silver.stl",
+      "expected_bytes": 18684,
+      "actual_bytes": 18684,
+      "expected_sha256": "4f4c501eb88af13a7e4dcd0a4e9d45be118e1adad835fbea36c60a800252f62f",
+      "actual_sha256": "4f4c501eb88af13a7e4dcd0a4e9d45be118e1adad835fbea36c60a800252f62f",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Tow_Tractor_STT49_Body_Gold.stl",
+      "expected_bytes": 4684,
+      "actual_bytes": 4684,
+      "expected_sha256": "25a24ff80c8ab63330b4ca3b7e55d8394d8f4d3e9d0e01fff456a06aa37583d4",
+      "actual_sha256": "25a24ff80c8ab63330b4ca3b7e55d8394d8f4d3e9d0e01fff456a06aa37583d4",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Tow_Tractor_STT49_Wheel_Insert_Black.stl",
+      "expected_bytes": 80684,
+      "actual_bytes": 80684,
+      "expected_sha256": "8c363aa39a320419cba34927a199915efa1413e5917dbad4abd3819486035121",
+      "actual_sha256": "8c363aa39a320419cba34927a199915efa1413e5917dbad4abd3819486035121",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Tow_Tractor_STT49_Window_Insert_Charcoal.stl",
+      "expected_bytes": 684,
+      "actual_bytes": 684,
+      "expected_sha256": "ef280c0c52942b0780e8dfd975b6f223201f193acf9f6c8de5d3d3495308f5eb",
+      "actual_sha256": "ef280c0c52942b0780e8dfd975b6f223201f193acf9f6c8de5d3d3495308f5eb",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Wheel_Chock_Group_Type01_Family_Sprue_Gold.stl",
+      "expected_bytes": 8284,
+      "actual_bytes": 8284,
+      "expected_sha256": "504e69e36dc53f1cdc166d5ce499761d23bbe62f571ff68cf1d1f93dbec4e86f",
+      "actual_sha256": "504e69e36dc53f1cdc166d5ce499761d23bbe62f571ff68cf1d1f93dbec4e86f",
+      "status": "PASS"
+    },
+    {
+      "path": "STL/Wheel_Chock_Group_Type01_Gold.stl",
+      "expected_bytes": 2284,
+      "actual_bytes": 2284,
+      "expected_sha256": "9d7feb9f8211f81387a4c989910863bd62839f82c18c0fd4bb394827a72b2c34",
+      "actual_sha256": "9d7feb9f8211f81387a4c989910863bd62839f82c18c0fd4bb394827a72b2c34",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/audit_deck_vehicle_references.py",
+      "expected_bytes": 1725,
+      "actual_bytes": 1725,
+      "expected_sha256": "fe38859894d429af9b510dee695a6b8fe7e15af137775b5e8e53d3bfc846a5c3",
+      "actual_sha256": "fe38859894d429af9b510dee695a6b8fe7e15af137775b5e8e53d3bfc846a5c3",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/build_deck_equipment_layout.py",
+      "expected_bytes": 14303,
+      "actual_bytes": 14303,
+      "expected_sha256": "ec50c98df9efd3f213bcfdad8ea4e60ef1dbfc322ced91f73662fe6fd66c4d13",
+      "actual_sha256": "ec50c98df9efd3f213bcfdad8ea4e60ef1dbfc322ced91f73662fe6fd66c4d13",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/build_deck_vehicles.py",
+      "expected_bytes": 25590,
+      "actual_bytes": 25590,
+      "expected_sha256": "5248c7e82560563379edb5bbf0f8547f49a52be28b381e7aea4a2c07d18881ad",
+      "actual_sha256": "5248c7e82560563379edb5bbf0f8547f49a52be28b381e7aea4a2c07d18881ad",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/generate_deck_vehicle_documents.py",
+      "expected_bytes": 19489,
+      "actual_bytes": 19489,
+      "expected_sha256": "5d761a91323b7d42b1155fce51bdfed35168ea3ace9453d60e51edb1753d83fc",
+      "actual_sha256": "5d761a91323b7d42b1155fce51bdfed35168ea3ace9453d60e51edb1753d83fc",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/render_deck_vehicles.py",
+      "expected_bytes": 9719,
+      "actual_bytes": 9719,
+      "expected_sha256": "920bd3d7087e5b62559507894d984307cec4ca0e713ec42b808a3a1b89a71477",
+      "actual_sha256": "920bd3d7087e5b62559507894d984307cec4ca0e713ec42b808a3a1b89a71477",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/run_bambu_deck_vehicle_checks.py",
+      "expected_bytes": 7511,
+      "actual_bytes": 7511,
+      "expected_sha256": "d73bc90ea8c36957cab291e183e4551c9f214df825985ba8b7da6a800abbda7f",
+      "actual_sha256": "d73bc90ea8c36957cab291e183e4551c9f214df825985ba8b7da6a800abbda7f",
+      "status": "PASS"
+    },
+    {
+      "path": "Scripts/validate_deck_vehicles.py",
+      "expected_bytes": 21556,
+      "actual_bytes": 21556,
+      "expected_sha256": "ccc39c2b6408ea83cedef6603b46af45fa54051e18927dfa08128cea3ec5dad1",
+      "actual_sha256": "ccc39c2b6408ea83cedef6603b46af45fa54051e18927dfa08128cea3ec5dad1",
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS"
+}
